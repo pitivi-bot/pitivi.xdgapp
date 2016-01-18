@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" xmlns:e="http://projectmallard.org/experimental/" type="topic" id="cheatsheet" xml:lang="cs">
+
+  <info>
+    <link type="topic" xref="index"/>
+    <link type="seealso" xref="movearoundtimeline"/>
+    <revision pkgversion="0.16" version="0.1" date="2012-09-03" status="complete"/>
+    <credit type="author">
+      <name>Jean-François Fortin Tam</name>
+      <email>nekohayo@gmail.com</email>
+    </credit>
+    <license>
+      <p>Creative Commons Share Alike 3.0</p>
+    </license>
+  </info>
+
+    <title>Klávesové zkratky a finty</title>
+
+    <p>Na této stránce najdete důležité klávesové zkratky pro přístup k nejpoužívanějším a skrytým funkcím. Zkuste věnovat trochu času seznámení s nimi a vaše produktivita práce významně vzroste.</p>
+
+    <section>
+      <title>Obecné</title>
+        <list>
+          <item><p><keyseq><key>Ctrl</key><key>N</key></keyseq>: Vytvořit nový projekt</p></item>
+          <item><p><keyseq><key>Ctrl</key><key>O</key></keyseq>: Otevřít projektový soubor</p></item>
+          <item><p><keyseq><key>Ctrl</key><key>S</key></keyseq>: Uložit aktuální projekt</p></item>
+          <item><p><keyseq><key>Ctrl</key><key>Q</key></keyseq>: Ukončit aplikaci</p></item>
+          <item><p><keyseq><key>Ctrl</key><key>Z</key></keyseq>: Zpět </p></item>
+          <item><p><keyseq><key>Ctrl</key><key>Shift</key><key>Z</key></keyseq>: Znovu</p></item>
+          <item><p><key>F11</key>: Přepnout režim celé obrazovky</p></item>
+          <item><p><key>F1</key>: Zobrazit uživatelskou příručku</p></item>
+        </list>
+    </section>
+
+    <section>
+      <title>Knihovna médií</title>
+        <list>
+          <item><p><key>Enter</key>: Přehrát v náhledu vybraný klip</p></item>
+          <item><p><key>Insert</key>: Vložit vybrané klipy na časovou osu</p></item>
+          <item><p><keyseq><key>Ctrl</key><key>Delete</key></keyseq>: Odstranit vybrané klipy z projektu</p></item>
+        </list>
+    </section>
+
+    <section>
+      <title>Časová osa</title>
+        <list>
+          <item><p><key>Spacebar</key>: Spustit/zastavit přehrávání.</p></item>
+          <item><p><key>S</key>: Rozdělit klipy v místě aktuální pozice přehrávání. Pokud jsou některé klipy vybrané, rozdělí se jen tyto.</p></item>
+          <item><p><key>Delete</key>: Odebrat vybrané klipy z časové osy.</p></item>
+          <item><p><key>←</key> a <key>→</key>: Posunout se o jeden snímek zpět nebo vpřed. Závisí to na snímkové rychlosti vašeho projektu.</p></item>
+          <item><p><keyseq><key>Shift</key><key>←</key></keyseq> a <keyseq><key>Shift</key><key>→</key></keyseq>: Posunout o sekundu zpět nebo vpřed.</p></item>
+          <item><p><keyseq><key>Ctrl</key><key>+</key></keyseq> a <keyseq><key>Ctrl</key><key>-</key></keyseq>: Přiblížit nebo oddálit. K účinnějšímu ovládání můžete použít také <key>Ctrl</key> spolu s kolečkem myši.</p></item>
+          <item><p><keyseq><key>Ctrl</key><key>0</key></keyseq>: Nastavit přiblížení, aby odpovídalo optimálně časové ose.</p></item>
+          <item><p><key>Shift</key>+tažení: Řetězová úprava.</p></item>
+          <item><p><key>Ctrl</key>+tažení: Svitková úprava.</p></item>
+          <item><p><key>K</key>: Přidat klíčový snímek vlastnosti na místo aktuální pozice přehrávání.</p></item>
+          <item><p><key>.</key> a <key>,</key>: Přejít na následující nebo předchozí klíčový snímek vlastnosti.</p></item>
+        </list>
+    </section>
+</page>

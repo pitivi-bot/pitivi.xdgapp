@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" xmlns:e="http://projectmallard.org/experimental/" type="topic" id="welcomedialog" xml:lang="sv">
+
+  <info>
+    <link type="guide" xref="index#intro"/>
+    <revision pkgversion="0.92" version="0.2" date="2014-02-11" status="complete"/>
+    <credit type="author">
+      <name>Jean-François Fortin Tam</name>
+      <email>nekohayo@gmail.com</email>
+    </credit>
+    <credit type="contributor">
+      <name>Tomáš Karger</name>
+      <email>tomkarger@gmail.com</email>
+    </credit>
+    <desc>Skapa nya projekt och öppna senaste projekt vid uppstart</desc>
+    <license>
+      <p>Creative Commons Share Alike 3.0</p>
+    </license>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Josef Andersson</mal:name>
+      <mal:email>josef.andersson@fripost.org</mal:email>
+      <mal:years>2015</mal:years>
+    </mal:credit>
+  </info>
+
+    <title>Välkomstdialogen</title>
+      <p>När du startar <app>Pitivi</app> visas en starthjälp som låter dig skapa nya projekt eller öppna ett redan existerande projekt genom ett fåtal klick. Om du vill hoppa över denna dialog, tryck tangenten <key>Escape</key> på ditt tangentbord eller klicka på fönstrets stängknapp. Att hoppa över dialogen kommer att öppna ett nytt projekt med standardinställningarna.</p>
+      <p>Dialogen visar projekt som hittats bland de senast använda filerna. Dubbelklicka ett av dem för att läsa in det, eller använd en av följande knappar:</p>
+      <list type="numbered">
+      <item><p><gui>Nytt</gui> öppnar <gui>Projektinställningar</gui>na för ett nytt projekt.</p></item>
+      <item><p><gui>Bläddra bland projekt...</gui> öppnar filväljardialogen i den senast öppnade katalogen.</p></item>
+      <item><p><gui>Hjälp</gui> öppnar användardokumentationen på indexsidan.</p></item>
+      <item><p><gui>Tangentbordsgenvägar</gui> öppnar användardokumentationen om tangentbordsgenvägar och dess fusksida.</p></item>
+      </list>
+      <note style="tip">
+      <p>Genom att högerklicka på individuella projekt i av <gui>välkomstdialogen</gui> kan du välja bland flera alternativ: kopiera projektets plats, ta bort projektet från listan, tömma listan eller visa privata resurser.</p>
+      </note>
+</page>

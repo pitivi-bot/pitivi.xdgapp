@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" xmlns:e="http://projectmallard.org/experimental/" type="topic" id="gstreamer" xml:lang="cs">
+
+  <info>
+    <link type="guide" xref="index#intro"/>
+    <revision pkgversion="0.93" version="0.2" date="2014-04-06" status="complete"/>
+    <credit type="author">
+      <name>Jean-François Fortin Tam</name>
+      <email>nekohayo@gmail.com</email>
+    </credit>
+    <credit type="contributor">
+      <name>Mario Blättermann</name>
+      <email>mariobl@gnome.org</email>
+      <name>Tomáš Karger</name>
+      <email>tomkarger@gmail.com</email>
+    </credit>
+    <desc>Ujistěte se, že máte kvůli úplné kompatibilitě nainstalovány příslušné multimediální kodeky a zásuvné moduly.</desc>
+    <license>
+      <p>Creative Commons Share Alike 3.0</p>
+    </license>
+  </info>
+
+    <title>Gstreamer a kompatibilita</title>
+
+     <p>Velká síla <app>Pitivi</app> spočívá v tom, že používá multimediální platformu <app>GStreamer</app>. <app>GStreamer</app> je používán řadou multimediálních aplikací napříč různými pracovními prostředími, operačními systémy a architekturami.</p>
+     <p>Pro uživatele <app>Pitivi</app> to má dva podstatné dopady:</p>
+     <list>
+      <item>
+       <p>Teoreticky můžete importovat velké množství multimediálních souborů podporovaných platformou <app>GStreamer</app> (podrobnosti viz následující oddíl).</p>
+      </item>
+      <item>
+       <p>Výstup svého projektu můžete nechat zpracovat pomocí libovolné kombinace podporovaného kontejneru a kodeku z platformy <app>GStreamer</app>.</p>
+      </item>
+     </list>
+     <note style="tip">
+         <p>Abyste získali maximální funkčnost <app>Pitivi</app> a přitom omezily možné chyby na minimum, potřebujete nejnovější verzi platformy <app>GStreamer</app>. To je z toho důvodu, že vývojáři projektu <app>Pitivi</app> usilovně pracují na opravách problémů přímo v platformě <app>GStreamer</app> (místo toho, aby je obcházeli v rámci <app>Pitivi</app>).</p>
+     </note>
+
+    <section>
+     <title>Něco o vhodnosti kodeků pro úpravy</title>
+      <p>Některé formáty, jako <em>MPEG</em> jsou cílené pouze na postupné přehrávání a nekomprimují každý snímek nezávisle. I když se <app>Pitivi</app> snaží podporovat práci s takovýmito soubory, některé operace (jako rychlé nastavení pozice) nebudou tak výkonné, jako u videí s nezávislou komprimací snímků (jako <em>MJPEG</em> nebo <em>DV</em>).</p>
+    </section>
+
+    <section>
+     <title>Sady Good, Bad a Ugly</title>
+      <p>Zásuvné moduly pro <app>GStreamer</app> jsou rozděleny do tří kategorií: Good, Bad a Ugly. Pro zajištění kompatibility se svými multimediálními soubory můžete potřebovat nainstalované zásuvné moduly s libovolné z uvedených kategorií. Které si nainstalujete, záleží jen na vás a také to může odviset od právních předpisů týkajících se softwarových patentů ve vaši zemi. Přehled o zásuvných modulech a jejich roztřídění do kategorií najdete na <link href="http://gstreamer.freedesktop.org/documentation/plugins.html">webových stránkách Gstreamer</link>.</p>
+        <list>
+            <item><p>Zásuvné moduly „Good“ (dobré) jsou zásuvné moduly dobré kvality s licencí LGPL. Jsou považovány za bezpečné a doporučovány za všech situací. Pokud je chcete nainstalovat, hledejte ve své distribuci balíček obsahující v názvu „gstreamer plugins good“.</p></item>
+            <item><p>Zásuvné moduly „Bad“ (špatné) nemají dostatečně kvalitní kód a nejsou považovány za řádně otestované. Licence může nebo nemusí být LGPL. Pokud je chcete nainstalovat, hledejte ve své distribuci balíček obsahující v názvu „gstreamer plugins bad“.</p></item>
+            <item><p>Zásuvné moduly „Ugly“ (ošklivé) mají dobrou kvalitu, ale jejich licence není LGPL nebo mají nějaké licenční problémy. Pokud je chcete nainstalovat, hledejte ve své distribuci balíček obsahující v názvu „gstreamer plugins ugly“.</p></item>
+        </list>
+      <note style="tip">
+      <p>Mimo zásuvné moduly Good, Bad a Ugly si můžete nainstalovat balíček <em>gstreamer-ffmpeg</em>, který vám zpřístupní sadu kodeků ffmpeg.</p>
+      </note>
+      <p/>
+    </section>
+
+    <section>
+        <title>Formáty souborů s obrázky</title>
+        <p>I když není proveditelné vypsat všechny možné kombinace podporovaných formátů videa a zvuku, je možné uvést seznam formátů statických obrázků, které lze importovat: JPEG, PNG, JPEG 2000, PNM a SVG.</p>
+        <!-- Note: this is obtained by doing:
+        gst-inspect -a | grep Decoder/Image | cut -d : -f1 | sed -e s/dec$//g
+        -->
+    </section>
+
+
+</page>

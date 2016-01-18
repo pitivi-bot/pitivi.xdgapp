@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" xmlns:e="http://projectmallard.org/experimental/" type="topic" id="workwithprojects" xml:lang="es">
+
+  <info>
+    <link type="guide" xref="index#gettingstarted"/>
+    <revision pkgversion="0.15" version="0.4" date="2011-08-28" status="complete"/>
+    <credit type="author">
+      <name>Jean-François Fortin Tam</name>
+      <email>nekohayo@gmail.com</email>
+    </credit>
+    <credit type="contributor">
+      <name>Mario Blättermann</name>
+      <email>mariobl@gnome.org</email>
+      <name>Tomáš Karger</name>
+      <email>tomkarger@gmail.com</email>
+    </credit>
+    <desc>Cómo cargar y guardar proyectos, editar sus configuraciones y metadatos.</desc>
+    <license>
+      <p>Creative Commons Compartir Igual 3.0</p>
+    </license>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Daniel Mustieles</mal:name>
+      <mal:email>daniel.mustieles@gmail.com</mal:email>
+      <mal:years>2011 - 2014</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Milagros Alessandra Infante Montero</mal:name>
+      <mal:email>maim92@gmail.com</mal:email>
+      <mal:years>2012, 2013</mal:years>
+    </mal:credit>
+  </info>
+
+    <title>Trabajar con proyectos</title>
+
+    <section>
+    <title>Guardar un proyecto</title>
+     <p>To save your project work, use the <gui>Save</gui> button in the header bar or press <keyseq><key>Ctrl</key><key>S</key></keyseq>. When you save a project for the first time, a dialog window appears, asking you where to save the project file and how to name it.</p>
+      <note style="tip">
+      <p>If you want to save your project as a different file, use <guiseq><gui>App menu</gui><gui>Save as</gui></guiseq> or press <keyseq><key>Ctrl</key><key>Shift</key><key>S</key></keyseq>. This can be used to create different versions of your project.</p>
+      </note>
+    </section>
+    <section>
+        <title>Deshacer y revertir cambios</title>
+        <p>To undo a change, simply click on the <gui>Undo</gui> button in the header bar or press <keyseq><key>Ctrl</key><key>Z</key></keyseq>. In addition to undoing individual changes, you can also decide to revert all the changes you have made since the last time you saved your project. To do so, use <guiseq><gui>App menu</gui><gui>Revert to saved version</gui></guiseq>.</p>
+        <note style="tip">
+            <p>To redo changes that were undone, click on the <gui>Redo</gui> button in the header bar or press <keyseq><key>Ctrl</key><key>Shift</key><key>Z</key></keyseq>.</p>
+        </note>
+    </section>
+
+    <section>
+    <title>Editar la configuración del proyecto</title>
+    <p>Cuando inicie un nuevo proyecto, debe asegurarse de modificar las configuraciones del proyecto, tales como imágenes por segundo, resolución y códecs preferidos. La resolución del vídeo y la proporción del aspecto afectarán a la apariencia de la vista previa. Si no configura la resolución y la proporción del aspecto para que coincidan con los de sus imágenes, el vídeo puede verse aplastado o encajado.</p>
+    <note>
+    <p>Everytime you start a new project, a dialog window appears where you can adjust audio and video settings or metadata. To edit the project settings after initial creation, use <guiseq><gui>App menu</gui><gui>Project Settings</gui></guiseq>.</p>
+    </note>
+    </section>
+
+    <section>
+        <title>Proporción del aspecto en píxeles frente a proporción del aspecto visualizado </title>
+        <p>Las imágenes digitales están compuestas de una cuadrícula de <link href="http://en.wikipedia.org/wiki/Pixel">píxeles</link>, que puede ser o no un cuadrado. En algunos casos, podría necesitar configurar la <link href="http://en.wikipedia.org/wiki/Pixel_aspect_ratio">proporción del aspecto en píxeles</link> (PAR) para que la imagen se muestre correctamente. Por otro lado la, <link href="http://en.wikipedia.org/wiki/Display_aspect_ratio">proporción del aspecto visualizado</link> (DAR) es la proporción matemática de anchura:altura para la imagen completa.</p>
+        <p>En <app>Pitivi</app>, la proporción de aspecto en píxeles y la proporción del aspecto visualizado están relacionadas la una con la otra por la resolución del vídeo (ancho y altura). Una vez que su resolución se configura, configurar el DAR influenciará en el PAR y viceversa. Puede usar DAR o PAR, con la que esté más cómodo.</p>
+        <note>
+        <p>Puede usar las proporciones ya dadas en los cuadros combinados, o introducir una proporción del aspecto en la entrada de texto a continuación (usando una sintaxis tal como «4:3» o «1.3333», aunque la versión decimal es menos precisa).</p>
+        </note>
+    </section>
+</page>

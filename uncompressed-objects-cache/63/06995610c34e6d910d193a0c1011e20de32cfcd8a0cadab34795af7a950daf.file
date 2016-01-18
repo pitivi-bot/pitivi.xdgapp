@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" xmlns:e="http://projectmallard.org/experimental/" type="topic" id="rendering" xml:lang="sl">
+
+  <info>
+    <link type="guide" xref="index#rendering"/>
+    <revision pkgversion="0.93" version="0.1" date="2014-06-27" status="incomplete"/>
+    <credit type="author">
+      <name>Jean-François Fortin Tam</name>
+      <email>nekohayo@gmail.com</email>
+    </credit>
+    <credit type="contributor">
+      <name>Mario Blättermann</name>
+      <email>mariobl@gnome.org</email>
+      <name>Tomáš Karger</name>
+      <email>tomkarger@gmail.com</email>
+    </credit>
+    <desc>Naučite se razliko med shranjevanjem projekta in izvozom izrisanega filma.</desc>
+    <license>
+      <p>Creative Commons - deljenje pod enakimi pogoji 3.0</p>
+    </license>
+  </info>
+
+    <title>Razumevanje izrisovanja</title>
+
+     <p>Izrisovanje je opravilo izvoza vašega projekta v novo, dokončano predstavnostno datoteko. Izrisovanje le ustvari novo "izrisano" video datoteko in ne vpliva na projekt. Še vedno lahko urejate svoj projekt in ga izrišete kolikorkrat ga želite.</p>
+     <steps>
+      <item><p>V meniju <gui>Projekt</gui> izberite <gui>Izriši</gui>.</p></item>
+      <item><p>Prilagodite različne nastavitve kodiranja, če je to potrebno, za uporabo nastavitev, ki so različne od nastavitev projekta.</p></item>
+      <item><p>Kliknite na gumb <gui>Izriši</gui>.</p></item>
+     </steps>
+     <p>While rendering, you can pause the process by clicking the <gui>Pause</gui> button and unpause it by clicking it again. You can also stop rendering either by clicking the <gui>Cancel</gui> button or by pressing <key>Esc</key>. If you stop the rendering process, the already rendered part of the video will be saved into the destined folder and <app>Pitivi</app> will offer you the <gui>Rendering dialog</gui> again.</p>
+     <note style="tip">
+      <p>If your computer is set to suspend or hibernate automatically, <app>Pitivi</app> will automatically inhibit the power saving features during the render process.</p>
+     </note>
+     <section>
+      <title>Project settings and the rendering dialog</title>
+       <p>In rendering, project settings are taken as default values for most of the rendering settings such as framerate, number of audio channels or their sampling rate. These values can be overridden only temporarily for a given render. Once the render is complete, the values will reset to the project settings defaults. However, some settings, such as the resolution scale, container, codecs, codec settings and the render output folder are saved so they appear as defaults in the next rendering.</p>
+     </section>
+
+</page>

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" xmlns:e="http://projectmallard.org/experimental/" type="topic" id="about" xml:lang="uk">
+
+  <info>
+    <link type="seealso" xref="index"/>
+    <revision pkgversion="0.14" version="0.2" date="2011-06-05" status="complete"/>
+    <credit type="author">
+      <name>Jean-François Fortin Tam</name>
+      <email>nekohayo@gmail.com</email>
+    </credit>
+    <credit type="contributor">
+      <name>Mario Blättermann</name>
+      <email>mariobl@gnome.org</email>
+    </credit>
+    <desc>Поточний стан цього підручника та заклик до співпраці.</desc>
+    <license>
+      <p>Creative Commons Share Alike 3.0</p>
+    </license>
+  </info>
+
+  <title>Про цей підручник</title>
+   <p>Цей підручник створений Jean-François Fortin Tam.</p>
+   <section>
+    <title>Робота триває</title>
+     <p>Ви можете виявити, що відсутній опис можливостей, які не були реалізовані у Pitivi на час написання підручника.</p>
+     <p>Ви можете також виявити окремі елементи, що описані тут, але не реалізовані у Pitivi – це елементи, де дизайн та очікувані дії користувача були спрощені або уточнені.</p>
+   </section>
+
+   <section>
+    <title>Виправлення схвалюються</title>
+     <p>Якщо ви виявили помилку, відсутність інформації або неточності у цьому підручнику, будь ласка надішліть виправлення. Контактну інформацію відшукаєте на: <link href="http://jeff.ecchi.ca/">моєму сайті</link>. Також можна звернутись на <link href="https://bugzilla.gnome.org/enter_bug.cgi?product=pitivi;component=documentation">у розділ «Документація» на нашій системі відслідкування вад</link>.</p>
+   </section>
+ 
+</page>

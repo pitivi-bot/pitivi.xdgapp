@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" xmlns:e="http://projectmallard.org/experimental/" type="topic" id="medialibrary" xml:lang="el">
+
+  <info>
+    <link type="guide" xref="index#gettingstarted"/>
+    <revision pkgversion="0.93" version="0.3" date="2014-06-27" status="complete"/>
+    <credit type="author">
+      <name>Jean-François Fortin Tam</name>
+      <email>nekohayo@gmail.com</email>
+    </credit>
+    <credit type="contributor">
+      <name>Brian Grohe</name>
+      <email>grohe43@gmail.com</email>
+      <name>Tomáš Karger</name>
+      <email>tomkarger@gmail.com</email>
+    </credit>
+    <desc>Διαχείριση των εισαγόμενων αποσπασμάτων με τη βιβλιοθήκη πολυμέσων</desc>
+    <license>
+      <p>Creative Commons Share Alike 3.0</p>
+    </license>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name> Δημήτρης Σπίγγος</mal:name>
+      <mal:email>dmtrs32@gmail.com</mal:email>
+      <mal:years>2013, 2014</mal:years>
+    </mal:credit>
+  </info>
+
+    <title>Χρησιμοποιώντας τη βιβλιοθήκη πολυμέσων</title>
+
+        <section>
+        <title>Εισαγωγή αρχείου στη <gui>Βιβλιοθήκη πολυμέσων</gui></title>
+         <p>Υπάρχουν δύο τρόποι για να εισάγετε αρχεία στη <gui>Βιβλιοθήκη πολυμέσων</gui>. Ο πρώτος τρόπος είναι να πατήσετε στο πλήκτρο <gui>Εισαγωγή</gui> στην πάνω αριστερή γωνία. Αυτό θα ανοίξει έναν επιλογέα αρχείου στον οποίον μπορείτε να προεπισκοπήσετε τα επιλεγμένα αρχεία ή να επιλέξετε πολλά αρχεία (κρατώντας πατημένα τα πλήκτρα <key>Shift</key> ή <key>Control</key> ενώ τα επιλέγετε). Ο δεύτερος τρόπος είναι με μεταφορά και απόθεση των αρχείων από έναν περιηγητή αρχείου στη <gui>Βιβλιοθήκη πολυμέσων</gui>. Εισάγοντας ένα <em>αρχείο</em> στη <gui>Βιβλιοθήκη πολυμέσων</gui>, γίνεται ένα <em>κομμάτι</em>.</p>
+         <note>
+             <p>Once imported, the clips in <gui>Media library</gui> are sorted alphabetically.</p>
+         </note>
+       </section>
+       <section>
+        <title>Προεπισκόπηση ενός αποσπάσματος από τη <gui>Βιβλιοθήκη πολυμέσων</gui></title>
+         <p>Για την προεπισκόπηση ενός αποσπάσματος πριν την τοποθέτηση του στη γραμμή χρόνου, μπορείτε να διπλοπατήσετε πάνω του στη <gui>Βιβλιοθήκη πολυμέσων</gui>. Αυτό θα ανοίξει το απόσπασμα σε ένα παράθυρο που θα κλείσει αυτόματα όποτε πατήσετε έξω από το παράθυρο.</p>
+       </section>
+       <section>
+        <title>Φιλτράρισμα αναζήτησης</title>
+         <p>Μια γραμμή αναζήτησης εμφανίζεται στην κορυφή της <gui>Βιβλιοθήκης πολυμέσων</gui>. Πληκτρολογώντας στα φίλτρα καταχώρισης αναζήτησης τα περιεχόμενα της <gui>Βιβλιοθήκης πολυμέσων</gui> για να προβάλετε μόνο τα αποσπάσματα των οποίων τα ονόματα αρχείων ταιριάζουν με τους όρους αναζήτησης. Για την επαναφορά της καταχώρισης αναζήτησης, πατήστε το εικονίδιο "καθαρισμός" στην καταχώριση αναζήτησης.</p>
+       </section>
+       <section>
+        <title>Καταστάσεις προβολής</title>
+         <p>Η <gui>Βιβλιοθήκη πολυμέσων</gui> μπορεί να εμφανίσει τα αποσπάσματά σας σε έναν κατάλογο ή σε μια προβολή εικονιδίων. Η προεπιλεγμένη κατάσταση είναι προβολή εικονιδίου, επειδή εμφανίζει περισσότερα αποσπάσματα χωρίς να χρειάζεται κύλιση. Όμως, η κατάσταση προβολής καταλόγου εμφανίζει περισσότερες λεπτομέρειες για κάθε απόσπασμα. Για να το ενεργοποιήσετε/απενεργοποιήσετε, πατήστε στο πλήκτρο <gui>Εμφάνιση αποσπασμάτων ως λεπτομερής κατάλογος</gui> δίπλα στη γραμμή αναζήτησης.</p>
+       </section>
+       <section>
+        <title>Selecting unused clips</title>
+        <p>You may sometimes find that you have imported more clips that you needed in your project. <app>Pitivi</app> allows you to select clips that are present in the media library but not in the timeline. There are various reasons to do this:</p>
+        <list>
+          <item><p>Βελτίωση απόδοσης κατά τη φόρτωση του έργου</p></item>
+          <item><p>Απλοποίηση της ροή εργασίας της επεξεργασίας σας</p></item>
+          <item><p>Ελέγξτε ποια αποσπάσματα μπορεί να έχετε ξεχάσει να χρησιμοποιήσετε στην ταινία σας</p></item>
+          <item><p>Αντιγράψτε ή μοιραστείτε το έργο σας πιο εύκολα</p></item>
+        </list>
+        <p>To identify which clips are not being used in your project, use the <gui>Select clips that have not been used in the project</gui> button at the left side of the search bar. Unused clips will then be selected in the media library.</p>
+        <note><p>Αν δεν υπάρχουν αχρησιμοποίητα αποσπάσματα στο έργο σας, τίποτα δεν θα επιλεγεί στη βιβλιοθήκη πολυμέσων.</p></note>
+       </section>
+       <section>
+        <title>Άλλες ενέργειες</title>
+         <p>Υπάρχουν τρεις παραπέρα ενέργειες που μπορείτε να εκτελέσετε με τα αποσπάσματα. Καθένα απεικονίζεται από ένα πλήκτρο στο πάνω δεξιά τμήμα της <gui>Βιβλιοθήκης πολυμέσων</gui>:</p>
+         <list type="numbered">
+          <item><p><gui>Αφαίρεση των επιλεγμένων αποσπασμάτων από το έργο</gui> (αυτό μπορεί να εκτελεστεί επίσης πατώντας <keyseq><key>Control</key><key>Delete</key></keyseq>).</p></item>
+          <item><p>Το <gui>Ιδιότητες αποσπάσματος...</gui> ανοίγει ένα νέο παράθυρο με πληροφορίες για το <em>μέγεθος του βίντεο</em>, <em>ρυθμό λήψεων</em> και <em>αναλογία διαστάσεων</em>. Πατώντας το πλήκτρο <gui>Εφαρμογή στο έργο</gui> ρυθμίζει τις ρυθμίσεις έργου στις ιδιότητες αποσπάσματος. Μπορείτε να επιλέξετε ποιες ιδιότητες θα εφαρμόσετε αφήνοντας τες σημειωμένες/ασημείωτες.</p></item>
+          <item><p>Το <gui>Εισαγωγή επιλεγμένων αποσπασμάτων στο τέλος της γραμμής χρόνου</gui> εισάγει επιλεγμένα αποσπάσματα το ένα μετά το άλλο στην πρώτη στρώση της γραμμής χρόνου σε μια θέση, όπου το τελευταίο απόσπασμα σε οποιαδήποτε στρώση τελειώνει.</p></item>
+         </list>
+         <note>
+         <p>Για να γίνουν διαθέσιμες αυτές οι ενέργειες, ένα ή περισσότερα αποσπάσματα πρέπει να επιλεγούν.</p>
+         </note>
+       </section>
+
+</page>

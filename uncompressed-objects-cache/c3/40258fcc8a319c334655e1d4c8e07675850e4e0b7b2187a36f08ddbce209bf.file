@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" xmlns:e="http://projectmallard.org/experimental/" type="topic" id="movearoundtimeline" xml:lang="cs">
+
+  <info>
+    <link type="guide" xref="index#gettingstarted"/>
+    <revision pkgversion="0.92" version="0.1" date="2014-01-27" status="complete"/>
+    <credit type="author">
+      <name>Jean-François Fortin Tam</name>
+      <email>nekohayo@gmail.com</email>
+    </credit>
+    <credit type="contributor">
+      <name>Mario Blättermann</name>
+      <email>mariobl@gnome.org</email>
+      <name>Brian Grohe</name>
+      <email>grohe43@gmail.com</email>
+      <name>Tomáš Karger</name>
+      <email>tomkarger@gmail.com</email>
+    </credit>
+    <desc>Přemisťování pozice přehrávání, používání funkce přiblížení, posouvání a rychloposuvu.</desc>
+    <license>
+      <p>Creative Commons Share Alike 3.0</p>
+    </license>
+  </info>
+
+    <title>Posun po časové ose</title>
+
+     <section>
+      <title>Aktivace lišty nástrojů časové osy</title>
+       <p>Lišta nástrojů časové osy obsahuje mnoho nástrojů, které se aktivují ve chvíli, kdy je vybrán klip na časové ose. Když chcete klip vybrat, stačí na klip na časové ose kliknout. Klip po vybrání ztmavne a položky na liště nástrojů časové osy začnou reagovat na kliknutí.</p>
+     </section>
+
+     <section>
+      <title>Posouvání</title>
+       <p>Můžete používat posuvníky (umístěné vpravo a dole na časové ose), můžete používat kolečko myši kdekoliv nad časovou osou k vodorovnému posunu a nebo můžete používat kolečko myši, a držet u toho zmáčknutou klávesu <key>Shift</key>, ke svislému posouvání vrstev časové osy.</p>
+     </section>
+
+     <section><title>Přibližování a oddalování</title> <p>Přiblížení přímo ovlivňuje přesnost úprav a schopnost posouvat se po časové ose rychle:</p> <list>
+        <item><p>Při větším přiblížení mají videoklipy větší náhledy a zvukové klipy detailnější křivku průběhu zvuku, takže můžete provádět přesnější úpravy.</p></item>
+        <item><p>Při menším přiblížení se můžete rychleji pohybovat po časové ose. Oddálení tak můžete používat ve spolupráci s posouváním pro rychlé přecházení mezi body v časovém průběhu projektu.</p></item>
+       </list> <p>Přibližovat a oddalovat můžete pomocí:</p> <list>
+           <item><p>Držením klávesy <key>Ctrl</key> za současného použití kolečka myši nad časovou osou</p></item>
+           <item><p>Použitím položek nabídky <guiseq><gui>Zobrazit</gui><gui>Přiblížit</gui></guiseq> a <guiseq><gui>Zobrazit</gui><gui>Oddálit</gui></guiseq></p></item>
+           <item><p>Posouváním táhla stupně přiblížení po levé straně pravítka</p></item>
+           <item><p>Použitím klávesových zkratek <keyseq><key>Ctrl</key><key>-</key></keyseq> pro oddálení nebo <keyseq><key>Ctrl</key><key>=</key></keyseq> (<keyseq><key>Ctrl</key><key>+</key></keyseq> na číselné klávesnici) pro přiblížení</p></item>
+       </list> <p>To get a better overview of your timeline, you may use the <guiseq><gui>View</gui><gui>Best Fit</gui></guiseq> menu item or click the <gui>Zoom</gui> button on the left of the zoom slider. The third way to do this is by pressing <keyseq><key>Ctrl</key><key>0</key></keyseq></p>. <note>
+           <title>Přibližování/oddalování vždy používá jako střed pozici přehrávání</title>
+           <p>Když používáte k přiblížení či oddálení kolečko myši, pamatujte, že operace není vztahována k poloze vaší myši, ale vždy jen k pozici přehrávání na časové ose.</p>
+       </note> <note style="tip">
+        <title><em>Přeskakování</em> mezi úrovněmi přiblížení</title>
+        <p>Pomocí myši můžete rychle <em>přeskakovat</em> z jedné úrovně přiblížení do jiné jediným kliknutím. Stačí kliknout kdekoliv v oblasti táhla pro nastavení úrovně přiblížení.</p>
+       </note></section>
+
+     <section id="movingplayhead">
+      <title>Přemisťování pozice přehrávání</title>
+       <p>Pozici přehrávání můžete změnit kliknutím kdekoliv na pravítku nebo na časové ose.</p>
+       <p>Když kliknete na <em>časovou osu</em>:</p>
+       <list>
+        <item><p>Pokud se pod ukazatelem myši nachází klip, nahradí se aktuální výběr klipu (viz oddíl <link xref="selectiongrouping">Výběr více položek</link> pro podrobnější instrukce).</p></item>
+        <item><p>Pokud pod ukazatelem není žádný klip, bude zrušen výběr všech vybraných klipů (pokud nějaké vybrané jsou).</p></item>
+       </list>
+       <p>Když kliknete na pravítko, změní se pouze pozice přehrávání, výběr klipů zůstane nedotčen.</p>
+        <note style="tip">
+        <title>Skok na přesnou pozici</title>
+        <p>Úpravou časového údaje na nástrojové liště přehrávání (viz popis <link xref="mainwindow">hlavního okna</link>) se na časové ose můžete přemístit na přesně určenou pozici. Úpravu provedete tak, že na hodnotu kliknete, přepíšete ji a zmáčknete <key>Enter</key>. Hodnota může představovat buď časový údaj nebo číslo snímku. Časový údaj má podobu <em>hh:mm:ss.milisekundy</em>, kde hodiny jsou nepovinné. Pro zadání čísla snímku stačí časový údaj přepsat samostatným číslem požadovaného snímku.</p>
+       </note>
+     </section>
+
+     <section>
+      <title>Rychloposuv</title>
+       <p>„<em>Rychloposuv</em>“ (termín podle starých páskových magnetofonů a videopřehrávačů) je způsob přesunu pozice přehrávání, který vám umožňuje:</p>
+       <list>
+        <item><p>Hledat konkrétní pozici v čase odhadem/metodou pokus – omyl.</p></item>
+        <item><p>Opakovaně zrakem přezkoumávat pohyb ve scéně posouváním v čase zpět a vpřed.</p></item>
+       </list>
+       <p>Rychloposuv provedete tak, že kliknete na pravítko a posouváte jej myší za stálého držení tlačítka.</p>
+     </section>
+
+</page>

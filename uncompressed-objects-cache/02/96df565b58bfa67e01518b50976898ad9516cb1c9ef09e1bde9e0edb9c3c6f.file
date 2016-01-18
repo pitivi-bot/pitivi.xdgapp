@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" xmlns:e="http://projectmallard.org/experimental/" type="topic" id="rendering" xml:lang="el">
+
+  <info>
+    <link type="guide" xref="index#rendering"/>
+    <revision pkgversion="0.93" version="0.1" date="2014-06-27" status="incomplete"/>
+    <credit type="author">
+      <name>Jean-François Fortin Tam</name>
+      <email>nekohayo@gmail.com</email>
+    </credit>
+    <credit type="contributor">
+      <name>Mario Blättermann</name>
+      <email>mariobl@gnome.org</email>
+      <name>Tomáš Karger</name>
+      <email>tomkarger@gmail.com</email>
+    </credit>
+    <desc>Μάθετε τη διαφορά μεταξύ αποθήκευσης ενός έργου και εξαγωγής μιας αποδιδόμενης ταινίας.</desc>
+    <license>
+      <p>Creative Commons Share Alike 3.0</p>
+    </license>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name> Δημήτρης Σπίγγος</mal:name>
+      <mal:email>dmtrs32@gmail.com</mal:email>
+      <mal:years>2013, 2014</mal:years>
+    </mal:credit>
+  </info>
+
+    <title>Κατανόηση της απόδοσης</title>
+
+     <p>Απόδοση είναι διεργασία εξαγωγής του έργου σας σε ένα νέο, ολοκληρωμένο αρχείο πολυμέσων. Η απόδοση δημιουργεί μόνο ένα νέο “αποδιδόμενο” αρχείο βίντεο και δεν επηρεάζει το ίδιο το έργο· μπορείτε ακόμα να κάνετε επεξεργασίες στο έργο σας και να το αποδώσετε πάλι όσες φορές απαιτείται.</p>
+     <steps>
+      <item><p>Από το μενού <gui>Έργο</gui>, χρησιμοποιήστε <gui>Απόδοση</gui>.</p></item>
+      <item><p>Ρυθμίστε τις ποικίλες ρυθμίσεις κωδικοποίησης, εάν χρειάζεται, να χρησιμοποιήσετε διαφορετικές ρυθμίσεις από τις ρυθμίσεις του έργου.</p></item>
+      <item><p>Πατήστε το κουμπί <gui>Απόδοση</gui>.</p></item>
+     </steps>
+     <p>While rendering, you can pause the process by clicking the <gui>Pause</gui> button and unpause it by clicking it again. You can also stop rendering either by clicking the <gui>Cancel</gui> button or by pressing <key>Esc</key>. If you stop the rendering process, the already rendered part of the video will be saved into the destined folder and <app>Pitivi</app> will offer you the <gui>Rendering dialog</gui> again.</p>
+     <note style="tip">
+      <p>Αν ο υπολογιστής σας είναι ρυθμισμένος να αναστέλλεται ή να αδρανοποιείται αυτόματα, το <app>Pitivi</app> θα αποτρέψει αυτόματα τα χαρακτηριστικά αποθήκευσης ισχύος κατά τη διάρκεια επεξεργασίας της απόδοσης.</p>
+     </note>
+     <section>
+      <title>Οι ρυθμίσεις έργου και ο διάλογος απόδοσης</title>
+       <p>Στην απόδοση, οι ρυθμίσεις έργου παίρνονται ως προεπιλεγμένες τιμές για τις περισσότερες ρυθμίσεις απόδοσης όπως ρυθμός λήψεων, αριθμός καναλιών ήχου ή ο ρυθμός δειγματοληψίας τους. Αυτές οι τιμές μπορούν να αντικατασταθούν μόνο προσωρινά για μια δεδομένη απόδοση. Μόλις ολοκληρωθεί η απόδοση, οι τιμές θα επαναφερθούν στις προεπιλεγμένες τιμές του έργου. Όμως, κάποιες ρυθμίσεις, όπως η κλιμάκωση ανάλυσης, περιέκτη, κωδικοποιητές, ρυθμίσεις κωδικοποιητών και ο φάκελος εξόδου απόδοσης αποθηκεύονται έτσι ώστε να εμφανίζονται ως προεπιλογές στην επόμενη απόδοση.</p>
+     </section>
+
+</page>

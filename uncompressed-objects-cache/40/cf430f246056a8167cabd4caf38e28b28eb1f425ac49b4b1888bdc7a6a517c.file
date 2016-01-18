@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" xmlns:e="http://projectmallard.org/experimental/" type="topic" id="effects" xml:lang="cs">
+
+  <info>
+    <link type="guide" xref="index#effectstransitions"/>
+    <link type="seealso" xref="gstreamer"/>
+    <revision pkgversion="0.92" version="0.2" date="2014-03-07" status="incomplete"/>
+    <credit type="author">
+      <name>Jean-François Fortin Tam</name>
+      <email>nekohayo@gmail.com</email>
+      <name>Tomáš Karger</name>
+      <email>tomkarger@gmail.com</email>
+    </credit>
+    <desc>Jak přidat speciální efekty do svého videoklipu a zvukého klipu.</desc>
+    <license>
+      <p>Creative Commons Share Alike 3.0</p>
+    </license>
+  </info>
+
+    <title>Úvod do efektů</title>
+     
+     <p><app>Pitivi</app> používá širokou škálu videoefektů a zvukových efektů k oživení vašich filmů. Dostupnost efektů závisí na softwaru nainstalovaném ve vašem počítači. Pokud v knihovně efektů nevidíte žádné (nebo jen hrstku) efektů, ujistěte se, že je ve vašem systému nainstalován balíček <app>gnome-video-effects</app>. Případně se můžete podívat po balíčcích obsahujících zásuvné moduly efektů GStreamer nebo frei0r, které jsou dostupné v repozitářích vaší distribuce.</p>
+     <note>
+      <p>Efekty jsou nedestruktivní: použijí se až během závěrečného vykreslování filmu a nijak nezasahují do původních zdrojových souborů.</p>
+     </note>
+
+    <section>
+        <title>Přidávání a odebírání efektů u klipů</title>
+        <p>Pro přidání efektu:</p>
+        <steps>
+            <item><p>Vyberte na časové ose klip</p></item>
+            <item><p>V knihovně efektů zvolte efekt</p></item>
+            <item><p>Přetáhněte zvolený efekt na <guiseq><gui>prostřední panel</gui> <gui>Nastavení klipu</gui> <gui>Efekty</gui></guiseq></p></item>
+        </steps>
+        <p>Pro odebrání efektu:</p>
+        <steps>
+            <item><p>Vyberte na časové ose klip</p></item>
+            <item><p>V <guiseq><gui>prostředním panelu</gui> <gui>Nastavení klipu</gui> <gui>Efekty</gui></guiseq> vyberte efekt, který chcete odstranit.</p></item>
+            <item><p>Klikněte na tlačítko <gui>Odebrat efekt</gui></p></item>
+        </steps>
+    </section>
+    <section>
+        <title>Vypínání a zapínání efektů</title>
+        <p>Pokud potřebujete efekt jen dočasně zakázat (abyste si porovnali verzi s a bez efektu, nebo z výkonnostních důvodů), klikněte na příslušné zaškrtávací políčko v <guiseq><gui>prostředním panelu</gui> <gui>Nastavení klipu</gui> <gui>Efekty</gui></guiseq>.</p>
+    </section>
+</page>

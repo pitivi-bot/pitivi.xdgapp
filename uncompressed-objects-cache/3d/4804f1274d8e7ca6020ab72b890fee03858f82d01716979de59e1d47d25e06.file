@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" xmlns:e="http://projectmallard.org/experimental/" type="topic" id="welcomedialog" xml:lang="es">
+
+  <info>
+    <link type="guide" xref="index#intro"/>
+    <revision pkgversion="0.92" version="0.2" date="2014-02-11" status="complete"/>
+    <credit type="author">
+      <name>Jean-François Fortin Tam</name>
+      <email>nekohayo@gmail.com</email>
+    </credit>
+    <credit type="contributor">
+      <name>Tomáš Karger</name>
+      <email>tomkarger@gmail.com</email>
+    </credit>
+    <desc>Crear proyectos nuevos y abrir proyectos recientes al iniciar</desc>
+    <license>
+      <p>Creative Commons Compartir Igual 3.0</p>
+    </license>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Daniel Mustieles</mal:name>
+      <mal:email>daniel.mustieles@gmail.com</mal:email>
+      <mal:years>2011 - 2014</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Milagros Alessandra Infante Montero</mal:name>
+      <mal:email>maim92@gmail.com</mal:email>
+      <mal:years>2012, 2013</mal:years>
+    </mal:credit>
+  </info>
+
+    <title>Diálogo de bienvenida</title>
+      <p>Cuando ejecuta <app>Pitivi</app>, aparece un asistente de inicio que le permite crear un proyecto nuevo o abrir un proyecto existente pulsando unas pocas veces. Si quiere omitir este diálogo, pulse la tecla <key>Escape</key> de su teclado o pulse en el botón de cerrar de la ventana. Saltarse el diálogo abrirá un nuevo proyecto con las configuraciones predeterminadas.</p>
+      <p>El diálogo ofrece proyectos que se encuentran entre los archivos utilizados recientemente. Pulse dos veces en uno de ellos para cargarlo o usar uno de los siguientes botones:</p>
+      <list type="numbered">
+      <item><p><gui>Nuevo</gui> abre el diálogo <gui>Configuración del proyecto</gui> para un nuevo proyecto.</p></item>
+      <item><p><gui>Explorar proyectos…</gui> abre un selector de archivos en la última carpeta usada.</p></item>
+      <item><p><gui>Ayuda</gui> abre la documentación de usuario en la página del índice.</p></item>
+      <item><p><gui>Atajos de teclado</gui> abre la documentación de usuario en los atajos de teclado y la página de trucos.</p></item>
+      </list>
+      <note style="tip">
+      <p>Pulsando el botón derecho en los proyectos individuales ofrecidos por el <gui>Diálogo de bienvenida</gui> puede obtener más opciones: la ubicación del proyecto de copia, eliminar el proyecto de la lista, vaciar la lista, o mostrar recursos privados.</p>
+      </note>
+</page>

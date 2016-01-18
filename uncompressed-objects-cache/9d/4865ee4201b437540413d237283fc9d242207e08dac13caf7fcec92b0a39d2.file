@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" xmlns:e="http://projectmallard.org/experimental/" type="topic" id="rendering" xml:lang="sv">
+
+  <info>
+    <link type="guide" xref="index#rendering"/>
+    <revision pkgversion="0.93" version="0.1" date="2014-06-27" status="incomplete"/>
+    <credit type="author">
+      <name>Jean-François Fortin Tam</name>
+      <email>nekohayo@gmail.com</email>
+    </credit>
+    <credit type="contributor">
+      <name>Mario Blättermann</name>
+      <email>mariobl@gnome.org</email>
+      <name>Tomáš Karger</name>
+      <email>tomkarger@gmail.com</email>
+    </credit>
+    <desc>Lär skillnaden mellan att spara ett projekt och att exportera en renderad film.</desc>
+    <license>
+      <p>Creative Commons Share Alike 3.0</p>
+    </license>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Josef Andersson</mal:name>
+      <mal:email>josef.andersson@fripost.org</mal:email>
+      <mal:years>2015</mal:years>
+    </mal:credit>
+  </info>
+
+    <title>Förstå rendering</title>
+
+     <p>Rendering är processen att exportera ditt projekt till en ny, slutlig mediafil. Rendering skapar bara en ny ”renderad” videofil, och påverkar inte själva projektet; du kan fortfarande redigera i ditt projekt samt rendera igen så mycket som önskas.</p>
+     <steps>
+      <item><p>Från <gui>Projekt</gui>, använd <gui>Rendera</gui>.</p></item>
+      <item><p>Justera de olika kodningsinställningarna om det behövs för att använda andra inställningar är projektinställningarna.</p></item>
+      <item><p>Klicka på knappen <gui>Rendera</gui>.</p></item>
+     </steps>
+     <p>Under rendering kan du pausa processen genom att klicka <gui>Paus</gui> och växla genom att klicka den igen. Du kan också stoppa renderingen genom att klicka <gui>Avbryt</gui> eller genom att pressa <key>Esc</key>. Om du stoppar renderingsprocessen kommer den redan renderade delen av videon att sparas till den förutbestämda mappen och <app>Pitivi</app> kommer att visa <gui>Renderingsdialogen</gui> igen.</p>
+     <note style="tip">
+      <p>Om din dator är inställd på att gå i vänte- eller viloläge automatiskt kommer <app>Pitivi</app> automatiskt att hindra strömsparfunktionerna under renderingsprocessen.</p>
+     </note>
+     <section>
+      <title>Projektinställningar och renderingsdialogen</title>
+       <p>Under rendering tas projektinställningarna som standardvärden för det mesta a renderingsinställningarna som bildfrekvens, antal ljudkanaler och deras samplingsfrekvens. Dessa värden kan åsidosättas tillfälligt för en given rendering. Då en rendering är färdig kommer värdena att återställas till standardprojektinställningarna. En del inställningar, som upplösningsskala, behållare, kodekar, kodekinställningar och målmappen för renderingen sparas så att det visas som standard i nästa rendering.</p>
+     </section>
+
+</page>

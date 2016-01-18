@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" xmlns:e="http://projectmallard.org/experimental/" type="topic" id="usingclips" xml:lang="cs">
+
+  <info>
+    <link type="guide" xref="index#gettingstarted"/>
+    <revision pkgversion="0.92" version="0.1" date="2013-12-30" status="complete"/>
+    <credit type="author">
+      <name>Jean-François Fortin Tam</name>
+      <email>nekohayo@gmail.com</email>
+    </credit>
+    <credit type="contributor">
+      <name>Mario Blättermann</name>
+      <email>mariobl@gnome.org</email>
+      <name>Tomáš Karger</name>
+      <email>tomkarger@gmail.com</email>
+    </credit>
+    <desc>Poučte se, jaký je rozdíl mezi klipy a soubory a o základních operacích s klipy na časové ose.</desc>
+    <license>
+      <p>Creative Commons Share Alike 3.0</p>
+    </license>
+  </info>
+
+    <title>Používání klipů</title>
+
+     <section>
+      <title>Klipy vs. soubory</title>
+        <p><em>Soubory</em> jsou data na vašem pevném disku (videa, hudba, obrázky, atd.), ke kterým může <app>Pitivi</app> přistupovat a připojovat je do videí, která upravujete.</p>
+        <p><em>Klipy</em> jsou vizuálním zpodobněním vašich souborů na časové ose. Představují časový úsek, který zabírají na časové ose a mohou být upravovány nezávisle: pokaždé, když přetáhnete soubor z knihovny médií na časovou osu, vytvoří se nový klip. Díky tomu může být soubor použit tolikrát, kolikrát chcete vytvořit samostatný klip.</p>
+       <note>
+       <p>Protože <app>Pitivi</app> je nedestruktivní editor, upravují se klipy a ne soubory. Vaše soubory tak zůstanou nedotčeny.</p>
+       </note>
+     </section>
+
+     <section>     
+     <title>Vkládání klipů</title>
+     <p>Z knihovny médií můžete vložit jeden či více klipů tak, že je vyberete (více klipů vyberete pomocí <key>Ctrl</key> nebo <key>Shift</key>) a provedete něco z následujícího:</p>
+     <list>
+      <item><p>Přetáhnete je a upustíte je někde na časové ose.</p></item>
+      <item><p>Kliknete na tlačítko <gui>Vložit vybrané klipy na konec časové osy</gui> v <gui>Knihovně médií</gui>.</p></item>
+      <item><p>Zmáčkněte klávesu <key>Insert</key>.</p></item>
+     </list>
+     <p>Když použijete druhou a třetí možnost (kliknutí neb zmáčknutí Insert), vybrané klipy se vloží jeden po druhém do první vrstvy časové osy na pozici, na které končí úplně poslední klip ze všech vrstev.</p>
+     </section>
+
+     <section>
+      <title>Posouvání klipů po časové ose</title>
+       <p>Klip můžete přesouvat v rámci vrstvy nebo jej přesunout do jiné vrstvy.</p>
+       <p>Klikněte na jednotlivý klip, tažením jej přesuňte a uvolněním tlačítka umístěte. Tažením ve vodorovném směru zůstane klip ve stejné vrstvě, tažením ve svislém směru jej přesunete do jiné vrstvy (viz <link xref="layers">Vysvětlení vrstev</link> pro více informací).</p>
+       <p>Do stávající vrstvy klip přesunete tak, že jej přetáhnete nad vrstvu a upustíte ve chvíli, kdy se objeví šedý stín představující místo, které klip zabere. Do nové vrstvy jej přesunte přetažením na střed mezery mezi dvěma stávajícími vrstvami. Až se mezi vrstvami objeví šedý stín (úzký obdélník), upusťte jej.</p>
+       <p>Když chcete přesunout více klipů naráz, použijte klávesy <key>Ctrl</key> a <key>Shift</key> k výběru více klipů (více informací viz <link xref="selectiongrouping">Výběr a seskupování</link>). Vybrané klipy nemusí být nutně ve stejné vrstvě. Pak je přetáhněte stejně, jako by to byl jeden klip. Zůstane přitom zachována jejich vzájemná relativní poloha.</p>
+      <section>
+       <title>Používání zřetězených úprav při přesunu klipů</title>
+        <p>Při přesouvání klipů po časové ose můžete použít <link xref="trimming">techniku zřetězení</link>, aby se přesunuly i <em>následující</em> klipy (klipy, které začínají za tím klipem, který upravujete) a tím se zaplnila mezera.</p>
+        <steps>
+         <item><p>Klikněte na klip a táhněte kam potřebujete za stálého držení tlačítka myši</p></item>
+         <item><p>Během tažení zmáčkněte a držte klávesu <key>Shift</key></p></item>
+         <item><p>Na konci operace táhnutí uvolněte tlačítko myši a následně klávesu <key>Shift</key>.</p></item>
+        </steps>
+        <p>Jestliže si to během přetahování rozmyslíte a rozhodnete se přetáhnout po časové ose jen ten jeden klip, stačí uvolnit klávesu <key>Shift</key> dřív než uvolníte tlačítko myši.</p>
+      </section>
+     </section>
+
+</page>

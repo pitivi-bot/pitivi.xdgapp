@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" xmlns:e="http://projectmallard.org/experimental/" type="topic" id="selectiongrouping" xml:lang="es">
+
+  <info>
+    <link type="guide" xref="index#timeline"/>
+    <revision pkgversion="0.92" version="0.1" date="2014-02-22" status="complete"/>
+    <credit type="author">
+      <name>Tomáš Karger</name>
+      <email>tomkarger@gmail.com</email>
+    </credit>
+    <credit type="contributor">
+      <name>Jean-François Fortin Tam</name>
+      <email>nekohayo@gmail.com</email>
+      <name>Mario Blättermann</name>
+      <email>mariobl@gnome.org</email>
+    </credit>
+    <desc>Hacer selecciones y agrupar clips en la línea de tiempo.</desc>
+    <license>
+      <p>Creative Commons Compartir Igual 3.0</p>
+    </license>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Daniel Mustieles</mal:name>
+      <mal:email>daniel.mustieles@gmail.com</mal:email>
+      <mal:years>2011 - 2014</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Milagros Alessandra Infante Montero</mal:name>
+      <mal:email>maim92@gmail.com</mal:email>
+      <mal:years>2012, 2013</mal:years>
+    </mal:credit>
+  </info>
+
+    <title>Seleccionar y agrupamiento</title>
+    
+    <section>
+      <title>Hacer selecciones</title>
+       <p>Al seleccionar un archivo o un clip, se especifica qué elemento se debe aplicar a las acciones posteriores. Para seleccionar un elemento individual, simplemente pulse en él. Las selecciones múltiples le permiten aplicar acciones (arrastrar, eliminar, agrupar, etc.) para muchos clips a la vez.</p>
+       <p>Seleccionar varios elementos adyacentes:</p>
+       <steps>
+        <item><p>Pulse sobre el primer elemento</p></item>
+        <item><p>Mantenga pulsada la tecla <key>Mayús</key>.</p></item>
+        <item><p>Pulse sobre el último elemento.</p></item>
+       </steps>
+       <p>Seleccionar varios elementos no adyacentes.</p>
+       <steps>
+        <item><p>Mantenga pulsada la tecla <key>Ctrl</key>.</p></item>
+        <item><p>Pulse sobre los elementos que quiere seleccionar.</p></item>
+       </steps>
+       <note style="tip">
+       <p>Puede deseleccionar un elemento individual al pulsar en él otra vez y manteniendo la tecla <key>Ctrl</key> pulsada. Esto se puede usar junto con la técnica anterior <em>Seleccionar varios elementos adyacentes</em>.</p>
+       </note>
+     </section>
+     <section>
+         <title>Agrupa y desagrupar vídeos</title>
+        <p>Las funciones de agrupar y desagrupar son útiles cuando se quieren agregar o separar pistas de sonido desde clips de vídeo, o cuando se quiere crear un bloque de clips que se puedan seleccionar, editar y mover a la vez.</p>
+        <p>Agrupar clips en la línea de tiempo:</p>
+        <steps>
+         <item><p>Seleccione varios clips en la línea del tiempo.</p></item>
+         <item><p>Pulse el botón <gui>Agrupar clips</gui> en la barra de herramientas de la línea de tiempo.</p></item>
+        </steps>
+        <p>Ahora puede seleccionar, editar y mover todos los clips a la vez.</p>
+        <p>Desagrupar clips en la línea de tiempo:</p>
+        <steps>
+         <item><p>Seleccionar un grupo de clips en la línea del tiempo.</p></item>
+         <item><p>Pulse el botón <gui>Desagrupar clips</gui> en la barra de herramientas de la línea de tiempo.</p></item>
+        </steps>
+        <p>Ahora puede seleccionar, editar y mover los clips de manera independiente.</p>
+     </section>
+
+</page>

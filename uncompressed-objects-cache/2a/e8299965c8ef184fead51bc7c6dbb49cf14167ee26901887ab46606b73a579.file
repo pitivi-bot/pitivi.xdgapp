@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" xmlns:e="http://projectmallard.org/experimental/" type="topic" id="selectiongrouping" xml:lang="cs">
+
+  <info>
+    <link type="guide" xref="index#timeline"/>
+    <revision pkgversion="0.92" version="0.1" date="2014-02-22" status="complete"/>
+    <credit type="author">
+      <name>Tomáš Karger</name>
+      <email>tomkarger@gmail.com</email>
+    </credit>
+    <credit type="contributor">
+      <name>Jean-François Fortin Tam</name>
+      <email>nekohayo@gmail.com</email>
+      <name>Mario Blättermann</name>
+      <email>mariobl@gnome.org</email>
+    </credit>
+    <desc>Jak vybírat a seskupovat klipy na časové ose.</desc>
+    <license>
+      <p>Creative Commons Share Alike 3.0</p>
+    </license>
+  </info>
+
+    <title>Výběr a seskupování</title>
+    
+    <section>
+      <title>Provádění výběru</title>
+       <p>Výběrem souboru nebo klipu určujete, na které položky se má použít nějaká funkce. Když chcete vybrat jednu samotnou položku, stačí na ni kliknout. Díky výběru více položek naráz můžete nějakou funci (přetažení, smazání, seskupení atd.) použít pro několik klipů naráz.</p>
+       <p>Výběr více sousedících položek:</p>
+       <steps>
+        <item><p>Klikněte na první položku.</p></item>
+        <item><p>Držte zmáčknutou klávesu <key>Shift</key>.</p></item>
+        <item><p>Klikněte na poslední položku.</p></item>
+       </steps>
+       <p>Výběr více nesousedících položek:</p>
+       <steps>
+        <item><p>Držte zmáčknutou klávesu <key>Ctrl</key>.</p></item>
+        <item><p>Postupně klikejte na všechny položky, které chcete vybrat.</p></item>
+       </steps>
+       <note style="tip">
+       <p>Jednotlivé položky můžete zrušit z výběru tak, že na ně znovu kliknete a budete přitom držet zmáčknutou klávesu <key>Ctrl</key>. Můžete to využít ve spojení s technikou <em>výběru více sousedících položek</em> zmíněnou výše.</p>
+       </note>
+     </section>
+     <section>
+         <title>Seskupování a rušení seskupení klipů</title>
+        <p>Funkce seskupování a rušení seskupení je užitečná, když chcete přidat nebo oddělit zvukové stopy z videoklipů nebo když chcete vytvořit blok klipů, které pak můžete vybírat, upravovat a posouvat naráz.</p>
+        <p>Pro seskupení klipů na časové ose:</p>
+        <steps>
+         <item><p>Vyberte na časové ose několik klipů.</p></item>
+         <item><p>Klikněte na tlačítko <gui>Seskupit</gui> na liště nástrojů časové osy.</p></item>
+        </steps>
+        <p>Od této chvíle můžete vybírat, upravovat a přesouvat klipy naráz.</p>
+        <p>Pro zrušení seskupení na časové ose:</p>
+        <steps>
+         <item><p>Vyberte na časové ose skupinu klipů</p></item>
+         <item><p>Klikněte na tlačítko <gui>Zrušit seskupení</gui> na liště nástrojů časové osy.</p></item>
+        </steps>
+        <p>Od této chvíle můžete vybírat, upravovat a přesouvat klipy nezávisle.</p>
+     </section>
+
+</page>

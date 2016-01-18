@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" xmlns:e="http://projectmallard.org/experimental/" type="topic" id="gstreamer" xml:lang="el">
+
+  <info>
+    <link type="guide" xref="index#intro"/>
+    <revision pkgversion="0.93" version="0.2" date="2014-04-06" status="complete"/>
+    <credit type="author">
+      <name>Jean-François Fortin Tam</name>
+      <email>nekohayo@gmail.com</email>
+    </credit>
+    <credit type="contributor">
+      <name>Mario Blättermann</name>
+      <email>mariobl@gnome.org</email>
+      <name>Tomáš Karger</name>
+      <email>tomkarger@gmail.com</email>
+    </credit>
+    <desc>Επιβεβαιώστε ότι έχετε τους κατάλληλους κωδικοποιητές-αποκωδικοποιητές πολυμέσων και προσθέτων εγκατεστημένους για μέγιστη συμβατότητα.</desc>
+    <license>
+      <p>Creative Commons Share Alike 3.0</p>
+    </license>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name> Δημήτρης Σπίγγος</mal:name>
+      <mal:email>dmtrs32@gmail.com</mal:email>
+      <mal:years>2013, 2014</mal:years>
+    </mal:credit>
+  </info>
+
+    <title>Gstreamer και συμβατότητα</title>
+
+     <p>A great strength of <app>Pitivi</app> lies in the fact that it uses the <app>GStreamer</app> multimedia framework. <app>GStreamer</app> is used by dozens of multimedia applications across desktop environments, operating systems and architectures.</p>
+     <p>For <app>Pitivi</app> users, this essentially means two things:</p>
+     <list>
+      <item>
+       <p>You can, in theory, import pretty much any media file supported by <app>GStreamer</app> (see the sections below for more details).</p>
+      </item>
+      <item>
+       <p>Μπορείτε να αποδώσετε τα έργα σας χρησιμοποιώντας οποιοδήποτε υποστηριζόμενο περιέκτη και συνδυασμό κωδικοποιητή-αποκωδικοποιητή από <app>GStreamer</app>.</p>
+      </item>
+     </list>
+     <note style="tip">
+         <p>To maximize <app>Pitivi</app>'s capabilities and reduce the possibilities of bugs, a very recent version of <app>GStreamer</app> is recommended. This is because <app>Pitivi</app> developers work hard on fixing problems directly in <app>GStreamer</app> instead of putting temporary workarounds inside <app>Pitivi</app>.</p>
+     </note>
+
+    <section>
+     <title>Λίγα για τους κωδικοποιητές-αποκωδικοποιητές φιλικής επεξεργασίας</title>
+      <p>Μερικές μορφές, όπως <em>MPEG</em>, είναι προσανατολισμένες προς την αναπαραγωγή μόνο και δεν συμπιέζουν κάθε πλαίσιο ανεξάρτητα. Ενώ είναι σκοπός του <app>Pitivi</app> η υποστήριξη εργασιών με αυτά τα αρχεία, συγκεκριμένες λειτουργίες (όπως γρήγορη αναζήτηση) δεν εκτελούνται εξίσου καλά όπως θα έπρεπε με συμπιεσμένο βίντεο ανεξαρτήτως πλαισίου (όπως <em>MJPEG</em> ή <em>DV</em>).</p>
+    </section>
+
+    <section>
+     <title>Ο καλός, ο κακός και ο άσχημος</title>
+      <p><app>GStreamer</app> plugins come into three categories: good, bad and ugly. You may need to install plugins from any category to ensure compatibility with your media files. Whether or not you install them is up to you, and may depend on your country's jurisdiction regarding software patents. An overview of gstreamer plugins and their classification into categories can be found on the <link href="http://gstreamer.freedesktop.org/documentation/plugins.html">Gstreamer website</link>.</p>
+        <list>
+            <item><p>The "Good" plugins are high quality plugins under the LGPL license. These plugins are considered safe and recommended at any time. To install them, search for packages containing gstreamer plugins good in your distribution's repositories.</p></item>
+            <item><p>The "Bad" plugins are plugins whose code quality is not good enough, or are not considered tested well enough. The licensing may or may not be LGPL. To install them, search for packages containing gstreamer plugins bad in your distribution's repositories.</p></item>
+            <item><p>The "Ugly" plugins are good quality plugins whose license is not LGPL or with licensing issues. To install them, search for packages containing containing gstreamer plugins ugly in your distribution's repositories.</p></item>
+        </list>
+      <note style="tip">
+      <p>In addition to the Good, Bad and Ugly plugins, you may want to install the <em>gstreamer-ffmpeg</em> package to have access to ffmpeg's set of codecs.</p>
+      </note>
+      <p/>
+    </section>
+
+    <section>
+        <title>Μορφές αρχείων εικόνας</title>
+        <p>Ενώ δεν είναι δυνατό να απαριθμηθεί κάθε δυνατός συνδυασμός των υποστηριζόμενων μορφών βίντεο ή ήχου, είναι όμως δυνατό να αναφερθούν οι μορφές στατικής εικόνας που μπορούν να εισαχθούν: JPEG, PNG, JPEG 2000, PNM και SVG.</p>
+        <!-- Note: this is obtained by doing:
+        gst-inspect -a | grep Decoder/Image | cut -d : -f1 | sed -e s/dec$//g
+        -->
+    </section>
+
+
+</page>

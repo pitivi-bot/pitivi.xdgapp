@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" xmlns:e="http://projectmallard.org/experimental/" type="topic" id="splitting" xml:lang="fr">
+
+  <info>
+    <link type="guide" xref="index#timeline"/>
+    <revision pkgversion="0.92" version="0.1" date="2013-12-19" status="complete"/>
+    <credit type="author">
+      <name>Jean-François Fortin Tam</name>
+      <email>nekohayo@gmail.com</email>
+    </credit>
+    <credit type="contributor">
+      <name>Mario Blättermann</name>
+      <email>mariobl@gnome.org</email>
+      <name>Tomáš Karger</name>
+      <email>tomkarger@gmail.com</email>
+    </credit>
+    <desc>Diviser une séquence en deux parties.</desc>
+    <license>
+      <p>Creative Commons des Conditions Initiales à l'Identique 3.0</p>
+    </license>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Alain Lojewski</mal:name>
+      <mal:email>allomervan@gmail.com</mal:email>
+      <mal:years>2011</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Bruno Brouard</mal:name>
+      <mal:email>annoa.b@gmail.com</mal:email>
+      <mal:years>2012</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Julien Hardelin</mal:name>
+      <mal:email>jhardlin@orange.fr</mal:email>
+      <mal:years>2012</mal:years>
+    </mal:credit>
+  </info>
+
+    <title>Division</title>
+
+     <p>Comme son nom l'indique, la division coupe une séquence en deux parties adjacentes avec chacune un point de début et de fin.</p>
+     <p>In <app>Pitivi</app>, splitting is a “non-modal” operation; this means that you do not have to “activate” a particular tool before doing the split action. Splitting occurs where the playhead is currently located (see also <link xref="movearoundtimeline">Moving the playhead</link>). Combined with zooming, frame-by-frame seeking with the keyboard or scrubbing, modeless splitting is not only fast and efficient, it is also very accurate.</p>
+     <p>Les sélections affectent la division de deux façons :</p>
+     <list>
+      <item><p>seules les séquences sélectionnées sous la position de lecture sont divisées,</p></item>
+      <item><p>s'il n'y a pas de séquence sélectionnée, toutes les séquences sous la position de lecture sont divisées.</p></item>
+     </list>
+     <p>Pour diviser une seule séquence :</p>
+     <steps>
+      <item><p>cliquez sur la séquence,</p></item>
+      <item><p>modifiez la position de lecture (si besoin est),</p></item>
+      <item><p>cliquez sur le bouton <gui>Diviser</gui> dans la barre d'outils de la piste de montage ou appuyez sur la touche <key>S</key>.</p></item>
+     </steps>
+     <p>Pour diviser toutes les séquences de toutes les couches :</p>
+     <steps>
+      <item><p>cliquez dans un espace vide de la piste de montage (ceci désélectionne toutes les séquences),</p></item>
+      <item><p>modifiez la position de lecture (si besoin est),</p></item>
+      <item><p>cliquez sur le bouton <gui>Diviser</gui> dans la barre d'outils de la piste de montage ou appuyez sur la touche <key>S</key>.</p></item>
+     </steps>
+     <p>Pour diviser plusieurs séquences sélectionnées :</p>
+     <steps>
+      <item><p>placez la position de lecture là où vous souhaitez diviser,</p></item>
+      <item><p>vous pouvez ajouter ou retirer des séquences à la sélection avec la touche <key>Ctrl</key>. Ceci ne modifie pas la position de lecture.</p></item>
+      <item><p>cliquez sur le bouton <gui>Diviser</gui> dans la barre d'outils de la piste de montage ou appuyez sur la touche <key>S</key>.</p></item>
+     </steps>
+
+        <note style="tip">
+        <title>Cutting out the middle</title>
+        <p>When you want to cut out a middle section of a clip, split the clip twice on the positions where the part you want to remove begins and ends. Select the middle part and hit <key>delete</key>. Now, eliminate the empty space between the remaining two parts by moving one of them towards the other until they align.</p>
+        </note>
+
+</page>

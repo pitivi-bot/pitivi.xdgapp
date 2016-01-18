@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" xmlns:e="http://projectmallard.org/experimental/" type="topic" id="rendering" xml:lang="cs">
+
+  <info>
+    <link type="guide" xref="index#rendering"/>
+    <revision pkgversion="0.93" version="0.1" date="2014-06-27" status="incomplete"/>
+    <credit type="author">
+      <name>Jean-François Fortin Tam</name>
+      <email>nekohayo@gmail.com</email>
+    </credit>
+    <credit type="contributor">
+      <name>Mario Blättermann</name>
+      <email>mariobl@gnome.org</email>
+      <name>Tomáš Karger</name>
+      <email>tomkarger@gmail.com</email>
+    </credit>
+    <desc>Poučte se o rozdílu mezi uložením projektu a exportem a vykreslením filmu.</desc>
+    <license>
+      <p>Creative Commons Share Alike 3.0</p>
+    </license>
+  </info>
+
+    <title>Vysvětlení renderingu</title>
+
+     <p>Vykreslení (rendering) je proces, při kterém se váš projekt exportuje do nového výsledného multimediálního souboru. Při vykreslování se pouze vytvoří nově „vykreslený“ videosoubor, projektu se to nijak nedotkne. Projekt můžete nadále upravovat a nechat jej vykreslit, kolikrát budete chtít.</p>
+     <steps>
+      <item><p>Použijte <gui>Vykreslit</gui> v nabídce <gui>Projekt</gui>.</p></item>
+      <item><p>Upravte různá nastavení kódování. Pokud je potřeba, můžete použít nastavení odlišná od nastavení projektu.</p></item>
+      <item><p>Klikněte na tlačítko <gui>Vykreslit</gui>.</p></item>
+     </steps>
+     <p>Během vykreslování můžete proces pozastavit kliknutím na tlačítko <gui>Pozastavit</gui> a dále v něm pokračovat opětovným kliknutím na toto tlačítko. Vykreslování můžete i úplně zastavit kliknutím na tlačítko <gui>Zrušit</gui> nebo zmáčknutím <key>Esc</key>. Pokud proces vykreslování zastavíte, uloží se již vykreslená část videa do cílové složky a <app>Pitivi</app> vám znovu nabídne dialogové okno <gui>Vykreslování</gui>.</p>
+     <note style="tip">
+      <p>Pokud máte svůj počítač nastavený, aby se automaticky uspával, <app>Pitivi</app> automaticky zabrání režimu úspory energie během procesu vykreslování.</p>
+     </note>
+     <section>
+      <title>Nastavení projektu a dialogové okno vykreslování</title>
+       <p>Při vykreslování se nastavení projektu bere jako výchozí hodnoty pro většinu nastavení vykreslování, například snímková rychlost, počet zvukových kanálů nebo jejich vzorkovací frekvence. Tyto hodnoty je možné změnit jen dočasně pro konkrétní vykreslení. Až je vykreslování dokončeno, hodnoty se vrátí na původní podle nastavení projektu. Jiná nastavení, jako je měřítko, kontejner, kodeky, nastavení kodeků a výstupní složka, se uloží a objeví se jako výchozí při následujícím vykreslování.</p>
+     </section>
+
+</page>

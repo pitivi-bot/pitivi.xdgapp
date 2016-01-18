@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" xmlns:e="http://projectmallard.org/experimental/" type="topic" id="splitting" xml:lang="uk">
+
+  <info>
+    <link type="guide" xref="index#timeline"/>
+    <revision pkgversion="0.92" version="0.1" date="2013-12-19" status="complete"/>
+    <credit type="author">
+      <name>Jean-François Fortin Tam</name>
+      <email>nekohayo@gmail.com</email>
+    </credit>
+    <credit type="contributor">
+      <name>Mario Blättermann</name>
+      <email>mariobl@gnome.org</email>
+      <name>Tomáš Karger</name>
+      <email>tomkarger@gmail.com</email>
+    </credit>
+    <desc>Поділ кліпу на дві частини.</desc>
+    <license>
+      <p>Creative Commons Share Alike 3.0</p>
+    </license>
+  </info>
+
+    <title>Розділення</title>
+
+     <p>Як зрозуміло з назви, при розділенні кліпу утворюється два сусідні кліпи, з новоствореними точками початку та закінчення.</p>
+     <p>У <app>Pitivi</app> розділення кліпу є немодальною операцією; це означає, що для розділення не потрібно активувати відповідний інструмент. Розділення відбувається у поточній позиції відтворення (див. також <link xref="movearoundtimeline">Переміщення позиції відтворення</link>). У поєднанні з масштабуванням, покадровим пошуком з використанням клавіатури та протягуванням немодальне розділення є не тільки швидким і ефективним, але й дуже точним.</p>
+     <p>Позначення впливає на розділення таким чином:</p>
+     <list>
+      <item><p>Розділяються тільки позначені кліпи, що розміщені під позицією відтворення.</p></item>
+      <item><p>Якщо позначених кліпів немає, то розділяються всі кліпи під позицією відтворення.</p></item>
+     </list>
+     <p>Щоб розділити окремий кліп:</p>
+     <steps>
+      <item><p>Клацніть на кліпові.</p></item>
+      <item><p>Пересуньте позицію відтворення (за потреби).</p></item>
+      <item><p>Клацніть кнопку <gui>Split</gui> на панелі шкали часу або натисніть <key>S</key>.</p></item>
+     </steps>
+     <p>Щоб розділити всі кліпи у всіх шарах:</p>
+     <steps>
+      <item><p>Клацніть вільне місце на шкалі часу (при цьому буде знято позначення з усіх кліпів).</p></item>
+      <item><p>Пересуньте позицію відтворення (за потреби).</p></item>
+      <item><p>Клацніть кнопку <gui>Split</gui> на панелі шкали часу або натисніть <key>S</key>.</p></item>
+     </steps>
+     <p>Щоб розділити декілька позначених кліпів:</p>
+     <steps>
+      <item><p>Помістіть позицію відтворення у точку розділення.</p></item>
+      <item><p>Додайте до позначеного або скасуйте позначення з окремих кліпів, утримуючи клавішу <key>Ctrl</key>. Це не змінить позицію відтворення.</p></item>
+      <item><p>Клацніть кнопку <gui>Split</gui> на панелі шкали часу або натисніть <key>S</key>.</p></item>
+     </steps>
+
+        <note style="tip">
+        <title>Cutting out the middle</title>
+        <p>When you want to cut out a middle section of a clip, split the clip twice on the positions where the part you want to remove begins and ends. Select the middle part and hit <key>delete</key>. Now, eliminate the empty space between the remaining two parts by moving one of them towards the other until they align.</p>
+        </note>
+
+</page>

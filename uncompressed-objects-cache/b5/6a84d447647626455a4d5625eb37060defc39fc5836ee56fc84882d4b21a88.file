@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" xmlns:e="http://projectmallard.org/experimental/" type="topic" id="movearoundtimeline" xml:lang="es">
+
+  <info>
+    <link type="guide" xref="index#gettingstarted"/>
+    <revision pkgversion="0.92" version="0.1" date="2014-01-27" status="complete"/>
+    <credit type="author">
+      <name>Jean-François Fortin Tam</name>
+      <email>nekohayo@gmail.com</email>
+    </credit>
+    <credit type="contributor">
+      <name>Mario Blättermann</name>
+      <email>mariobl@gnome.org</email>
+      <name>Brian Grohe</name>
+      <email>grohe43@gmail.com</email>
+      <name>Tomáš Karger</name>
+      <email>tomkarger@gmail.com</email>
+    </credit>
+    <desc>Mover la posición actual, usando la función de ampliación, desplazando y depurando.</desc>
+    <license>
+      <p>Creative Commons Compartir Igual 3.0</p>
+    </license>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Daniel Mustieles</mal:name>
+      <mal:email>daniel.mustieles@gmail.com</mal:email>
+      <mal:years>2011 - 2014</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Milagros Alessandra Infante Montero</mal:name>
+      <mal:email>maim92@gmail.com</mal:email>
+      <mal:years>2012, 2013</mal:years>
+    </mal:credit>
+  </info>
+
+    <title>Mover alrededor de la línea del tiempo</title>
+
+     <section>
+      <title>Activar la barra de herramientas de la línea de tiempo</title>
+       <p>La barra de herramientas de la línea de tiempo contiene muchas herramientas, que se activan una vez que se selecciona el clip en la línea del tiempo. Para seleccionar un clip, simplemente pulse sobre él en la línea del tiempo. Cuando se seleccione, el clip se oscurecerá y ahora se podrá pulsar sobre los elementos de la barra de herramientas de la línea de tiempo.</p>
+     </section>
+
+     <section>
+      <title>Desplazamiento</title>
+       <p>Puede usar las barras de desplazamiento (ubicadas en la derecha y en la parte inferior de la línea del tiempo), usar la rueda del ratón en cualquier lugar sobre la línea del tiempo para desplazarla horizontalmente, o mantener pulsada la tecla <key>Mayús</key> mientras usa la rueda del ratón para desplazar verticalmente las capas de la línea del tiempo.</p>
+     </section>
+
+     <section><title>Ampliación</title> <p>La ampliación afecta directamente a su precisión en la edición y a su habilidad para moverse a lo largo de la línea del tiempo:</p> <list>
+        <item><p>Cuando se acerca, los clips de vídeo muestran más miniaturas y los clips de sonido muestran las formas de onda cada vez más detalladas, permitiéndole hacer ediciones más precisas.</p></item>
+        <item><p>Alejarse le permite desplazarse rápidamente a lo largo de la línea del tiempo. Por lo tanto, la ampliación se puede usar en junto con el desplazamiento para moverse rápidamente entre puntos distantes en la línea de tiempo de su proyecto.</p></item>
+       </list> <p>Se puede acercar o alejar:</p> <list>
+           <item><p>Manteniendo pulsada la tecla <key>Ctrl</key> mientras usa la rueda del ratón sobre la línea del tiempo.</p></item>
+           <item><p>Usando los elementos del menú <guiseq><gui>Ver</gui><gui>Ampliar</gui></guiseq> y <guiseq><gui>Ver</gui><gui>Alejar</gui></guiseq></p></item>
+           <item><p>Arrastrando el deslizador de la ampliación a la izquierda de la regla</p></item>
+           <item><p>Usar los atajos del teclado tales como <keyseq><key>Ctrl</key><key>-</key></keyseq> para alejar o <keyseq><key>Ctrl</key><key>=</key></keyseq> (<keyseq><key>Ctrl</key><key>+</key></keyseq> en el teclado numérico para acercar.</p></item>
+       </list> <p>To get a better overview of your timeline, you may use the <guiseq><gui>View</gui><gui>Best Fit</gui></guiseq> menu item or click the <gui>Zoom</gui> button on the left of the zoom slider. The third way to do this is by pressing <keyseq><key>Ctrl</key><key>0</key></keyseq></p>. <note>
+           <title>La ampliación se centra siempre en torno a la locación de su posición actual</title>
+           <p>Cuando use la rueda del ratón para acercar o alejar, recuerde que la ampliación no es relativa a la posición de su ratón, solo de su posición actual en la línea del tiempo.</p>
+       </note> <note style="tip">
+        <title><em>Deformación</em> entre niveles de ampliación</title>
+        <p>Usando su ratón, también puede <em>deformar</em> al instante desde cualquier nivel de ampliación a otro con una única pulsación. Para hacer esto, pulse en cualquier lugar del deslizador de la ampliación.</p>
+       </note></section>
+
+     <section id="movingplayhead">
+      <title>Mover la posición actual</title>
+       <p>Puede cambiar la posición actual, al pulsar en cualquier lugar de la regla o en la línea del tiempo.</p>
+       <p>Cuando pulse en la <em>línea del tiempo</em>:</p>
+       <list>
+        <item><p>Si un clip está debajo del cursor del ratón, reemplazará la selección actual del clip (consulte la sección <link xref="selectiongrouping">Hacer selecciones</link> para obtener instrucciones más detalladas).</p></item>
+        <item><p>Si no hay un clip debajo del cursor, se deseleccionarán todos los clips seleccionados (si los hubiera).</p></item>
+       </list>
+       <p>Cuando pulse en la regla, solo cambia la posición actual, las selecciones de clips no se ven afectadas.</p>
+        <note style="tip">
+        <title>Saltar a una posición en concreto</title>
+        <p>Puede saltar a una posición exacta en la línea del tiempo editando el valor del tiempo mostrado en la barra de herramientas de reproducción (consulte la descripción de <link xref="mainwindow">la ventana principal</link>). Para editarlo, simplemente pulse en el dispositivo, sobrescriba el valor y pulse <key>Intro</key>. El valor puede representar el código de tiempo o un número de fotograma. El código de tiempo tiene la siguiente forma: <em>hh:mm:ss.miliseg</em> donde las horas son opcionales. Para insertar un número de fotograma, sobrescriba el código de tiempo con un número normal del fotograma deseado.</p>
+       </note>
+     </section>
+
+     <section>
+      <title>Depuración</title>
+       <p><em>Depuración</em> es una manera de mover la posición actual que le permitirá:</p>
+       <list>
+        <item><p>Buscar una posición específica en el tiempo por aproximación/prueba y error.</p></item>
+        <item><p>Revisar repetidamente el movimiento visual en una escena moviéndose adelante y atrás en el tiempo.</p></item>
+       </list>
+       <p>Para depurar, pulse en la regla y mueva el ratón con el botón pulsado.</p>
+     </section>
+
+</page>

@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" xmlns:e="http://projectmallard.org/experimental/" type="topic" id="medialibrary" xml:lang="cs">
+
+  <info>
+    <link type="guide" xref="index#gettingstarted"/>
+    <revision pkgversion="0.93" version="0.3" date="2014-06-27" status="complete"/>
+    <credit type="author">
+      <name>Jean-François Fortin Tam</name>
+      <email>nekohayo@gmail.com</email>
+    </credit>
+    <credit type="contributor">
+      <name>Brian Grohe</name>
+      <email>grohe43@gmail.com</email>
+      <name>Tomáš Karger</name>
+      <email>tomkarger@gmail.com</email>
+    </credit>
+    <desc>Správa vašich importovaných klipů v knihovně médií</desc>
+    <license>
+      <p>Creative Commons Share Alike 3.0</p>
+    </license>
+  </info>
+
+    <title>Používání knihovny médií</title>
+
+        <section>
+        <title>Import souborů do <gui>Knihovny médií</gui></title>
+         <p>Existují dva způsoby, jak do <gui>Knihovny médií</gui> importovat soubory. První je kliknout na tlačítko <gui>Import</gui> v levém horním rohu. Otevře se dialogové okno pro výběr souboru, ve kterém vidíte náhled vybraných souborů nebo můžete více souborů vybrat (držením kláves <key>Shift</key> nebo <key>Ctrl</key> během vybírání). Druhým způsobem je přetáhnout soubory ze správce souborů a upustit je na <gui>Knihovně médií</gui>. Importem <em>souboru</em> do <gui>Knihovny médií</gui> se z něj stane <em>klip</em>.</p>
+         <note>
+             <p>Po naimportování se klipy v <gui>Knihovně médií</gui> seřadí podle abecedy.</p>
+         </note>
+       </section>
+       <section>
+        <title>Náhled klipů z <gui>Knihovny médií</gui></title>
+         <p>Jestli se chcete podívat na náhled klipu před tím, než ho umístíte na časovou osu, můžete na něj dvojitě kliknout v <gui>Knihovně médií</gui>. Klip se otevře v okně, které se automaticky zavře, když kliknete kamkoliv mimo toto okno.</p>
+       </section>
+       <section>
+        <title>Hledání pomocí filtrování</title>
+         <p>V horní části <gui>Knihovny médií</gui> je zobrazena vyhledávací lišta. Když do ní budete psát, bude se obsah <gui>Knihovny médií</gui> filtrovat tak, aby zobrazoval pouze klipy, jejichž názvy odpovídají zadanému výrazu. K vymazání zadaného výrazu použijte „mazací“ ikonu přímo ve vyhledávacím poli.</p>
+       </section>
+       <section>
+        <title>Režimy zobrazení</title>
+         <p><gui>Knihovna médií</gui> umí zobrazovat vaše klipy jako seznam nebo mřížku ikon. Výchozím režimem je ikonové zobrazení, protože pojme více klipů bez nutnosti se posouvat dolů. Naproti tomu v seznamovém zobrazení uvidíte více údajů o každém klipu. Pro jeho zapnutí/vypnutí klikněte na tlačítko <gui>Zobrazit klipy jako podrobný seznam</gui> vedle vyhledávací lišty.</p>
+       </section>
+       <section>
+        <title>Výběr nepoužitých klipů</title>
+        <p>Občas můžete narazit na to, že máte naimportováno více klipů, než ve svém projektu potřebujete. <app>Pitivi</app> umožňuje vybrat klipy, které se nachází v knihovně médií, ale ne na časové ose. Existují různé důvody, proč to udělat:</p>
+        <list>
+          <item><p>Zrychlení při načítání projektu</p></item>
+          <item><p>Zjednodušení postupu vaší práce</p></item>
+          <item><p>Kontrola, které klipy jste ve filmu zapomněli použít</p></item>
+          <item><p>Snadnější zálohování a sdílení vašeho projektu</p></item>
+        </list>
+        <p>Abyste určili, které klipy nejsou v projektu použity, zmáčkněte tlačítko <gui>Vybrat klipy, které zatím nejsou v projektu použity</gui> na levé straně vyhledávací lišty. Nepoužité klipy se v knihovně médií vyberou.</p>
+        <note><p>Když v projektu žádné nevyužité klipy nejsou, nic se v knihovně médií nevybere.</p></note>
+       </section>
+       <section>
+        <title>Ostatní funkce</title>
+         <p>Existují tři další věci, které můžete s klipy provádět. Pro každou z nich je v pravé horní části <gui>Knihovny médií</gui> příslušné tlačítko:</p>
+         <list type="numbered">
+          <item><p><gui>Odebrat vybrané klipy z projektu</gui> (to stejné jde udělat i zmáčknutím <keyseq><key>Ctrl</key><key>Delete</key></keyseq>).</p></item>
+          <item><p><gui>Vlastnosti klipu…</gui> otevře nové okno s informacemi o <em>velikosti videa</em>, <em>snímkové rychlosti</em> a <em>poměru stran</em>. Kliknutím na tlačítko <gui>Použít na projekt</gui> přizpůsobí nastavení projektu vlastnostem klipu. Můžete si vybrat, které vlastnosti se mají použít, pomocí zaškrtávacích políček.</p></item>
+          <item><p><gui>Vložit vybrané klipy na konec časové osy</gui> vloží vybrané klipy jeden za druhým do první vrstvy časové osy na pozici, kde končí úplně poslední klip ze všech vrstev.</p></item>
+         </list>
+         <note>
+         <p>Aby tyto funkce byly přístupné, musí být vybrán jeden nebo více klipů.</p>
+         </note>
+       </section>
+
+</page>

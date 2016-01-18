@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" xmlns:e="http://projectmallard.org/experimental/" type="topic" id="gstreamer" xml:lang="sv">
+
+  <info>
+    <link type="guide" xref="index#intro"/>
+    <revision pkgversion="0.93" version="0.2" date="2014-04-06" status="complete"/>
+    <credit type="author">
+      <name>Jean-François Fortin Tam</name>
+      <email>nekohayo@gmail.com</email>
+    </credit>
+    <credit type="contributor">
+      <name>Mario Blättermann</name>
+      <email>mariobl@gnome.org</email>
+      <name>Tomáš Karger</name>
+      <email>tomkarger@gmail.com</email>
+    </credit>
+    <desc>Försäkra dig om att du har rätt multimediakodekar och insticksmoduler installerade för högsta kompatibilitet.</desc>
+    <license>
+      <p>Creative Commons Share Alike 3.0</p>
+    </license>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Josef Andersson</mal:name>
+      <mal:email>josef.andersson@fripost.org</mal:email>
+      <mal:years>2015</mal:years>
+    </mal:credit>
+  </info>
+
+    <title>GStreamer och kompatibilitet</title>
+
+     <p>En av styrkorna med <app>Pitivi</app> är faktumet att det använder multimediaramverket <app>GStreamer</app>. <app>GStreamer</app> används av dussintals multimediaprogram i olika skrivbordsmiljöer, operativsystem och arkitekturer.</p>
+     <p>För <app>Pitivi</app>-användare betyder detta egentligen två saker:</p>
+     <list>
+      <item>
+       <p>Du kan, i teorin, importera alla mediafiler som stöds av <app>GStreamer</app> (se avsnittet nedan för fler detaljer).</p>
+      </item>
+      <item>
+       <p>Du kan rendera dina projekt i alla kombinationer av behållare och kodekar som stöds av <app>GStreamer</app>.</p>
+      </item>
+     </list>
+     <note style="tip">
+         <p>För att höja <app>Pitivi</app>s förmågor och minska förekomsten av fel rekommenderas en nyare version av <app>GStreamer</app>. Det beror på att <app>Pitivi</app>-utvecklarna jobbar hårt på att reparera problem direkt i <app>GStreamer</app> istället för att skapa tillfälliga fixar i <app>Pitivi</app>.</p>
+     </note>
+
+    <section>
+     <title>Kort om redigeringsvänliga kodekar</title>
+      <p>En del format, som <em>MPEG</em>, är inriktade på uppspelning och komprimerar inte var bildruta oberoende. Medan det är <app>Pitivi</app>s mål att stödja dessa filer kommer vissa åtgärder (som snabbsökning) inte att prestera lika bra som de skulle gjort med bildruteoberoende komprimerad video (som <em>MJPG</em> eller <em>DV</em>).</p>
+    </section>
+
+    <section>
+     <title>Det goda, det onda och det fula</title>
+      <p>Insticksmoduler för <app>GStreamer</app> finns i tre kategorier: god, ond och ful. Du kan behöva installera insticksmoduler från alla kategorier för att försäkra dig om kompatibilitet med dina mediafiler. Huruvida du installerar dem är upp till dig och det kan bero på ditt lands lagrum för programvarupatent. En översikt av insticksmoduler för gstreamer och deras klassificeringar i kategorier kan hittas på <link href="http://gstreamer.freedesktop.org/documentation/plugins.html">Gstreamers webbplats</link>.</p>
+        <list>
+            <item><p>”Goda” insticksmoduler är högkvalitativa och med LGPL-licens. Dessa insticksmoduler anses alltid säkra och rekommenderas. För att installera dem, sök efter paket innehållandes gstreamer plugins good i din distributions förråd.</p></item>
+            <item><p>”Onda” insticksmoduler anses inte ha bra nog kodkvalitet eller är inte testade nog. Licensen kan vara LGPL. För att installera dem, sök efter paket innehållandes gstreamer plugins bad i din distributions förråd.</p></item>
+            <item><p>”Fula” insticksmoduler är högkvalitativa men har inte LGPL-licens, eller andra licensproblem. För att installera dem, sök efter paket innehållandes gstreamer plugins ugly i din distributions förråd.</p></item>
+        </list>
+      <note style="tip">
+      <p>Förutom de goda, onda och fula insticksmodulerna kan du vilja installera <em>gstreamer-ffmpeg</em>-paketet för att få åtkomst till ffmpegs kodekar.</p>
+      </note>
+      <p/>
+    </section>
+
+    <section>
+        <title>Bildfilformat</title>
+        <p>Medan det inte är möjligt att lista varje tänkbar kombination av video- och ljudformat som stöds är det iallafall möjligt att lista de statiska bildformat som kan importeras: JPEG, PNG, JPEG 2000, PNM och SVG.</p>
+        <!-- Note: this is obtained by doing:
+        gst-inspect -a | grep Decoder/Image | cut -d : -f1 | sed -e s/dec$//g
+        -->
+    </section>
+
+
+</page>

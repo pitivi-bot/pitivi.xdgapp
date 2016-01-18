@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" xmlns:e="http://projectmallard.org/experimental/" type="topic" id="workwithprojects" xml:lang="el">
+
+  <info>
+    <link type="guide" xref="index#gettingstarted"/>
+    <revision pkgversion="0.15" version="0.4" date="2011-08-28" status="complete"/>
+    <credit type="author">
+      <name>Jean-François Fortin Tam</name>
+      <email>nekohayo@gmail.com</email>
+    </credit>
+    <credit type="contributor">
+      <name>Mario Blättermann</name>
+      <email>mariobl@gnome.org</email>
+      <name>Tomáš Karger</name>
+      <email>tomkarger@gmail.com</email>
+    </credit>
+    <desc>Πώς να φορτώσετε και να αποθηκεύσετε έργα, να επεξεργαστείτε τις ρυθμίσεις τους και τα μεταδεδομένα τους.</desc>
+    <license>
+      <p>Creative Commons Share Alike 3.0</p>
+    </license>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name> Δημήτρης Σπίγγος</mal:name>
+      <mal:email>dmtrs32@gmail.com</mal:email>
+      <mal:years>2013, 2014</mal:years>
+    </mal:credit>
+  </info>
+
+    <title>Εργασία με έργα</title>
+
+    <section>
+    <title>Αποθήκευση έργου</title>
+     <p>To save your project work, use the <gui>Save</gui> button in the header bar or press <keyseq><key>Ctrl</key><key>S</key></keyseq>. When you save a project for the first time, a dialog window appears, asking you where to save the project file and how to name it.</p>
+      <note style="tip">
+      <p>If you want to save your project as a different file, use <guiseq><gui>App menu</gui><gui>Save as</gui></guiseq> or press <keyseq><key>Ctrl</key><key>Shift</key><key>S</key></keyseq>. This can be used to create different versions of your project.</p>
+      </note>
+    </section>
+    <section>
+        <title>Αναίρεση και επαναφορά αλλαγών</title>
+        <p>To undo a change, simply click on the <gui>Undo</gui> button in the header bar or press <keyseq><key>Ctrl</key><key>Z</key></keyseq>. In addition to undoing individual changes, you can also decide to revert all the changes you have made since the last time you saved your project. To do so, use <guiseq><gui>App menu</gui><gui>Revert to saved version</gui></guiseq>.</p>
+        <note style="tip">
+            <p>To redo changes that were undone, click on the <gui>Redo</gui> button in the header bar or press <keyseq><key>Ctrl</key><key>Shift</key><key>Z</key></keyseq>.</p>
+        </note>
+    </section>
+
+    <section>
+    <title>Επεξεργασία ρυθμίσεων έργου</title>
+    <p>Κατά την έναρξη ενός νέου έργου, θα πρέπει να βεβαιωθείτε ότι προσαρμόζετε τις ρυθμίσεις του έργου, όπως ρυθμός λήψεων, ανάλυσης και προτιμώμενοι κωδικοποιητές. Η ανάλυση του βίντεο και η αναλογία διαστάσεων θα επηρεάσουν θα επηρεάσουν την εμφάνιση της προεπισκόπησης. Αν δεν ορίσετε την ανάλυση και την αναλογία διαστάσεων ώστε να ταιριάζει με τα αντίστοιχα του βίντεο, το βίντεο μπορεί να δείχνει συμπιεσμένο ή με μαύρα κενά.</p>
+    <note>
+    <p>Everytime you start a new project, a dialog window appears where you can adjust audio and video settings or metadata. To edit the project settings after initial creation, use <guiseq><gui>App menu</gui><gui>Project Settings</gui></guiseq>.</p>
+    </note>
+    </section>
+
+    <section>
+        <title>Αναλογία διαστάσεων εικονοστοιχείου εναντίον εμφάνισης αναλογίας διαστάσεων</title>
+        <p>Οι ψηφιακές εικόνες αποτελούνται από ένα πλέγμα <link href="http://en.wikipedia.org/wiki/Pixel">εικονοστοιχείων</link>, που μπορεί να είναι ή όχι τετράγωνο. Σε κάποιες περιπτώσεις, μπορεί να χρειαστείτε να ορίσετε την <link href="http://en.wikipedia.org/wiki/Pixel_aspect_ratio">αναλογία διαστάσεων εικονοστοιχείου</link> (PAR) για να εμφανιστεί σωστά η εικόνα. Αφ' ετέρου, η <link href="http://en.wikipedia.org/wiki/Display_aspect_ratio">Εμφάνιση αναλογίας διαστάσεων</link> (DAR) είναι η μαθηματική αναλογία του πλάτους:ύψος για όλη την εικόνα.</p>
+        <p>Στο <app>Pitivi</app>, η αναλογία διαστάσεων εικονοστοιχείου και η εμφάνιση αναλογίας διαστάσεων σχετίζονται μεταξύ τους με την ανάλυση του βίντεο (πλάτος και ύψος). Αφού οριστεί η ανάλυσή σας, η ρύθμιση του DAR θα επηρεάσει το PAR και αντίστροφα. Μπορείτε να χρησιμοποιήσετε ή DAR ή PAR, όποιο σας βολεύει περισσότερο.</p>
+        <note>
+        <p>Μπορείτε να χρησιμοποιήσετε τις αναλογίες που παρέχονται ήδη στα σύνθετα πλαίσια, ή να εισάγετε μια προσαρμοσμένη αναλογία διαστάσεων στην παρακάτω καταχώριση κειμένου (χρησιμοποιώντας μια σύνταξη όπως "4:3" ή "1.3333", αν και η δεκαδική έκδοση είναι λιγότερο ακριβής).</p>
+        </note>
+    </section>
+</page>

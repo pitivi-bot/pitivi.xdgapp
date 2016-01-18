@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" type="topic" id="license" xml:lang="uk">
+
+  <info>
+    <link type="seealso" xref="index"/>
+    <revision pkgversion="0.92" version="0.1" date="2013-12-19" status="complete"/>
+    <desc>Юридична інформація</desc>
+  </info>
+
+  <title>Ліцензія</title>
+  <p>Цей продукт постачається за ліцензією CreativeCommons Attribution-Share Alike 3.0 Unported license.</p>
+  <p>Ви можете:</p>
+  <terms>
+    <item>
+      <title><em>To share</em></title>
+      <p>Копіювати, розповсюджувати та пересилати продукт</p>
+    </item>
+    <item>
+      <title><em>To remix</em></title>
+      <p>Пристосовувати продукт</p>
+    </item>
+  </terms>
+  <p>На таких умовах:</p>
+  <terms>
+    <item>
+      <title><em>Attribution</em></title>
+      <p>Ви маєте вказувати авторство роботи так, як це обумовлено автором або ліцензіаром (проте це не означає, що вони підтримують вас або використання вами продукту).</p>
+    </item>
+    <item>
+      <title><em>Share Alike</em></title>
+      <p>Якщо ви змінили, переробили або доробили цей продукт, ви можете поширювати новий продукт тільки під цією ж, подібною або сумісною ліцензією.</p>
+    </item>
+  </terms>
+  <p>Повний текст ліцензії дивіться на <link href="http://creativecommons.org/licenses/by-sa/3.0/legalcode">сайті CreativeCommons</link>, або прочитайте повністю <link href="http://creativecommons.org/licenses/by-sa/3.0/">Commons Deed</link>.</p>
+  <p>For the license of Pitivi itself, see the <link href="http://www.gnu.org/licenses/lgpl-2.1.html">GNU Lesser General Public License</link>.</p>
+</page>

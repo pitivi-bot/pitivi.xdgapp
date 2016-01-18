@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" xmlns:e="http://projectmallard.org/experimental/" type="topic" id="mainwindow" xml:lang="sv">
+
+  <info>
+    <link type="guide" xref="index#intro"/>
+    <link type="seealso" xref="medialibrary"/>
+    <link type="seealso" xref="movearoundtimeline"/>
+    <revision pkgversion="0.93" version="0.3" date="2014-06-27" status="complete"/>
+    <credit type="author">
+      <name>Jean-François Fortin Tam</name>
+      <email>nekohayo@gmail.com</email>
+    </credit>
+    <credit type="contributor">
+      <name>Tomáš Karger</name>
+      <email>tomkarger@gmail.com</email>
+    </credit>
+    <desc>Upptäck huvudfönstrets komponenter.</desc>
+    <license>
+      <p>Creative Commons Share Alike 3.0</p>
+    </license>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Josef Andersson</mal:name>
+      <mal:email>josef.andersson@fripost.org</mal:email>
+      <mal:years>2015</mal:years>
+    </mal:credit>
+  </info>
+
+    <title>Huvudfönstret</title>
+
+    <p>Huvudfönstret är, som namnet antyder, fönstret som innehåller huvudkomponenterna för <app>Pitivi</app>s användargränssnitt: huvudfältet, verktygsfälten, tidslinjen och olika anpassningsbara komponenter (mediabibliotek, förhandsvisare, effektbibliotek, övergångsbibliotek etc.).</p>
+    <media type="image" src="figures/mainwindow.jpg" mime="image/jpg" style="right" width="780"/>
+    <p>I figuren ovan kan följande områden ses:</p>
+    <list type="numbered">
+        <item><p>Huvudfältet och verktygsfältets huvudknappar</p></item>
+        <item><p>Huvudmenyknappen</p></item>
+        <item><p>Primära flikar: mediabibliotek och effektbibliotek</p></item>
+        <item><p>Kontextflikar: klippegenskaper, övergångar, titlar</p></item>
+        <item><p>Visare</p></item>
+        <item><p>Linjal</p></item>
+        <item><p>Tidslinje</p></item>
+    </list>
+
+    <note style="tip">
+    <title>Ändra storlek på huvudfönstrets komponenter</title>
+    <p>I utrymmena mellan komponenter finns det handtag indikerade av fem ljusa punkter. Du kan proportionellt ändra storlek komponentpar genom att klicka och dra handtagen till önskad position.</p>
+    </note>
+    <note style="tip">
+    <title>Hovra för mer information</title>
+    <p>Att hovra musmarkören över ett element i huvudfönstret avslöjar vanligen en inforuta om dess funktion.</p>
+    </note>
+
+    <section>
+     <title>Huvudfält</title>
+      <p>Huvudfältet är ett ställe där grundläggande funktioner som <gui>Ångra</gui>, <gui>Gör om</gui>, <gui>Spara</gui> eller <gui>Rendera</gui> kan kommas åt direkt. Det innehåller också huvud<gui>menyknappen</gui> där du kan hitta fler funktioner som <gui>Nytt projekt</gui>, <gui>Öppna projekt</gui>, <gui>Projektinställningar</gui> eller <gui>Inställningar</gui>.</p>
+      <note style="tip">
+          <p><gui>menyknappen</gui>s innehåll kan kommas åt genom att trycka <key>F10</key>.</p>
+      </note>
+    </section>
+
+    <section>
+     <title>Linjal</title>
+      <p>Linjalen spelar en viktig roll i din interaktion med tidslinjen. För det första representerar den en tidsskala med tidmätningar (i sekunder) för allmän orientering. För det andra utgör det den primära ytan på vilken du kan flytta uppspelningshuvudet (och därmed ändra plats i tiden). För att flytta din position, klicka varsomhelst på linjalen. Du kan också <em>snabbgranska (scrub)</em> tidslinjen genom att klicka på linjalen och hålla ner musknappen medan du flyttar. Se avsnittet om <link xref="movearoundtimeline">scrubbing</link> för fler detaljer.</p>
+      <p>Uppspelningshuvudets nuvarande position indikeras med en röd vertikal linje:</p>
+      <figure>
+        <media type="image" src="figures/ruler.png" mime="image/png" style="right"/>
+      </figure>
+      <note>
+       <p>När inzoomade, representeras bildrutor visuellt som växlande ljusa och mörka områden i den nedre delen av linjalen. Att hovra med musmarkören ovanför linjalen i detta tillstånd kommer att visa en inforuta med bildrutenummer. Tidsrymden en individuell bildruta tar upp baseras på projektets inställningar.</p>
+      </note>
+    </section>
+
+    <section>
+     <title>Tidslinje</title>
+      <p>Tidslinjen är användargränssnittets kärnkomponent som du kommer att använda för att redigera. Vertikalt delas det upp i lager du kan fylla med ljud- och videoklipp. Horisontellt består det av en tidsproportionell representation av ditt projekts kronologi. Olika nivåer av zoom kan tillämpas på tidslinjen. Detta gäller bara för den horisontella (kronologiska) dimensionen av tidslinjen.</p>
+      <p>Se sidorna <link xref="layers">Förstå lager</link> och <link xref="movearoundtimeline">Flytta runt tidslinjen</link> för mer information om hur man arbetar med tidslinjen.</p>
+    </section>
+
+    <section>
+     <title>Tidslinjeverktygsfält</title>
+      <p>Tidslinjens verktygsrad är placerad på den högra kanten av tidslinjen. Den innehåller grundläggande åtgärder för att redigera i tidslinjen:</p>
+      <list>
+      <item><p>Dela klipp vid uppspelningshuvudpositionen</p></item>
+      <item><p>Ta bort markerade</p></item>
+      <item><p>Gruppera klipp</p></item>
+      <item><p>Avgruppera klipp</p></item>
+      <item><p>Justera klipp baserat på deras ljudspår</p></item>
+      <item><p>Växla mellanrumslöst läge</p></item>
+      </list>
+      <note>
+      <p>Observera att de flesta åtgärder blir tillgängliga endast när ett klipp är markerat. När det inte finns något mål för åtgärden att utföras på visas den skuggad (vilket indikerar dess otillgänglighet).</p>
+      </note>
+    </section>
+
+    <section>
+     <title>Verktygsfält för uppspelning</title>
+      <p>Detta verktygsfält, placerad nedanför förhandsvisaren, innehåller knappar som kontrollerar tidslinjens uppspelning. Alternativ i verktygsfältet är:</p>
+      <list>
+      <item><p>Spela/Pausa</p></item>
+      <item><p>Gå framåt en sekund</p></item>
+      <item><p>Gå bakåt en sekund</p></item>
+      <item><p>Gå till slutet på tidslinjen</p></item>
+      <item><p>Gå till början av tidslinjen</p></item>
+      </list>
+      <p>För mer information om hur man flyttar tidslinjen, se avsnitten <em>Flytta uppspelningshuvudet</em> och <em>Scrubbing</em> på sidan <link xref="movearoundtimeline">Flytta runt tidslinjen</link>.</p>
+    </section>
+
+    <section>
+     <title>Förhandsvisa</title>
+      <p>Förhandsvisningen visar:</p>
+      <list>
+       <item><p>Videobildrutan vid uppspelningshuvudets aktuella närvarande position.</p></item>
+       <item><p>Ditt projekts video vid uppspelning.</p></item>
+       <item><p><em>live-förhandsgranskning</em> vid trimning av ett klipps start/slutpunkter.</p>
+       </item>
+      </list>
+      <note style="tip">
+      <title>Koppla från förhandsvisaren till ett separat fönster</title>
+          <p>Du kan koppla från förhandsvisaren till ett separat fönster genom att klicka knappen <gui>Koppla från visaren</gui> i <gui>Verktygsfältet för uppspelning</gui>. Från det separata fönstret kan du spela upp förhandsvisningen i helskärm. Det kommer också att låta andra delar av huvudfönstret ta upp utrymmet förhandsvisaren tog upp. Du kan fästa förhandsvisaren igen genom att stänga det separata fönstret.</p>
+      </note>
+      <note>
+          <p><app>Pitivi</app> förhindrar skärmsläckare vid förhandsvisning av video.</p>
+      </note>
+    </section>
+
+    <section>
+     <title>Vänster panel</title>
+      <p>Den vänstra panelen innehåller media och effektbibliotek. Du kan växla mellan dem genom att välja passande flik. <gui>Mediabiblioteket</gui> visar de importerade mediafilerna i ditt projekt och låter dig hantera dem. <gui>Effektbiblioteket</gui> innehåller ett antal ljud- och videoeffekter tillgängliga för klippen.</p>
+      <note style="tip">
+      <p>Du kan söka i biblioteken genom att använda textrutan i toppen på varje bibliotek.</p>
+      </note>
+    </section>
+
+    <section>
+     <title>Mittenpanel</title>
+      <p>Mittenpanelen innehåller <gui>Klippkonfiguration</gui>, <gui>Övergångar</gui> och <gui>Titelredigerare</gui>. Du kan växla mellan dem genom att välja passande flik. <gui>Klippkonfiguration</gui>en låter dig aktivera, inaktivera eller konfigurera inställningar för effekter möjliga på ett markerat klipp. <gui>Övergångar</gui> låter dig välja och konfigurera övergångstypen när två klipp överlappar i tidslinjen. Med <gui>Titelredigeraren</gui> kan du skapa nya klipp med titlar eller lägga till titlar till befintliga.</p>
+    </section>
+
+</page>

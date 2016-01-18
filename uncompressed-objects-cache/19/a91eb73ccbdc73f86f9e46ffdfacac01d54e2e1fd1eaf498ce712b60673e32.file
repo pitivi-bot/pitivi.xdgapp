@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" xmlns:e="http://projectmallard.org/experimental/" type="topic" id="presets" xml:lang="sv">
+
+  <info>
+    <link type="guide" xref="index#gettingstarted"/>
+    <link type="seealso" xref="codecscontainers"/>
+    <link type="seealso" xref="rendering"/>
+    <revision pkgversion="0.93" version="0.1" date="2014-05-06" status="complete"/>
+    <credit type="author">
+      <name>Jean-François Fortin Tam</name>
+      <email>nekohayo@gmail.com</email>
+    </credit>
+    <credit type="contributor">
+     <name>Tomáš Karger</name>
+     <email>tomkarger@gmail.com</email>
+    </credit>
+    <desc>Använda förinställningar vid rendering och projektinställningar.</desc>
+    <license>
+      <p>Creative Commons Share Alike 3.0</p>
+    </license>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Josef Andersson</mal:name>
+      <mal:email>josef.andersson@fripost.org</mal:email>
+      <mal:years>2015</mal:years>
+    </mal:credit>
+  </info>
+
+    <title>Förinställningar</title>
+    <p>Både <gui>Projektinställningar</gui> och <gui>Rendering</gui> låter dig spara förinställningar för senare användning. Om du ofta hanterar samma typ av projektinställningar med olika kameror eller målenheter för rendering kan du vilja skapa anpassade förinställningar.</p>
+    <section>
+    <title>Skillnaden mellan projektinställningar och rendering</title>
+    <p>Medan projektinställningar hanterar globala inställningar (som upplösning, bildfrekvens, bildförhållande och antal ljudkanaler), renderingsinställningarna hanterar kodekar och enhetsbegränsningar (till exempel, en handhållen enhet eller tv kan ha en maximal skärmupplösning och bildfrekvens vilket nödvändigtvis inte är fallet om du exporterar till en laptop eller en webbplats). Förinställningarna i <gui>Rendering</gui> relaterar till projektinställningarna, men de hanterar olika saker.</p>
+    <note><p>I projektinställningarna är video- och ljudförinställningarna oberoende av varandra.</p></note>
+    </section>
+    <section>
+        <title>Skapa och redigera förinställningar</title>
+        <p>Att skapa en förinställning:</p>
+        <steps>
+            <item><p>Ändra inställningarna efter ditt tycke.</p></item>
+            <item><p>Klicka på knappen <gui>Skapa</gui>.</p></item>
+            <item><p>Ge din förinställning ett unikt namn: då förinställningen är markerad i listan, klicka på dess namn för att växla redigeringsläge. När du är klar, tryck <key>Retur</key>.</p></item>
+        </steps>
+        <p>Att redigera en förinställning:</p>
+        <steps>
+            <item><p>Markera din förinställning i listan över befintliga förinställningar.</p></item>
+            <item><p>Ändra inställningarna efter ditt tycke.</p></item>
+            <item><p>Klicka på <gui>Spara</gui>.</p></item>
+        </steps>
+        <p>För att ta bort en förinställning, markera den i listan över förinställningar och tryck <gui>Ta bort</gui>.</p>
+        <note><p>En del förinställningar ges som standard och kan inte tas bort.</p></note>
+    </section>
+    <section>
+        <title>Ignorera förinställningar</title>
+        <p>Förinställningar finns där för att spara tid och minska komplexiteten. Du kan välja att ignorera dem och ange allting manuellt. Det är vad alternativet <em>Ingen förinställning</em> är till för. Om vald kommer den automatiskt att spara inställningarna direkt i projektfilen.</p>
+    </section>
+    <section>
+        <title>Begränsa upplösningen för en renderingsförinställning</title>
+        <p>Om du vill skapa en förinställning med en fast maximal upplösning behöver du redigera förinställningsfilen med en textredigerare. Förinställningsfiler lagras vanligen i ~/.local/share/pitivi/ ; eftersom många enheter inte har en maximal upplösning är bredd/höjd satt till 0 (obegränsad) som standard. Du kan ändra dessa värden till maximal upplösning för din målenhet.</p>
+    </section>
+
+</page>

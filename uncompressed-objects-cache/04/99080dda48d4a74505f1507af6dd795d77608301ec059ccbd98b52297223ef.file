@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" xmlns:e="http://projectmallard.org/experimental/" type="topic" id="importingmpegts" xml:lang="sl">
+
+  <info>
+    <link type="seealso" xref="importing"/>
+    <link type="seealso" xref="gstreamer"/>
+    <revision pkgversion="0.14" version="0.1" date="2011-06-05" status="complete"/>
+    <credit type="author">
+      <name>Jean-François Fortin Tam</name>
+      <email>nekohayo@gmail.com</email>
+    </credit>
+    <desc>Kako pretvoriti datoteke .mts in .m2ts v vrsto, ki jo lahko GStreamer in Pitivi razčlenita.</desc>
+    <license>
+      <p>Creative Commons - deljenje pod enakimi pogoji 3.0</p>
+    </license>
+  </info>
+    <!-- TODO: remove this manual page when gstreamer supports mpeg-ts files !-->
+    <title>Upravljanje z datotekami AVCHD / MPEG-TS</title>
+
+     <p>Trenutno datotek MPEGTS (običajno imajo pripone .mts, .m2ts in včasih .mpg ali .mpeg) ni mogoče predvajati v <app>GStreamer</app>. Zato jih boste morda želeli pretvoriti v drugo vrsto vsebnika s programom <app>ffmpeg</app>. Za pretvorbo v vsebnik MPEG4 brez izgub lahko uporabite naslednji ukaz:</p>
+    <code>ffmpeg -i vaš_posnetek.MTS -vcodec copy -acodec copy -sn test.mp4</code>
+
+</page>

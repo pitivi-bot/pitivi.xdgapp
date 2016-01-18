@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" xmlns:e="http://projectmallard.org/experimental/" type="guide" id="index" xml:lang="de">
+
+  <info>
+    <title type="link">Pitivi-Schnellstartanleitung</title>
+    <title type="text">Pitivi-Schnellstartanleitung</title>
+    <revision pkgversion="0.14.0" version="0.2" date="2011-06-05" status="complete"/>
+    <credit type="author">
+      <name>Jean-François Fortin Tam</name>
+      <email>nekohayo@gmail.com</email>
+    </credit>
+    <credit type="contributor">
+      <name>Mario Blättermann</name>
+      <email>mariobl@gnome.org</email>
+    </credit>
+    <license>
+      <p>Creative Commons Share Alike 3.0</p>
+    </license>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Mario Blättermann</mal:name>
+      <mal:email>mariobl@freenet.de</mal:email>
+      <mal:years>2010, 2011</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Marcel Tiede</mal:name>
+      <mal:email>marcel.tiede@yahoo.de</mal:email>
+      <mal:years>2014</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Benjamin Steinwender</mal:name>
+      <mal:email>b@stbe.at</mal:email>
+      <mal:years>2014</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Christian Kirbach</mal:name>
+      <mal:email>christian.kirbach@gmail.com</mal:email>
+      <mal:years>2014</mal:years>
+    </mal:credit>
+  </info>
+
+  <title><media type="image" mime="image/png" src="figures/logo.png">Pitivi-Logo</media> Pitivi Video-Editor</title>
+
+   <p>Aufbauend auf dem <link href="http://de.wikipedia.org/wiki/GStreamer"><app>GStreamer</app></link> Multimedia-Framework ist es das Ziel von <app>Pitivi</app> ein intuitiver und flexibler Video-Editor zu sein, der sich gut in <link href="http://gnome.org"><app>GNOME</app></link> integriert und sowohl für Anfänger als auch Profis gleichermaßen ansprechend ist.</p>
+   <p>Dieser Leitfaden ist dafür gedacht Ihnen die Konzepte hinter dem Design zu verdeutlichen und Sie dabei zu unterstützen schnell produktiv zu werden.</p>
+
+  <section id="intro" style="2column">
+    <title>Einführung</title>
+  </section>
+
+  <section id="gettingstarted" style="2column">
+    <title>Erste Schritte</title>
+  </section>
+
+  <section id="timeline" style="2column">
+    <title>Einfaches Editieren mit der Zeitleiste</title>
+  </section>
+
+  <section id="effectstransitions" style="2column">
+    <title>Effects and Transitions</title>
+  </section>
+
+  <section id="rendering" style="2column">
+    <title>Exportieren Ihres fertiggestellten Films</title>
+  </section>
+
+
+</page>

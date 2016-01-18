@@ -1,0 +1,149 @@
+#!/usr/bin/env python3
+# Pitivi video editor
+#
+#       pitivi
+#
+# Copyright (c) 2005, Edward Hervey <bilboed@bilboed.com>
+#
+# This program is free software; you can redistribute it and/or
+# modify it under the terms of the GNU Lesser General Public
+# License as published by the Free Software Foundation; either
+# version 2.1 of the License, or (at your option) any later version.
+#
+# This program is distributed in the hope that it will be useful,
+# but WITHOUT ANY WARRANTY; without even the implied warranty of
+# MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU
+# Lesser General Public License for more details.
+#
+# You should have received a copy of the GNU Lesser General Public
+# License along with this program; if not, write to the
+# Free Software Foundation, Inc., 51 Franklin St, Fifth Floor,
+# Boston, MA 02110-1301, USA.
+
+import os
+import sys
+import signal
+import locale
+import gettext
+
+from ctypes import cdll
+try:
+    x11 = cdll.LoadLibrary('libX11.so')
+    x11.XInitThreads()
+except OSError:
+    pass
+
+
+if "APPDIR" in os.environ:
+    basedir = os.environ["APPDIR"]
+    CONFIGURED_PYTHONPATH = ""
+    CONFIGURED_GI_TYPELIB_PATH = ""
+    CONFIGURED_LD_LIBRARY_PATH = ""
+    CONFIGURED_GST_PLUGIN_PATH = ""
+    LIBDIR = os.path.join(basedir, 'usr', 'lib')
+    DATADIR = os.path.join(basedir, "usr", "share")
+else:
+    CONFIGURED_PYTHONPATH = '/app/lib/python3.3/site-packages/'
+    CONFIGURED_GI_TYPELIB_PATH = '/app/lib/girepository-1.0'
+    CONFIGURED_LD_LIBRARY_PATH = '/app/lib:/usr/lib/GL'
+    CONFIGURED_GST_PLUGIN_PATH = '/app/lib/gstreamer-1.0'
+    LIBDIR = '/app/lib'
+    DATADIR = '/app/share'
+
+
+def _prepend_env_path(name, value):
+    os.environ[name] = os.pathsep.join(value +
+            os.environ.get(name, "").split(os.pathsep))
+
+
+def jump_through_hoops():
+    os.environ["JUMP_THROUGH_HOOPS"] = "1"
+    os.execv(sys.argv[0], sys.argv)
+
+
+# Check if we're in development or installed version and set paths properly
+def _in_devel():
+    root_dir = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+    return os.path.exists(os.path.join(root_dir, '.git'))
+
+
+def _add_pitivi_path():
+    dir = os.path.dirname(os.path.abspath(__file__))
+    if _in_devel():
+        root = os.path.split(dir)[0]
+        sys.path.append(os.path.join(root, "pitivi", "coptimizations", ".libs"))
+        localedir = os.path.join(os.path.split(dir)[0], 'locale')
+    else:
+        root = os.path.join(LIBDIR, 'pitivi', 'python')
+        localedir = os.path.join(DATADIR, "locale")
+
+    if not root in sys.path:
+        sys.path.append(root)
+
+    # prepend any directories found at configure time if they're not
+    # already in the path. (if they are already in the path, the user
+    # chose to have it that way, so we leave their order)
+    for path in CONFIGURED_PYTHONPATH.split(':'):
+        if not path:
+            continue
+        path = os.path.abspath(path)
+        if path not in sys.path:
+            sys.path.append(path)
+
+    # Added for i18n
+    try:
+        locale.setlocale(locale.LC_ALL, '')
+        locale.bindtextdomain('pitivi', localedir)
+        locale.textdomain('pitivi')
+    except Exception as e:
+        print("Couldn't set locale.", localedir, e)
+    try:
+        gettext.bindtextdomain('pitivi', localedir)
+        gettext.textdomain('pitivi')
+    except Exception as e:
+        print("Couldn't set the gettext domain. Translations will not work.", localedir, e)
+
+    if CONFIGURED_LD_LIBRARY_PATH or CONFIGURED_GST_PLUGIN_PATH:
+        _prepend_env_path("LD_LIBRARY_PATH", [CONFIGURED_LD_LIBRARY_PATH])
+        _prepend_env_path("GST_PLUGIN_PATH", [CONFIGURED_GST_PLUGIN_PATH])
+
+        if "JUMP_THROUGH_HOOPS" not in os.environ:
+            # ld caches LD_LIBRARY_PATH at startup so we need to execv() here. LALA.
+            jump_through_hoops()
+
+    if CONFIGURED_GI_TYPELIB_PATH:
+        _prepend_env_path("GI_TYPELIB_PATH", [CONFIGURED_GI_TYPELIB_PATH])
+
+
+def _initialize_modules():
+    from pitivi.check import initialize_modules
+    try:
+        initialize_modules()
+    except Exception as e:
+        print("Failed to initialize modules")
+        raise
+
+def _check_requirements():
+    from pitivi.check import check_requirements
+
+    if not check_requirements():
+        sys.exit(2)
+
+def _run_pitivi():
+    from pitivi import application
+
+    signal.signal(signal.SIGINT, signal.SIG_DFL)
+    app = application.Pitivi()
+    app.run(sys.argv)
+
+
+if __name__ == "__main__":
+    _add_pitivi_path()
+    _initialize_modules()
+    # Dep checks really have to happen here, not in application.py. Otherwise,
+    # as soon as application.py starts, it will try importing all the code and
+    # the classes in application.py will not even have the opportunity to run.
+    # We do these checks on every startup (even outside the dev environment, for
+    # soft deps); doing imports and gst registry checks has near-zero cost.
+    _check_requirements()
+    _run_pitivi()

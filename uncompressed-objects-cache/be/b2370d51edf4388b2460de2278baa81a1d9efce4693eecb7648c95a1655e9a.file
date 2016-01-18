@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" xmlns:e="http://projectmallard.org/experimental/" type="topic" id="cheatsheet" xml:lang="es">
+
+  <info>
+    <link type="topic" xref="index"/>
+    <link type="seealso" xref="movearoundtimeline"/>
+    <revision pkgversion="0.16" version="0.1" date="2012-09-03" status="complete"/>
+    <credit type="author">
+      <name>Jean-François Fortin Tam</name>
+      <email>nekohayo@gmail.com</email>
+    </credit>
+    <license>
+      <p>Creative Commons Compartir Igual 3.0</p>
+    </license>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Daniel Mustieles</mal:name>
+      <mal:email>daniel.mustieles@gmail.com</mal:email>
+      <mal:years>2011 - 2014</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Milagros Alessandra Infante Montero</mal:name>
+      <mal:email>maim92@gmail.com</mal:email>
+      <mal:years>2012, 2013</mal:years>
+    </mal:credit>
+  </info>
+
+    <title>Atajos de teclado y lista de trucos</title>
+
+    <p>Esta página es una lista de atajos importantes para acceder a las funciones más usadas u ocultas. Tómese el tiempo para familiarizarse con ellos ya que mejorarán su productividad enormemente.</p>
+
+    <section>
+      <title>General</title>
+        <list>
+          <item><p><keyseq><key>Ctrl</key><key>N</key></keyseq>: crear un proyecto nuevo</p></item>
+          <item><p><keyseq><key>Ctrl</key><key>O</key></keyseq>: abrir un archivo de proyecto</p></item>
+          <item><p><keyseq><key>Ctrl</key><key>S</key></keyseq>: guardar el proyecto actual</p></item>
+          <item><p><keyseq><key>Ctrl</key><key>Q</key></keyseq>: salir de la aplicación</p></item>
+          <item><p><keyseq><key>Ctrl</key><key>Z</key></keyseq>: deshacer</p></item>
+          <item><p><keyseq><key>Ctrl</key><key>Shift</key><key>Z</key></keyseq>: Redo</p></item>
+          <item><p><key>F11</key>: cambiar el modo de pantalla completa</p></item>
+          <item><p><key>F1</key>: mostrar el manual de usuario</p></item>
+        </list>
+    </section>
+
+    <section>
+      <title>Biblioteca de medios</title>
+        <list>
+          <item><p><key>Intro</key>: previsualizar (reproducción) el clip seleccionado</p></item>
+          <item><p><key>Insertar</key>: insertar los clips seleccionados en la línea del tiempo</p></item>
+          <item><p><keyseq><key>Ctrl</key><key>Supr</key></keyseq>: quitar los clips seleccionados del proyecto</p></item>
+        </list>
+    </section>
+
+    <section>
+      <title>Línea de tiempo</title>
+        <list>
+          <item><p><key>Barra espaciadora</key>: alternar reproducción.</p></item>
+          <item><p><key>S</key>: dividir los clips en la posición actual. Si hay clips seleccionados, sólo esos se dividirán.</p></item>
+          <item><p><key>Eliminar</key>: quitar los clips seleccionados de la línea del tiempo.</p></item>
+          <item><p><key>←</key> y <key>→</key>: bucar una imagen hacia atrás o hacia adelante. Esto depende de las imágenes por segundo en su proyecto.</p></item>
+          <item><p><keyseq><key>Mayús</key><key>←</key></keyseq> y <keyseq><key>Mayús</key><key>→</key></keyseq>: buscar un segundo hacia atrás o hacia adelante.</p></item>
+          <item><p><keyseq><key>Ctrl</key><key>+</key></keyseq> y <keyseq><key>Ctrl</key><key>-</key></keyseq>: acercar o alejar. Puede usar también <key>Ctrl</key> con la rueda del ratón para controlar la ampliación más eficientemente.</p></item>
+          <item><p><keyseq><key>Ctrl</key><key>0</key></keyseq>: ajustar la ampliación para encajar en la línea del tiempo.</p></item>
+          <item><p><key>Mayús</key>+arrastrar: edición de onda.</p></item>
+          <item><p><key>Ctrl</key>+arrastrar: edición de desplazamiento.</p></item>
+          <item><p><key>K</key>: añadir una propiedad de fotograma clave en la posición actual.</p></item>
+          <item><p><key>.</key> y <key>,</key>: ir a la siguiente o anterior propiedad de fotograma clave.</p></item>
+        </list>
+    </section>
+</page>

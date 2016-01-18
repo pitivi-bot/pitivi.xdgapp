@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" xmlns:e="http://projectmallard.org/experimental/" type="topic" id="keyframecurves" xml:lang="sv">
+
+  <info>
+    <link type="guide" xref="index#timeline"/>
+    <link type="seealso" xref="usingeffects"/>
+    <link type="seealso" xref="transitions"/>
+    <revision pkgversion="0.92" version="0.2" date="2014-03-13" status="complete"/>
+    <credit type="author">
+      <name>Jean-François Fortin Tam</name>
+      <email>nekohayo@gmail.com</email>
+    </credit>
+    <credit type="contributor">
+      <name>Mario Blättermann</name>
+      <email>mariobl@gnome.org</email>
+      <name>Tomáš Karger</name>
+      <email>tomkarger@gmail.com</email>
+    </credit>
+    <desc>Ändra egenskaper för ett klipp över tid.</desc>
+    <license>
+      <p>Creative Commons Share Alike 3.0</p>
+    </license>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Josef Andersson</mal:name>
+      <mal:email>josef.andersson@fripost.org</mal:email>
+      <mal:years>2015</mal:years>
+    </mal:credit>
+  </info>
+
+    <title>Nyckelbildskurvor</title>
+     
+     <p>Genom att använda nyckelbildskurvor kan du ändra egenskapsvärden för klipp över tiden. Detta kan användas för att ändra ogenomskinlighet eller volym likaväl som att kontrollera effektvariabler vid vilken punkt som helst i ett klipp.</p>
+     <figure>
+     <title>Nyckelbildskurvor</title>
+      <media type="image" src="figures/keyframecurves.png" mime="image/png" style="right"/>
+     </figure>
+     <p>Kort angående termer:</p>
+     <list>
+         <item><p><em>Nyckelbilder</em> är de punkter som används för att bestämma egenskapsvärden vid en given punkt i tiden.</p></item>
+         <item><p><em>Nyckelbildskurvor</em> är linjerna som ansluter punkterna och ger en mjuk övergång mellan dem.</p></item>
+     </list>
+     <p>Som standard är nyckelbildskurvor platta: det finns två nyckelbildskurvor med samma värde, en i början och en i slutet av klippet. Som ett resultat är kurvan som ansluter de två nyckelbildrutorna en rak horisontell linje vilket indikerar att värdet av en given egenskap är densamma vid varje punkt i tiden då klippet pågår. För att ändra detta värde (och frekvensen på dess ändring) vid vilken punkt som helst, så kan du lägga till fler nyckelbilder till klippet och dra dem till passande positioner som representerar deras värden.</p>
+     <note>
+         <p>För närvarande stöds endast linjära nyckelbilder.</p>
+     </note>
+
+     <section>
+      <title>Allmän användning</title>
+      <p>Nyckelbildskurvor är en intrikat egenskap för klipp och kan inte tas bort av användaren. Start- och slutnyckelbilder är fixerade till start och slutpunkter på klippet, och kan inte tas bort av användaren heller. Förutom det så kan du:</p>
+      <list>
+       <item><p>lägga till en ny nyckelbild genom att dubbelklicka på en tom del av en kurva</p></item>
+       <item><p>ta bort en nyckelbildruta genom att dubbelklicka på den</p></item>
+       <item><p>justera tiden och värdet av en nyckelbild genom att flytta den med musen</p></item>
+       <item><p>klicka-och-dra på ett segment av en kurva mellan två nyckelbilder för att justera den vertikala positionen av segmentet</p></item>
+      </list>
+      <note style="tip">
+          <p>Du kan placera nyckelbilder varsomhelst på klippet även om det ändrar ordningen av nyckelbilderna.</p>
+      </note>
+     </section>
+
+     <section>
+      <title>Ljud- och videokurvor</title>
+       <p>För volymkurvor representerar den vertikala positionen volymen för klippet på en skala från 0 till 200%. För videokurvor representerar den vertikala kurvan alfan (ogenomskinlighet) för klippet på en skala från 0 till 100%. Se sidan <link xref="layers">Förstå lager</link> för fler detaljer kring ogenomskinlighet.</p>
+     </section>
+</page>

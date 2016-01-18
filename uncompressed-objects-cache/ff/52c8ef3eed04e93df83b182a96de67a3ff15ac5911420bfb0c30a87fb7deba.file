@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" xmlns:e="http://projectmallard.org/experimental/" type="topic" id="presets" xml:lang="fr">
+
+  <info>
+    <link type="guide" xref="index#gettingstarted"/>
+    <link type="seealso" xref="codecscontainers"/>
+    <link type="seealso" xref="rendering"/>
+    <revision pkgversion="0.93" version="0.1" date="2014-05-06" status="complete"/>
+    <credit type="author">
+      <name>Jean-François Fortin Tam</name>
+      <email>nekohayo@gmail.com</email>
+    </credit>
+    <credit type="contributor">
+     <name>Tomáš Karger</name>
+     <email>tomkarger@gmail.com</email>
+    </credit>
+    <desc>
+      Using presets in rendering and project settings.
+    </desc>
+    <license>
+      <p>Creative Commons des Conditions Initiales à l'Identique 3.0</p>
+    </license>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Alain Lojewski</mal:name>
+      <mal:email>allomervan@gmail.com</mal:email>
+      <mal:years>2011</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Bruno Brouard</mal:name>
+      <mal:email>annoa.b@gmail.com</mal:email>
+      <mal:years>2012</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Julien Hardelin</mal:name>
+      <mal:email>jhardlin@orange.fr</mal:email>
+      <mal:years>2012</mal:years>
+    </mal:credit>
+  </info>
+
+    <title>Pré-réglages</title>
+    <p>Both the <gui>Project settings</gui> dialog and the <gui>Rendering</gui> dialog allow you to save presets for later use. If you often deal with the same kind of project settings, with different cameras or target devices for rendering, you may want to create custom presets.</p>
+    <section>
+    <title>The difference between Project settings and Rendering</title>
+    <p>While project settings concern themselves with global settings (such as resolution, framerate, aspect ratio and number of audio channels), the rendering settings are concerned with codecs and device constraints (for example, a handheld device or television may have a maximum screen resolution and framerate, which is not necessarily the case if you are exporting to a laptop or a website). The presets in the <gui>Rendering</gui> dialog are related to project settings, but they govern different things.</p>
+    <note><p>Dans les paramètres du projet, les pré-réglages vidéo et audio sont indépendants les uns des autres.</p></note>
+    </section>
+    <section>
+        <title>Création et modification des pré-réglages</title>
+        <p>Pour créer un pré-réglage :</p>
+        <steps>
+            <item><p>modifiez les réglages à votre convenance,</p></item>
+            <item><p>Click the <gui>Create</gui> button.</p></item>
+            <item><p>donnez un nom unique à votre pré-réglage : alors que le pré-réglage est sélectionné dans la liste, cliquez sur son nom pour activer le mode édition. Quand c'est fait, appuyez sur <key>Entrée</key>.</p></item>
+        </steps>
+        <p>Pour modifier un pré-réglage :</p>
+        <steps>
+            <item><p>choisissez-le dans la liste des pré-réglages,</p></item>
+            <item><p>modifiez les réglages à votre convenance,</p></item>
+            <item><p>cliquez sur le bouton <gui>Enregistrer</gui>.</p></item>
+        </steps>
+        <p>Pour supprimer un pré-réglage, choisissez-le dans la liste et cliquez sur <gui>Enlever</gui>.</p>
+        <note><p>Certains pré-réglages sont définis par défaut et ne peuvent pas être enlevés.</p></note>
+    </section>
+    <section>
+        <title>Ne pas tenir compte des pré-réglages</title>
+        <p>Presets are there to save time and reduce complexity. However, you can choose to simply ignore them and set everything manually. This is what the <em>No preset</em> option is meant for. When chosen, it automatically saves the settings directly in the project file.</p>
+    </section>
+    <section>
+        <title>Limitation de la résolution d'un pré-réglage du rendu</title>
+        <p>Si vous souhaitez créer un pré-réglage avec une résolution maximale fixée, vous devez modifier le fichier de pré-réglage avec un éditeur de texte. Ce type de fichier est enregistré dans le répertoire ~/.local/share/pitivi/ ; étant donné que la plupart des périphériques n'ont pas de résolution maximale, le rapport largeur/hauteur est fixé à 0 (indéfini) par défaut. Vous pouvez modifier ces valeurs pour les adapter à la résolution maximale de votre périphérique.</p>
+    </section>
+
+</page>

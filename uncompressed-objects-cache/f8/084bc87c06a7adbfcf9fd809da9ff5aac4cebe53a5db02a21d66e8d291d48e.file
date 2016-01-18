@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" xmlns:e="http://projectmallard.org/experimental/" type="topic" id="savescreenshot" xml:lang="el">
+
+  <info>
+    <link type="topic" xref="index"/>
+    <revision pkgversion="0.16" version="0.1" date="2012-01-27" status="complete"/>
+    <credit type="author">
+      <name>Jean-François Fortin Tam</name>
+      <email>nekohayo@gmail.com</email>
+    </credit>
+    <license>
+      <p>Creative Commons Share Alike 3.0</p>
+    </license>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name> Δημήτρης Σπίγγος</mal:name>
+      <mal:email>dmtrs32@gmail.com</mal:email>
+      <mal:years>2013, 2014</mal:years>
+    </mal:credit>
+  </info>
+
+    <title>Αποθήκευση ενός στιγμιοτύπου στο τρέχον πλαίσιο</title>
+
+    <p>Μπορείτε να χρησιμοποιήσετε <guiseq><gui>Γραμμή χρόνου</gui><gui>Εξαγωγή τρέχοντος πλαισίου...</gui></guiseq> για να αποθηκεύσετε ένα αντίγραφο τπυ τρέχοντος πλαισίου ως αρχείου εικόνας.</p>
+    <p>Προς το παρόν, PNG και JPEG υποστηρίζονται ως μορφές αρχείων. Η ανάλυση της εικόνας θα ταιριάξει τις ρυθμίσεις του έργου και οποιαδήποτε επίδραση ή μετασχηματισμός θα εφαρμοστεί επίσης στην τελική εικόνα.</p>
+
+</page>

@@ -1,0 +1,12 @@
+[Application]
+name=org.pitivi.Pitivi
+runtime=org.gnome.Platform/x86_64/3.18
+sdk=org.gnome.Sdk/x86_64/3.18
+command=pitivi_app
+
+[Context]
+sockets=x11;session-bus;
+filesystems=home;
+
+[Session Bus Policy]
+ca.desrt.dconf=talk

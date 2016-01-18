@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" xmlns:e="http://projectmallard.org/experimental/" type="topic" id="importingmpegts" xml:lang="uk">
+
+  <info>
+    <link type="seealso" xref="importing"/>
+    <link type="seealso" xref="gstreamer"/>
+    <revision pkgversion="0.14" version="0.1" date="2011-06-05" status="complete"/>
+    <credit type="author">
+      <name>Jean-François Fortin Tam</name>
+      <email>nekohayo@gmail.com</email>
+    </credit>
+    <desc>Як конвертувати файли .mts та .m2ts у формат, який можуть обробляти GStreamer та Pitivi.</desc>
+    <license>
+      <p>Creative Commons Share Alike 3.0</p>
+    </license>
+  </info>
+    <!-- TODO: remove this manual page when gstreamer supports mpeg-ts files !-->
+    <title>Що робити з файлами AVCHD / MPEG-TS</title>
+
+     <p>На даний час, файли MPEG Transport Stream (зазвичай з розширеннями .mts, .m2ts а іноді .mpg or .mpeg), використовувані деякими камкордерами, не можуть надійно відтворюватися <app>GStreamer</app>. Ви можете перетворити їх в інший формат, скориставшись <app>ffmpeg</app>. Щоб конвертувати без втрати якості у MPEG4, використайте таку команду:</p>
+    <code>ffmpeg -i your_clip.MTS -vcodec copy -acodec copy -sn test.mp4</code>
+
+</page>

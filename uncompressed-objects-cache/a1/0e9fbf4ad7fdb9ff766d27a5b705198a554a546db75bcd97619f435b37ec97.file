@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" xmlns:e="http://projectmallard.org/experimental/" type="topic" id="sysreq" xml:lang="sv">
+
+  <info>
+    <link type="guide" xref="index#intro"/>
+    <revision pkgversion="0.93" version="0.1" date="2014-05-13" status="incomplete"/>
+    <credit type="author">
+      <name>Jean-François Fortin Tam</name>
+      <email>nekohayo@gmail.com</email>
+    </credit>
+    <credit type="contributor">
+      <name>Mario Blättermann</name>
+      <email>mariobl@gnome.org</email>
+      <name>Tomáš Karger</name>
+      <email>tomkarger@gmail.com</email>
+    </credit>
+    <desc>Vilken typ av maskinvara behövs för att redigera video?</desc>
+    <license>
+      <p>Creative Commons Share Alike 3.0</p>
+    </license>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Josef Andersson</mal:name>
+      <mal:email>josef.andersson@fripost.org</mal:email>
+      <mal:years>2015</mal:years>
+    </mal:credit>
+  </info>
+
+    <title>Systemkrav</title>
+
+     <p>När det gäller maskinvara kräver videoredigering vanligtvis en kraftfull dator, beroende på videotyp som redigeras. Medan datorernas processorkraft har ökat enormt de senaste åren, gäller det även behovet av högkvalitativ video. Att redigera HD (High Definition) video kräver vanligen (då detta skrevs) modern maskinvara (beroende på kodek) medan videoredigering av SD (Standard definition) kan ske på blygsammare maskinvarukonfigurationer. Det är upp till dig att se till att din utrustning är tillräcklig. Den bör åtminstone klara av att spela upp din media i <app>Totem</app> utan fördröjningar.</p>
+     <p>Här är några allmänna maskinvarurekommendationer:</p>
+     <list>
+         <item><p>Modern quad core-processor</p></item>
+         <item><p>Solid state drive</p></item>
+         <item><p>Intel-grafikkort tenderar att fungera utan problem</p></item>
+         <item><p>Full HD (1920x1080)-kapabel skärm (upplösningar under 1024x768 stöds inte)</p></item>
+     </list>
+     <p>Det är möjligt att använda lågkvalitativa versioner av din film vid redigering och använda de högkvalitativa versionerna vid rendering av den slutliga utmatningen, och sålunda komma runt maskinvarubegränsningar till en viss gräns. Detta kallas <em>proxyredigering</em>. Denna funktion är inte tillgänglig i <app>Pitivi</app>.</p>
+     <note style="bug">
+      <p>Du kan följa statusen för proxyredigering i <app>Pitivi</app> på <link href="https://bugzilla.gnome.org/show_bug.cgi?id=609136">bug 609136</link>.</p>
+     </note>
+     <p>Programvarukrav täcks i <link xref="gstreamer">Gstreamer och kompatibilitet</link> samt <link xref="effects">Introduktion till effekter</link>.</p>
+
+</page>

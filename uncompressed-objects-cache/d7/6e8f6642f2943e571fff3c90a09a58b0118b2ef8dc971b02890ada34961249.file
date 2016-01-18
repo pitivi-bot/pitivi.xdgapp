@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" xmlns:e="http://projectmallard.org/experimental/" type="guide" id="index" xml:lang="fr">
+
+  <info>
+    <title type="link">Manuel de démarrage rapide de Pitivi</title>
+    <title type="text">Manuel de démarrage rapide de Pitivi</title>
+    <revision pkgversion="0.14.0" version="0.2" date="2011-06-05" status="complete"/>
+    <credit type="author">
+      <name>Jean-François Fortin Tam</name>
+      <email>nekohayo@gmail.com</email>
+    </credit>
+    <credit type="contributor">
+      <name>Mario Blättermann</name>
+      <email>mariobl@gnome.org</email>
+    </credit>
+    <license>
+      <p>Creative Commons des Conditions Initiales à l'Identique 3.0</p>
+    </license>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Alain Lojewski</mal:name>
+      <mal:email>allomervan@gmail.com</mal:email>
+      <mal:years>2011</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Bruno Brouard</mal:name>
+      <mal:email>annoa.b@gmail.com</mal:email>
+      <mal:years>2012</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Julien Hardelin</mal:name>
+      <mal:email>jhardlin@orange.fr</mal:email>
+      <mal:years>2012</mal:years>
+    </mal:credit>
+  </info>
+
+  <title><media type="image" mime="image/png" src="figures/logo.png">Pitivi logo</media> Éditeur vidéo Pitivi</title>
+
+   <p>Bâti autour de l'architecture multimédia <link href="http://en.wikipedia.org/wiki/GStreamer"><app>GStreamer</app></link>, <app>Pitivi</app> se veut être un éditeur vidéo intuitif et flexible qui s'intègre bien dans <link href="http://gnome.org"><app>GNOME</app></link> et qui peut plaire aussi bien aux amateurs qu'aux professionnels.</p>
+   <p>Ce manuel est fait pour vous aider à comprendre les concepts par-delà son design et devenir opérationnel rapidement.</p>
+
+  <section id="intro" style="2column">
+    <title>Introduction</title>
+  </section>
+
+  <section id="gettingstarted" style="2column">
+    <title>Premiers pas</title>
+  </section>
+
+  <section id="timeline" style="2column">
+    <title>Modification élémentaire avec la piste de montage</title>
+  </section>
+
+  <section id="effectstransitions" style="2column">
+    <title>Effects and Transitions</title>
+  </section>
+
+  <section id="rendering" style="2column">
+    <title>Exportation de votre film finalisé</title>
+  </section>
+
+
+</page>

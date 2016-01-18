@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" xmlns:e="http://projectmallard.org/experimental/" type="topic" id="importing" xml:lang="sl">
+
+  <info>
+    <link type="guide" xref="index#gettingstarted"/>
+    <revision pkgversion="0.94" version="0.4" date="2014-10-01" status="complete"/>
+    <credit type="author">
+      <name>Jean-François Fortin Tam</name>
+      <email>nekohayo@gmail.com</email>
+    </credit>
+    <credit type="contributor">
+      <name>Mario Blättermann</name>
+      <email>mariobl@gnome.org</email>
+      <name>Tomáš Karger</name>
+      <email>tomkarger@gmail.com</email>
+    </credit>
+    <desc>Uvažanje datotek v vaš projekt kot posnetkov.</desc>
+    <license>
+      <p>Creative Commons - deljenje pod enakimi pogoji 3.0</p>
+    </license>
+  </info>
+
+    <title>Dobivanje predstavnostnih datotek</title>
+
+    <p>Pitivi allows importing media files from your computer's hard drive.</p>
+    <note>
+        <p>Due to our limited resources and the rapid evolution of filmmaking hardware in the past few years, and to ensure <app>Pitivi</app> remains robust and simple to use, we do not attempt to support every possible hardware device out there. As a result, you currently cannot use <app>Pitivi</app> to capture directly from a camcorder; specialized applications are better suited for this task. For example, for DV/HDV camcorders using an IEEE 1394 connection, you may use <app>Kino</app> or <app>dvgrab</app> to capture footage.</p>
+    </note>
+
+      <section>
+       <title>Importing files using the file chooser</title>
+         <p>You can import media into the <gui>Media Library</gui> by using the file chooser dialog, which has the advantage of letting you preview the files you want to import. To do so, use the <guiseq><gui>Library</gui><gui>Import</gui></guiseq> button, or press <keyseq><key>Ctrl</key><key>i</key></keyseq>.</p>
+         <p>A file chooser dialog window will appear. You can press <key>Ctrl</key> or <key>Shift</key> to select multiple files at the same time.</p>
+       </section>
+       <section>
+        <title>Importing files using drag and drop</title>
+         <p>Koncept vlečenja in spuščanja je dobro uveljavljen način prenosa datotek med programi. Enostavno izberite datoteke, ki jih želite uvoziti, v drugem programu (kot je upravljalnik datotek ali predstavnostni program) in jih z miško povlecite v <gui>Knjižnico predstavnosti</gui> <app>Pitivi</app>.</p>
+         <p>To zmožnost lahko uporabite za:</p>
+         <list>
+          <item>
+           <p>Enostavno uvozite glasbene ali video posnetke s predvajalnika predstavnosti (kot je <app>Rhythmbox</app> ali <app>Totem</app>).</p>
+          </item>
+          <item>
+           <p>Uporaba upravljalnika datotek (kot je <app>Nautilus</app>, <app>Thunar</app>, <app>Dolphin</app> ali <app>Konqueror</app>) namesto pogovornega okna izbirnika datotek.</p>
+          </item>
+          <item>
+           <p>Uvoz kombinacije map in datotek hkrati.</p>
+          </item>
+          <item>
+           <p>Uporaba zmožnosti iskanja drugega programa (kot so <app>GNOME Shell</app>, <app>Tracker</app>, <app>GNOME Activity Journal</app>, <app>GNOME Search Tool</app>, itd.).</p>
+          </item>
+         </list>
+       </section>
+
+</page>

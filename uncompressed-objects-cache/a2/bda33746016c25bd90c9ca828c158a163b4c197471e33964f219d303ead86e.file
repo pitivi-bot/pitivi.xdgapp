@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" xmlns:e="http://projectmallard.org/experimental/" type="topic" id="effects" xml:lang="sv">
+
+  <info>
+    <link type="guide" xref="index#effectstransitions"/>
+    <link type="seealso" xref="gstreamer"/>
+    <revision pkgversion="0.92" version="0.2" date="2014-03-07" status="incomplete"/>
+    <credit type="author">
+      <name>Jean-François Fortin Tam</name>
+      <email>nekohayo@gmail.com</email>
+      <name>Tomáš Karger</name>
+      <email>tomkarger@gmail.com</email>
+    </credit>
+    <desc>Lägga till specialeffekter till video- och ljudklipp</desc>
+    <license>
+      <p>Creative Commons Share Alike 3.0</p>
+    </license>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Josef Andersson</mal:name>
+      <mal:email>josef.andersson@fripost.org</mal:email>
+      <mal:years>2015</mal:years>
+    </mal:credit>
+  </info>
+
+    <title>Introduktion till effekter</title>
+     
+     <p><app>Pitivi</app> använder en bredd av video- och ljudeffekter för att krydda dina filmer. Antalet tillgängliga effekter beror på om programvaran är installerad på din dator. Om du inte ser någon effekt (eller bara en handfull) i effektbiblioteket, verifiera att paketet <app>gnome-effects</app> är installerat på ditt system. Alternativt kan du hålla utkik efter paket som innehåller effektinsticksmodulerna GStreamer eller frei0r som finns tillgängliga i din distributions förråd.</p>
+     <note>
+      <p>Effekter är icke-destruktiva: de verkställs endast på den renderade filmen och påverkar inte dina källfiler.</p>
+     </note>
+
+    <section>
+        <title>Lägg till och ta bort effekter på klipp</title>
+        <p>Att lägga till en effekt:</p>
+        <steps>
+            <item><p>Välj ett existerande klipp på tidslinjen</p></item>
+            <item><p>Välj en effekt i effektbiblioteket</p></item>
+            <item><p>Dra den valda effekten till <guiseq><gui>mittenpanel</gui>en <gui>Klippkonfiguration</gui> <gui>Effekter</gui></guiseq></p></item>
+        </steps>
+        <p>Att ta bort en effekt:</p>
+        <steps>
+            <item><p>Välj ett existerande klipp på tidslinjen</p></item>
+            <item><p>Välj effekten du vill ta bort i <guiseq><gui>mittenpanel</gui>en <gui>Klippkonfiguration</gui> <gui>Effekter</gui></guiseq></p></item>
+            <item><p>Klicka på knappen <gui>Ta bort effekter</gui></p></item>
+        </steps>
+    </section>
+    <section>
+        <title>Växla effekter</title>
+        <p>Om du tillfälligt vill inaktivera en effekt (för att jämföra med och utan effekter, eller av prestandaskäl), klicka i motsvarande kryssruta i <guiseq><gui>mittenpanel</gui>en <gui>Klippkonfiguration</gui> <gui>Effekter</gui></guiseq>.</p>
+    </section>
+</page>

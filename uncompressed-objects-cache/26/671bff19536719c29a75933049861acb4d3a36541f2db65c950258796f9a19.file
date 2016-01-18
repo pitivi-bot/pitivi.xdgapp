@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" xmlns:e="http://projectmallard.org/experimental/" type="topic" id="importing" xml:lang="sv">
+
+  <info>
+    <link type="guide" xref="index#gettingstarted"/>
+    <revision pkgversion="0.94" version="0.4" date="2014-10-01" status="complete"/>
+    <credit type="author">
+      <name>Jean-François Fortin Tam</name>
+      <email>nekohayo@gmail.com</email>
+    </credit>
+    <credit type="contributor">
+      <name>Mario Blättermann</name>
+      <email>mariobl@gnome.org</email>
+      <name>Tomáš Karger</name>
+      <email>tomkarger@gmail.com</email>
+    </credit>
+    <desc>Importera filer till ditt projekt som klipp.</desc>
+    <license>
+      <p>Creative Commons Share Alike 3.0</p>
+    </license>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Josef Andersson</mal:name>
+      <mal:email>josef.andersson@fripost.org</mal:email>
+      <mal:years>2015</mal:years>
+    </mal:credit>
+  </info>
+
+    <title>Hämta media</title>
+
+    <p>Pitivi kan importera mediafiler från din dators hårddisk.</p>
+    <note>
+        <p>Beroende på begränsade resurser och den snabba utvecklingen av maskinvara för filmmakare de senaste åren, och för att försäkra att <app>Pitivi</app> håller sig stabilt och enkelt att använda försöker vi inte att stödja varje tänkbar maskinvarukonfiguration som finns. Resultat blir att du för närvarande inte kan använda <app>Pitivi</app> direkt från en videokamera; specialiserade program passar bättre för denna uppgift. Exempelvis, för DV/HDV-videokameror som använder anslutningen IEEE 1394 kan du använda <app>Kino</app> eller <app>dvgrab</app> för att fånga bilder.</p>
+    </note>
+
+      <section>
+       <title>Importera filer med filväljaren</title>
+         <p>Du kan importera media till <gui>Mediabiblioteket</gui> genom att använda filväljardialogen, som har fördelen att den låter dig förhandsgranska vilka filer du vill importera. För att göra så, använd <guiseq><gui>Bibliotek</gui><gui>Importera</gui></guiseq>knappen eller tryck  <keyseq><key>Ctrl</key><key>i</key></keyseq>.</p>
+         <p>En filväljardialog kommer att visas. Du kan trycka <key>Ctrl</key> eller <key>Skift</key> för att välja flera filer samtidigt.</p>
+       </section>
+       <section>
+        <title>Importera filer med dra-och-släpp</title>
+         <p>Konceptet dra-och-släpp är en väletablerad metod för att minska avståndet mellan programvaror. Välj de filer du vill importera i ett annat program (som en filhanterare eller ett multimediaprogram) och dra dem med din mus till <app>Pitivi</app>s <gui>mediabibliotek</gui>.</p>
+         <p>Denna egenskap kan användas för att:</p>
+         <list>
+          <item>
+           <p>Enkelt importera musik- eller videoklipp från en mediaspelare (som <app>Rhythmbox</app> eller <app>Totem</app>).</p>
+          </item>
+          <item>
+           <p>Tillåta användningen av en filhanterare (som <app>Nautilus</app>, <app>Thunar</app>, <app>Dolphin</app> eller <app>Konqueror</app>) istället för filväljardialogen.</p>
+          </item>
+          <item>
+           <p>Importera en kombination av flera filer och mappar samtidigt.</p>
+          </item>
+          <item>
+           <p>Förhöj sökegenskaperna hos ett annat program (som <app>GNOME Shell</app>, <app>Tracker</app>, <app>GNOME Activity Journal</app>, <app>GNOME Search Tool</app>, etc.).</p>
+          </item>
+         </list>
+       </section>
+
+</page>

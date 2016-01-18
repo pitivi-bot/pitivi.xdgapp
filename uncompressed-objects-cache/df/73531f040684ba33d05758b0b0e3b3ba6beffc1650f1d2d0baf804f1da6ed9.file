@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" xmlns:e="http://projectmallard.org/experimental/" type="topic" id="transitions" xml:lang="cs">
+
+  <info>
+    <link type="guide" xref="index#effectstransitions"/>
+    <revision pkgversion="0.93" version="0.1" date="2014-03-28" status="draft"/>
+    <credit type="author">
+      <name>Tomáš Karger</name>
+      <email>tomkarger@gmail.com</email>
+    </credit>
+    <credit type="contributor">
+      <name>Jean-François Fortin Tam</name>
+      <email>nekohayo@gmail.com</email>
+      <name>Mario Blättermann</name>
+      <email>mariobl@gnome.org</email>
+    </credit>
+    <desc>Jak použít prolnutí, náběh, slábnutí a další typy přechodů.</desc>
+    <license>
+      <p>Creative Commons Share Alike 3.0</p>
+    </license>
+  </info>
+
+    <title>Přechody</title>
+
+    <section>
+      <title>Prolínání klipů</title>
+        <p>Jestli chcete vytvořit prolnutí dvou klipů ve stejné vrstvě, jednoduše přetáhněte jeden klip na druhý, tak aby se překrývaly. Překrývající se oblast bude použita jako místo k přechodu mezi dvěma klipy. Délku přechodu můžete upravit posunutím nebo ustřihnutím klipů. Jestli chcete použít jiný typ přechodu, než je výchozí (prolnutí), podívejte se do oddílu <em>Další typy přechodů</em> na této stránce.</p>
+      <note>
+        <p>Prolnutí je dosaženo použitím mixovací funkce <app>Pitivi</app>, která používá klíčové snímky k řízení krytí/průhlednosti klipů. Znamená to, že když nastavíte krytí klíčového snímku pro klip, bude vzato do výpočtu prolnutí.</p>
+      </note>
+    </section>
+    <section>
+      <title>Další typy přechodů</title>
+      <p>Předpokládejme, že máte na časové ose dva překrývající se klipy. Dalších typů přechodu můžete dosáhnout nasledujícími postupy:</p>
+      <steps>
+          <item><p>Vyberte překrývající se oblast kliknutím na ni.</p></item>
+          <item><p>Vyberte kartu <gui>Přechod</gui> na prostředním panelu.</p></item>
+          <item><p>Vyberte jeden z nabízených přechodů.</p></item>
+      </steps>
+      <p>Přechod může být navíc upraven pomocí následujících voleb v dolní části karty <gui>Přechod</gui>:</p>
+      <list>
+          <item><p><em>Normální</em> režim použije přechod lineárně přes celou oblast překrytí. V normálním režimu můžete měnit stupeň ostrosti/hladkosti přechodu.</p></item>
+          <item><p><em>Smyčka</em> použije přechod opakovaně. V režimu smyčky můžete měnit rychlost, s níž se efekt opakuje.</p></item>
+          <item><p>V obou režimech můžete přechod použít v <em>opačném směru</em> kliknutím na příslušné zaškrtávací políčko.</p></item>
+      </list>
+      <note style="tip">
+          <p>Každý přechod má svůj název a popis. Ty se zobrazují, když najedete ukazatelem na ikonu přechodu. Přechody si můžete také vyfiltrovat psaním do vyhledávacího pole v horní části karty <gui>Přechod</gui>. Tím se zobrazí jen přechody, jejichž název nebo popis vyhovují hledanému výrazu.</p>
+      </note>
+    </section>
+    <section>
+      <title>Náběh a blednutí</title>
+      <p>Můžete vytvořit přechody náběh (fade-in) a slábnutí (fade-out) v samostatném klipu pomocí klíčových snímků řídících krytí/průhlednost klipu. Klíčové snímky a krytí jsou vysvětleny v jiné části této příručky. Více informací o klíčových snímcích viz <link xref="keyframecurves">Křivky přes klíčové snímky</link>. Ve <link xref="layers">Vysvětlení vrstev</link> se dozvíte o krytí/průhlednosti. Následující obrázky ilustrují jak klip přechází do černé.</p>
+        <figure>
+        <title>Výchozí křivka krytí přes klíčové snímky</title>
+        <media type="image" src="figures/fadestep1.png" mime="image/png" style="right"/>
+        <desc>Výchozí křivka je plochá, aby naznačila stejnou úroveň krytí v celém klipu.</desc>
+        </figure>
+        <figure>
+        <title>Přidání nového klíčového snímku</title>
+        <media type="image" src="figures/fadestep2.png" mime="image/png" style="right"/>
+        <desc>Vytvořit nový klíčový snímek můžete dvojitým kliknutím na prázdnou část křivky.</desc>
+        </figure>
+        <figure>
+        <title>Přesun klíčového snímku</title>
+        <media type="image" src="figures/fadestep3.png" mime="image/png" style="right"/>
+        <desc>Klikněte na poslední klíčový snímek klipu a přetáhněte jej níž.</desc>
+        </figure>
+        <p>Pro dosažení náběhu jednoduše vytvořte zrcadlovou křivku přes klíčové snímky (nový klíčový snímek na místě, kde má náběh končit a první klíčový snímek přetažený dolů) na začátku klipu.</p>
+     <note style="tip">
+        <p>Různé druhy prolnutí zde popsané je možné použít u zvukových klipů i videoklipů.</p>
+    </note>
+    </section>
+
+</page>

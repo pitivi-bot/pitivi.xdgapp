@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" xmlns:e="http://projectmallard.org/experimental/" type="topic" id="trimming" xml:lang="cs">
+
+  <info>
+    <link type="guide" xref="index#timeline"/>
+    <revision pkgversion="0.92" version="0.1" date="2014-03-17" status="complete"/>
+    <credit type="author">
+      <name>Jean-François Fortin Tam</name>
+      <email>nekohayo@gmail.com</email>
+    </credit>
+    <credit type="contributor">
+      <name>Mario Blättermann</name>
+      <email>mariobl@gnome.org</email>
+      <name>Tomáš Karger</name>
+      <email>tomkarger@gmail.com</email>
+    </credit>
+    <desc>Zkracování klipů změnou počátečního a koncového bodu. Včetně řetězových a svitkových úprav.</desc>
+    <license>
+      <p>Creative Commons Share Alike 3.0</p>
+    </license>
+  </info>
+
+    <title>Stříhání</title>
+
+       <p><em>Střih</em> je činnost, při níž se mění délka klikpu přesouváním počátečního a koncového bodu na časové ose. Najeďte ukazatelem myši na hranu klipu a objeví se střihací úchyt. Táhněte střihacím úchytem v příslušném směru pro zkrácení nebo prodloužení délky klipu.</p>
+       <figure>
+       <title>Střihací úchyt</title>
+       <desc>Když najedete na hranu klipu, změní se ukazatel myši na střihací úchyt.</desc>
+        <media type="image" src="figures/trimming-individual.png" mime="image/png" style="right"/>
+       </figure>
+       <p>Klipy, které jsou seskupeny dohromady, jako například videoklip a jeho odpovídající zvukový klip, budou při přetažení střihacího úchytu ustřihnuty společně. Jestli chcete ustřihnout jen zvukovou nebo jen obrazovou část, musíte nejdříve zrušit jejich seskupení (viz stránka <link xref="selectiongrouping">Výběr a seskupování</link> ohledně postupu).</p>
+
+     <section>
+      <title>Řetězové úpravy</title>
+       <p>Řetězové úpravy (ripple editing) jsou variantou základního stříhání, které mimo ustřižení navíc posune následující klipy (klipy, které začínají za tím, který stříháte), takže jejich vzájemná poloha vůči upravovanému klipu zůstane stejná.</p>
+       <figure>
+        <title>Před</title>
+        <desc>Relativní poloha dvou sousedících klipů před řetězovou úpravou</desc>
+        <media type="image" src="figures/ripple-before.png" mime="image/png" style="right" width="780"/>
+       </figure>
+       <figure>
+        <title>Po</title>
+        <desc>Relativní poloha dvou sousedících klipů po řetězové úpravě</desc>
+        <media type="image" src="figures/ripple-after.png" mime="image/png" style="right"/>
+       </figure>
+       <note>
+           <p>Poznamenejme, že když je mezi klipy mezera, přisune se následující klip k upravovanému klipu, takže délka mezery zůstane stejná.</p>
+       </note>
+       <note>
+        <p>Řetězová úprava ovlivní všechny následující klipy bez ohledu na to, zda jsou či nejsou ve stejné vrstvě.</p>
+       </note>
+       <p>Pro provedení zřetězené úpravy:</p>
+       <steps>
+        <item><p>Umístěte ukazatel myši na střihací úchyt.</p></item>
+        <item><p>Zmáčkněte a držte <key>Shift</key>.</p></item>
+        <item><p>Přetáhněte střihací úchyt.</p></item>
+       </steps>
+       <note style="tip">
+           <p>Zřetězenou úpravu jde použít i při posouvání klipů po časové ose. Podrobné vysvětlení jak na to najdete v oddíle <link xref="usingclips">Používání zřetězených úprav při přesunu klipů</link>.</p>
+       </note>
+     </section>
+
+     <section>
+      <title>Svitkové úpravy</title>
+       <p>Svitkové úpravy (roll editing) jsou variantou základního stříhání, které mimo ustřižení jednoho klipu, <em>ustřihne</em> doplňujícím způsobem i přilehlé klipy, aby nevznikly mezery.</p>
+       <figure>
+        <title>Před</title>
+        <desc>Relativní poloha dvou sousedících klipů před svitkovou úpravou</desc>
+        <media type="image" src="figures/roll-before.png" mime="image/png" style="right" width="780"/>
+       </figure>
+       <figure>
+        <title>Po</title>
+        <desc>Relativní poloha dvou klipů pro svitkové úpravě</desc>
+        <media type="image" src="figures/roll-after.png" mime="image/png" style="right" width="780"/>
+       </figure>
+       <note>
+        <p>Svitková úprava ovlivní všechny následující klipy bez ohledu na to, zda jsou či nejsou ve stejné vrstvě.</p>
+       </note>
+       <p>Pro provedení svitkové úpravy:</p>
+        <steps>
+        <item><p>Umístěte ukazatel myši na střihací úchyt mezi dvěma sousedícími klipy.</p></item>
+        <item><p>Zmáčkněte a držte <key>Ctrl</key>.</p></item>
+        <item><p>Přetáhněte střihací úchyt.</p></item>
+       </steps>
+     </section>
+
+
+
+</page>

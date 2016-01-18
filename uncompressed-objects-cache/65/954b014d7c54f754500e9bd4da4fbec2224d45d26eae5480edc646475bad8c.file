@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" xmlns:e="http://projectmallard.org/experimental/" type="topic" id="usingclips" xml:lang="sv">
+
+  <info>
+    <link type="guide" xref="index#gettingstarted"/>
+    <revision pkgversion="0.92" version="0.1" date="2013-12-30" status="complete"/>
+    <credit type="author">
+      <name>Jean-François Fortin Tam</name>
+      <email>nekohayo@gmail.com</email>
+    </credit>
+    <credit type="contributor">
+      <name>Mario Blättermann</name>
+      <email>mariobl@gnome.org</email>
+      <name>Tomáš Karger</name>
+      <email>tomkarger@gmail.com</email>
+    </credit>
+    <desc>Lär dig skillnaden mellan klipp och filer samt hur man utför grundläggande åtgärder på klipp i tidslinjen.</desc>
+    <license>
+      <p>Creative Commons Share Alike 3.0</p>
+    </license>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Josef Andersson</mal:name>
+      <mal:email>josef.andersson@fripost.org</mal:email>
+      <mal:years>2015</mal:years>
+    </mal:credit>
+  </info>
+
+    <title>Använda klipp</title>
+
+     <section>
+      <title>Klipp vs filer</title>
+        <p><em>Filer</em> är data på din hårddisk (videos, musik, bilder etc.) som <app>Pitivi</app> kan komma åt och lägga till i ditt videoredigeringsprojekt.</p>
+        <p><em>Klipp</em> är en visuell representation av dina filer på tidslinjen. De representerar den tidsperiod de konsumerar på var tidslinje och kan redigeras oberoende: varje gång du drar en fil från mediabiblioteket till tidslinjen skapas ett nytt klipp. Därför kan en fil återanvändas så mycket som du vill för att skapa olika klipp.</p>
+       <note>
+       <p>Eftersom Pitivi är en förlustfri redigerare är det inte filer som redigeras, utan klipp. Dina filer förblir orörda.</p>
+       </note>
+     </section>
+
+     <section>     
+     <title>Infoga klipp</title>
+     <p>Från mediabiblioteket kan du infoga eller flera klipp genom att markera dem (använd <key>Ctrl</key> eller <key>Skift</key> för att markera flera klipp) och göra ett av följande:</p>
+     <list>
+      <item><p>Dra och släpp dem på en plats i tidslinjen.</p></item>
+      <item><p>Klicka på knappen <gui>Infoga markerade klipp vid slutet av tidslinjen</gui> i <gui>Mediabiblioteket</gui>.</p></item>
+      <item><p>Tryck tangenten <key>Insert</key>.</p></item>
+     </list>
+     <p>När andra och tredje alternativet följs (Klicka eller tryck Insert) kommer markerade klipp att infogas efter varandra i det första lagret för tidslinjen vid en position där det sista klippet från alla lager slutar.</p>
+     </section>
+
+     <section>
+      <title>Flytta klipp efter tidslinjen</title>
+       <p>Du kan flytta ett klipp inom ett lager eller flytta det till ett annat lager.</p>
+       <p>Klicka och dra ett klipp genom att flytta det och släppa musknappen för att placera det. Dragning horisontellt håller klippet på samma lager, dragning vertikalt flyttar klippet till ett annat lager (see <link xref="layers">Förstå lager</link> för mer information).</p>
+       <p>För att flytta ett klipp till ett befintligt lager, dra det ovanpå lagret och släpp det när en grå skugga som representerar utrymmet klippet skulle uppta visas. För att flytta ett klipp till ett nytt lager, dra det till mittenpanelen mellan två befintliga lager. Då den gråa skuggan (nu en tunn rektangel) visas mellan lagren, släpp den.</p>
+       <p>För att flytta flera klipp samtidigt, använd tangenten <key>Ctrl</key> eller <key>Skift</key> för att välja flera klipp (se <link xref="selectiongrouping">Markera och gruppera</link> för fler detaljer). Markerade klipp behöver inte vara på samma lager. Sedan, dra klippen precis som du skulle gjort för ett enkelt klipp; deras position relativt till varandra kommer att bevaras.</p>
+      <section>
+       <title>Använd krusningsredigering under flytt av klipp</title>
+        <p>Under flytt av klipp i tidslinjen kan du använda <link xref="trimming">krusningsredigering</link> för att flytta <em>efterföljande</em> klipp (klippen som börjar efter det du redigerar) för att fylla mellanrummet.</p>
+        <steps>
+         <item><p>Klicka och dra klippet du vill flytta med musknappen nedtryckt</p></item>
+         <item><p>Under dragningen, håll ner <key>Skift</key> på tangentbordet</p></item>
+         <item><p>Släpp musknappen för att avsluta dragningen, och släpp sedan <key>Skift</key>tangenten.</p></item>
+        </steps>
+        <p>Under du ändrat dig under dragningen och bara vill dra ett klipp i taget, släpp <key>Skift</key>tangenten innan du släpper musknappen.</p>
+      </section>
+     </section>
+
+</page>

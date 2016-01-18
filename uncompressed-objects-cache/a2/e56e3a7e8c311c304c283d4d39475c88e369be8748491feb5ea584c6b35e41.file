@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" xmlns:e="http://projectmallard.org/experimental/" type="topic" id="importingmpegts" xml:lang="el">
+
+  <info>
+    <link type="seealso" xref="importing"/>
+    <link type="seealso" xref="gstreamer"/>
+    <revision pkgversion="0.14" version="0.1" date="2011-06-05" status="complete"/>
+    <credit type="author">
+      <name>Jean-François Fortin Tam</name>
+      <email>nekohayo@gmail.com</email>
+    </credit>
+    <desc>Πώς να μετατρέψετε αρχεία .mts και .m2ts σε μια μορφή που μπορεί να αναλυθεί από το GStreamer και το Pitivi.</desc>
+    <license>
+      <p>Creative Commons Share Alike 3.0</p>
+    </license>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name> Δημήτρης Σπίγγος</mal:name>
+      <mal:email>dmtrs32@gmail.com</mal:email>
+      <mal:years>2013, 2014</mal:years>
+    </mal:credit>
+  </info>
+    <!-- TODO: remove this manual page when gstreamer supports mpeg-ts files !-->
+    <title>Αντιμετώπιση αρχείων AVCHD / MPEG-TS</title>
+
+     <p>Προς το παρόν, τα αρχεία μεταφοράς ροής MPEG (συνήθως με επεκτάσεις αρχείων όπως .mts, .m2ts και μερικές φορές .mpg ή .mpeg), όπως αυτά που χρησιμοποιούνται από μερικές φορητές κάμερες HD, δεν μπορούν να παιχτούν αξιόπιστα με το <app>GStreamer</app>. Ως τέτοια, μπορεί να θελήσετε να τα επαναπολυπλέξετε σε μια διαφορετική μορφή περιέκτη χρησιμοποιώντας το <app>ffmpeg</app>. Για την μη απωλεστική μετατροπή σε περιέκτη MPEG4, μπορείτε να χρησιμοποιήσετε την ακόλουθη εντολή:</p>
+    <code>ffmpeg -i your_clip.MTS -vcodec copy -acodec copy -sn test.mp4</code>
+
+</page>

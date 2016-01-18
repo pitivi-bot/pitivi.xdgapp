@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" xmlns:e="http://projectmallard.org/experimental/" type="topic" id="usingeffects" xml:lang="cs">
+
+  <info>
+    <link type="guide" xref="index#effectstransitions"/>
+    <revision pkgversion="0.93" version="0.1" date="2014-03-25" status="draft"/>
+    <credit type="author">
+      <name>Tomáš Karger</name>
+      <email>tomkarger@gmail.com</email>
+    </credit>
+    <credit type="contributor">
+      <name>Jean-François Fortin Tam</name>
+      <email>nekohayo@gmail.com</email>
+    </credit>
+    <desc>Jak nastavit efekty a jak používat knihovnu efektů.</desc>
+    <license>
+      <p>Creative Commons Share Alike 3.0</p>
+    </license>
+  </info>
+
+    <title>Používání efektů</title>
+
+    <section>
+        <title>Knihovna efektů</title>
+        <p><gui>Knihovna efektů</gui> je místo, ve kterém se nachází všechny dostupné zvukové efekty a videoefekty. Knihovna zobrazuje buďto zvukové efekty nebo videoefekty podle toho, které z tlačítek (<gui>Zobrazit videoefekty</gui> nebo <gui>Zobrazit zvukové efekty</gui>) v levém horním rohu je aktivováno. Když máte jedno z toho zvoleno, můžete si efekty navíc vytřídit pomocí jedné z kategorií v rozbalovacím seznamu vedle zmíněných tlačítek. Ve výchozím stavu jsou zobrazeny všechny efekty.</p>
+        <p>Případně můžete použít <gui>Vyhledávací lištu</gui>, která je zobrazena v horní části <gui>Knihovny efektů</gui>. Když do ní budete psát, bude se obsah <gui>Knihovny médií</gui> filtrovat tak, aby zobrazoval pouze klipy, jejichž název nebo popis odpovídá hledanému výrazu. K vymazání zadaného výrazu použijte ikonu <gui>Vynulovat</gui> přímo ve vyhledávacím poli.</p>
+    </section>
+    <section>
+        <title>Nastavení efektů</title>
+        <p>Když chcete efekt nastavit, stačí jej vybrat v <guiseq><gui>prostředním panelu</gui> <gui>Nastavení klipu</gui> <gui>Efekty</gui></guiseq>. Proměnné, které je možné měnit se objeví v levé části karty <gui>Nastavení klipu</gui>. Kteroukoliv z proměnných je možné vrátit zpět na původní hodnotu kliknutím na odpovídající tlačítko <gui>Vráti na výchozí hodnotu</gui>.</p>
+    </section>
+    <section>
+        <title>Animované efekty s klíčovými snímky</title>
+        <p>Většina proměnných efektu může být řízena pomocí klíčových snímků. Abyste se dostali ke klíčovým snímkům, klikněte na tlačítko <gui>Zobrazit klíčové snímky pro tuto hodnotu</gui> vedle proměnné, kterou chcete řídit. Na vybraném klipu uvidíte křivku přes klíčové snímky, která patří k proměnné. Nyní můžete klíčové snímky upravit, abyste dosáhli požadovaného efektu. Až máte úpravy hotovy, můžete na tlačítko kliknout znovu a křivka přes klíčové snímky z klipu zmizí. Proměnná efektu je ale stále řízena upravenou křivkou přes klíčové snímky (což je signalizováno vyplněným útvarem na tlačítku). Když chcete křivku přes klíčové snímky vráti do výchozího plochého stavu, použijte tlačítko <gui>Vrátit na výchozí hodnotu</gui>. Více informací o používání klíčových snímků najdete na stránce <gui>Křivky přes klíčové snímky</gui>.</p>
+        <note>
+            <p>Pokud se vedle proměnné efektu nenachází tlačítko <gui>Zobrazit klíčové snímky pro tuto hodnotu</gui>, není ji možné řídit pomocí klíčových snímků.</p>
+        </note>
+    </section>
+</page>

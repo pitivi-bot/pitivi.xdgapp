@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" xmlns:e="http://projectmallard.org/experimental/" type="topic" id="workwithprojects" xml:lang="cs">
+
+  <info>
+    <link type="guide" xref="index#gettingstarted"/>
+    <revision pkgversion="0.15" version="0.4" date="2011-08-28" status="complete"/>
+    <credit type="author">
+      <name>Jean-François Fortin Tam</name>
+      <email>nekohayo@gmail.com</email>
+    </credit>
+    <credit type="contributor">
+      <name>Mario Blättermann</name>
+      <email>mariobl@gnome.org</email>
+      <name>Tomáš Karger</name>
+      <email>tomkarger@gmail.com</email>
+    </credit>
+    <desc>Jak načíst a uložit projekty a jak upravit jejich nastavení a metadata.</desc>
+    <license>
+      <p>Creative Commons Share Alike 3.0</p>
+    </license>
+  </info>
+
+    <title>Práce s projekty</title>
+
+    <section>
+    <title>Ukládání projektu</title>
+     <p>Projekt, na kterém pracujete, můžete uložit pomocí tlačítka <gui>Uložit</gui> na hlavičkové liště nebo zmáčknutím <keyseq><key>Ctrl</key><key>S</key></keyseq>. Když ukládáte projet poprvé, objeví se dialogové okno s dotazem, kam chcete projet uložit a pod jakým názvem.</p>
+      <note style="tip">
+      <p>Pokud potřebujte uložit svůj projekt do jiného souboru, než je stávající, použijte <guiseq><gui>nabídku aplikace</gui><gui>Uložit jako</gui></guiseq> nebo zmáčkněte <keyseq><key>Ctrl</key><key>Shift</key><key>S</key></keyseq>. Můžete to využít k vytvoření další verze svého projektu.</p>
+      </note>
+    </section>
+    <section>
+        <title>Vracení provedených změn zpět</title>
+        <p>Když chcete vrátit zpět nějakou změnu, stačí kliknout na tlačítko <gui>Zpět</gui> na hlavičkové liště nebo zmáčknout <keyseq><key>Ctrl</key><key>Z</key></keyseq>. Mimo vracení jednotlivých změn, se můžete také rozhodnout vrátit všechny změny, které jste provedli od posledního uložení svého projektu. V takovém případě použijte <guiseq><gui>nabídku aplikace</gui><gui>Vrátit k uložené verzi</gui></guiseq>.</p>
+        <note style="tip">
+            <p>Když chcete znovu provést změny, které jste vrátili, klikněte na tlačítko <gui>Znovu</gui> na hlavičkové liště nebo zmáčkněte <keyseq><key>Ctrl</key><key>Shift</key><key>Z</key></keyseq>.</p>
+        </note>
+    </section>
+
+    <section>
+    <title>Úpravy nastavení projektu</title>
+    <p>Když začínáte nový projekt, nezapomeňte upravit jeho nastavení, jako jsou snímková rychlost, rozlišení a upřednostňované kodeky. Rozlišení videa a poměr stran ovlivní vzhled náhledů. Pokud rozlišení a poměr stran nenastavíte, aby odpovídaly videozáznamu, může video vypadat sražené nebo naopak roztáhlé.</p>
+    <note>
+    <p>Pokaždé, když začnete nový projekt, objeví se dialogové okno, ve kterém můžete upravit nastavení zvuku a videa či metedata. Pro nastavení projektu dodatečně po jeho úvodním vytvoření použijte <guiseq><gui>nabídku aplikace</gui><gui>Nastavení projektu</gui></guiseq>.</p>
+    </note>
+    </section>
+
+    <section>
+        <title>Poměr stran v pixelech vs. poměr stran zobrazení</title>
+        <p>Digitální obrázky jsou tvořené mřížkou bodů – <link href="http://cs.wikipedia.org/wiki/Pixel">pixelů</link>, které mohou a nebo nemusí být čtvercové. Proto je někdy potřeba nastavit <link href="http://en.wikipedia.org/wiki/Pixel_aspect_ratio">poměr stran pixelu</link> (odkazovaný text je v angličtině) (PAR – Pixel Aspect Ratio), aby se obrázek zobrazil správně. Oproti tomu <link href="http://en.wikipedia.org/wiki/Display_aspect_ratio">poměr stran zobrazení</link> (odkazovaný text je v angličtině) (DAR – Display Aspect Ratio) je matematický poměr šířka ku výšce pro celý obrázek.</p>
+        <p>V <app>Pitivi</app> jsou poměr stran pixelu a poměr stran zobrazení ve vzájemném vztahu daném rozlišením videa (šířkou a výškou). Jakmile se nastaví rozlišení, nastavení DAR ovlivní PAR a naopak. Můžete používat to či ono, záleží jen na tom, co vám vyhovuje.</p>
+        <note>
+        <p>Můžete použít poměry, kterou jsou nabízeny v rozbalovacích seznamech nebo zadat vlastní do textových polí pod nimi (používejte syntax „4:3“ nebo „1,3333“, ale desetinná verze je méně přesná).</p>
+        </note>
+    </section>
+</page>

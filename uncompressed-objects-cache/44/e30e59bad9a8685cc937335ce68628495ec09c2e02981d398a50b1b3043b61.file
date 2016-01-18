@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" xmlns:e="http://projectmallard.org/experimental/" type="topic" id="splitting" xml:lang="sl">
+
+  <info>
+    <link type="guide" xref="index#timeline"/>
+    <revision pkgversion="0.92" version="0.1" date="2013-12-19" status="complete"/>
+    <credit type="author">
+      <name>Jean-François Fortin Tam</name>
+      <email>nekohayo@gmail.com</email>
+    </credit>
+    <credit type="contributor">
+      <name>Mario Blättermann</name>
+      <email>mariobl@gnome.org</email>
+      <name>Tomáš Karger</name>
+      <email>tomkarger@gmail.com</email>
+    </credit>
+    <desc>Razdeljevanje posnetkov na dva dela.</desc>
+    <license>
+      <p>Creative Commons - deljenje pod enakimi pogoji 3.0</p>
+    </license>
+  </info>
+
+    <title>Razdeljevanje</title>
+
+     <p>Razdelitev posnetka ustvari dva sosednja posnetka z ustrezno ustvarjenima začetnima/končnima točkama.</p>
+     <p>V <app>Pitivi</app> se razdelitev posnetka izvede kot "ne-modalno" opravilo, kar pomeni, da vam pred razdelitvijo ni treba "omogočiti" določenega orodja. Razdeljevanje se izvede kjer se trenutno nahaja glava predvajanja (oglejte si tudi <link xref="movearoundtimeline">Premikanje glave predvajanja</link>). Skupaj s približevanjem, iskanjem sličico za sličico s tipkovnico ali drgnjenjem je takšno razdeljevanje hitro in učinkovito ter tudi zelo natančno.</p>
+     <p>Izbire vplivajo razdeljevanje na naslednje načine:</p>
+     <list>
+      <item><p>Razdeljeni bodo le izbrani posnetki pod glavo predvajanja.</p></item>
+      <item><p>V primeru da ni izbran noben posnetek, bodo razdeljeni vsi posnetki pod glavo predvajanja.</p></item>
+     </list>
+     <p>Za razdelitev posamezni</p>
+     <steps>
+      <item><p>Kliknite na posnetek.</p></item>
+      <item><p>Sprememba položaja glave predvajanja (če je potrebno).</p></item>
+      <item><p>Kliknite na gumb <gui>Razdeli</gui> v časovnici ali pritisnite <key>S</key>.</p></item>
+     </steps>
+     <p>Za razdelitev posnetkov preko vseh plasti:</p>
+     <steps>
+      <item><p>Kliknite na prazno področje v časovnici (to bo odstranilo morebitno izbiro vseh izbranih posnetkov).</p></item>
+      <item><p>Sprememba položaja glave predvajanja (če je potrebno).</p></item>
+      <item><p>Kliknite na gumb <gui>Razdeli</gui> v časovnici ali pritisnite <key>S</key>.</p></item>
+     </steps>
+     <p>Za razdelitev več izbranih posnetkov:</p>
+     <steps>
+      <item><p>Glavo predvajanja postavite tja kjer želite izvesti razdelitev.</p></item>
+      <item><p>Dodajte ali odstranite posnetke iz izbire s pomočjo tipke <key>Ctrl</key>. To bo bo vplivalo na položaj glave predvajanja.</p></item>
+      <item><p>Kliknite na gumb <gui>Razdeli</gui> v časovnici ali pritisnite <key>S</key>.</p></item>
+     </steps>
+
+        <note style="tip">
+        <title>Cutting out the middle</title>
+        <p>When you want to cut out a middle section of a clip, split the clip twice on the positions where the part you want to remove begins and ends. Select the middle part and hit <key>delete</key>. Now, eliminate the empty space between the remaining two parts by moving one of them towards the other until they align.</p>
+        </note>
+
+</page>

@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" xmlns:e="http://projectmallard.org/experimental/" type="topic" id="movearoundtimeline" xml:lang="fr">
+
+  <info>
+    <link type="guide" xref="index#gettingstarted"/>
+    <revision pkgversion="0.92" version="0.1" date="2014-01-27" status="complete"/>
+    <credit type="author">
+      <name>Jean-François Fortin Tam</name>
+      <email>nekohayo@gmail.com</email>
+    </credit>
+    <credit type="contributor">
+      <name>Mario Blättermann</name>
+      <email>mariobl@gnome.org</email>
+      <name>Brian Grohe</name>
+      <email>grohe43@gmail.com</email>
+      <name>Tomáš Karger</name>
+      <email>tomkarger@gmail.com</email>
+    </credit>
+    <desc>Déplacer la position de lecture, utiliser le zoom, faire défiler et balayer.</desc>
+    <license>
+      <p>Creative Commons des Conditions Initiales à l'Identique 3.0</p>
+    </license>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Alain Lojewski</mal:name>
+      <mal:email>allomervan@gmail.com</mal:email>
+      <mal:years>2011</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Bruno Brouard</mal:name>
+      <mal:email>annoa.b@gmail.com</mal:email>
+      <mal:years>2012</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Julien Hardelin</mal:name>
+      <mal:email>jhardlin@orange.fr</mal:email>
+      <mal:years>2012</mal:years>
+    </mal:credit>
+  </info>
+
+    <title>Déplacement dans la piste de montage</title>
+
+     <section>
+      <title>Activation de la barre d'outils de la piste de montage</title>
+       <p>La barre d'outils de la piste de montage contient de nombreux outils qui deviennent actifs quand une séquence est sélectionnée dans la piste de montage. Pour sélectionner une séquence, cliquez tout simplement sur la séquence voulue dans la piste de montage. Lorsqu'elle est sélectionnée, la séquence devient plus sombre et il est alors possible de cliquer sur un élément de la barre d'outils de la piste de montage.</p>
+     </section>
+
+     <section>
+      <title>Défilement</title>
+       <p>Utilisez les barres de défilement (à droite et en bas de la piste de montage) ou la molette de la souris n'importe où au-dessus de la piste de montage pour faire défiler horizontalement ou maintenez la touche <key>Maj</key> pour faire défiler verticalement avec la molette.</p>
+     </section>
+
+     <section>
+      <title>Zooming</title>
+       <p>Zooming directly affects your editing accuracy and your ability to move quickly along the timeline:</p>
+       <list>
+        <item><p>When zooming in, video clips display more thumbnails and audio clips display increasingly detailed waveforms, allowing you to do precise edits.</p></item>
+        <item><p>Zooming out allows you to scroll faster along the timeline. Zoom can thus be used in conjunction with scrolling to move quickly between distant points of your project's chronology.</p></item>
+       </list>
+       <p>You can zoom in and out by:</p>
+       <list>
+           <item><p>Holding the <key>Ctrl</key> key while using the mousewheel over the timeline</p></item>
+           <item><p>Using the <guiseq><gui>View</gui><gui>Zoom In</gui></guiseq> and <guiseq><gui>View</gui><gui>Zoom Out</gui></guiseq> menu items</p></item>
+           <item><p>Dragging the zoom slider on the left of the ruler</p></item>
+           <item><p>Using keyboard shortcuts such as <keyseq><key>Ctrl</key><key>-</key></keyseq> to zoom out or <keyseq><key>Ctrl</key><key>=</key></keyseq> (<keyseq><key>Ctrl</key><key>+</key></keyseq> on the numeric keypad) to zoom in</p></item>
+       </list>
+       <p>To get a better overview of your timeline, you may use the <guiseq><gui>View</gui><gui>Best Fit</gui></guiseq> menu item or click the <gui>Zoom</gui> button on the left of the zoom slider. The third way to do this is by pressing <keyseq><key>Ctrl</key><key>0</key></keyseq></p>.
+
+       <note>
+           <title>Zooming is always centered around the location of your playhead</title>
+           <p>When using the mouse wheel to zoom in and out, remember that the zoom is not relative to the position of your mouse, only to the position of the playhead on the timeline.</p>
+       </note>
+       <note style="tip">
+        <title><em>Warping</em> between zoom levels</title>
+        <p>Using your mouse, you can also <em>warp</em> instantly from any zoom level to another in a single click. To do that, click anywhere on the zoom slider.</p>
+       </note>
+     </section>
+
+     <section id="movingplayhead">
+      <title>Déplacement de la position de lecture</title>
+       <p>Pour déplacer la position de lecture, cliquez où vous voulez sur la règle ou la piste de montage.</p>
+       <p>Quand vous cliquez sur la <em>piste de montage</em> :</p>
+       <list>
+        <item><p>If a clip is under the mouse cursor, it will replace the current clip selection (see the <link xref="selectiongrouping">Making selections</link> section for more detailed instructions).</p></item>
+        <item><p>Si vous positionnez le curseur au-dessus d'une zone vide, toutes les séquences sélectionnées (s'il y en a) sont désélectionnées.</p></item>
+       </list>
+       <p>En cliquant sur la règle, vous ne faites que déplacer la position de lecture ; les séquences sélectionnées ne sont pas affectées.</p>
+        <note style="tip">
+        <title>Jumping to an exact position</title>
+        <p>You can jump to an exact position in the timeline by editing the time value shown in the playback toolbar (see description of <link xref="mainwindow">The main window</link>). To edit it, simply click on the widget, overwrite the value and hit <key>enter</key>. The value can represent either timecode or a frame number. Timecode has the following form: <em>hh:mm:ss.milisec</em> where hours are optional. To insert a frame number, overwrite the timecode with a plain number of the desired frame.</p>
+       </note>
+     </section>
+
+     <section>
+      <title>Balayage</title>
+       <p>Le <em>balayage</em> est une façon de déplacer la position de lecture qui vous permet de :</p>
+       <list>
+        <item><p>rechercher une position spécifique dans le temps par la méthode essai/approximation et erreur,</p></item>
+        <item><p>répéter la lecture d'une scène en vous déplaçant d'arrière en avant dans le temps.</p></item>
+       </list>
+       <p>Pour balayer, cliquez sur la règle et déplacez la souris en maintenant le bouton enfoncé.</p>
+     </section>
+
+</page>

@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" xmlns:e="http://projectmallard.org/experimental/" type="topic" id="splitting" xml:lang="sv">
+
+  <info>
+    <link type="guide" xref="index#timeline"/>
+    <revision pkgversion="0.92" version="0.1" date="2013-12-19" status="complete"/>
+    <credit type="author">
+      <name>Jean-François Fortin Tam</name>
+      <email>nekohayo@gmail.com</email>
+    </credit>
+    <credit type="contributor">
+      <name>Mario Blättermann</name>
+      <email>mariobl@gnome.org</email>
+      <name>Tomáš Karger</name>
+      <email>tomkarger@gmail.com</email>
+    </credit>
+    <desc>Dela upp klipp i två delar.</desc>
+    <license>
+      <p>Creative Commons Share Alike 3.0</p>
+    </license>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Josef Andersson</mal:name>
+      <mal:email>josef.andersson@fripost.org</mal:email>
+      <mal:years>2015</mal:years>
+    </mal:credit>
+  </info>
+
+    <title>Dela</title>
+
+     <p>Som namnet påvisar, delar ett klipp det i två närliggande klipp, med nya start/slutpunkter.</p>
+     <p>I <app>Pitivi</app> är delning en ”icke-modal” åtgärd; det betyder att du inte behöver ”aktivera” ett speciellt verktyg innan du genomför delningsåtgärden. Delningen sker där uppspelningshuvudet är placerat (se också <link xref="movearoundtimeline">Flytta uppspelningshuvudet</link>). Kombinerat med zoomning, är bildruta-för-bildruta-sök med tangentbordet (scrub), är delning inte bara snabbt och effektivt utan också väldigt precis.</p>
+     <p>Markeringar påverkar delningar på följande sätt:</p>
+     <list>
+      <item><p>Endast de markerade klippen under uppspelningshuvudet kommer att delas.</p></item>
+      <item><p>Om inga klipp är markerade kommer alla klipp under uppspelningshuvudet att delas.</p></item>
+     </list>
+     <p>Att dela ett klipp:</p>
+     <steps>
+      <item><p>Klicka på klippet.</p></item>
+      <item><p>Flytta om uppspelningshuvudet (om det behövs).</p></item>
+      <item><p>Klicka på <gui>Dela</gui> på tidslinjens verktygsfält eller tryck <key>S</key>.</p></item>
+     </steps>
+     <p>För att dela alla klippen över alla lager:</p>
+     <steps>
+      <item><p>Klicka på ett tomt område på tidslinjen (det kommer att avmarkera alla markerade klipp, om några).</p></item>
+      <item><p>Flytta om uppspelningshuvudet (om det behövs).</p></item>
+      <item><p>Klicka på <gui>Dela</gui> på tidslinjens verktygsfält eller tryck <key>S</key>.</p></item>
+     </steps>
+     <p>För att dela flera markerade klipp:</p>
+     <steps>
+      <item><p>Positionera uppspelningshuvudet där du vill dela.</p></item>
+      <item><p>Lägg till eller ta bort klipp till markeringen med <key>Ctrl</key>. Det kommer inte att påverka uppspelningshuvudets position.</p></item>
+      <item><p>Klicka på <gui>Dela</gui> på tidslinjens verktygsfält eller tryck <key>S</key>.</p></item>
+     </steps>
+
+        <note style="tip">
+        <title>Klippa ut mitten</title>
+        <p>När du vill klippa ut en mittavsnitt för ett klipp, dela klippet två gånger på positionerna där delen du vill ta bort börjar och slutar. Markera mittdelen och tryck <key>ta bort</key>. Ta sedan bort det tomma utrymmet mellan de två återstående delarna genom att flytta en av dem till den andra till de stämmer överens.</p>
+        </note>
+
+</page>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" xmlns:e="http://projectmallard.org/experimental/" type="topic" id="codecscontainers" xml:lang="cs">
+
+  <info>
+    <link type="guide" xref="index#rendering"/>
+    <revision pkgversion="0.93" version="0.1" date="2014-04-06" status="complete"/>
+    <credit type="author">
+      <name>Jean-François Fortin Tam</name>
+      <email>nekohayo@gmail.com</email>
+    </credit>
+    <credit type="contributor">
+      <name>Tomáš Karger</name>
+      <email>tomkarger@gmail.com</email>
+    </credit>
+    <license>
+      <p>Creative Commons Share Alike 3.0</p>
+    </license>
+    <desc>Jaký je rozdíl mezi OGG a Vorbis? Mezi AVI a DivX? Mezi x264 a H.264? Zde se dozvíte o kodecích a formátech kontejnerů.</desc>
+  </info>
+
+    <title>Vysvětlení kodeků a kontejnerů</title>    
+    <p>Rozdíl mezi formáty souborů kodeků a kontejnerů bývá často nejednoznačný. Na tom mají podíl obecně nedostatek standardizace, matení pojmů v reklamních materiálech a přípony souborů. Tato stránka příručky je pokusem objasnit tyto rozdíly bez zacházení do přílišných technických podrobností. Jestli se chcete o kontejnerech a kodecích naučit více, měli byste se pro začátek podívat na stránky Wikipedie <link href="http://cs.wikipedia.org/wiki/Multimedi%C3%A1ln%C3%AD_kontejner">kontejnery</link> a <link href="http://cs.wikipedia.org/wiki/Kodek">kodeky</link>.</p>
+    <p><em>Kontejner</em> je v zásadě to, co si obvykle představujeme pod formátem souboru. Kontejner „obsahuje“ různé součásti videa: obrazovou část, zvukovou stopu a cokoliv dalšího. Například můžete u videa mít přiloženo, pokud to daný kontejner umí, několik zvukových stop a několik titulků v různých jazycích. Příklady populárních kontejnerů jsou OGG, Matroska, AVI, MPEG.</p>
+    <p><em>Kodeky</em> jsou způsob, jak „kódovat“ a „dekódovat“ datový proud. Jejich úkolem je typicky data komprimovat (a při přehrávání nazpět dekomprimovat), díky čemuž můžete uchovávat a přenášet soubory o menší velikosti. Kodeků existuje celá řada, každý z nich má své silné a slabé stránky a vychytávky. Zvolit správný kodek se správným nastavením pro správnou situaci může být tak trochu uměním.</p>
+    <figure>
+        <title>Vztah mezi kontejnery a kodeky</title>
+        <media type="image" mime="image/jpg" src="figures/codecscontainers.jpg" width="780"/>
+    </figure>
+</page>

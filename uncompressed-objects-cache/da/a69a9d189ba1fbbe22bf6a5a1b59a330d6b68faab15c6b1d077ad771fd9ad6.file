@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" xmlns:e="http://projectmallard.org/experimental/" type="topic" id="medialibrary" xml:lang="es">
+
+  <info>
+    <link type="guide" xref="index#gettingstarted"/>
+    <revision pkgversion="0.93" version="0.3" date="2014-06-27" status="complete"/>
+    <credit type="author">
+      <name>Jean-François Fortin Tam</name>
+      <email>nekohayo@gmail.com</email>
+    </credit>
+    <credit type="contributor">
+      <name>Brian Grohe</name>
+      <email>grohe43@gmail.com</email>
+      <name>Tomáš Karger</name>
+      <email>tomkarger@gmail.com</email>
+    </credit>
+    <desc>Gestione sus clips importados con la biblioteca de medios</desc>
+    <license>
+      <p>Creative Commons Compartir Igual 3.0</p>
+    </license>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Daniel Mustieles</mal:name>
+      <mal:email>daniel.mustieles@gmail.com</mal:email>
+      <mal:years>2011 - 2014</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Milagros Alessandra Infante Montero</mal:name>
+      <mal:email>maim92@gmail.com</mal:email>
+      <mal:years>2012, 2013</mal:years>
+    </mal:credit>
+  </info>
+
+    <title>Usar la biblioteca de medios</title>
+
+        <section>
+        <title>Importar un archivo a la <gui>Biblioteca de medios</gui></title>
+         <p>Hay dos maneras de importar archivos en la <gui>Biblioteca de medios</gui>. La primera manera es pulsar en el botón <gui>Importar</gui> en la esquina superior izquierda. Esto abrirá un selector de archivo en el que se puede previsualizar los archivos seleccionados o seleccionar múltiples archivos (manteniendo <key>Mayús</key> o <key>Ctrl</key> mientras los selecciona). La segunda manera es arrastrar y soltar los archivos desde un explorador de archivos a la <gui>Biblioteca de medios</gui>. Al importar un <em>archivo</em> en la <gui>Biblioteca de medios</gui>, se convierte en un <em>clip</em>.</p>
+         <note>
+             <p>Once imported, the clips in <gui>Media library</gui> are sorted alphabetically.</p>
+         </note>
+       </section>
+       <section>
+        <title>Vista previa de un clip desde la <gui>Biblioteca de medios</gui></title>
+         <p>Para previsualizar de un clip antes de colocarlo en la línea del tiempo, puede pulsar dos veces en él en la <gui>Biblioteca de medios</gui>. Esto abrirá el clip en una ventana que se cierra automáticamente cuando pulse fuera de la ventana.</p>
+       </section>
+       <section>
+        <title>Filtro de búsqueda</title>
+         <p>En la parte superior de la <gui>Biblioteca de medios</gui> se muestra una barra de búsqueda. Escriba en los filtros de entrada de búsqueda los contenidos de la <gui>Biblioteca de medios</gui> para mostrar solo los clips cuyos nombres de archivo coincidan con sus términos de búsqueda. Para restablecer la entrada de búsqueda, pulse en el icono "limpiar" en la entrada de búsqueda.</p>
+       </section>
+       <section>
+        <title>Modos de vistas</title>
+         <p>La <gui>Biblioteca de medios</gui> puede mostrar sus vídeos en una vista de lista o de iconos. El modo predeterminado es la vista de iconos, ya que muestra más clips sin necesidad de desplazarse hacia abajo. Sin embargo, la vista de vista muestra más detalles sobre cada clip. Para activarla/desactivarla, pulse en el botón <gui>Mostrar clips como una lista detallada</gui> junto a la barra de búsqueda.</p>
+       </section>
+       <section>
+        <title>Selecting unused clips</title>
+        <p>You may sometimes find that you have imported more clips that you needed in your project. <app>Pitivi</app> allows you to select clips that are present in the media library but not in the timeline. There are various reasons to do this:</p>
+        <list>
+          <item><p>Mejorar el rendimiento cuando se cargue el proyecto</p></item>
+          <item><p>Simplificar su flujo de trabajo de edición</p></item>
+          <item><p>Verificar cuales son los clips que puede haber olvidado usar en su película</p></item>
+          <item><p>Sacar una copia de seguridad o comparta su proyecto con más facilidad</p></item>
+        </list>
+        <p>To identify which clips are not being used in your project, use the <gui>Select clips that have not been used in the project</gui> button at the left side of the search bar. Unused clips will then be selected in the media library.</p>
+        <note><p>Si no hay clips sin usar en su proyecto, no se seleccionará nada en la biblioteca de medios.</p></note>
+       </section>
+       <section>
+        <title>Otras acciones</title>
+         <p>Hay 3 acciones más que puede realizar con los clips. Cada una de ellas se representa por un botón en la parte superior derecha de la <gui>Biblioteca de medios</gui>:</p>
+         <list type="numbered">
+          <item><p><gui>Quitar los clips seleccionados del proyecto</gui> (esto también se puede hacer pulsando <keyseq><key>Ctr</key><key>Supr</key></keyseq>).</p></item>
+          <item><p><gui>Propiedades del clip…</gui> abre una nueva ventana con información sobre el <em>tamaño del vídeo</em>, <em>imágenes por segundo</em> y <em>proporción del aspecto</em>. Pulsando el botón <gui>Aplicar al proyecto</gui> ajusta las configuraciones del proyecto a las propiedades del clip. Puede seleccionar qué propiedades se aplican al dejarlos marcados/sin marcar.</p></item>
+          <item><p><gui>Insertar los clips seleccionados al final de la línea de tiempo</gui> inserta los clips seleccionados, uno detrás de otro, en la primera capa de la línea de tiempo, donde terminan el último clip o cualquier capa.</p></item>
+         </list>
+         <note>
+         <p>Para que estas acciones estén disponibles, se deben seleccionar uno o más clips.</p>
+         </note>
+       </section>
+
+</page>

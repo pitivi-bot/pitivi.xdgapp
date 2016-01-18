@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" xmlns:e="http://projectmallard.org/experimental/" type="topic" id="welcomedialog" xml:lang="cs">
+
+  <info>
+    <link type="guide" xref="index#intro"/>
+    <revision pkgversion="0.92" version="0.2" date="2014-02-11" status="complete"/>
+    <credit type="author">
+      <name>Jean-François Fortin Tam</name>
+      <email>nekohayo@gmail.com</email>
+    </credit>
+    <credit type="contributor">
+      <name>Tomáš Karger</name>
+      <email>tomkarger@gmail.com</email>
+    </credit>
+    <desc>Vytváření nových projektů a otevírání nedávných projektů po spuštění</desc>
+    <license>
+      <p>Creative Commons Share Alike 3.0</p>
+    </license>
+  </info>
+
+    <title>Uvítací dialogové okno</title>
+      <p>Když <app>Pitivi</app> spustíte, objeví se uvítací průvodce, který vám umožní vytvořit nový projekt nebo otevřít existující projekt v několika kliknutích. Pokud chcete toto dialogové okno přeskočit, zmáčkněte na klávesnici klávesu <gui><key>Esc</key></gui> nebo klikněte na zavírací tlačítko dialogového okna. Přeskočení průvodce povede k otevření nového projektu s výchozími nastaveními.</p>
+      <p>V dialogovém okně se vám nabídnou projekty, které byly nalezeny mezi nedávno použitými soubory. Dvojitým kliknutím můžete některý z nich načíst nebo použít jedno z následujících tlačítek:</p>
+      <list type="numbered">
+      <item><p><gui>Nový</gui> otevře dialogové okno <gui>Nastavení projektu</gui> pro nový projekt.</p></item>
+      <item><p><gui>Procházet projekty…</gui> otevře dialogové okno pro výběr souborů nasměrované do naposledy použité složky.</p></item>
+      <item><p><gui>Nápověda</gui> otevře uživatelskou dokumentaci na stránce s rejstříkem.</p></item>
+      <item><p><gui>Klávesové zkratky</gui> otevře uživatelskou dokumentaci na stránce o klávesových zkratkách a fintách.</p></item>
+      </list>
+      <note style="tip">
+      <p>Kliknutí pravým tlačítkem na jednotlivé projekty nabídne <gui>Uvítací</gui> dialogové okno, ve kterém je několik voleb: kopírovat umístění projektu, odstranit projekt ze seznamu, vymazat seznam nebo zobrazit soukromé prostředky.</p>
+      </note>
+</page>

@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" xmlns:e="http://projectmallard.org/experimental/" type="guide" id="index" xml:lang="es">
+
+  <info>
+    <title type="link">Manual de inicio rápido de Pitivi</title>
+    <title type="text">Manual de inicio rápido de Pitivi</title>
+    <revision pkgversion="0.14.0" version="0.2" date="2011-06-05" status="complete"/>
+    <credit type="author">
+      <name>Jean-François Fortin Tam</name>
+      <email>nekohayo@gmail.com</email>
+    </credit>
+    <credit type="contributor">
+      <name>Mario Blättermann</name>
+      <email>mariobl@gnome.org</email>
+    </credit>
+    <license>
+      <p>Creative Commons Compartir Igual 3.0</p>
+    </license>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Daniel Mustieles</mal:name>
+      <mal:email>daniel.mustieles@gmail.com</mal:email>
+      <mal:years>2011 - 2014</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Milagros Alessandra Infante Montero</mal:name>
+      <mal:email>maim92@gmail.com</mal:email>
+      <mal:years>2012, 2013</mal:years>
+    </mal:credit>
+  </info>
+
+  <title><media type="image" mime="image/png" src="figures/logo.png">logo de Pitivi</media> Editor de vídeo Pitivi</title>
+
+   <p>Construido sobre el entorno de trabajo multimedia <link href="http://en.wikipedia.org/wiki/GStreamer"><app>GStreamer</app></link>, <app>Pitivi</app> pretende ser un editor de vídeo intuitivo y flexible que se integre bien con <link href="http://gnome.org"><app>GNOME</app></link> y puede atraer a novatos y profesionales por igual.</p>
+   <p>Esta guía está destinada a ayudarle a entender los conceptos detrás de su diseño y ser productivo con rapidez.</p>
+
+  <section id="intro" style="2column">
+    <title>Introducción</title>
+  </section>
+
+  <section id="gettingstarted" style="2column">
+    <title>Primeros Pasos</title>
+  </section>
+
+  <section id="timeline" style="2column">
+    <title>Edición básica con la línea de tiempo</title>
+  </section>
+
+  <section id="effectstransitions" style="2column">
+    <title>Effects and Transitions</title>
+  </section>
+
+  <section id="rendering" style="2column">
+    <title>Exportar su película terminada</title>
+  </section>
+
+
+</page>

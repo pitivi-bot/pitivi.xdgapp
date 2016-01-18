@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" xmlns:e="http://projectmallard.org/experimental/" type="topic" id="importing" xml:lang="es">
+
+  <info>
+    <link type="guide" xref="index#gettingstarted"/>
+    <revision pkgversion="0.94" version="0.4" date="2014-10-01" status="complete"/>
+    <credit type="author">
+      <name>Jean-François Fortin Tam</name>
+      <email>nekohayo@gmail.com</email>
+    </credit>
+    <credit type="contributor">
+      <name>Mario Blättermann</name>
+      <email>mariobl@gnome.org</email>
+      <name>Tomáš Karger</name>
+      <email>tomkarger@gmail.com</email>
+    </credit>
+    <desc>Importar archivos en su proyecto como clips.</desc>
+    <license>
+      <p>Creative Commons Compartir Igual 3.0</p>
+    </license>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Daniel Mustieles</mal:name>
+      <mal:email>daniel.mustieles@gmail.com</mal:email>
+      <mal:years>2011 - 2014</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Milagros Alessandra Infante Montero</mal:name>
+      <mal:email>maim92@gmail.com</mal:email>
+      <mal:years>2012, 2013</mal:years>
+    </mal:credit>
+  </info>
+
+    <title>Obtener medios</title>
+
+    <p>Pitivi allows importing media files from your computer's hard drive.</p>
+    <note>
+        <p>Due to our limited resources and the rapid evolution of filmmaking hardware in the past few years, and to ensure <app>Pitivi</app> remains robust and simple to use, we do not attempt to support every possible hardware device out there. As a result, you currently cannot use <app>Pitivi</app> to capture directly from a camcorder; specialized applications are better suited for this task. For example, for DV/HDV camcorders using an IEEE 1394 connection, you may use <app>Kino</app> or <app>dvgrab</app> to capture footage.</p>
+    </note>
+
+      <section>
+       <title>Importing files using the file chooser</title>
+         <p>Puede importar medios a la <gui>Biblioteca de medios</gui> usando el diálogo del selector de archivos, que tiene la ventaja de permitirle previsualizar los archivos que quiere importar. Para hacer esto, use el menú <guiseq><gui>Biblioteca</gui><gui>Importar</gui></guiseq> o pulse <keyseq><key>Ctrl</key><key>i</key></keyseq>.</p>
+         <p>A file chooser dialog window will appear. You can press <key>Ctrl</key> or <key>Shift</key> to select multiple files at the same time.</p>
+       </section>
+       <section>
+        <title>Importing files using drag and drop</title>
+         <p>El concepto de arrastrar y soltar es un método bien establecido para reducir la brecha entre las aplicaciones de software. Simplemente seleccione los archivos que quiera importar en otra aplicación (tal como un gestor de archivos o una aplicación multimedia) y arrastrelos con su ratón a la <gui>Biblioteca de Medios</gui> de <app>Pitivi</app>.</p>
+         <p>Esta característica se puede usar para:</p>
+         <list>
+          <item>
+           <p>Importar con facilidad música o clips de vídeo de un reproductor multimedia (tal como <app>Rhythmbox</app> o <app>Totem</app>).</p>
+          </item>
+          <item>
+           <p>Permitir el uso de un gestor de archivos completo (tales como <app>Nautilus</app>, <app>Thunar</app>, <app>Dolphin</app> o <app>Konqueror</app>) en lugar del diálogo del selector de archivos.</p>
+          </item>
+          <item>
+           <p>Importar una combinación de varios archivos y carpetas al mismo tiempo.</p>
+          </item>
+          <item>
+           <p>Aprovechar la capacidad de búsqueda de otra aplicación (tales como <app>GNOME Shell</app>, <app>Tracker</app>, <app>GNOME Activity Journal</app>, <app>GNOME Search Tool</app>, etc.).</p>
+          </item>
+         </list>
+       </section>
+
+</page>

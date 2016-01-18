@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" xmlns:e="http://projectmallard.org/experimental/" type="topic" id="splitting" xml:lang="cs">
+
+  <info>
+    <link type="guide" xref="index#timeline"/>
+    <revision pkgversion="0.92" version="0.1" date="2013-12-19" status="complete"/>
+    <credit type="author">
+      <name>Jean-François Fortin Tam</name>
+      <email>nekohayo@gmail.com</email>
+    </credit>
+    <credit type="contributor">
+      <name>Mario Blättermann</name>
+      <email>mariobl@gnome.org</email>
+      <name>Tomáš Karger</name>
+      <email>tomkarger@gmail.com</email>
+    </credit>
+    <desc>Dělení klipů na dvě části.</desc>
+    <license>
+      <p>Creative Commons Share Alike 3.0</p>
+    </license>
+  </info>
+
+    <title>Rozdělování</title>
+
+     <p>Jak název napovídá, rozdělování klip dělí na dva sousedící klipy pomocí nového počátečního a koncového bodu, které se vytvoří ve tomtéž místě.</p>
+     <p>V <app>Pitivi</app> je rozdělování „nemodální“ operace. To znamená, že před provedením této činnosti nemusíte „aktivovat“ nějaký nástroj. Rozdělení se provede v místě aktuální pozice přehrávání (viz také <link xref="movearoundtimeline">Přemisťování pozice přehrávání</link>). V kombinaci s přibližováním/oddalováním, posunem po jednotlivých snímcích pomocí klávesnice nebo rychloposuvem, je nemodální rozdělování nejen rychlé a efektivní, ale i velmi přesné.</p>
+     <p>Výběr ovlivňuje rozdělení následujícími způsoby:</p>
+     <list>
+      <item><p>Rozděleny budou pouze vybrané klipy v aktuální pozicí přehrávání.</p></item>
+      <item><p>Když není vybrán žádný klip, budou rozděleny všechny klipy v aktuální pozici přehrávání.</p></item>
+     </list>
+     <p>Když chcete rozdělit jeden klip:</p>
+     <steps>
+      <item><p>Klikněte na klip.</p></item>
+      <item><p>Přemístěte pozici přehrávání (pokud je potřeba).</p></item>
+      <item><p>Klikněte na tlačítko <gui>Rozdělit</gui> na liště nástrojů časové osy nebo zmáčkněte <key>S</key>.</p></item>
+     </steps>
+     <p>Když chcete rozdělit všechny klipy napříč všemi vrstvami:</p>
+     <steps>
+      <item><p>Klikněte na prázdné místo v časové ose (tím se zruší výběr všech klipů, pokud jsou nějaké vybrané).</p></item>
+      <item><p>Přemístěte pozici přehrávání (pokud je potřeba).</p></item>
+      <item><p>Klikněte na tlačítko <gui>Rozdělit</gui> na liště nástrojů časové osy nebo zmáčkněte <key>S</key>.</p></item>
+     </steps>
+     <p>Když chcete rozdělit více vybraných klipů:</p>
+     <steps>
+      <item><p>Umístěte pozici přehrávání na místo, ve kterém chcete rozdělovat.</p></item>
+      <item><p>Přidejte do nebo odeberte z výběru klipy pomocí modifikační klávesy <key>Ctrl</key>. Pozici přehrávání do neovlivní.</p></item>
+      <item><p>Klikněte na tlačítko <gui>Rozdělit</gui> na liště nástrojů časové osy nebo zmáčkněte <key>S</key>.</p></item>
+     </steps>
+
+        <note style="tip">
+        <title>Vyříznutí uprostřed</title>
+        <p>Když potřebujete vyříznout část uprostřed klipu, rozdělte klip dvakrát a to v místech, kde vyřezávaná část začíná a končí. Středovou část vyberte a zmáčkněte <key>Delete</key>. Následně odstraňte vzniklou mezeru tak, že zbývající dvě části posunete na doraz k sobě.</p>
+        </note>
+
+</page>

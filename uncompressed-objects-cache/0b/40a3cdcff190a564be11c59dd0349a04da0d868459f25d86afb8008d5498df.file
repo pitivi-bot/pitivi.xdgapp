@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" xmlns:e="http://projectmallard.org/experimental/" type="topic" id="selectiongrouping" xml:lang="fr">
+
+  <info>
+    <link type="guide" xref="index#timeline"/>
+    <revision pkgversion="0.92" version="0.1" date="2014-02-22" status="complete"/>
+    <credit type="author">
+      <name>Tomáš Karger</name>
+      <email>tomkarger@gmail.com</email>
+    </credit>
+    <credit type="contributor">
+      <name>Jean-François Fortin Tam</name>
+      <email>nekohayo@gmail.com</email>
+      <name>Mario Blättermann</name>
+      <email>mariobl@gnome.org</email>
+    </credit>
+    <desc>
+      Making selections and grouping clips in timeline.
+    </desc>
+    <license>
+      <p>Creative Commons des Conditions Initiales à l'Identique 3.0</p>
+    </license>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Alain Lojewski</mal:name>
+      <mal:email>allomervan@gmail.com</mal:email>
+      <mal:years>2011</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Bruno Brouard</mal:name>
+      <mal:email>annoa.b@gmail.com</mal:email>
+      <mal:years>2012</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Julien Hardelin</mal:name>
+      <mal:email>jhardlin@orange.fr</mal:email>
+      <mal:years>2012</mal:years>
+    </mal:credit>
+  </info>
+
+    <title>Selection and grouping</title>
+    
+    <section>
+      <title>Sélections</title>
+       <p>By selecting a file or a clip, you specify what item should the subsequent actions be applied to. To select an individual item, simply click it. Multiple selections allow you to apply actions (dragging, deleting, grouping, etc.) to many clips at once.</p>
+       <p>Pour sélectionner plusieurs éléments adjacents :</p>
+       <steps>
+        <item><p>cliquez sur le premier élément,</p></item>
+        <item><p>maintenez la touche <key>Maj</key> enfoncée,</p></item>
+        <item><p>cliquez sur le dernier élément.</p></item>
+       </steps>
+       <p>Pour sélectionner plusieurs éléments non adjacents :</p>
+       <steps>
+        <item><p>maintenez la touche <key>Ctrl</key> enfoncée,</p></item>
+        <item><p>cliquez sur tous les éléments que vous voulez sélectionner.</p></item>
+       </steps>
+       <note style="tip">
+       <p>Pour désélectionner un élément, cliquez dessus en maintenant la touche <key>Ctrl</key> enfoncée. Ceci s'applique également à la technique <em>Sélectionner plusieurs éléments adjacents</em> du paragraphe ci-dessus.</p>
+       </note>
+     </section>
+     <section>
+         <title>Grouping and ungrouping clips</title>
+        <p>The grouping and ungrouping functions are useful when you want to add or separate audio tracks from video clips, or when you want to create a block of clips that you can select, edit and move all at once.</p>
+        <p>Grouping clips in timeline:</p>
+        <steps>
+         <item><p>Select multiple clips in the timeline.</p></item>
+         <item><p>Click the <gui>Group clips</gui> button on the timeline toolbar.</p></item>
+        </steps>
+        <p>You can now select, edit and move the clips all at once.</p>
+        <p>Ungrouping clips in timeline:</p>
+        <steps>
+         <item><p>Select a group of clips in the timeline.</p></item>
+         <item><p>Click the <gui>Ungroup clips</gui> button on the timeline toolbar.</p></item>
+        </steps>
+        <p>You can now select, edit and move the clips independently.</p>
+     </section>
+
+</page>

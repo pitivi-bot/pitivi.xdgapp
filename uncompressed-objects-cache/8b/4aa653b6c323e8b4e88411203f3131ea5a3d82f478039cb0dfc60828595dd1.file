@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" xmlns:e="http://projectmallard.org/experimental/" type="topic" id="cheatsheet" xml:lang="de">
+
+  <info>
+    <link type="topic" xref="index"/>
+    <link type="seealso" xref="movearoundtimeline"/>
+    <revision pkgversion="0.16" version="0.1" date="2012-09-03" status="complete"/>
+    <credit type="author">
+      <name>Jean-François Fortin Tam</name>
+      <email>nekohayo@gmail.com</email>
+    </credit>
+    <license>
+      <p>Creative Commons Share Alike 3.0</p>
+    </license>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Mario Blättermann</mal:name>
+      <mal:email>mariobl@freenet.de</mal:email>
+      <mal:years>2010, 2011</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Marcel Tiede</mal:name>
+      <mal:email>marcel.tiede@yahoo.de</mal:email>
+      <mal:years>2014</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Benjamin Steinwender</mal:name>
+      <mal:email>b@stbe.at</mal:email>
+      <mal:years>2014</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Christian Kirbach</mal:name>
+      <mal:email>christian.kirbach@gmail.com</mal:email>
+      <mal:years>2014</mal:years>
+    </mal:credit>
+  </info>
+
+    <title>Tastenkürzel und Schnellreferenz</title>
+
+    <p>Diese Seite beinhaltet wertvolle Tastenkürzel, um oft genützte oder versteckte Funktionen zu aktivieren. Nehmen Sie sich Zeit, um sich damit vertraut zu machen und Ihre Produktivität zu steigern.</p>
+
+    <section>
+      <title>Allgemein</title>
+        <list>
+          <item><p><keyseq><key>Strg</key><key>N</key></keyseq>: Erzeugt ein neues Projekt</p></item>
+          <item><p><keyseq><key>Strg</key><key>O</key></keyseq>: Öffnet eine Projektdatei</p></item>
+          <item><p><keyseq><key>Strg</key><key>S</key></keyseq>: Speichert das aktuelle Projekt</p></item>
+          <item><p><keyseq><key>Strg</key><key>Q</key></keyseq>: Beendet die Anwendung</p></item>
+          <item><p><keyseq><key>Strg</key><key>Z</key></keyseq>: Rückgängig</p></item>
+          <item><p><keyseq><key>Ctrl</key><key>Shift</key><key>Z</key></keyseq>: Redo</p></item>
+          <item><p><key>F11</key>: Vollbild-Modus umschalten</p></item>
+          <item><p><key>F1</key>: Das Handbuch anzeigen</p></item>
+        </list>
+    </section>
+
+    <section>
+      <title>Medienbibliothek</title>
+        <list>
+          <item><p><key>Eingabetaste</key>: Vorschau des gewählen Clips</p></item>
+          <item><p><key>Einfügen</key>: Fügt die gewählten Clips in die Zeitleiste ein</p></item>
+          <item><p><keyseq><key>Strg</key><key>Entfernen</key></keyseq>: Entfernt die gewählten Clips aus dem Projekt</p></item>
+        </list>
+    </section>
+
+    <section>
+      <title>Zeitleiste</title>
+        <list>
+          <item><p><key>Leertaste</key>: Wiedergabe umschalten.</p></item>
+          <item><p><key>S</key>: Die Clips an der aktuellen Zeitleistenposition teilen. Wenn ein oder mehrere Clips ausgewählt sind, werden nur diese geteilt.</p></item>
+          <item><p><key>Entfernen</key>: Die gewählten Clips aus der Zeitleiste entfernen.</p></item>
+          <item><p><key>←</key> und <key>→</key>: Ein Bild rückwärts oder vorwärts springen. Hängt von der Bildwiederholrate des Projektes ab.</p></item>
+          <item><p><keyseq><key>Umschalt</key><key>←</key></keyseq> und <keyseq><key>Umschalt</key><key>→</key></keyseq>: Eine Sekunde rückwärts oder vorwärts springen.</p></item>
+          <item><p><keyseq><key>Strg</key><key>+</key></keyseq> und <keyseq><key>Strg</key><key>-</key></keyseq>: Vergrößern oder verkleinern. Sie können auch das Mausrad bei gedrückter <key>Strg</key>-Taste verwenden, um effizienter zu vergrößern/verkleinern.</p></item>
+          <item><p><keyseq><key>Strg</key><key>0</key></keyseq>: Die Vergrößerung an die Zeitleiste anpassen.</p></item>
+          <item><p><key>Umschalttaste</key>+Ziehen: Löschen und Lücke schließen.</p></item>
+          <item><p><key>Strg</key>+Ziehen: Rollen.</p></item>
+          <item><p><key>K</key>: Add a property keyframe at the current playhead position.</p></item>
+          <item><p><key>.</key> and <key>,</key>: Go to the next or previous property keyframe.</p></item>
+        </list>
+    </section>
+</page>

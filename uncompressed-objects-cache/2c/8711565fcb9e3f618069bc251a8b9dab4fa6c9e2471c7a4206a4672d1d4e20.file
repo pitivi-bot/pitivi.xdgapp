@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" xmlns:e="http://projectmallard.org/experimental/" type="topic" id="presets" xml:lang="es">
+
+  <info>
+    <link type="guide" xref="index#gettingstarted"/>
+    <link type="seealso" xref="codecscontainers"/>
+    <link type="seealso" xref="rendering"/>
+    <revision pkgversion="0.93" version="0.1" date="2014-05-06" status="complete"/>
+    <credit type="author">
+      <name>Jean-François Fortin Tam</name>
+      <email>nekohayo@gmail.com</email>
+    </credit>
+    <credit type="contributor">
+     <name>Tomáš Karger</name>
+     <email>tomkarger@gmail.com</email>
+    </credit>
+    <desc>
+      Using presets in rendering and project settings.
+    </desc>
+    <license>
+      <p>Creative Commons Compartir Igual 3.0</p>
+    </license>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Daniel Mustieles</mal:name>
+      <mal:email>daniel.mustieles@gmail.com</mal:email>
+      <mal:years>2011 - 2014</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Milagros Alessandra Infante Montero</mal:name>
+      <mal:email>maim92@gmail.com</mal:email>
+      <mal:years>2012, 2013</mal:years>
+    </mal:credit>
+  </info>
+
+    <title>Preajustes</title>
+    <p>Both the <gui>Project settings</gui> dialog and the <gui>Rendering</gui> dialog allow you to save presets for later use. If you often deal with the same kind of project settings, with different cameras or target devices for rendering, you may want to create custom presets.</p>
+    <section>
+    <title>The difference between Project settings and Rendering</title>
+    <p>While project settings concern themselves with global settings (such as resolution, framerate, aspect ratio and number of audio channels), the rendering settings are concerned with codecs and device constraints (for example, a handheld device or television may have a maximum screen resolution and framerate, which is not necessarily the case if you are exporting to a laptop or a website). The presets in the <gui>Rendering</gui> dialog are related to project settings, but they govern different things.</p>
+    <note><p>En las configuraciones del proyecto, los ajustes predefinidos de vídeo y los de sonido son independientes el uno del otro.</p></note>
+    </section>
+    <section>
+        <title>Crear y editar ajustes predefinidos</title>
+        <p>Para crear un ajuste predefinido:</p>
+        <steps>
+            <item><p>Cambie los ajustes de acuerdo a sus preferencias.</p></item>
+            <item><p>Click the <gui>Create</gui> button.</p></item>
+            <item><p>Asigne al ajuste predefinido un nombre único: mientras se selecciona este ajuste predefinido, pulse en su nombre para cambiar el modo de edición. Cuando haya terminado, pulse <key>Intro</key>.</p></item>
+        </steps>
+        <p>Para editar un ajuste predefinido:</p>
+        <steps>
+            <item><p>Seleccione su ajuste predefinido en la lista de ajustes predefinidos existentes.</p></item>
+            <item><p>Cambie los ajustes de acuerdo a sus preferencias.</p></item>
+            <item><p>Pulse el botón <gui>Guardar</gui>.</p></item>
+        </steps>
+        <p>Para quitar un ajuste predefinido, simplemente selecciónelo de la lista de ajustes predefinidos y pulse el botón <gui>Quitar</gui>.</p>
+        <note><p>Algunos ajustes predefinidos están predeterminados y no se pueden quitar.</p></note>
+    </section>
+    <section>
+        <title>Ignorar ajustes predefinidos</title>
+        <p>Presets are there to save time and reduce complexity. However, you can choose to simply ignore them and set everything manually. This is what the <em>No preset</em> option is meant for. When chosen, it automatically saves the settings directly in the project file.</p>
+    </section>
+    <section>
+        <title>Limitar la resolución de un ajuste predefinido renderizado</title>
+        <p>Si quiere hacer un ajuste predefinido con una resolución máxima fija, necesita editar el archivo del ajuste predefinido con un editor de texto. Los archivos de los ajustes predefinidos se guardan, generalmente, en ~/.local/share/pitivi/ ; ya que muchos dispositivos no tienen una resolución máxima, el ancho/altura se establecen a cero (ilimitado) de manera predeterminada. Puede cambiar estos valores a la máxima resolución de su dispositivo de destino.</p>
+    </section>
+
+</page>

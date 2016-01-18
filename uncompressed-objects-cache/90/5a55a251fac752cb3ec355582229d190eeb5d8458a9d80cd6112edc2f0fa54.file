@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" xmlns:e="http://projectmallard.org/experimental/" type="topic" id="selectiongrouping" xml:lang="sl">
+
+  <info>
+    <link type="guide" xref="index#timeline"/>
+    <revision pkgversion="0.92" version="0.1" date="2014-02-22" status="complete"/>
+    <credit type="author">
+      <name>Tomáš Karger</name>
+      <email>tomkarger@gmail.com</email>
+    </credit>
+    <credit type="contributor">
+      <name>Jean-François Fortin Tam</name>
+      <email>nekohayo@gmail.com</email>
+      <name>Mario Blättermann</name>
+      <email>mariobl@gnome.org</email>
+    </credit>
+    <desc>
+      Making selections and grouping clips in timeline.
+    </desc>
+    <license>
+      <p>Creative Commons - deljenje pod enakimi pogoji 3.0</p>
+    </license>
+  </info>
+
+    <title>Selection and grouping</title>
+    
+    <section>
+      <title>Izbiranje</title>
+       <p>By selecting a file or a clip, you specify what item should the subsequent actions be applied to. To select an individual item, simply click it. Multiple selections allow you to apply actions (dragging, deleting, grouping, etc.) to many clips at once.</p>
+       <p>Izbira več sosednjih predmetov:</p>
+       <steps>
+        <item><p>Kliknite na prvi predmet.</p></item>
+        <item><p>Držite tipko <key>Shift</key>.</p></item>
+        <item><p>Kliknite na zadnji predmet.</p></item>
+       </steps>
+       <p>Izbira več predmetov, ki niso drug poleg drugega:</p>
+       <steps>
+        <item><p>Držite tipko <key>Ctrl</key>.</p></item>
+        <item><p>Kliknite na predmete, ki jih želite izbrati.</p></item>
+       </steps>
+       <note style="tip">
+       <p>Izbiro posameznega predmeta lahko odstranite s ponovnim klikom nanj medtem ko je pritisnjena tipka <key>Ctrl</key>. To lahko uporabite skupaj s tehniko <em>Izbira več sosednih predmetov</em>. </p>
+       </note>
+     </section>
+     <section>
+         <title>Grouping and ungrouping clips</title>
+        <p>The grouping and ungrouping functions are useful when you want to add or separate audio tracks from video clips, or when you want to create a block of clips that you can select, edit and move all at once.</p>
+        <p>Grouping clips in timeline:</p>
+        <steps>
+         <item><p>Select multiple clips in the timeline.</p></item>
+         <item><p>Click the <gui>Group clips</gui> button on the timeline toolbar.</p></item>
+        </steps>
+        <p>You can now select, edit and move the clips all at once.</p>
+        <p>Ungrouping clips in timeline:</p>
+        <steps>
+         <item><p>Select a group of clips in the timeline.</p></item>
+         <item><p>Click the <gui>Ungroup clips</gui> button on the timeline toolbar.</p></item>
+        </steps>
+        <p>You can now select, edit and move the clips independently.</p>
+     </section>
+
+</page>

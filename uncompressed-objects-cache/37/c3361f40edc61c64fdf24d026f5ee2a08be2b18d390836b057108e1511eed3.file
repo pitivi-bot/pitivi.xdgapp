@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" xmlns:e="http://projectmallard.org/experimental/" type="topic" id="rendering" xml:lang="fr">
+
+  <info>
+    <link type="guide" xref="index#rendering"/>
+    <revision pkgversion="0.93" version="0.1" date="2014-06-27" status="incomplete"/>
+    <credit type="author">
+      <name>Jean-François Fortin Tam</name>
+      <email>nekohayo@gmail.com</email>
+    </credit>
+    <credit type="contributor">
+      <name>Mario Blättermann</name>
+      <email>mariobl@gnome.org</email>
+      <name>Tomáš Karger</name>
+      <email>tomkarger@gmail.com</email>
+    </credit>
+    <desc>Apprendre à faire la différence entre enregistrer un projet et exporter un rendu du projet.</desc>
+    <license>
+      <p>Creative Commons des Conditions Initiales à l'Identique 3.0</p>
+    </license>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Alain Lojewski</mal:name>
+      <mal:email>allomervan@gmail.com</mal:email>
+      <mal:years>2011</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Bruno Brouard</mal:name>
+      <mal:email>annoa.b@gmail.com</mal:email>
+      <mal:years>2012</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Julien Hardelin</mal:name>
+      <mal:email>jhardlin@orange.fr</mal:email>
+      <mal:years>2012</mal:years>
+    </mal:credit>
+  </info>
+
+    <title>Explications sur le rendu</title>
+
+     <p>Le rendu est le processus permettant d'exporter votre projet fini sous la forme d'un nouveau fichier média. Le rendu ne fait que créer un nouveau fichier de rendu et n'affecte pas le projet en lui-même ; vous pouvez encore le modifier et créer autant de rendus que vous le souhaitez.</p>
+     <steps>
+      <item><p>Dans le menu <gui>Projet</gui>, choisissez <gui>Effectuer le rendu</gui>.</p></item>
+      <item><p>Ajustez les différents paramètres de codage, si besoin, pour utiliser des réglages différents de ceux du projet.</p></item>
+      <item><p>Cliquez sur le bouton <gui>Effectuer le rendu</gui>.</p></item>
+     </steps>
+     <p>While rendering, you can pause the process by clicking the <gui>Pause</gui> button and unpause it by clicking it again. You can also stop rendering either by clicking the <gui>Cancel</gui> button or by pressing <key>Esc</key>. If you stop the rendering process, the already rendered part of the video will be saved into the destined folder and <app>Pitivi</app> will offer you the <gui>Rendering dialog</gui> again.</p>
+     <note style="tip">
+      <p>Si votre ordinateur est paramétré pour se mettre en veille ou hiberner automatiquement, <app>Pitivi</app> désactive ces fonctions le temps du processus de rendu.</p>
+     </note>
+     <section>
+      <title>Project settings and the rendering dialog</title>
+       <p>In rendering, project settings are taken as default values for most of the rendering settings such as framerate, number of audio channels or their sampling rate. These values can be overridden only temporarily for a given render. Once the render is complete, the values will reset to the project settings defaults. However, some settings, such as the resolution scale, container, codecs, codec settings and the render output folder are saved so they appear as defaults in the next rendering.</p>
+     </section>
+
+</page>

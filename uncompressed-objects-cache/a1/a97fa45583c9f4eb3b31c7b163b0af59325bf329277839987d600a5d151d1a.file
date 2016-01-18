@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" xmlns:e="http://projectmallard.org/experimental/" type="topic" id="importingmpegts" xml:lang="es">
+
+  <info>
+    <link type="seealso" xref="importing"/>
+    <link type="seealso" xref="gstreamer"/>
+    <revision pkgversion="0.14" version="0.1" date="2011-06-05" status="complete"/>
+    <credit type="author">
+      <name>Jean-François Fortin Tam</name>
+      <email>nekohayo@gmail.com</email>
+    </credit>
+    <desc>Cómo convertir archivos .mts y .m2ts a un formato que GStreamer y Pitivi puedan analizar.</desc>
+    <license>
+      <p>Creative Commons Compartir Igual 3.0</p>
+    </license>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Daniel Mustieles</mal:name>
+      <mal:email>daniel.mustieles@gmail.com</mal:email>
+      <mal:years>2011 - 2014</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Milagros Alessandra Infante Montero</mal:name>
+      <mal:email>maim92@gmail.com</mal:email>
+      <mal:years>2012, 2013</mal:years>
+    </mal:credit>
+  </info>
+    <!-- TODO: remove this manual page when gstreamer supports mpeg-ts files !-->
+    <title>Trabajar con archivo AVCHD / MPEG-TS</title>
+
+     <p>En este momento, los archivos de flujo de transporte MPEG (por lo general con extensiones de archivo como .mts, .m2ts y aveces .mpg o .mpeg), tales como los utilizados por algunas cámaras de vídeo HD, no se pueden reproducir de forma fiable con <app>GStreamer</app>. Por lo tanto, es posible que desee cambiarlos a un formato de contenedor diferente utilizando <app>ffmpeg</app>. Para convertir sin pérdida a un contenedor MPEG4, puede usar el siguiente comando:</p>
+    <code>ffmpeg -i su_vídeo.MTS -vcodec copy -acodec copy -sn prueba.mp4</code>
+
+</page>

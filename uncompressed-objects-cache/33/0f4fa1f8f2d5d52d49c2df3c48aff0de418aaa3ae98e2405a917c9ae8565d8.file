@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" xmlns:e="http://projectmallard.org/experimental/" type="topic" id="mainwindow" xml:lang="cs">
+
+  <info>
+    <link type="guide" xref="index#intro"/>
+    <link type="seealso" xref="medialibrary"/>
+    <link type="seealso" xref="movearoundtimeline"/>
+    <revision pkgversion="0.93" version="0.3" date="2014-06-27" status="complete"/>
+    <credit type="author">
+      <name>Jean-François Fortin Tam</name>
+      <email>nekohayo@gmail.com</email>
+    </credit>
+    <credit type="contributor">
+      <name>Tomáš Karger</name>
+      <email>tomkarger@gmail.com</email>
+    </credit>
+    <desc>Objevte části hlavního okna.</desc>
+    <license>
+      <p>Creative Commons Share Alike 3.0</p>
+    </license>
+  </info>
+
+    <title>Hlavní okno</title>
+
+    <p>Hlavní okno je, jak napovídá jeho název, okno, které obsahuje hlavní části uživatelského rozhraní aplikace <app>Pitivi</app>, jmenovitě: hlavičkovou lištu, nástrojovou lištu, časovou osu a různé přizpůsobitelné komponenty (knihovnu médií, náhled, knihovnu efektů, knihovnu přechodů, atd.).</p>
+    <media type="image" src="figures/mainwindow.jpg" mime="image/jpg" style="right" width="780"/>
+    <p>Na obrázku výše si můžete všimnout následujících částí:</p>
+    <list type="numbered">
+        <item><p>Hlavičková lišta a tlačítka hlavní lišty</p></item>
+        <item><p>Tlačítko hlavní nabídky</p></item>
+        <item><p>Hlavní karty: knihovna multimédií a knihovna efektů</p></item>
+        <item><p>Kontextové karty: vlastnosti klipů, přechodů, titulků</p></item>
+        <item><p>Prohlížeč</p></item>
+        <item><p>Pravítko</p></item>
+        <item><p>Časová osa</p></item>
+    </list>
+
+    <note style="tip">
+    <title>Změna velikosti částí hlavního okna</title>
+    <p>V mezerách mezi jednotlivými částmi jsou úchyty, které poznáte podle pěti světlých teček. Můžete měnit vzájemnou velikost dvou částí tak, že na úchyt kliknete a táhnete jej na požadované místo.</p>
+    </note>
+    <note style="tip">
+    <title>Získání dalších informací</title>
+    <p>Po najetí kurzorem myši nad prvek hlavního okna se vám obvykle odhalí vysvětlivka informující o jeho funkci.</p>
+    </note>
+
+    <section>
+     <title>Hlavičková lišta</title>
+      <p>Hlavičková lišta je místo, na kterém máte přímý přístup k základním funkcím, jako je <gui>Zpět</gui>, <gui>Znovu</gui>, <gui>Uložit</gui> nebo <gui>Vykreslit</gui>. Rovněž obsahuje <gui>tlačítko hlavní nabídky</gui>, ve které můžete najít další funkce, jako je <gui>Nový projekt</gui>, <gui>Otevřít projekt</gui>, <gui>Nastavení projektu</gui> nebo <gui>Předvolby</gui>.</p>
+      <note style="tip">
+          <p>Obsah <gui>nabídky pod tlačítkem</gui> můžete otevřít zmáčknutím <key>F10</key>.</p>
+      </note>
+    </section>
+
+    <section>
+     <title>Pravítko</title>
+      <p>Pravítko hraje zásadní úlohu ve vaší práci s časovou osou. Zaprvé zpodobňuje časové měřítko, díky kterému můžete získat přehled o časových údajích (v sekundách). A za druhé je to hlavní místo, po kterém můžete posouvat ukazatel pozice přehrávání (a tím pozici měnit). Stačí jen kliknout kdekoliv na pravítku. Můžete také použít „<em>rychloposuv</em>“ filmu na časové ose tak, že na pravítko kliknete a během posouvání držíte tlačítko myši zmáčknuté. Viz oddíl <link xref="movearoundtimeline">Rychloposuv</link> pro více podrobností.</p>
+      <p>Aktuální pozice přehrávání je označena červenou svislou čarou:</p>
+      <figure>
+        <media type="image" src="figures/ruler.png" mime="image/png" style="right"/>
+      </figure>
+      <note>
+       <p>Při dostatečném přiblížení jsou na pravítku v dolní části zvýrazněny jednotlivé snímky v podobě světlejších a tmavších ploch. Když v tomto stavu najedete nad pravítko myší, objeví se vysvětlivka s číslem snímku. Množství času představovaného jednotlivými snímky záleží na nastavení snímkové rychlosti projektu.</p>
+      </note>
+    </section>
+
+    <section>
+     <title>Časová osa</title>
+      <p>Časová osa je stěžejní částí uživatelského rozhraní, která slouží k úpravám. Svisle je rozdělena do vrstev, které můžete zaplnit zvukovými klipy a videoklipy. Vodorovně je tvořena úměrným zobrazením vašeho projektu ve správné časové posloupnosti. Lze u ní použít různé úrovně přiblížení. Ty ale mají vliv jen ve vodorovném (chronologickém) směru osy.</p>
+      <p>Viz stránky <link xref="layers">Vysvětlení vrstev</link> a <link xref="movearoundtimeline">Posun po časové ose</link> ohledně dalších informací, jak pracovat s časovou osou.</p>
+    </section>
+
+    <section>
+     <title>Nástrojová lišta časové osy</title>
+      <p>Nástrojová lišta časové osy se nachází u pravého okraje časové osy. Obsahuje základní činnosti pro úpravy na časové ose:</p>
+      <list>
+      <item><p>Rozdělení klipu v místě pozice přehrávání</p></item>
+      <item><p>Mazání výběru</p></item>
+      <item><p>Seskupování klipů</p></item>
+      <item><p>Rušení seskupení klipů</p></item>
+      <item><p>Zarovnávání klipů na základě jejich zvukové stopy</p></item>
+      <item><p>Přepínání bezešvého režimu</p></item>
+      </list>
+      <note>
+      <p>Uvědomte si, že většina těchto funkcí je přístupná jen ve chvíli, kdy je vybrán klip. Pokud není na čem činnost provést, je funkce zašedlá (což značí, že je nedostupná).</p>
+      </note>
+    </section>
+
+    <section>
+     <title>Lišta přehrávání</title>
+      <p>Tato nástrojová lišta umístěná pod náhledem obsahuje tlačítka ovládající přehrávání časové osy. Najdete na ní následující volby:</p>
+      <list>
+      <item><p>Přehrát/Pozastavit</p></item>
+      <item><p>Přejít o sekundu vpřed</p></item>
+      <item><p>Přejít o sekundu zpátky</p></item>
+      <item><p>Přejít na konec časové osy</p></item>
+      <item><p>Přejít na začátek časové osy</p></item>
+      </list>
+      <p>Více informací, jak se posouvat po časové ose najdete v oddílech <em>Přemisťování pozice přehrávání</em> a <em>Rychloposuv</em> na stránce <link xref="movearoundtimeline">Posun po časové ose</link>.</p>
+    </section>
+
+    <section>
+     <title>Náhled</title>
+      <p>Náhled zobrazuje:</p>
+      <list>
+       <item><p>Snímek videa na aktuální pozici přehrávání.</p></item>
+       <item><p>Video vašeho projektu, když jej přehráváte.</p></item>
+       <item><p><em>Živý náhled</em> při stříhání počátečního/koncového bodu klipu.</p>
+       </item>
+      </list>
+      <note style="tip">
+      <title>Odpojení náhledu do odděleného okna</title>
+          <p>Náhled můžete odpojit do odděleného okna kliknutím na tlačítko <gui>Odpojit prohlížeč</gui> v <gui>nástrojové liště přehrávání</gui>. V odděleném okně můžete náhled přehrávat i na celé obrazovce. Navíc ostatní části hlavního okna získají navíc místo, které náhled zabíral. Zpátky jej můžete připojit tím, že oddělené okno zavřete.</p>
+      </note>
+      <note>
+          <p>Během přehrávání náhledu videa blokuje <app>Pitivi</app> spuštění šetřiče obrazovky.</p>
+      </note>
+    </section>
+
+    <section>
+     <title>Levý panel</title>
+      <p>Levý panel obsahuje knihovny médií a efektů. Přepínat mezi nimi můžete výběrem příslušné karty. <gui>Knihovna médií</gui> zobrazuje multimediální soubory naimportované do vašeho projektu a umožňuje jejich správu. <gui>Knihovna efektů</gui> obsahuje řadu zvukových efektů a videoefektů použitelných u klipů.</p>
+      <note style="tip">
+      <p>V knihovnách můžete vyhledávat pomocí textového pole v záhlaví každé z knihoven.</p>
+      </note>
+    </section>
+
+    <section>
+     <title>Prostřední panel</title>
+      <p>Prostřední panel obsahuje <gui>Nastavení klipu</gui>, <gui>Přechody</gui> a <gui>Editor titulků</gui>. Přepínat mezi nimi lze vybráním příslušné karty. V <gui>Nastavení klipů</gui> můžete aktivovat, deaktivovat a měnit nastavení efektů použitých u vybraného klipu. V <gui>Přechodech</gui> můžete vybrat a nastavit typ přechodu pro situace, kdy se klipy na časové ose překrývají. V <gui>Editoru titulků</gui> můžete vytvářet nové klipy s titulky nebo přidávat titulky do stávajících klipů.</p>
+    </section>
+
+</page>

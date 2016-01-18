@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" xmlns:e="http://projectmallard.org/experimental/" type="topic" id="mainwindow" xml:lang="el">
+
+  <info>
+    <link type="guide" xref="index#intro"/>
+    <link type="seealso" xref="medialibrary"/>
+    <link type="seealso" xref="movearoundtimeline"/>
+    <revision pkgversion="0.93" version="0.3" date="2014-06-27" status="complete"/>
+    <credit type="author">
+      <name>Jean-François Fortin Tam</name>
+      <email>nekohayo@gmail.com</email>
+    </credit>
+    <credit type="contributor">
+      <name>Tomáš Karger</name>
+      <email>tomkarger@gmail.com</email>
+    </credit>
+    <desc>Ανακαλύψτε τα συστατικά του κυρίως παραθύρου.</desc>
+    <license>
+      <p>Creative Commons Share Alike 3.0</p>
+    </license>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name> Δημήτρης Σπίγγος</mal:name>
+      <mal:email>dmtrs32@gmail.com</mal:email>
+      <mal:years>2013, 2014</mal:years>
+    </mal:credit>
+  </info>
+
+    <title>Το κύριο παράθυρο</title>
+
+    <p>The main window, as the name implies, is the window containing the main components of the <app>Pitivi</app> user interface, namely: the header bar, the toolbars, the timeline and various customizable components (media library, previewer, effects library, transitions library, etc.).</p>
+    <media type="image" src="figures/mainwindow.jpg" mime="image/jpg" style="right" width="780"/>
+    <p>In the figure above, the following areas can be observed:</p>
+    <list type="numbered">
+        <item><p>Header bar and main toolbar buttons</p></item>
+        <item><p>Main menu button</p></item>
+        <item><p>Primary tabs: media library and effects library</p></item>
+        <item><p>Contextual tabs: clip properties, transitions, titles</p></item>
+        <item><p>Viewer</p></item>
+        <item><p>Χάρακας</p></item>
+        <item><p>Γραμμή χρόνου</p></item>
+    </list>
+
+    <note style="tip">
+    <title>Αυξομείωση των συστατικών του κυρίως παραθύρου.</title>
+    <p>Στα κενά μεταξύ συστατικών, υπάρχουν λαβές που δείχνονται από πέντε κουκκίδες φωτός. Μπορείτε αναλογικά να αυξομειώσετε τα ζεύγη των συστατικών πατώντας και μεταφέροντας τις λαβές στην επιθυμητή θέση.</p>
+    </note>
+    <note style="tip">
+    <title>Hovering for more information</title>
+    <p>Hovering the mouse cursor over an element in the main window usually reveals an information tooltip regarding its function.</p>
+    </note>
+
+    <section>
+     <title>Header bar</title>
+      <p>The header bar is a place where basic functions such as <gui>Undo</gui>, <gui>Redo</gui>, <gui>Save</gui>, or <gui>Render</gui> can be directly accessed. It also contains the main <gui>menu button</gui> where you can find further functions such as <gui>New project</gui>, <gui>Open project</gui>, <gui>Project settings</gui> or <gui>Preferences</gui>.</p>
+      <note style="tip">
+          <p>The <gui>menu button</gui>'s contents can be accessed by pressing <key>F10</key>.</p>
+      </note>
+    </section>
+
+    <section>
+     <title>Χάρακας</title>
+      <p>Ο χάρακας παίζει έναν βασικό ρόλο στην αλληλεπίδραση με τη γραμμή χρόνου. Πρώτα, απεικονίζει μια κλίμακα χρόνου που παρέχει μετρήσεις χρόνου (σε δευτερόλεπτα) για τον γενικό προσανατολισμό. Δεύτερο, συνιστά την πρωτεύουσα επιφάνεια στην οποία μπορείτε να μετακινήσετε την κεφαλή αναπαραγωγής (και έτσι, να αλλάξετε τη θέση στον χρόνο). Για να μετακινήσετε τη θέση σας, πατήστε οπουδήποτε στον χάρακα. Μπορείτε επίσης να <em>περιηγηθείτε</em> στη γραμμή χρόνου πατώντας τον χάρακα και κρατώντας πατημένο το πλήκτρου του ποντικιού ενώ μετακινείστε. Δείτε την ενότητα στο <link xref="movearoundtimeline">περιήγηση</link> για περισσότερες λεπτομέρειες.</p>
+      <p>Η τρέχουσα θέση της κεφαλής αναπαραγωγής υποδεικνύεται από μια κόκκινη κάθετη γραμμή:</p>
+      <figure>
+        <media type="image" src="figures/ruler.png" mime="image/png" style="right"/>
+      </figure>
+      <note>
+       <p>Όταν μεγεθύνετε, οι λήψεις απεικονίζονται οπτικά ως εναλλασσόμενες φωτεινές και σκοτεινές περιοχές στο κάτω μέρος του χάρακα. Αιωρώντας τον δρομέα του ποντικιού πάνω από τον χάρακα σε αυτήν την κατάσταση θα αποκαλύψει μια συμβουλή οθόνης πληροφορίας με τον αριθμό της λήψης. Το χρονικό διάστημα που οι ξεχωριστές λήψεις καταναλώνουν βασίζεται στις ρυθμίσεις του ρυθμού λήψεων του έργου.</p>
+      </note>
+    </section>
+
+    <section>
+     <title>Γραμμή χρόνου</title>
+      <p>Η γραμμή χρόνου είναι το κύριο συστατικό διεπαφής χρήστη που θα χρησιμοποιήσετε για επεξεργασία. Κάθετα, διαιρείται σε στρώσεις που μπορούν να συμπληρωθούν με αποσπάσματα ήχου και βίντεο. Οριζόντια, αποτελεί μια απεικόνιση ανάλογη του χρόνου της χρονολογικής σειράς του έργου σας. Διάφορα επίπεδα εστίασης μπορούν να εφαρμοστούν στη γραμμή χρόνου. Όμως, αυτά εφαρμόζονται μόνο στην οριζόντια (χρονολογική) διάσταση της γραμμής χρόνου.</p>
+      <p>Δείτε τις σελίδες <link xref="layers">Κατανόηση στρώσεων</link> και <link xref="movearoundtimeline">Μετακίνηση γύρω από τη γραμμή χρόνου</link> για περισσότερες πληροφορίες στο πώς να δουλέψετε με τη γραμμή χρόνου.</p>
+    </section>
+
+    <section>
+     <title>Εργαλειοθήκη γραμμής χρόνου</title>
+      <p>Η εργαλειοθήκη γραμμής χρόνου βρίσκεται στα δεξιά της γραμμής χρόνου. Περιέχει βασικές ενέργειες για επεξεργασία στη γραμμή χρόνου:</p>
+      <list>
+      <item><p>Διαχωρισμός αποσπάσματος στη θέση της κεφαλής αναπαραγωγής</p></item>
+      <item><p>Διαγραφή επιλεγμένου</p></item>
+      <item><p>Ομαδοποίηση αποσπασμάτων</p></item>
+      <item><p>Αποομαδοποίηση αποσπασμάτων</p></item>
+      <item><p>Στοίχιση αποσπασμάτων με βάση τις μουσικές τους</p></item>
+      <item><p>Εναλλαγή κατάστασης χωρίς κενό</p></item>
+      </list>
+      <note>
+      <p>Σημειώστε ότι οι περισσότερες ενέργειες γίνονται διαθέσιμες μόνο αφού επιλεγεί ένα απόσπασμα. Όταν δεν υπάρχει θέμα για να εκτελεστεί η ενέργεια, παραμένει σκιασμένο (δείχνοντας την έλλειψη διαθεσιμότητας).</p>
+      </note>
+    </section>
+
+    <section>
+     <title>Εργαλειοθήκη αναπαραγωγής</title>
+      <p>Αυτή η εργαλειοθήκη, τοποθετημένη κάτω από την προεπισκόπηση, περιέχει κουμπιά που ελέγχουν την αναπαραγωγή της γραμμής χρόνου. Οι επιλογές που παρέχονται από την εργαλειοθήκη είναι οι ακόλουθες:</p>
+      <list>
+      <item><p>Play/Pause</p></item>
+      <item><p>Μετάβαση εμπρός κατά ένα δευτερόλεπτο</p></item>
+      <item><p>Μετάβαση πίσω κατά ένα δευτερόλεπτο</p></item>
+      <item><p>Μετάβαση στο τέλος της γραμμής χρόνου</p></item>
+      <item><p>Μετάβαση στην αρχή της γραμμής χρόνου</p></item>
+      </list>
+      <p>Για περισσότερες πληροφορίες στο πώς θα μετακινήσετε τη γραμμή χρόνου, δείτε τις ενότητες <em>Μετακίνηση της κεφαλής αναπαραγωγής</em> και <em>περιήγηση</em> στη σελίδα <link xref="movearoundtimeline">Μετακίνηση γύρω από τη γραμμή χρόνου</link>.</p>
+    </section>
+
+    <section>
+     <title>Προεπισκόπηση</title>
+      <p>The previewer displays:</p>
+      <list>
+       <item><p>Τη λήψη βίντεο στην τρέχουσα θέση της κεφαλής αναπαραγωγής.</p></item>
+       <item><p>Το βίντεο του έργου σας όταν αναπαράγεται.</p></item>
+       <item><p>Μια <em>ζωντανή προεπισκόπηση</em> κατά την περικοπή ενός αρχικού/τελικού σημείου του αποσπάσματος.</p>
+       </item>
+      </list>
+      <note style="tip">
+      <title>Detaching the previewer into a separate window</title>
+          <p>You can detach the previewer into a separate window by clicking the <gui>Detach the viewer</gui> button in the <gui>Playback toolbar</gui>. From the separate window, you can play the preview in fullscreen. This will also allow other parts of the main window to take up the space the previewer occupied. You can attach the previewer back by closing the separate window.</p>
+      </note>
+      <note>
+          <p><app>Pitivi</app> inhibits screensaver while playing video preview.</p>
+      </note>
+    </section>
+
+    <section>
+     <title>Αριστερό παράθυρο</title>
+      <p>Το αριστερό παράθυρο περιέχει πολυμέσα και βιβλιοθήκες εφέ. Μπορείτε να εναλλάξετε μεταξύ τους επιλέγοντας την κατάλληλη καρτέλα. Το <gui>Βιβλιοθήκη πολυμέσων</gui> εμφανίζει τα εισαγόμενα αρχεία πολυμέσων στο έργο σας και σας επιτρέπει να τα διαχειριστείτε. Το <gui>βιβλιοθήκη εφέ</gui> περιέχει έναν αριθμό εφέ ήχου και βίντεο που εφαρμόζονται στα αποσπάσματα.</p>
+      <note style="tip">
+      <p>Μπορείτε να αναζητήσετε τις βιβλιοθήκες χρησιμοποιώντας το πλαίσιο κειμένου στην κεφαλίδα κάθε βιβλιοθήκης.</p>
+      </note>
+    </section>
+
+    <section>
+     <title>Μεσαίο παράθυρο</title>
+      <p>Το μεσαίο παράθυρο περιέχει <gui>Ρύθμιση αποσπάσματος</gui>, <gui>μεταβάσεις</gui> και <gui>Επεξεργασία τίτλου</gui>. Μπορείτε να εναλλάξετε μεταξύ τους επιλέγοντας την κατάλληλη καρτέλα. Το <gui>Ρύθμιση αποσπάσματος</gui> σας επιτρέπει να ενεργοποιήσετε, να απενεργοποιήσετε ή να ρυθμίσετε τις ρυθμίσεις των εφαρμοζόμενων εφέ σε ένα επιλεγμένο απόσπασμα. Οι <gui>Μεταβάσεις</gui> σας επιτρέπουν να επιλέξετε και να ρυθμίσετε τον τύπο μετάβασης όταν δύο αποσπάσματα επικαλύπτονται στη γραμμή χρόνου. Με την <gui>Επεξεργασία τίτλου</gui> μπορείτε να δημιουργήσετε νέα αποσπάσματα με τίτλους ή να προσθέσετε τίτλους στα υφιστάμενα αποσπάσματα.</p>
+    </section>
+
+</page>

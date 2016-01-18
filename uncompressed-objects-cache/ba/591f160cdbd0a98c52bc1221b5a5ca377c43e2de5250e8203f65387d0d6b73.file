@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" xmlns:e="http://projectmallard.org/experimental/" type="guide" id="index" xml:lang="cs">
+
+  <info>
+    <title type="link">Příručka pro rychlé seznámení s Pitivi</title>
+    <title type="text">Příručka pro rychlé seznámení s Pitivi</title>
+    <revision pkgversion="0.14.0" version="0.2" date="2011-06-05" status="complete"/>
+    <credit type="author">
+      <name>Jean-François Fortin Tam</name>
+      <email>nekohayo@gmail.com</email>
+    </credit>
+    <credit type="contributor">
+      <name>Mario Blättermann</name>
+      <email>mariobl@gnome.org</email>
+    </credit>
+    <license>
+      <p>Creative Commons Share Alike 3.0</p>
+    </license>
+  </info>
+
+  <title><media type="image" mime="image/png" src="figures/logo.png">Logo Pitivi</media> videoeditor Pitivi</title>
+
+   <p>Videoeditor <app>Pitivi</app> je postaven nad multimediální platformou <link href="http://cs.wikipedia.org/wiki/GStreamer"><app>GStreamer</app></link> a měl by být intuitivní, flexibilní a dobře zaintegrovaný do <link href="http://gnome.org"><app>GNOME</app></link>. Cílem je oslovit začátečníky i profesionály.</p>
+   <p>Tato příručka se zaměřuje na to, aby vás seznámila s konceptem jeho fungování a abyste mohli rychle začít vytvářet.</p>
+
+  <section id="intro" style="2column">
+    <title>Úvod</title>
+  </section>
+
+  <section id="gettingstarted" style="2column">
+    <title>Začínáme</title>
+  </section>
+
+  <section id="timeline" style="2column">
+    <title>Základní úpravy na časové ose</title>
+  </section>
+
+  <section id="effectstransitions" style="2column">
+    <title>Efekty a přechody</title>
+  </section>
+
+  <section id="rendering" style="2column">
+    <title>Export vašeho výsledného filmu</title>
+  </section>
+
+
+</page>

@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" xmlns:e="http://projectmallard.org/experimental/" type="topic" id="splitting" xml:lang="es">
+
+  <info>
+    <link type="guide" xref="index#timeline"/>
+    <revision pkgversion="0.92" version="0.1" date="2013-12-19" status="complete"/>
+    <credit type="author">
+      <name>Jean-François Fortin Tam</name>
+      <email>nekohayo@gmail.com</email>
+    </credit>
+    <credit type="contributor">
+      <name>Mario Blättermann</name>
+      <email>mariobl@gnome.org</email>
+      <name>Tomáš Karger</name>
+      <email>tomkarger@gmail.com</email>
+    </credit>
+    <desc>Dividir clips en dos partes.</desc>
+    <license>
+      <p>Creative Commons Compartir Igual 3.0</p>
+    </license>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Daniel Mustieles</mal:name>
+      <mal:email>daniel.mustieles@gmail.com</mal:email>
+      <mal:years>2011 - 2014</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Milagros Alessandra Infante Montero</mal:name>
+      <mal:email>maim92@gmail.com</mal:email>
+      <mal:years>2012, 2013</mal:years>
+    </mal:credit>
+  </info>
+
+    <title>División</title>
+
+     <p>Como el nombre indica, dividirá el clip en dos clip adyacentes, con nuevos puntos de inicio/fin creados en consecuencia.</p>
+     <p>En <app>Pitivi</app>, la división es una operación no-modal; esto significa que no tiene que activar una herramienta particular antes de hacer la acción de dividir. La división ocurre en la posición actual (ver también <link xref="movearoundtimeline">Mover la posición actual</link>). Combinada con la ampliación, la búsqueda fotograma a fotograma con el teclado o el depurado, la división sin modo no es solo rápida y eficiente, es también muy precisa.</p>
+     <p>Las selecciones afectan la división en las siguientes maneras:</p>
+     <list>
+      <item><p>Sólo se dividirán los clips seleccionados bajo la posición actual.</p></item>
+      <item><p>Si no hay ningún clip seleccionado, se dividirán todos los clips bajo la posición actual.</p></item>
+     </list>
+     <p>Para dividir un solo clip:</p>
+     <steps>
+      <item><p>Pulse sobre el vídeo</p></item>
+      <item><p>Cambie la posición actual (si es necesario).</p></item>
+      <item><p>Pulse en el botón <gui>Dividir</gui> en la barra de herramientas de la línea de tiempo o presione <key>S</key>.</p></item>
+     </steps>
+     <p>Para dividir todos los clips a través de todas las capas:</p>
+     <steps>
+      <item><p>Pulse en algún área blanca de la línea de tiempo (esto va a anular la selección de todos los clips, si la hubiera).</p></item>
+      <item><p>Cambie la posición actual (si es necesario).</p></item>
+      <item><p>Pulse en el botón <gui>Dividir</gui> en la barra de herramientas de la línea de tiempo o presione <key>S</key>.</p></item>
+     </steps>
+     <p>Para dividir los múltiples clips seleccionados:</p>
+     <steps>
+      <item><p>Sitúe la posición actual donde quiera dividir.</p></item>
+      <item><p>Añada o quite clips de la selección con la tecla modificadora <key>Ctrl</key>. Esto no afectará a la posición actual.</p></item>
+      <item><p>Pulse en el botón <gui>Dividir</gui> en la barra de herramientas de la línea de tiempo o presione <key>S</key>.</p></item>
+     </steps>
+
+        <note style="tip">
+        <title>Cortar por la mitad</title>
+        <p>Cuando se quiere cortar una sección media de un clip, dividir el clip en dos ocasiones en las posiciones en las que la parte que quiere eliminar comience y termine. Seleccione la parte media y pulse <key>Supr</key>. Ahora, elimine el espacio vacío entre las dos partes restantes moviendo uno de ellos hacia el otro hasta que se alineen.</p>
+        </note>
+
+</page>

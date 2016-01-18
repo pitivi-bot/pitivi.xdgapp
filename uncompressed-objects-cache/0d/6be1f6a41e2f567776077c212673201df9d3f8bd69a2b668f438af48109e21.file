@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" xmlns:e="http://projectmallard.org/experimental/" type="topic" id="movearoundtimeline" xml:lang="sv">
+
+  <info>
+    <link type="guide" xref="index#gettingstarted"/>
+    <revision pkgversion="0.92" version="0.1" date="2014-01-27" status="complete"/>
+    <credit type="author">
+      <name>Jean-François Fortin Tam</name>
+      <email>nekohayo@gmail.com</email>
+    </credit>
+    <credit type="contributor">
+      <name>Mario Blättermann</name>
+      <email>mariobl@gnome.org</email>
+      <name>Brian Grohe</name>
+      <email>grohe43@gmail.com</email>
+      <name>Tomáš Karger</name>
+      <email>tomkarger@gmail.com</email>
+    </credit>
+    <desc>Flytta runt uppspelningshuvudet, använd zoomfunktionen, rulla och snabbgranska (scrub).</desc>
+    <license>
+      <p>Creative Commons Share Alike 3.0</p>
+    </license>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Josef Andersson</mal:name>
+      <mal:email>josef.andersson@fripost.org</mal:email>
+      <mal:years>2015</mal:years>
+    </mal:credit>
+  </info>
+
+    <title>Flytta runt tidslinjen</title>
+
+     <section>
+      <title>Aktivera tidslinjens verktygsfält</title>
+       <p>Verktygsfältet för tidslinjen innehåller många verktyg som blir aktiva då ett klipp valts i tidslinjen. För att välja ett klipp, klicka på det önskade klippet i tidslinjen. När markerat kommer klippet att blir mörkare och objekten i tidslinjens verktygsfält blir klickbara.</p>
+     </section>
+
+     <section>
+      <title>Rulla</title>
+       <p>Du kan använda rullisterna (placerade till höger om på botten av tidslinjen), använda mushjulet överallt på tidslinjen för att rulla horisontellt, eller hålla in <key>Skift</key>tangenten och samtidigt använda mushjulet för att rulla tidslinjens lager vertikalt.</p>
+     </section>
+
+     <section><title>Zooma</title> <p>Att zooma påverkar din redigerings korrekthet och din förmåga att snabbt flytta runt tidslinjen:</p> <list>
+        <item><p>Vid inzoomning visar videoklipp fler miniatyrbilder och ljudklipp visar utökade detaljer om vågformer, vilket låter dig utföra mer precisa redigeringar.</p></item>
+        <item><p>Att zooma ut låter dig rulla snabbare efter tidslinjen. Zoomning kan därför användas tillsammans med rullande för att snabbt flytta mellan olika avlägsna punkter i ditt projekts kronologi.</p></item>
+       </list> <p>Du kan zooma in och ut genom att:</p> <list>
+           <item><p>Hålla ner <key>Ctrl</key> samtidigt med mushjulet över tidslinjen</p></item>
+           <item><p>Använda menyobjekten <guiseq><gui>Visa</gui><gui>Zooma in</gui></guiseq> och <guiseq><gui>Visa</gui><gui>Zooma ut</gui></guiseq></p></item>
+           <item><p>Att dra skjutreglaget för zoom till vänster om linjalen</p></item>
+           <item><p>Använd tangentbordsgenvägar som  <keyseq><key>Ctrl</key><key>-</key></keyseq> för att zooma ut eller <keyseq><key>Ctrl</key><key>=</key></keyseq> (<keyseq><key>Ctrl</key><key>+</key></keyseq> på den numeriska knappsatsen) för att zooma in</p></item>
+       </list> <p>To get a better overview of your timeline, you may use the <guiseq><gui>View</gui><gui>Best Fit</gui></guiseq> menu item or click the <gui>Zoom</gui> button on the left of the zoom slider. The third way to do this is by pressing <keyseq><key>Ctrl</key><key>0</key></keyseq></p>. <note>
+           <title>Zoomningen är alltid centrerad kring platsen för ditt uppspelningshuvud</title>
+           <p>När mushjulet används för att zooma in och ut, kom ihåg att zoomen inte är relativ till musens position, utan till uppspelningshuvudets position på tidslinjen.</p>
+       </note> <note style="tip">
+        <title><em>Flytta</em> mellan zoomnivåer</title>
+        <p>Genom att använda musen kan du också direkt <em>flytta</em> från vilken zoomnivå som helst till en annan med ett enda klick. För att göra detta, klicka vara som helst på zoomskjutreglaget.</p>
+       </note></section>
+
+     <section id="movingplayhead">
+      <title>Att flytta uppspelningshuvudet</title>
+       <p>Du kan ändra uppspelningshuvudets position genom att klicka var som helst på linjalen eller tidslinjen.</p>
+       <p>Vid klick på <em>tidslinjen</em>:</p>
+       <list>
+        <item><p>Om ett klipp är under musmarkören kommer det att ersätta aktuell klippmarkering (se avsnittet <link xref="selectiongrouping">Utföra markeringar</link> för detaljerade instruktioner).</p></item>
+        <item><p>Om det inte finns några klipp under markören kommer alla markerade klipp (om några) att bli omarkerade.</p></item>
+       </list>
+       <p>Vid klick på linjalen ändras endast uppspelningshuvudets position; klippmarkeringar påverkas inte.</p>
+        <note style="tip">
+        <title>Hoppa till en exakt position</title>
+        <p>Du kan hoppa till en exakt position i tidslinjen genom att redigera tidsvärdet som visas i verktygsfältet för uppspelning (se beskrivningen <link xref="mainwindow">Huvudfönstret</link>). För att redigera den, klicka på komponenten, skriv över värdet och tryck <key>retur</key>. Värdet kan representera antagligen tidskod eller bildrutenummer. Tidskoden har följande form: <em>hh:mm:ss.milisec</em> där timmarna är valfria. För att infoga ett bildrutenummer, skriv över tidskoden med ett nummer motsvarande önskad bildruta.</p>
+       </note>
+     </section>
+
+     <section>
+      <title>Scrubbing</title>
+       <p><em>Scrubbing</em> är ett sätt att flytta uppspelningshuvudet som låter dig:</p>
+       <list>
+        <item><p>Söka efter en specifik position i tiden genom ungefärlighet/testa.</p></item>
+        <item><p>Upprepat granskande av den visuella rörelsen i en scen genom att röra sig framåt och bakåt i tiden.</p></item>
+       </list>
+       <p>För att snabbgranska (scrub), klicka på linjalen och rör på musen med knappen fortfarande nedtryckt.</p>
+     </section>
+
+</page>

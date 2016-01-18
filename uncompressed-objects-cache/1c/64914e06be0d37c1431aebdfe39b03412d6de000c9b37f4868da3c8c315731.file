@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" xmlns:e="http://projectmallard.org/experimental/" type="topic" id="presets" xml:lang="cs">
+
+  <info>
+    <link type="guide" xref="index#gettingstarted"/>
+    <link type="seealso" xref="codecscontainers"/>
+    <link type="seealso" xref="rendering"/>
+    <revision pkgversion="0.93" version="0.1" date="2014-05-06" status="complete"/>
+    <credit type="author">
+      <name>Jean-François Fortin Tam</name>
+      <email>nekohayo@gmail.com</email>
+    </credit>
+    <credit type="contributor">
+     <name>Tomáš Karger</name>
+     <email>tomkarger@gmail.com</email>
+    </credit>
+    <desc>Jak používat přednastavené vykreslování a nastavení projektu.</desc>
+    <license>
+      <p>Creative Commons Share Alike 3.0</p>
+    </license>
+  </info>
+
+    <title>Přednastavení</title>
+    <p>Dialogová okna <gui>Nastavení projektu</gui> i <gui>Vykreslování</gui>, umožňují uložit nastavení pro pozdější použití. Pokud často prohazujete stejné nastavení projektu s různými kamerami nebo cílovými zařízeními pro vykreslení, můžete si chtít vytvořit vlastní přednastavení.</p>
+    <section>
+    <title>Rozdíl mezi Nastavením projektu a Vykreslováním</title>
+    <p>Zatímco nastavení projektu se zaměřuje na globální údaje (jako je rozlišení, snímková rychlost, poměr stran a počet zvukových kanálů), přednastavení vykreslování se zaměřuje na kodeky a omezení zařízení (například přenosná zařízení nebo televize mohou mít maximální rozlišení obrazovky a snímkovou rychlost, které ale nejsou nutné, když exportujete pro notebook nebo webovou stránku.) Přednastavení v dialogovém okně <gui>Vykreslování</gui> se vztahují k nastavení projektu, ale řeší jiné věci.</p>
+    <note><p>V nastavení projektu jsou nastavení videa a nastavení zvuku na sobě nezávislé.</p></note>
+    </section>
+    <section>
+        <title>Vytváření a úpravy přednastavení</title>
+        <p>Pro vytvoření přednastavení:</p>
+        <steps>
+            <item><p>Změňte nastavení, jak potřebujete.</p></item>
+            <item><p>Klikněte na tlačítko <gui>Vytvořit</gui>.</p></item>
+            <item><p>Dejte přednastavení jedinečný název: klikněte na název přednastavení, když je vybráno, aby se přepnul režim úprav. Až jste hotovi, zmáčkněte <key>Enter</key>.</p></item>
+        </steps>
+        <p>Pro úpravu přednastavení:</p>
+        <steps>
+            <item><p>Vyberte své přednastavení v seznamu existujících přednastavení.</p></item>
+            <item><p>Změňte nastavení, jak potřebujete.</p></item>
+            <item><p>Klikněte na tlačítko <gui>Uložit</gui>.</p></item>
+        </steps>
+        <p>Když chcete přednastavení odstranit, stačí jej vybrat v seznamu a zmáčknout tlačítko <gui>Odebrat</gui>.</p>
+        <note><p>Některá přednastavení jsou součástí ve výchozím stavu a není možné je odebrat.</p></note>
+    </section>
+    <section>
+        <title>Ignorování přednastavení</title>
+        <p>Přednastavení slouží k úspoře času a ke zjednodušení. Můžete je ale klidně ignorovat a nastavit si vše ručně. Za tímto účelem slouží <em>Žádné přednastavení</em>. Když jej zvolíte, budou se změny ukládat automaticky přímo do projektového souboru.</p>
+    </section>
+    <section>
+        <title>Omezení rozlišení u přednastavení vykreslování</title>
+        <p>Jestli chcete vytvořit přednastavení s pevně daným maximálním rozlišením, musíte upravit soubor s přednastavením v textovém editoru. Soubory s přednastavením jsou obvykle uloženy v ~/.local/share/pitivi/ a protože hodně zařízení nemá maximální rozlišení, jsou šířka (width) a výška (height) ve výchozím stavu nastaveny na 0. Tyto hodnoty můžete změnit na maximální rozlišení svého cílového zařízení.</p>
+    </section>
+
+</page>

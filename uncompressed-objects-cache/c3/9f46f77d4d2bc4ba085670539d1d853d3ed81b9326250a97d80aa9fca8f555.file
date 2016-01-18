@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" xmlns:e="http://projectmallard.org/experimental/" type="topic" id="transitions" xml:lang="sv">
+
+  <info>
+    <link type="guide" xref="index#effectstransitions"/>
+    <revision pkgversion="0.93" version="0.1" date="2014-03-28" status="draft"/>
+    <credit type="author">
+      <name>Tomáš Karger</name>
+      <email>tomkarger@gmail.com</email>
+    </credit>
+    <credit type="contributor">
+      <name>Jean-François Fortin Tam</name>
+      <email>nekohayo@gmail.com</email>
+      <name>Mario Blättermann</name>
+      <email>mariobl@gnome.org</email>
+    </credit>
+    <desc>Att tillämpa övertoningar, intoningar, uttoningar och andra typer av övergångar.</desc>
+    <license>
+      <p>Creative Commons Share Alike 3.0</p>
+    </license>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Josef Andersson</mal:name>
+      <mal:email>josef.andersson@fripost.org</mal:email>
+      <mal:years>2015</mal:years>
+    </mal:credit>
+  </info>
+
+    <title>Övergångar</title>
+
+    <section>
+      <title>Övertona klipp</title>
+        <p>För att göra en övertoning mellan två klipp inom samma lager, dra ett av klippen på det andra så att det överlappar. Det överlappade området kommer att användas som ett utrymme för övergångar mellan två klipp. Du kan antingen justera övergångens längd genom att flytta klippen eller trimma dem. Om du vill tillämpa andra typer av övergångar än standard (övertoning), se avsnittet <em>Andra typer av övergångar</em> på den här sidan.</p>
+      <note>
+        <p>Övertoningar uppnås genom att använda <app>Pitivi</app>s videomixningsegenskaper vilka använder nyckelbilder för att kontrollera ogenomskinligheten i klippen. Det betyder att om du anger ogenomskinlighetsnyckelbilder för ett klipp, kommer de att räknas med vid en övertoning.</p>
+      </note>
+    </section>
+    <section>
+      <title>Andra typer av övergångar</title>
+      <p>Antagande att du har två överlappande klipp i din tidslinje kan du göra andra typer av övergångar genom att följa dessa steg:</p>
+      <steps>
+          <item><p>Markera det överlappade området genom att klicka på det.</p></item>
+          <item><p>Markera fliken <gui>Övergång</gui> i mittenpanel.</p></item>
+          <item><p>Markera en av de erbjudna övergångarna.</p></item>
+      </steps>
+      <p>Övergångarna kan justeras vidare genom följande alternativ från nedre delen av fliken <gui>Övergång</gui>:</p>
+      <list>
+          <item><p><em>Normalt läge</em> kommer att tillämpa övergången i linjärt läge över hela det överlappade området. När du är i normalt läge kan du justera graden av skärpa/mjukhet av övergången.</p></item>
+          <item><p>Läget <em>Loop</em> kommer att tillämpa övergången i ett cirkulärt läge. När du är i loop-läge kan du justera hastigheten med vilken övergången kommer att repetera sig.</p></item>
+          <item><p>I båda lägen kan du tillämpa övergången i <em>omvänd riktning</em> genom att kryssa i motsvarande kryssruta.</p></item>
+      </list>
+      <note style="tip">
+          <p>Varje övergång har sitt namn och beskrivning. De visas när du hovrar markören över ikonen för övergången. Du kan också filtrera övergången genom att skriva i sökfältet i överdelen av fliken <gui>Övergång</gui>. Den kommer endast att visa övergångar vars namn eller beskrivning matchar dina söktermer.</p>
+      </note>
+    </section>
+    <section>
+      <title>In- och uttoningar</title>
+      <p>Du kan skapa in- och uttonande övergångar i enkla klipp genom att använda nyckelbilder som kontrollerar klippets ogenomskinlighet. Nyckelbilder och ogenomskinlighet förklaras på annat ställe i denna handbok. För mer information om nyckelbild, se <link xref="keyframecurves">Nyckelbildkurvor</link>. För att förstå ogenomskinlighet, se <link xref="layers">Förstå lager</link>. Följande bilder visar hur man tonar ut ett klipp till svart:</p>
+        <figure>
+        <title>Standardogenomskinlighet för nyckelbildskurva</title>
+        <media type="image" src="figures/fadestep1.png" mime="image/png" style="right"/>
+        <desc>Standardkurvan är platt vilket indikerar samma ogenomskinlighet vilken position som helst i klippet.</desc>
+        </figure>
+        <figure>
+        <title>Lägga till en ny nyckelbild</title>
+        <media type="image" src="figures/fadestep2.png" mime="image/png" style="right"/>
+        <desc>Skapa en ny nyckelbild genom att dubbelklicka på kurvan i en position där du vill starta uttoningen.</desc>
+        </figure>
+        <figure>
+        <title>Flytta nyckelbilden</title>
+        <media type="image" src="figures/fadestep3.png" mime="image/png" style="right"/>
+        <desc>Klicka och dra senaste nyckelbilden nedåt.</desc>
+        </figure>
+        <p>För att åstadkomma en uttoning, skapa en spegling av nyckelbildskurvan (ny nyckelbild i en position där intoningen ska sluta och den första nyckelbilden dras ner) vid början av klippet.</p>
+     <note style="tip">
+        <p>Toningar och övertoningar som beskrivet här kan tillämpas till både ljud- och videoklipp.</p>
+    </note>
+    </section>
+
+</page>

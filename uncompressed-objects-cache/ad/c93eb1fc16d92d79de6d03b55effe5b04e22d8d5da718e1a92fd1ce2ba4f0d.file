@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" xmlns:e="http://projectmallard.org/experimental/" type="topic" id="importing" xml:lang="cs">
+
+  <info>
+    <link type="guide" xref="index#gettingstarted"/>
+    <revision pkgversion="0.94" version="0.4" date="2014-10-01" status="complete"/>
+    <credit type="author">
+      <name>Jean-François Fortin Tam</name>
+      <email>nekohayo@gmail.com</email>
+    </credit>
+    <credit type="contributor">
+      <name>Mario Blättermann</name>
+      <email>mariobl@gnome.org</email>
+      <name>Tomáš Karger</name>
+      <email>tomkarger@gmail.com</email>
+    </credit>
+    <desc>Import souborů v podobě klipů do vašeho projektu.</desc>
+    <license>
+      <p>Creative Commons Share Alike 3.0</p>
+    </license>
+  </info>
+
+    <title>Získávání médií</title>
+
+    <p>Pitivi umožňuje importovat multimediální soubory z pevného disku vašeho počítače.</p>
+    <note>
+        <p>Z důvodu omezených zdrojů a rychlého vývoje hardwaru pro tvorbu filmů v několika posledních letech a kvůli zachování robustnosti a snadné použitelnosti <app>Pitivi</app>, nezkoušíme podporovat naprosto všechna možná hardwarová zařízení. Výsledkem je, že v současnosti nemůžete použít <app>Pitivi</app> k zachytávání videa přímo z kamery. Pro tyto účely jsou vhodné specializované aplikace. Pro videokamery DV/HDV používající připojení IEEE 1394 (FireWire) můžete použít aplikace <app>Kino</app> nebo <app>dvgrab</app>.</p>
+    </note>
+
+      <section>
+       <title>Import souborů pomocí výběru souborů</title>
+         <p>Multimediální soubory můžete do <gui>Knihovny médií</gui> importovat pomocí dialogového okna pro výběr souborů, které je vylepšené o náhledy souborů vybraných k importu. Použijte k tomu tlačítko <guiseq><gui>Knihovna</gui><gui>Importovat</gui></guiseq> nebo zmáčkněte <keyseq><key>Ctrl</key><key>i</key></keyseq>.</p>
+         <p>Objeví se dialogové okno pro výběr souborů. Se zmáčknutou klávesou <key>Ctrl</key> nebo <key>Shift</key> můžete vybrat více souborů naráz.</p>
+       </section>
+       <section>
+        <title>Import souborů pomocí „táhni a upusť“</title>
+         <p>Koncept „táhni a pusť“ je zavedený způsob, jak překlenout více aplikací. Stačí v jiné aplikaci (třeba správci souborů nebo nějaké multimediální aplikaci) vybrat soubory, které chcete importovat, a přetáhnout je myší do <gui>Knihovny médií</gui> v <app>Pitivi</app>.</p>
+         <p>Tuto funkčnost můžete využít k:</p>
+         <list>
+          <item>
+           <p>Snadnému importu hudebních klipů nebo videoklipů z hudebního přehrávače (jako je <app>Rhythmbox</app> nebo <app>Totem</app>).</p>
+          </item>
+          <item>
+           <p>K použití plnohodnotného správce souborů (jako je <app>Nautilus</app>, <app>Thunar</app>, <app>Dolphin</app> nebo <app>Konqueror</app>) místo dialogového okna pro výběr souboru.</p>
+          </item>
+          <item>
+           <p>Importu kombinace více souborů a složek naráz.</p>
+          </item>
+          <item>
+           <p>Využítí schopnosti vyhledávání v jiných aplikacích (jako je <app>GNOME Shell</app>, <app>Tracker</app>, <app>GNOME Activity Journal</app>, <app>GNOME Search Tool</app> aj.).</p>
+          </item>
+         </list>
+       </section>
+
+</page>

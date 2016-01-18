@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" xmlns:e="http://projectmallard.org/experimental/" type="topic" id="usingeffects" xml:lang="sv">
+
+  <info>
+    <link type="guide" xref="index#effectstransitions"/>
+    <revision pkgversion="0.93" version="0.1" date="2014-03-25" status="draft"/>
+    <credit type="author">
+      <name>Tomáš Karger</name>
+      <email>tomkarger@gmail.com</email>
+    </credit>
+    <credit type="contributor">
+      <name>Jean-François Fortin Tam</name>
+      <email>nekohayo@gmail.com</email>
+    </credit>
+    <desc>Konfigurera effekter och att använda effektbiblioteket.</desc>
+    <license>
+      <p>Creative Commons Share Alike 3.0</p>
+    </license>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Josef Andersson</mal:name>
+      <mal:email>josef.andersson@fripost.org</mal:email>
+      <mal:years>2015</mal:years>
+    </mal:credit>
+  </info>
+
+    <title>Använda effekter</title>
+
+    <section>
+        <title>Effektbibliotek</title>
+        <p><gui>Effektbibliotek</gui> är en plats där alla tillgängliga ljud- och videoklipp lagras. Biblioteket visar antingen ljud- eller videoeffekter beroende på vilken knapp (<gui>Visa videoeffekter</gui> eller <gui>Visa ljudeffekter</gui>) uppe i högra hörnet som är aktiverad, Då du valt ljud- eller videoeffekter kan du sortera dem genom att välj en av kategorierna från rullgardinsmenyn intill de två knapparna. Som standard är listan inställd på att visa alla effekter.</p>
+        <p>Alternativt kan du använda <gui>Sökfältet</gui> som visas ovanpå <gui>Effektbiblioteket</gui>. Att skriva i sökraden filtrerar innehållet av <gui>Effektbiblioteket</gui> för att endast visa effekter vars namn eller beskrivning matchar dina söktermer. För att återställa sökinmatningen klicka på ikonen <gui>Rensa</gui> i sökfältet.</p>
+    </section>
+    <section>
+        <title>Konfigurera effekter</title>
+        <p>För att konfigurera effekter, markera den i <guiseq><gui>mittenpanelen</gui><gui>Klippkonfiguration</gui> <gui>Effekter</gui></guiseq>. Variabler som kan justeras kommer att visas i den nedre delen av <gui>Klippkonfigurationer</gui>. Var variabel kan återställas till dess ursprungliga värde genom att klicka på motsvarande knappen <gui>Återställ till standardvärde</gui>.</p>
+    </section>
+    <section>
+        <title>Animera effekter med nyckelbilder</title>
+        <p>De flesta effektvariabler kan kontrolleras genom nyckelbilder. För att komma åt nyckelbilder, klicka på <gui>Visa nyckelbilder för detta värde</gui> intill variabeln du vill kontrollera. På det markerade klippet kommer du att se en nyckelbildskurva som tillhör variabeln. Du kan nu redigera nyckelbilderna för att uppnå önskad effekt. När du är klar med redigeringen kan du klicka på knappen igen och nyckelbilden försvinner från klippet. Effektvariabeln kommer dock fortfarande att kontrolleras från den justerade nyckelbilden (vilket indikeras av den ifyllda figuren längst ned). För att återställa nyckelbildskurvan till det platta standardvärdet, använd knappen <gui>Återställ till standardvärde</gui>. För mer information om hur man använder nyckelbilder, se sidan <link xref="keyframecurves">Nyckelbildskurvor</link>.</p>
+        <note>
+            <p>Om knappen <gui>Visa nyckelbilder för detta värde</gui> inte finns intill effektvariabeln kan den inte kontrolleras genom nyckelbilder.</p>
+        </note>
+    </section>
+</page>

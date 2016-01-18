@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" xmlns:e="http://projectmallard.org/experimental/" type="guide" id="index" xml:lang="el">
+
+  <info>
+    <title type="link">Εγχειρίδιο γρήγορης έναρξης του Pitivi</title>
+    <title type="text">Εγχειρίδιο γρήγορης έναρξης του Pitivi</title>
+    <revision pkgversion="0.14.0" version="0.2" date="2011-06-05" status="complete"/>
+    <credit type="author">
+      <name>Jean-François Fortin Tam</name>
+      <email>nekohayo@gmail.com</email>
+    </credit>
+    <credit type="contributor">
+      <name>Mario Blättermann</name>
+      <email>mariobl@gnome.org</email>
+    </credit>
+    <license>
+      <p>Creative Commons Share Alike 3.0</p>
+    </license>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name> Δημήτρης Σπίγγος</mal:name>
+      <mal:email>dmtrs32@gmail.com</mal:email>
+      <mal:years>2013, 2014</mal:years>
+    </mal:credit>
+  </info>
+
+  <title><media type="image" mime="image/png" src="figures/logo.png">λογότυπος Pitivi</media> επεξεργαστής βίντεο Pitivi</title>
+
+   <p>Δομημένο πάνω στον σκελετό πολυμέσων <link href="http://en.wikipedia.org/wiki/GStreamer"><app>GStreamer</app></link>, το <app>Pitivi</app> σκοπεύει να είναι ένας διαισθητικός και ευέλικτος επεξεργαστής βίντεο που ενσωματώνεται καλά με το <link href="http://gnome.org"><app>GNOME</app></link> και μπορεί στους αρχάριους και επαγγελματίες εξίσου.</p>
+   <p>Αυτός ο οδηγός προορίζεται να σας βοηθήσει να καταλάβετε τις έννοιες πίσω από τη σχεδίασή τους και να γίνετε παραγωγικός γρήγορα.</p>
+
+  <section id="intro" style="2column">
+    <title>Εισαγωγή</title>
+  </section>
+
+  <section id="gettingstarted" style="2column">
+    <title>Ξεκίνημα</title>
+  </section>
+
+  <section id="timeline" style="2column">
+    <title>Βασική επεξεργασία με τη γραμμή χρόνου</title>
+  </section>
+
+  <section id="effectstransitions" style="2column">
+    <title>Effects and Transitions</title>
+  </section>
+
+  <section id="rendering" style="2column">
+    <title>Εξαγωγή της ολοκληρωμένης ταινίας σας</title>
+  </section>
+
+
+</page>

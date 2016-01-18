@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" xmlns:e="http://projectmallard.org/experimental/" type="topic" id="welcomedialog" xml:lang="el">
+
+  <info>
+    <link type="guide" xref="index#intro"/>
+    <revision pkgversion="0.92" version="0.2" date="2014-02-11" status="complete"/>
+    <credit type="author">
+      <name>Jean-François Fortin Tam</name>
+      <email>nekohayo@gmail.com</email>
+    </credit>
+    <credit type="contributor">
+      <name>Tomáš Karger</name>
+      <email>tomkarger@gmail.com</email>
+    </credit>
+    <desc>Δημιουργία νέων έργων και άνοιγμα πρόσφατων έργων στην έναρξη</desc>
+    <license>
+      <p>Creative Commons Share Alike 3.0</p>
+    </license>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name> Δημήτρης Σπίγγος</mal:name>
+      <mal:email>dmtrs32@gmail.com</mal:email>
+      <mal:years>2013, 2014</mal:years>
+    </mal:credit>
+  </info>
+
+    <title>Ο διάλογος υποδοχής</title>
+      <p>Όταν ξεκινάτε το <app>Pitivi</app>, εμφανίζεται ένας βοηθός εκκίνησης, που επιτρέπει τη δημιουργία ενός νέου έργου ή το άνοιγμα ενός υφιστάμενου έργου με λίγα πατήματα. Αν θέλετε να παραλείψετε αυτόν τον διάλογο, πατήστε το πλήκτρο <key>διαφυγής</key> στο πληκτρολόγιο ή πατήστε το πλήκτρο κλεισίματος του παραθύρου. Η παράβλεψη του διαλόγου θα ανοίξει ένα νέο έργο με προεπιλεγμένες ρυθμίσεις.</p>
+      <p>Ο διάλογος σας προσφέρει έργα που βρίσκονται μεταξύ των πρόσφατα χρησιμοποιούμενων αρχείων. Διπλοπατήστε ένα από αυτά για να το φορτώσει ή χρησιμοποιήσετε ένα από τα παρακάτω πλήκτρα:</p>
+      <list type="numbered">
+      <item><p>Το <gui>Νέο</gui> ανοίγει τον διάλογο <gui>Ρυθμίσεις έργου</gui> για ένα νέο έργο.</p></item>
+      <item><p>Το <gui>Περιήγηση έργων...</gui> ανοίγει μια επιλογή αρχείων στον τελευταίο χρησιμοποιημένο κατάλογο.</p></item>
+      <item><p>Το <gui>Βοήθεια</gui> ανοίγει την τεκμηρίωση χρήστη στη σελίδα ευρετηρίου.</p></item>
+      <item><p>Το <gui>Συντομεύσεις πληκτρολογίου</gui> ανοίγει την τεκμηρίωση χρήστη στις συντομεύσεις πληκτρολογίου και τη σελίδα σημειώσεων.</p></item>
+      </list>
+      <note style="tip">
+      <p>Δεξιοπατώντας τα ατομικά έργα που προσφέρονται από τον <gui>Διάλογο υποδοχής</gui> μπορείτε να πάρετε περισσότερες επιλογές: να αντιγράψετε τη θέση του έργου, να αφαιρέσετε το έργο από τον κατάλογο, να καθαρίσετε τον κατάλογο, ή να εμφανίσετε τους ιδιωτικούς πόρους.</p>
+      </note>
+</page>

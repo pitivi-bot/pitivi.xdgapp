@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" xmlns:e="http://projectmallard.org/experimental/" type="topic" id="presets" xml:lang="el">
+
+  <info>
+    <link type="guide" xref="index#gettingstarted"/>
+    <link type="seealso" xref="codecscontainers"/>
+    <link type="seealso" xref="rendering"/>
+    <revision pkgversion="0.93" version="0.1" date="2014-05-06" status="complete"/>
+    <credit type="author">
+      <name>Jean-François Fortin Tam</name>
+      <email>nekohayo@gmail.com</email>
+    </credit>
+    <credit type="contributor">
+     <name>Tomáš Karger</name>
+     <email>tomkarger@gmail.com</email>
+    </credit>
+    <desc>
+      Using presets in rendering and project settings.
+    </desc>
+    <license>
+      <p>Creative Commons Share Alike 3.0</p>
+    </license>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name> Δημήτρης Σπίγγος</mal:name>
+      <mal:email>dmtrs32@gmail.com</mal:email>
+      <mal:years>2013, 2014</mal:years>
+    </mal:credit>
+  </info>
+
+    <title>Προρυθμίσεις</title>
+    <p>Both the <gui>Project settings</gui> dialog and the <gui>Rendering</gui> dialog allow you to save presets for later use. If you often deal with the same kind of project settings, with different cameras or target devices for rendering, you may want to create custom presets.</p>
+    <section>
+    <title>The difference between Project settings and Rendering</title>
+    <p>While project settings concern themselves with global settings (such as resolution, framerate, aspect ratio and number of audio channels), the rendering settings are concerned with codecs and device constraints (for example, a handheld device or television may have a maximum screen resolution and framerate, which is not necessarily the case if you are exporting to a laptop or a website). The presets in the <gui>Rendering</gui> dialog are related to project settings, but they govern different things.</p>
+    <note><p>Στις ρυθμίσεις έργου, οι προρυθμίσεις βίντεο και ήχου είναι ανεξάρτητες μεταξύ τους.</p></note>
+    </section>
+    <section>
+        <title>Δημιουργία και επεξεργασία προρυθμίσεων</title>
+        <p>Για δημιουργία μιας προρύθμισης:</p>
+        <steps>
+            <item><p>Αλλάξτε τις ρυθμίσεις κατά την επιθυμία σας.</p></item>
+            <item><p>Click the <gui>Create</gui> button.</p></item>
+            <item><p>Δώστε στην προρύθμιση ένα μοναδικό όνομα: ενώ η προρύθμιση επιλέγεται στη λίστα, πατήστε στο όνομά της για εναλλαγή της κατάστασης επεξεργασίας. Όταν τελειώσετε, πατήστε το πλήκτρο <key>Εισαγωγή</key>.</p></item>
+        </steps>
+        <p>Για την επεξεργασία μιας προρύθμισης:</p>
+        <steps>
+            <item><p>Επιλέξτε την προρύθμιση σας στη λίστα των υπαρχουσών προρυθμίσεων.</p></item>
+            <item><p>Αλλάξτε τις ρυθμίσεις κατά την επιθυμία σας.</p></item>
+            <item><p>Πατήστε το κουμπί <gui>Αποθήκευση</gui>.</p></item>
+        </steps>
+        <p>Για την αφαίρεση μιας προρύθμισης, επιλέξτε την απλά στη λίστα προρυθμίσεων και πατήστε το κουμπί <gui>Αφαίρεση</gui>.</p>
+        <note><p>Μερικές προρυθμίσεις παρέχονται από προεπιλογή και δεν μπορούν να αφαιρεθούν.</p></note>
+    </section>
+    <section>
+        <title>Παράβλεψη προρυθμίσεων</title>
+        <p>Presets are there to save time and reduce complexity. However, you can choose to simply ignore them and set everything manually. This is what the <em>No preset</em> option is meant for. When chosen, it automatically saves the settings directly in the project file.</p>
+    </section>
+    <section>
+        <title>Όριο ανάλυσης μιας προρύθμισης απόδοσης</title>
+        <p>Αν θέλετε να κάνετε μια προρύθμιση με μια σταθερή μέγιστη ανάλυση, χρειάζεστε την επεξεργασία του αρχείου προρύθμισης με έναν επεξεργαστή κειμένου. Τα αρχεία προρυθμίσεων αποθηκεύονται τυπικά στο ~/.local/share/pitivi/· αφού πολλές συσκευές δεν έχουν μέγιστη ανάλυση, ο λόγος πλάτος/ύψος ορίζεται σε 0 (απεριόριστο) από προεπιλογή. Μπορείτε να αλλάξετε αυτές τις τιμές στη μέγιστη ανάλυση της συσκευής προορισμού σας.</p>
+    </section>
+
+</page>

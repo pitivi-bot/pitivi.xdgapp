@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" xmlns:e="http://projectmallard.org/experimental/" type="topic" id="about" xml:lang="fr">
+
+  <info>
+    <link type="seealso" xref="index"/>
+    <revision pkgversion="0.14" version="0.2" date="2011-06-05" status="complete"/>
+    <credit type="author">
+      <name>Jean-François Fortin Tam</name>
+      <email>nekohayo@gmail.com</email>
+    </credit>
+    <credit type="contributor">
+      <name>Mario Blättermann</name>
+      <email>mariobl@gnome.org</email>
+    </credit>
+    <desc>État actuel de ce manuel utilisateur et appel à participation.</desc>
+    <license>
+      <p>Creative Commons des Conditions Initiales à l'Identique 3.0</p>
+    </license>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Alain Lojewski</mal:name>
+      <mal:email>allomervan@gmail.com</mal:email>
+      <mal:years>2011</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Bruno Brouard</mal:name>
+      <mal:email>annoa.b@gmail.com</mal:email>
+      <mal:years>2012</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Julien Hardelin</mal:name>
+      <mal:email>jhardlin@orange.fr</mal:email>
+      <mal:years>2012</mal:years>
+    </mal:credit>
+  </info>
+
+  <title>À propos de ce manuel</title>
+   <p>Ce manuel utilisateur est écrit et maintenu par Jean-François Fortin Tam.</p>
+   <section>
+    <title>Travail en cours</title>
+     <p>Il se peut que vous trouviez des sections non encore écrites à cause de fonctions qui ne sont pas encore opérationnelles dans Pitivi au moment de l'écriture de ce guide.</p>
+     <p>Il se peut que vous trouviez des passages plus réduits déjà documentés mais qui ne sont pas encore opérationnels dans Pitivi. Il s'agit de domaines pour lesquels la conception ou l'interaction utilisateur souhaitée sont assez bien définis.</p>
+   </section>
+
+   <section>
+    <title>Toute correction est la bienvenue</title>
+     <p>Si vous trouvez des erreurs, des informations manquantes ou des passages imprécis dans ce manuel, merci de bien vouloir soumettre des corrections. Les adresses pour me contacter sont présentes sur <link href="http://jeff.ecchi.ca/">mon site personnel</link>. Vous pouvez également <link href="https://bugzilla.gnome.org/enter_bug.cgi?product=pitivi;component=documentation">déposer un rapport d'anomalie concernant la « documentation » sur le site de suivi des bogues</link>.</p>
+   </section>
+ 
+</page>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" xmlns:e="http://projectmallard.org/experimental/" type="topic" id="savescreenshot" xml:lang="sv">
+
+  <info>
+    <link type="topic" xref="index"/>
+    <revision pkgversion="0.16" version="0.1" date="2012-01-27" status="complete"/>
+    <credit type="author">
+      <name>Jean-François Fortin Tam</name>
+      <email>nekohayo@gmail.com</email>
+    </credit>
+    <license>
+      <p>Creative Commons Share Alike 3.0</p>
+    </license>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Josef Andersson</mal:name>
+      <mal:email>josef.andersson@fripost.org</mal:email>
+      <mal:years>2015</mal:years>
+    </mal:credit>
+  </info>
+
+    <title>Spara en ögonblicksbild av aktuell bildruta</title>
+
+    <p>Du kan använda <guiseq><gui>Tidslinje</gui><gui>Exportera aktuell bildruta...</gui></guiseq> för att spara en kopia av aktuell bildruta som en bildfil.</p>
+    <p>För närvarande stöds filformaten PNG och JPEG. Bildupplösningen kommer att match projektinställningarna och eventuella effekter och omvandlingar kommer också att tillämpas på slutbilden.</p>
+
+</page>

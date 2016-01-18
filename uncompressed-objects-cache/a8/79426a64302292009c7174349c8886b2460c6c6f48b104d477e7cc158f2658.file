@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" xmlns:e="http://projectmallard.org/experimental/" type="topic" id="cheatsheet" xml:lang="el">
+
+  <info>
+    <link type="topic" xref="index"/>
+    <link type="seealso" xref="movearoundtimeline"/>
+    <revision pkgversion="0.16" version="0.1" date="2012-09-03" status="complete"/>
+    <credit type="author">
+      <name>Jean-François Fortin Tam</name>
+      <email>nekohayo@gmail.com</email>
+    </credit>
+    <license>
+      <p>Creative Commons Share Alike 3.0</p>
+    </license>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name> Δημήτρης Σπίγγος</mal:name>
+      <mal:email>dmtrs32@gmail.com</mal:email>
+      <mal:years>2013, 2014</mal:years>
+    </mal:credit>
+  </info>
+
+    <title>Συντομεύσεις πληκτρολογίου και σκονάκι</title>
+
+    <p>Αυτή η σελίδα είναι μια λίστα σημαντικών συντομεύσεων για πρόσβαση συνήθως χρησιμοποιούμενων ή κρυφών χαρακτηριστικών. Αφιερώστε τον απαραίτητο χρόνο για εξοικείωση μαζί τους, επειδή θα βελτιώσουν την παραγωγικότητά σας τεράστια.</p>
+
+    <section>
+      <title>Γενικά</title>
+        <list>
+          <item><p><keyseq><key>Ctrl</key><key>N</key></keyseq>: Δημιουργία νέου έργου</p></item>
+          <item><p><keyseq><key>Ctrl</key><key>O</key></keyseq>: Άνοιγμα αρχείου έργου</p></item>
+          <item><p><keyseq><key>Ctrl</key><key>S</key></keyseq>: Αποθήκευση τρέχοντος έργου</p></item>
+          <item><p><keyseq><key>Ctrl</key><key>Q</key></keyseq>: Έξοδος από την εφαρμογή</p></item>
+          <item><p><keyseq><key>Ctrl</key><key>Z</key></keyseq>: Αναίρεση</p></item>
+          <item><p><keyseq><key>Ctrl</key><key>Shift</key><key>Z</key></keyseq>: Redo</p></item>
+          <item><p><key>F11</key>: Εναλλαγή κατάστασης πλήρους οθόνης</p></item>
+          <item><p><key>F1</key>: Εμφάνιση του εγχειριδίου χρήστη</p></item>
+        </list>
+    </section>
+
+    <section>
+      <title>Βιβλιοθήκη πολυμέσων</title>
+        <list>
+          <item><p><key>Enter</key>: Προεπισκόπηση (αναπαραγωγή) του επιλεγμένου αποσπάσματος</p></item>
+          <item><p><key>Insert</key>: Εισαγωγή των επιλεγμένων αποσπασμάτων στη γραμμή χρόνου</p></item>
+          <item><p><keyseq><key>Ctrl</key><key>Delete</key></keyseq>: Αφαίρεση των επιλεγμένων αποσπασμάτων από το έργο</p></item>
+        </list>
+    </section>
+
+    <section>
+      <title>Γραμμή χρόνου</title>
+        <list>
+          <item><p><key>Πλήκτρο διαστήματος</key>: Εναλλαγή αναπαραγωγής.</p></item>
+          <item><p><key>S</key>: Διαίρεση των αποσπασμάτων στην τρέχουσα θέση κεφαλής αναπαραγωγής. Αν υπάρχουν επιλεγμένα αποσπάσματα, μόνο αυτά θα διαιρεθούν.</p></item>
+          <item><p><key>Delete</key>: Αφαίρεση επιλεγμένων αποσπασμάτων από τη γραμμή χρόνου.</p></item>
+          <item><p><key>←</key> και <key>→</key>: Αναζήτηση μιας λήψης προς τα πίσω ή προς τα μπρος. Αυτό εξαρτάται από τον ρυθμό λήψεων του έργου σας.</p></item>
+          <item><p><keyseq><key>Shift</key><key>←</key></keyseq> και <keyseq><key>Shift</key><key>→</key></keyseq>: Αναζήτηση ενός δευτερολέπτου προς τα πίσω ή προς τα μπρος.</p></item>
+          <item><p><keyseq><key>Ctrl</key><key>+</key></keyseq> και <keyseq><key>Ctrl</key><key>-</key></keyseq>: Μεγέθυνση ή σμίκρυνση. Μπορείτε επίσης να χρησιμοποιήσετε <key>Ctrl</key> με τον τροχό του ποντικιού για τον πιο αποτελεσματικό έλεγχο της εστίασης.</p></item>
+          <item><p><keyseq><key>Ctrl</key><key>0</key></keyseq>: Ρύθμιση της εστίασης ώστε να προσαρμόζετε στη γραμμή χρόνου.</p></item>
+          <item><p><key>Shift</key>+μεταφορά: επεξεργασία ρυτίδωσης.</p></item>
+          <item><p><key>Ctrl</key>+μεταφορά: επεξεργασία κύλισης.</p></item>
+          <item><p><key>K</key>: Προσθήκη πλαισίου-κλειδιού ιδιότητας στην τρέχουσα θέση κεφαλής αναπαραγωγής.</p></item>
+          <item><p><key>.</key> και <key>,</key>: Μετάβαση στην επόμενη ή προηγούμενου πλαισίου-κλειδιού ιδιότητας.</p></item>
+        </list>
+    </section>
+</page>

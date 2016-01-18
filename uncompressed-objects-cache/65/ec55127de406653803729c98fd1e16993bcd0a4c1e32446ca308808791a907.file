@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" xmlns:e="http://projectmallard.org/experimental/" type="topic" id="keyframecurves" xml:lang="cs">
+
+  <info>
+    <link type="guide" xref="index#timeline"/>
+    <link type="seealso" xref="usingeffects"/>
+    <link type="seealso" xref="transitions"/>
+    <revision pkgversion="0.92" version="0.2" date="2014-03-13" status="complete"/>
+    <credit type="author">
+      <name>Jean-François Fortin Tam</name>
+      <email>nekohayo@gmail.com</email>
+    </credit>
+    <credit type="contributor">
+      <name>Mario Blättermann</name>
+      <email>mariobl@gnome.org</email>
+      <name>Tomáš Karger</name>
+      <email>tomkarger@gmail.com</email>
+    </credit>
+    <desc>Změna vlastností klipu v průběhu času</desc>
+    <license>
+      <p>Creative Commons Share Alike 3.0</p>
+    </license>
+  </info>
+
+    <title>Křivky přes klíčové snímky</title>
+     
+     <p>Pomocí křivek přes klíčové snímky můžete měnit hodnoty vlastností klipu v průběhu času. To lze využít ke změně krytí/průhlednosti nebo hlasitosti, stejně jako k řízení proměnných u efektů v libovolném bodě celého klipu.</p>
+     <figure>
+     <title>Křivka přes klíčové snímky</title>
+      <media type="image" src="figures/keyframecurves.png" mime="image/png" style="right"/>
+     </figure>
+     <p>Vysvětlení termínů:</p>
+     <list>
+         <item><p><em>Klíčové snímky</em> jsou body, ve kterých je určena hodnota nějaké vlastnosti pro daný časový bod.</p></item>
+         <item><p><em>Křivky přes klíčové snímky</em> jsou čáry propojující body, přičemž mezi nimi zajišťují hladký přechod.</p></item>
+     </list>
+     <p>Ve výchozím stavu jsou křivky přes klíčové snímky ploché: jde o dva klíčové snímky se stejnými hodnotami, jeden na začátku a druhý na konci klipu. Výsledkem je křivka spojující dva klíčové snímky přímou vodorovnou čarou říkající, že hodnota dané vlastnosti je stejná v kterémkoliv bodě po celou dobu klipu. Pro změnu hodnoty (míru její změny) v libovolném bodě přidejte do klipu jeden nebo více klíčových snímků a přetáhněte je na příslušná místa představující jejich hodnoty.</p>
+     <note>
+         <p>V současnosti jsou podporovány jen lineární křivky přes klíčové snímky.</p>
+     </note>
+
+     <section>
+      <title>Obecné využití</title>
+      <p>Křivky přes klíčové snímky jsou vnitřní vlastností klipů a uživatel je nemůže odstranit. Počáteční a koncový bod křivky jsou pevně svázány s počátečním a koncovým klíčovým snímkem klipu a proto ani ty uživatel nemůže odstranit. Mimo to můžete:</p>
+      <list>
+       <item><p>přidat klíčový snímek dvojitým kliknutím na prázdnou část křivky</p></item>
+       <item><p>odstranit klíčový snímek dvojitým kliknutím na něj</p></item>
+       <item><p>změnit čas a hodnotu klíčového snímku jeho přesunem pomocí myši</p></item>
+       <item><p>kliknout na segment křivky mezi dvěma klíčkovými snímky a táhnutím změnit svislé umístění segmentu</p></item>
+      </list>
+      <note style="tip">
+          <p>Můžete jej umístit kdekoliv v klipu chcete, dokonce tak, že se tím změní pořadí klíčových snímků.</p>
+      </note>
+     </section>
+
+     <section>
+      <title>Křivky zvuku a videa</title>
+       <p>U zvukových křivek představuje svislá poloha hlasitost klipu ve škále od 0 do 200 %. U obrazových křivek představuje svislá poloha alfa kanál (krytí) klipu ve škále od 0 od 100 %. Viz stránka <link xref="layers">Vysvětlení vrstev</link> ohledně dalších podrobností o krytí/průhlednosti.</p>
+     </section>
+</page>

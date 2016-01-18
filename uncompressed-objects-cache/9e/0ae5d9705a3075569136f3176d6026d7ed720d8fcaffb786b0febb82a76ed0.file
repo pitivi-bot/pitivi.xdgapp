@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" xmlns:e="http://projectmallard.org/experimental/" type="topic" id="gstreamer" xml:lang="sl">
+
+  <info>
+    <link type="guide" xref="index#intro"/>
+    <revision pkgversion="0.93" version="0.2" date="2014-04-06" status="complete"/>
+    <credit type="author">
+      <name>Jean-François Fortin Tam</name>
+      <email>nekohayo@gmail.com</email>
+    </credit>
+    <credit type="contributor">
+      <name>Mario Blättermann</name>
+      <email>mariobl@gnome.org</email>
+      <name>Tomáš Karger</name>
+      <email>tomkarger@gmail.com</email>
+    </credit>
+    <desc>Za največjo združljivost se prepričajte, da imate nameščene ustrezne predstavnostne kodeke in vstavke.</desc>
+    <license>
+      <p>Creative Commons - deljenje pod enakimi pogoji 3.0</p>
+    </license>
+  </info>
+
+    <title>Gstreamer in združljivost</title>
+
+     <p>A great strength of <app>Pitivi</app> lies in the fact that it uses the <app>GStreamer</app> multimedia framework. <app>GStreamer</app> is used by dozens of multimedia applications across desktop environments, operating systems and architectures.</p>
+     <p>For <app>Pitivi</app> users, this essentially means two things:</p>
+     <list>
+      <item>
+       <p>You can, in theory, import pretty much any media file supported by <app>GStreamer</app> (see the sections below for more details).</p>
+      </item>
+      <item>
+       <p>lahko izrišete svoje projekte v kateremukoli podprti kombinaciji vsebnika in kodeka, ki ju podpira <app>GStreamer</app>.</p>
+      </item>
+     </list>
+     <note style="tip">
+         <p>To maximize <app>Pitivi</app>'s capabilities and reduce the possibilities of bugs, a very recent version of <app>GStreamer</app> is recommended. This is because <app>Pitivi</app> developers work hard on fixing problems directly in <app>GStreamer</app> instead of putting temporary workarounds inside <app>Pitivi</app>.</p>
+     </note>
+
+    <section>
+     <title>Nekaj o za urejanje prijaznih kodekih</title>
+      <p>Nekatere vrste kot je <em>MPEG</em> so namenjene le za predvajanje in se posamezne sličice ne stisnejo neodvisno. <app>Pitivi</app> podpira delo s temi datotekami, vendar nekatera opravila (kot je hitro iskanje) ne bodo delovala tako dobro kot delujejo na videu, kjer je vsaka sličica stisnjena neodvisno (kot je <em>MJPEG</em> ali <em>DV</em>).</p>
+    </section>
+
+    <section>
+     <title>Dobro, slabo in grdo</title>
+      <p><app>GStreamer</app> plugins come into three categories: good, bad and ugly. You may need to install plugins from any category to ensure compatibility with your media files. Whether or not you install them is up to you, and may depend on your country's jurisdiction regarding software patents. An overview of gstreamer plugins and their classification into categories can be found on the <link href="http://gstreamer.freedesktop.org/documentation/plugins.html">Gstreamer website</link>.</p>
+        <list>
+            <item><p>The "Good" plugins are high quality plugins under the LGPL license. These plugins are considered safe and recommended at any time. To install them, search for packages containing gstreamer plugins good in your distribution's repositories.</p></item>
+            <item><p>The "Bad" plugins are plugins whose code quality is not good enough, or are not considered tested well enough. The licensing may or may not be LGPL. To install them, search for packages containing gstreamer plugins bad in your distribution's repositories.</p></item>
+            <item><p>The "Ugly" plugins are good quality plugins whose license is not LGPL or with licensing issues. To install them, search for packages containing containing gstreamer plugins ugly in your distribution's repositories.</p></item>
+        </list>
+      <note style="tip">
+      <p>In addition to the Good, Bad and Ugly plugins, you may want to install the <em>gstreamer-ffmpeg</em> package to have access to ffmpeg's set of codecs.</p>
+      </note>
+      <p/>
+    </section>
+
+    <section>
+        <title>Podprte vrste datotek</title>
+        <p>Izpis vseh mogočih kombinacij podprtih vrst zvoka in videa nima smisla. Mogoče pa je izpisati seznam statičnih slik, ki jih je mogoče uvoziti: JPEG, PNG, JPEG 2000, PNM in SVG.</p>
+        <!-- Note: this is obtained by doing:
+        gst-inspect -a | grep Decoder/Image | cut -d : -f1 | sed -e s/dec$//g
+        -->
+    </section>
+
+
+</page>

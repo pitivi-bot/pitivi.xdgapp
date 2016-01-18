@@ -1,0 +1,11 @@
+matplotlib/_image.cpython-33m.so
+matplotlib/_png.cpython-33m.so
+matplotlib/_qhull.cpython-33m.so
+matplotlib/ttconv.cpython-33m.so
+matplotlib/_cntr.cpython-33m.so
+matplotlib/_delaunay.cpython-33m.so
+matplotlib/_tri.cpython-33m.so
+matplotlib/ft2font.cpython-33m.so
+matplotlib/_path.cpython-33m.so
+matplotlib/_contour.cpython-33m.so
+matplotlib/backends/_backend_agg.cpython-33m.so

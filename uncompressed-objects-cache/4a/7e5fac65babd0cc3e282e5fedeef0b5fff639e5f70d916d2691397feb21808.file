@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" xmlns:e="http://projectmallard.org/experimental/" type="topic" id="importingmpegts" xml:lang="sv">
+
+  <info>
+    <link type="seealso" xref="importing"/>
+    <link type="seealso" xref="gstreamer"/>
+    <revision pkgversion="0.14" version="0.1" date="2011-06-05" status="complete"/>
+    <credit type="author">
+      <name>Jean-François Fortin Tam</name>
+      <email>nekohayo@gmail.com</email>
+    </credit>
+    <desc>Hur man konverterar .mts och .m2ts-filer till ett format som kan tolkas av GStreamer och Pitivi.</desc>
+    <license>
+      <p>Creative Commons Share Alike 3.0</p>
+    </license>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Josef Andersson</mal:name>
+      <mal:email>josef.andersson@fripost.org</mal:email>
+      <mal:years>2015</mal:years>
+    </mal:credit>
+  </info>
+    <!-- TODO: remove this manual page when gstreamer supports mpeg-ts files !-->
+    <title>Att hantera AVCHD / MPEG-TS-filer</title>
+
+     <p>För nuvarande kan inte MPEG Transport Stream-filer (vanligen med filutökningar som .mts, m2ts och ibland .mpg eller mpeg), som de som används av HD-videokameror, spelas upp stabilt med <app>GStreamer</app>. Du kan därför vilja omvandla (remux) dem till ett annat behållarformat genom att använda <app>ffmpeg</app>. För att konvertera förlustfritt till en MPEG4-behållare kan du använda följande kommando:</p>
+    <code>ffmpeg -i ditt_klipp.MTS -vcodec copy -acodec copy -sn test.mp4</code>
+
+</page>

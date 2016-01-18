@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<application>
+ <id type="desktop">pitivi.desktop</id>
+ <licence>CC-BY</licence>
+ <description>
+  <p>Pitivi is a video editor that aims to appeal to hobbyists and professionals alike, with a strong focus on efficiency, quality and usability. It integrates well with other applications and sports a beautiful user interface designed to be powerful yet easy to learn.</p>
+  <p xml:lang="bs">Pitivi je video editor koji ima za cilj da se svidii hobistima i profesionalcima podjednako, s jakim naglaskom na učinkovitosti kvalitete i upotrebljivosti. On se integrira s drugim aplikacijama i kao sportski lijepo korisničko sučelje dizajnirano da bude moćno, ali jednostavno za naučiti.</p>
+  <p xml:lang="cs">Pitivi je videoeditor, který si klade za cíl oslovit fandy i profesionály a který klade velký důraz na efektivitu, kvalitu a použitelnost. Je dobře integrován s dalšími aplikacemi a předvádí pěkné uživatelské rozhraní navržené s důrazem na snadné osvojení.</p>
+  <p xml:lang="de">Pitivi ist ein Videoeditor, der das Ziel hat, sowohl für Amateure als auch für Experten attraktiv zu sein und dabei eine starke Ausrichtung auf Effizienz, Qualität und Benutzerfreundlichkeit hat. Pitivi fügt sich problemlos in andere Anwendungen ein und kann sich mit seiner ansprechenden Benutzeroberfläche, die so entworfen wurde, dass sie zugleich mächtig und dennoch einfach zu erlernen ist, sehen lassen.</p>
+  <p xml:lang="el">Το Pitivi είναι ένας επεξεργαστής βίντεο που σκοπεύει να προσελκύσει ερασιτέχνες και επαγγελματίες, που αποβλέπουν σε αποτελεσματικότητα, ποιότητα και χρηστικότητα. Ενσωματώνεται καλά με άλλες εφαρμογές και επιδεικνύει μια όμορφη διεπαφή χρήστη σχεδιασμένη να είναι ισχυρή αλλά και εύκολη στην εκμάθηση.</p>
+  <p xml:lang="es">Pitivi es un editor de vídeo que pretende atraer a aficionados y profesionales por igual, orientado a la usabilidad, la eficiencia y la calidad. Se integra bien con otras aplicaciones y tiene una bonita interfaz diseñada para ser potente y fácil de usar.</p>
+  <p xml:lang="eu">Pitivi zaleentzako nahiz profesionalentzako bideo-editore bat da, eta eraginkortasuna, kalitatea eta erabilgarritasuna lehenesten ditu. Ondo integratzen da beste aplikazioekin; eta erabiltzaile-interfaze polita dauka, ahaltsua eta ikasteko erraza izateko diseinatua.</p>
+  <p xml:lang="fr">Un éditeur vidéo visant aussi bien les passionnés que les professionnels, avec un fort accent sur la convivialité, l'efficacité et la qualité. Pitivi s'intègre harmonieusement avec les autres logiciels et présente une magnifique interface utilisateur conçue pour être puissante tout en restant simple à apprendre.</p>
+  <p xml:lang="hu">A Pitivi videoszerkesztő célja vonzónak lenni az amatőröknek és szakembereknek egyaránt, nagy hangsúlyt fektetve a hatékonyságra, minőségre és használhatóságra. Jól integrálódik más alkalmazásokhoz, és gyönyörű felhasználói felülete van, amelyet hatékonynak, de könnyen tanulhatónak terveztek.</p>
+  <p xml:lang="lt">Pitivi yra vaizdo įrašų redaktorius, kuris siekia patikti panašiams hobiistams ir profesionalams, daug dėmesio skiriant naudojamumui, efektyvumui ir kokybei. Jis gerai integruojasi su kitomis programomis bei turi gražią naudotojo sąsają, sukurtą taip, kad būtų galinga, bet tuo pat metu lengva išmokti.</p>
+  <p xml:lang="pl">Edytor plików wideo przeznaczony dla hobbistów i zawodowców, oferujący użyteczność, wydajność i jakość. Integrując się ze środowiskiem GNOME i innymi programami, program Pitivi posiada prosty, lecz jednocześnie oferujący wiele możliwości interfejs użytkownika.</p>
+  <p xml:lang="pt">O Pitivi é um editor de vídeo que tem por objetivo agradar a amadores mas também a profissionais, com forte foco na usabilidade, eficiência e qualidade. Com boa integração com outras aplicações, o Pitivi ostenta um ambiente gráfico bonito, projetado para ser poderoso e de fácil aprendizagem.</p>
+  <p xml:lang="pt_BR">O Pitivi é um editor de vídeo que tem por objetivo atrair amadores e também profissionais, com forte foco em usabilidade, eficiência e qualidade. Com boa integração com outros aplicativos, o Pitivi ostenta uma bela interface gráfica projetada para ser poderosa e ainda de fácil aprendizagem.</p>
+  <p xml:lang="sk">Pitivi je editor videa určený pre nadšencov a profesionálov so silným zameraním na efektivitu, kvalitu a použiteľnosť. Je dobre integrovaný s ďalšími aplikáciami a má elegantný vzhľad s dôrazom na ľahko osvojiteľné a výkonné ovládanie.</p>
+  <p xml:lang="sl">Montažni program za video, namenjen navdušencem in strokovnjakom, z močnim poudarkom na uporabnosti, učinkovitosti in kakovosti. Dobro je integriran z drugimi programi in krasi ga lep uporabniški vmesnik, zaradi katerega je kljub vsej funkcionalnosti enostaven za učenje.</p>
+  <p xml:lang="sr">Питиви је видео уређивач који има за циљ да се подједнако допадне хобистима и професионалцима, са јаким нагласком на делотворност, квалитет и употребљивост. Одлично се обједињује са другим програмима и поседује лепо корисничко сучеље осмишљено да буде снажно и лако за учење.</p>
+  <p xml:lang="sr@latin">Pitivi je video uređivač koji ima za cilj da se podjednako dopadne hobistima i profesionalcima, sa jakim naglaskom na delotvornost, kvalitet i upotrebljivost. Odlično se objedinjuje sa drugim programima i poseduje lepo korisničko sučelje osmišljeno da bude snažno i lako za učenje.</p>
+  <p xml:lang="sv">Pitivi är en videoredigerare med inriktning på både hobbyanvändare och professionella, med ett starkt fokus på effektivitet, kvalitet och användbarhet. Det integrerar bra med andra program och har ett vackert användargränssnitt framtaget för att vara kraftfullt och enkelt.</p>
+  <p xml:lang="uk">Відеоредактор для аматорів та напівпрофесіоналів з основним акцентом на зручності у користуванні, ефективності та якості. Чудово інтегруючись до інших програм, Pitivi має красивий інтерфейс, потужний і простий у вивченні.</p>
+  <p xml:lang="zh_HK">Pitivi 是個以「吸引愛好者，也吸引專家」為目標的影片編輯器，非常專注於效率、品質、便用。它不只與其他應用程式整合良好，更具有美觀的使用者介面，設計雖強大但仍易於學習。</p>
+  <p xml:lang="zh_TW">Pitivi 是以「吸引愛好者，也吸引專家」為目標的影片編輯器，非常專注於效率、品質、便用。它不只與其他應用程式整合良好，更具有美觀的使用者介面，設計雖強大但仍易於學習。</p>
+  <p>With a non-modal editing workflow, a framerate-independent and playhead-centric timeline, Pitivi allows you quickly and accurately trim, split and review your scenes. Pitivi's ripple and roll editing features allow spending more time on storytelling and less time on "pushing clips around".</p>
+  <p xml:lang="bs">Uz ne-modalnog tijeka rada za uređivanje, framerate neovisan i playhead-centric timelajnom, Pitivi omogućuje brzo i precizno podrezivanje, podjelu i pregledavanje svoje scene. Pitivi je talasanje, zamotavanje i uređivanje značajki koje omogućuju trošenje više vremena na pripovijedanje i manje vremena na "guranje isječaka oko".</p>
+  <p xml:lang="cs">Pomocí volného průběhu úprav, časové ose nezávislé na snímkové rychlosti a s přehrávací hlavou, můžete v Pitivi scény velmi rychle a přitom přesně ořezávat, rozdělovat a kontrolovat. Díky řetězovým a svitkovým úpravám můžete více času věnovat vlastnímu příběhu a měně nudným pracem okolo.</p>
+  <p xml:lang="de">Mit einem nichtmodalen Bearbeitungs-Arbeitsfluss, einer Bildwiederholraten-unabhängigen und Suchleisten-zentrischen Zeitleiste erlaubt es Pitivi Ihnen, Ihre Szenen schnell und genau zu trimmen, zu splitten und durchzusehen. Pitivis Bearbeitungsfunktionen »Löschen und Lücke schließen« (engl. ripple edit) und »Rollen« (engl. roll edit) erlauben es, mehr Zeit für das Geschichtenerzählen zu verwenden und weniger Zeit für das »Clip-Schubsen« aufzuwenden.</p>
+  <p xml:lang="el">Με μια μη αναγκαστική ροή εργασίας της επεξεργασίας, μια λωρίδα χρόνου ανεξάρτητη από τον ρυθμό λήψεων και την κεντρική κεφαλή αναπαραγωγής, το Pitivi σας επιτρέπει να περικόψετε, να διαιρέσετε και να επιθεωρήσετε τις σκηνές σας γρήγορα και με ακρίβεια. Τα γνωρίσματα επεξεργασίας κυματισμού και κύλισης επιτρέπυν την διάθεση περισσότερου χρόνου στην αφήγηση και λιγότερο χρόνο στην "προώθηση κομματιών ολόγυρα".</p>
+  <p xml:lang="es">Con un flujo de trabajo de edición no modal, una tasa de fotogramas independiente y una línea de tiempo centrada, Pitivi le permite recortar, dividir y revisar sus películas rápidamente. Las características de edición de remolino y de desplazamiento permiten invertir más tiempo en contar la historia y menos en recortar los clips.</p>
+  <p xml:lang="eu">Pitivi-n, ediziorako lan-fuxua ez-modala da, eta denbora-lerroa, berriz, fotograma-abiadurarekiko independentea eta erreprodukzio-puntuan zentratua; hala, Pitivi-rekin, bizkor eta zehazki moztu, zatitu eta berrikus daitezke eszenak. Mozketak egitean sekuentziak egokitzeko Pitivi-k dituen "ripple" eta "roll" edizio-tresnei esker, denbora gehiago emango duzu istorioak kontatzen eta gutxiago sekuentziak eskuz moldatzen.</p>
+  <p xml:lang="fr">Avec son flux de travail non modal, sa piste de montage indépendante de la cadence d'images et centrée sur le point de lecture, Pitivi vous permet de rogner, scinder et réviser vos scènes rapidement et avec précision. Les fonctions agiles de déplacement de séquences de Pitivi permettent de passer plus de temps sur le scénario dans son ensemble et moins de temps à manipuler des séquences.</p>
+  <p xml:lang="hu">Nem kizárólagos szerkesztési munkamenettel, a képkockasebesség-független és lejátszófej-központú idővonallal a Pitivi lehetővé teszi a jelenetek gyors és pontos vágását, felosztását és áttekintését. A Pitivi szerkesztési funkciói lehetővé teszik, hogy több időt töltsön a történetmeséléssel, és kevesebbet a klipek „tologatásával”.</p>
+  <p xml:lang="lt">Su nemodaline redagavimo seka, nuo kadrų dažnio nepriklausančia bei grojimo galvute paremta laiko linija Pitivi leidžia greitai ir tiksliai sutrumpinti, padalinti ir peržiūrėti scenas. Pitivi redagavimo savybės leidžia daugiau laiko praleisti kuriant istoriją ir mažiau klipų stumdymui.</p>
+  <p xml:lang="pl">Dzięki niemodalnej edycji oraz niezależnej od liczby klatek i opartej o głowicę osi czasu, program Pitivi umożliwia szybkie i dokładne przycinanie, dzielenie i przeglądanie tworzonych scen. Funkcje edycji programu Pitivi pozwalają spędzić więcej czasu na opowiadaniu historii, a mniej na „przerzucaniu” klipów.</p>
+  <p xml:lang="pt">Com um fluxo de trabalho de edição não-modal, independente de taxa de molduras e cronologia centrada no indicador de reprodução, o Pitivi permite que apare divida e reveja rapidamente e com precisão as suas cenas. Os recursos de edição de ondular e rolar do Pitivi permitem que dedique mais tempo à narração e menos tempo "empurrando clipes por aí".</p>
+  <p xml:lang="pt_BR">Com um fluxo de trabalho de edição não-modal, independente de taxa de quadros e linha de tempo centrada no indicador de reprodução, o Pitivi permite que você rapidamente e com precisão apare, divida e reveja suas cenas. Os recursos de edição de ondulação e rolagem do Pitivi permitem que você dedique mais tempo à narração e menos tempo "empurrando clipes por aí".</p>
+  <p xml:lang="sk">S nepovinným postupom úpravy, nezávislom na počte snímok za sekundu a priamym prehrávaním v smere časovej osi umožňuje Pitivi rýchlo a presne orezať, rozdeliť a prehliadať vaše scény.  Vďaka reťazovým a zvitkovým úpravám umožňuje venovať viac času rozprávaniu príbehu ako „preťahovaniu klipov dookola“.</p>
+  <p xml:lang="sr">Са не-модалним радним током уређивања, временском линијом средишне прве позиције независном од протока кадра, Питиви вам омогућава да брзо и тачно скратите, поделите и прегледате ваше сцене. Питивијеве уређивачке функције таласања и котрљања обезбеђују више времена на разради теме а мање на „премештању снимака унаоколо“.</p>
+  <p xml:lang="sr@latin">Sa ne-modalnim radnim tokom uređivanja, vremenskom linijom središne prve pozicije nezavisnom od protoka kadra, Pitivi vam omogućava da brzo i tačno skratite, podelite i pregledate vaše scene. Pitivijeve uređivačke funkcije talasanja i kotrljanja obezbeđuju više vremena na razradi teme a manje na „premeštanju snimaka unaokolo“.</p>
+  <p xml:lang="sv">Med ett icke-modalt arbetsflöde för redigering, en bildfrekvensoberoende och uppspelningshuvudcentrerad tidslinje, gör Pitivi det möjligt för dig att snabbt och korrekt trimma, dela och förhandsgranska dina scener. Pitivis krusnings- och rullredigeringsmöjligheter gör det möjligt att lägga tiden på historieberättande istället för att "flytta omkring klipp".</p>
+  <p xml:lang="uk">У програмі передбачено редагування без зайвих вікон, незалежний від частоти кадрів монтажний стіл, роботу на якому зосереджено навколо курсора стола. За допомогою Pitivi ви зможете точно і швидко обрізати, розділити та переглянути сцени. Чудові можливості з редагування Pitivi нададуть вам змогу зосередитися на матеріалі і витрачати менше часу на беззмістовне пересування кліпів.</p>
+  <p xml:lang="zh_TW">擁有非典範式編輯流程，以及幀率獨立、以播放頭為中心的時間軸，Pitivi 讓您可以快速且精確地修剪、裁切、檢閱各個場景。Pitivi 的漣漪與捲滾編輯特色，讓您可以更專注於說故事本身，而不是「到處拖推剪輯位置」。</p>
+  <p>Some other features include:</p>
+  <p xml:lang="bs">Neke druge značajke uključuju:</p>
+  <p xml:lang="cs">Mezi dalšími funkcemi najdete:</p>
+  <p xml:lang="de">Weitere Funktionen:</p>
+  <p xml:lang="el">Κάποια άλλα γνωρίσματα περιλαμβάνουν:</p>
+  <p xml:lang="es">Entre otras características se incluyen:</p>
+  <p xml:lang="eu">Ezaugarri hauek ere baditu, besteak beste:</p>
+  <p xml:lang="fr">Parmi les autres fonctionnalités :</p>
+  <p xml:lang="hu">Néhány további funkció:</p>
+  <p xml:lang="lt">Kai kurios kitos savybės:</p>
+  <p xml:lang="pl">Inne funkcje obejmują:</p>
+  <p xml:lang="pt">Algumas outras características incluem:</p>
+  <p xml:lang="pt_BR">Algumas outras características incluem:</p>
+  <p xml:lang="ru">Среди прочих возможностей:</p>
+  <p xml:lang="sk">Medzi ďalšie funkcie patrí:</p>
+  <p xml:lang="sl">Med drugimi novostmi so tudi:</p>
+  <p xml:lang="sr">У остале функције спадају:</p>
+  <p xml:lang="sr@latin">U ostale funkcije spadaju:</p>
+  <p xml:lang="sv">Några andra funktioner:</p>
+  <p xml:lang="tr">Diğer bazı özellikleri arasında şunlar yer alır:</p>
+  <p xml:lang="uk">Серед інших можливостей:</p>
+  <p xml:lang="zh_HK">其他特點包括：</p>
+  <p xml:lang="zh_TW">其他特點包括：</p>
+  <ul>
+    <li>Accepts any file formats supported by the GStreamer multimedia framework</li>
+    <li xml:lang="bs">Prihvaća sve formate datoteka koje podržavaju multimedijske okviru GStreamer</li>
+    <li xml:lang="cs">Zpracování libovolného formátu, který je podporován multimediálním rámcem GStreamer</li>
+    <li xml:lang="de">Arbeitet mit allen Dateiformaten, die vom GStreamer Multimedia-Framework unterstützt werden</li>
+    <li xml:lang="el">Αποδοχή οποιασδήποτε μορφής αρχείου όπου υποστηρίζεται από το πλαίσιο πολυμέσων GStreamer</li>
+    <li xml:lang="es">Acepta cualquier formato de archivo soportado por el entorno de trabajo multimedia GStreamer</li>
+    <li xml:lang="eu">GStreamer multimedia-sistemak onartzen duen edozein fitxategi-formatu onartzen du</li>
+    <li xml:lang="fr">Accepte tout format de fichier pris en charge par le système multimédia GStreamer</li>
+    <li xml:lang="hu">Bármely, a GStreamer multimédiás keretrendszer által támogatott fájlformátumot elfogad</li>
+    <li xml:lang="lt">Palaiko bet kurį GStreamer daugialypės terpės karkaso palaikomą failo formatą</li>
+    <li xml:lang="pl">Można używać wszystkich formatów plików obsługiwanych przez bibliotekę multimedialną GStreamer</li>
+    <li xml:lang="pt">Aceitar quaisquer formatos de ficheiro suportados pela estrutura multimédia do GStreamer</li>
+    <li xml:lang="pt_BR">São aceitos quaisquer formatos de arquivos suportados pelo framework multimídia do GStreamer</li>
+    <li xml:lang="ru">Читает любые файлы, поддерживаемые мультимедийным фреймворком GStreamer.</li>
+    <li xml:lang="sk">Použitie formátov súborov, ktoré sú podporované multimediálnym frameworkom GStreamer</li>
+    <li xml:lang="sr">Прихвата било који запис датотеке подржан Гстримеровим мултимедијским радним склопом</li>
+    <li xml:lang="sr@latin">Prihvata bilo koji zapis datoteke podržan Gstrimerovim multimedijskim radnim sklopom</li>
+    <li xml:lang="sv">Accepterar alla filformat som stöds av multimediaramverket GStreamer</li>
+    <li xml:lang="tr">GStreamer çokluortam çatısı tarafından desteklenen her tür dosya biçimini kabul eder</li>
+    <li xml:lang="uk">Робота з будь-якими форматами файлів, підтримку яких передбачено у мультимедійному комплекті бібліотек GStreamer.</li>
+    <li xml:lang="zh_HK">接受任何 GStreamer 多媒體框架所支援的檔案格式</li>
+    <li xml:lang="zh_TW">接受任何 GStreamer 多媒體框架所支援的檔案格式</li>
+    <li>Can animate hundreds of special effects and filters with keyframable properties</li>
+    <li xml:lang="bs">Može animirati stotine specijalnih efekata i filtera s keyframable svojstvima</li>
+    <li xml:lang="cs">Možnost animace pomocí stovek speciálních efektů a filtrů s vlastnosmi na klíčových snímcích</li>
+    <li xml:lang="de">Kann hunderte von Spezialeffekten und Filter mit schlüsselbildbezogenen Eigenschaften animieren</li>
+    <li xml:lang="el">Δυνατότητα απεικόνισης εκατοντάδων ειδικών εφέ και φίλτρων με ιδιότητες βασικού πλαισίου</li>
+    <li xml:lang="es">Puede animar cientos de efectos especiales y filtros con fotogramas clave</li>
+    <li xml:lang="eu">Ehunka efektu berezi eta iragazki anima ditzake, fotograma gakoen propietateak erabiliz</li>
+    <li xml:lang="fr">Sait combiner des centaines de filtres et d'effets spéciaux avec des propriétés par image-clé</li>
+    <li xml:lang="hu">Több száz speciális effektust és szűrőt tud animálni, kulcsképkockával ellátható tulajdonságokkal</li>
+    <li xml:lang="lt">Turi daugybę specialiųjų efektų ir filtrų su kadrų savybėmis</li>
+    <li xml:lang="pl">Można animować setki efektów specjalnych i filtrów za pomocą właściwości klatek kluczowych</li>
+    <li xml:lang="pt">Poder aplicar centenas de efeitos especiais e filtros com propriedades de molduras chave</li>
+    <li xml:lang="pt_BR">Pode-se aplicar centenas de efeitos especiais e filtros com propriedades de quadros chave</li>
+    <li xml:lang="ru">Может анимировать по ключевым кадрам параметры сотен спецэффектов и фильтров.</li>
+    <li xml:lang="sk">Možnosť animácie so stovkami špeciálnych efektov a filtrov s vlastnosťami na kľúčové snímky</li>
+    <li xml:lang="sr">Може да произведе стотине посебних ефеката и пропусника са својствима кључног кадра</li>
+    <li xml:lang="sr@latin">Može da proizvede stotine posebnih efekata i propusnika sa svojstvima ključnog kadra</li>
+    <li xml:lang="sv">Kan animera hundratals specialeffekter och filter med nyckelbildegenskaper</li>
+    <li xml:lang="uk">Використання сотень спеціальних ефектів та фільтрів з прив’язкою до ключових кадрів відео.</li>
+    <li xml:lang="zh_TW">有上百種特效與過濾器可以利用鍵幀屬性來製作動畫</li>
+    <li>Ability to set custom aspect ratios, framerates and rendering presets</li>
+    <li xml:lang="bs">Sposobnost za postavljanje  običaja i aspekata omjera, framerata i pružanje postavki</li>
+    <li xml:lang="cs">Schopnost nastavení vlastního poměru stran, snímkové rychlosti a předvoleb vykreslování</li>
+    <li xml:lang="de">Die Möglichkeit, benutzerdefinierte Seitenverhältnisse, Bildwiederholraten und Erstellungs-Voreinstellungen einzustellen</li>
+    <li xml:lang="el">Δυνατότητα ορισμού προσαρμοσμένων αναλογιών διαστάσεων, ρυθμών λήψεων και απόδοσης προεπιλογών</li>
+    <li xml:lang="es">Posibilidad de establecer relaciones de aspecto personalizadas, y configuraciones predefinidas de tasas de fotogramas y renderizado</li>
+    <li xml:lang="eu">Aukera ematen du aspektu-erlazio pertsonalizatuak, fotograma-abiadurak eta errendatze lehenetsiak ezartzeko</li>
+    <li xml:lang="fr">Permet de personnaliser les rapports d'affichage, la cadence d'images et les pré-réglages de rendu</li>
+    <li xml:lang="hu">Képes egyéni méretarányok, képkockasebességek és renderelési előbeállítások használatára</li>
+    <li xml:lang="lt">Galimybė nustatyti pasirinktines proporcijas, kadrų dažnius ir piešimo išankstinius nustatymus</li>
+    <li xml:lang="pl">Możliwość ustawiania własnych proporcji, liczby klatek i opcji renderowania</li>
+    <li xml:lang="pt">Capacidade para definir proporções, taxas de moldura e predefinições de entrega personalizadas</li>
+    <li xml:lang="pt_BR">Há capacidade para definir taxas de proporção, taxas de quadros e predefinições de renderização personalizadas</li>
+    <li xml:lang="ru">Допускает применение произвольного соотношения сторон, частоты кадров и предустановок экспорта видео.</li>
+    <li xml:lang="sk">Možnosť nastaviť vlastné proporcie, počet snímkov za sekundu a predvoľby vykresľovania</li>
+    <li xml:lang="sr">Способност постављања произвољних односа размере, протока кадрова и подешавања исцртавања</li>
+    <li xml:lang="sr@latin">Sposobnost postavljanja proizvoljnih odnosa razmere, protoka kadrova i podešavanja iscrtavanja</li>
+    <li xml:lang="sv">Förmåga att ange anpassade bildförhållanden, bildfrekvens och renderingsförinställningar</li>
+    <li xml:lang="uk">Можливість встановлення нетипових розмірів кадру, частоти кадрів та шаблонів обробки остаточного відео.</li>
+    <li xml:lang="zh_HK">可以自選長寬比、幀率、壓製預置設定</li>
+    <li xml:lang="zh_TW">可以自訂長寬比、幀率、壓製預置設定</li>
+    <li>Easy to use crossfades and SMPTE transitions</li>
+    <li xml:lang="bs">Jednostavan za korištenje crossfades i SMPTE prijelaza</li>
+    <li xml:lang="cs">Snadné použití prolnutí a přechodů SMPTE</li>
+    <li xml:lang="de">Einfach zu benutzende Überblendungen und SMPTE-Übergänge</li>
+    <li xml:lang="el">Εύχρηστες σταδιακές μεταβάσεις και μεταβάσεις SMPTE</li>
+    <li xml:lang="es">Posibilidad de usar fundidos y transiciones SMPTE</li>
+    <li xml:lang="eu">Erraz egiten dira nahaste gurutzatuak eta SMPTE trantsizioak</li>
+    <li xml:lang="fr">Fondus enchaînés et transitions SMPTE faciles à utiliser</li>
+    <li xml:lang="hu">Egyszerűen használható keresztátmenetek és SMPTE átmenetek</li>
+    <li xml:lang="lt">Lengvai naudojami kryžiaus ir SMOTE perėjimai</li>
+    <li xml:lang="pl">Łatwe w użyciu efekty przenikania i przejścia SMPTE</li>
+    <li xml:lang="pt">Transições SMPTE e graduais fáceis de usar</li>
+    <li xml:lang="pt_BR">Transições SMPTE e graduais fáceis de usar</li>
+    <li xml:lang="ru">Позволяет использовать кроссфейды и переходы SMPTE.</li>
+    <li xml:lang="sk">Jednoduché využitie prelínačiek a SMPTE prechodov</li>
+    <li xml:lang="sl">Za uporabo enostavni prelivi in prehodi SMPTE</li>
+    <li xml:lang="sr">Постепено исчезавање и СМПТЕ прелази лаки за коришћење</li>
+    <li xml:lang="sr@latin">Postepeno isčezavanje i SMPTE prelazi laki za korišćenje</li>
+    <li xml:lang="sv">Lätt att använda övertoningar och SMPTE-övergångar</li>
+    <li xml:lang="uk">Прості у користуванні переходи між частинами відео.</li>
+    <li xml:lang="zh_HK">易用的交錯淡化與 SMPTE 轉場</li>
+    <li xml:lang="zh_TW">易用的交錯淡化與 SMPTE 轉場</li>
+    <li>Multihead-friendly with detachable user interface components</li>
+    <li xml:lang="bs">Multi prijateljski s odvojivim korisničkim sučeljima komponenti</li>
+    <li xml:lang="cs">Podporu vícevláknového zpracování a odpojitelných součástí uživatelského rozhraní</li>
+    <li xml:lang="de">Multi-Monitor-freundlich mit loslösbaren Benutzeroberflächenelementen</li>
+    <li xml:lang="el">Φιλική πολλαπλή κεφαλή με αποσπώμενα συστατικά διεπαφής χρήστη</li>
+    <li xml:lang="es">Adaptado para varias pantallas con componentes de la interfaz de usuario desacoplables</li>
+    <li xml:lang="eu">Aldi berean pantaila bat baino gehiagotan erabiltzeko egokia da, erabiltzaile-interfazearen osagaiak desuztartzen baitzaizkio</li>
+    <li xml:lang="fr">Compatible avec le multi-écrans par ses composants d'interface détachables</li>
+    <li xml:lang="hu">Több monitoron is használható a leválasztható felületi összetevőinek köszönhetően.</li>
+    <li xml:lang="lt">Pritaikytas daugeliui galvų su atkabinamais naudotojo sąsajos komponentais</li>
+    <li xml:lang="pl">Możliwość odłączania elementów interfejsu użytkownika, co ułatwia korzystanie z wielu monitorów</li>
+    <li xml:lang="pt">Ajustável a multijanela, com componentes do ambiente gráfico destacáveis</li>
+    <li xml:lang="pt_BR">Capacidade de multi-janela, com componentes destacáveis de interface gráfica</li>
+    <li xml:lang="ru">Поддерживает работу с двумя и более мониторами с переносом элементов интерфейса между экранами.</li>
+    <li xml:lang="sk">Viac vláknové spracovanie s využitím odpojiteľných komponentov používateľského rozhrania</li>
+    <li xml:lang="sr">Вишеглавна корисност са откачивим састојцима корисничког сучеља</li>
+    <li xml:lang="sr@latin">Višeglavna korisnost sa otkačivim sastojcima korisničkog sučelja</li>
+    <li xml:lang="sv">Flerskärmsvänlig med frånkopplingsbara användarkomponenter</li>
+    <li xml:lang="uk">Зручність у користуванні на багатомоніторних конфігураціях з можливістю розташування елементів інтерфейсу на різних екранах.</li>
+    <li xml:lang="zh_TW">對多螢幕友善的可脫離式使用者介面組件</li>
+  </ul>
+ </description>
+ <screenshots>
+  <screenshot type="default">http://www.pitivi.org/i/screenshots/software_center_main.jpg</screenshot>
+ </screenshots>
+ <url type="homepage">http://www.pitivi.org</url>
+ <updatecontact>nekohayo@gmail.com</updatecontact>
+</application>

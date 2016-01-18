@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" xmlns:e="http://projectmallard.org/experimental/" type="topic" id="savescreenshot" xml:lang="cs">
+
+  <info>
+    <link type="topic" xref="index"/>
+    <revision pkgversion="0.16" version="0.1" date="2012-01-27" status="complete"/>
+    <credit type="author">
+      <name>Jean-François Fortin Tam</name>
+      <email>nekohayo@gmail.com</email>
+    </credit>
+    <license>
+      <p>Creative Commons Share Alike 3.0</p>
+    </license>
+  </info>
+
+    <title>Ukládání samostatného aktuálního snímku</title>
+
+    <p>Můžete použít <guiseq><gui>Časová osa</gui><gui>Exportovat aktuální snímek…</gui></guiseq> k uložení kopie aktuálního snímku do obrázkového souboru.</p>
+    <p>Podporovanými formáty souborů jsou v současnosti PNG a JPEG. Rozlišení bude odpovídat nastavení projektu a na výsledný obrázek budou použity i případné efekty a přechody.</p>
+
+</page>

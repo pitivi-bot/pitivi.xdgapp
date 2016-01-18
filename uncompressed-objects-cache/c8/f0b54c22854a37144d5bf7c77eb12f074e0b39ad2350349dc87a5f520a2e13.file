@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" xmlns:e="http://projectmallard.org/experimental/" type="topic" id="medialibrary" xml:lang="sv">
+
+  <info>
+    <link type="guide" xref="index#gettingstarted"/>
+    <revision pkgversion="0.93" version="0.3" date="2014-06-27" status="complete"/>
+    <credit type="author">
+      <name>Jean-François Fortin Tam</name>
+      <email>nekohayo@gmail.com</email>
+    </credit>
+    <credit type="contributor">
+      <name>Brian Grohe</name>
+      <email>grohe43@gmail.com</email>
+      <name>Tomáš Karger</name>
+      <email>tomkarger@gmail.com</email>
+    </credit>
+    <desc>Hantera dina importerade klipp med mediabiblioteket</desc>
+    <license>
+      <p>Creative Commons Share Alike 3.0</p>
+    </license>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Josef Andersson</mal:name>
+      <mal:email>josef.andersson@fripost.org</mal:email>
+      <mal:years>2015</mal:years>
+    </mal:credit>
+  </info>
+
+    <title>Att använda mediabiblioteket</title>
+
+        <section>
+        <title>Importera en fil till <gui>Mediabiblioteket</gui></title>
+         <p>Det finns två sätt att importera filer på till <gui>Mediabiblioteket</gui>. Det första sättet är att klicka på knappen <gui>Importera</gui> uppe i vänstra hörnet. Det kommer att öppna en filväljare där du kan förhandsgranska markerade filer eller markera multipla filer (genom att hålla <key>Skift</key> eller <key>Control</key> medan du markerar dem). Det andra sättet är att dra och släppa filerna från en filhanterare till <gui>Mediabiblioteket</gui>. Genom att importera en <em>fil</em> till <gui>Mediabiblioteket</gui> blir den ett <em>klipp</em>.</p>
+         <note>
+             <p>Väl importerade sorteras klippen in <gui>Mediabiblioteket</gui> i alfabetisk ordning.</p>
+         </note>
+       </section>
+       <section>
+        <title>Förhandsgranska ett klipp från <gui>Mediabiblioteket</gui></title>
+         <p>För att förhandsgranska ett klipp innan det placeras på tidslinjen kan du dubbelklicka på det i <gui>Mediabiblioteket</gui>. Det kommer att öppna klippet i ett fönster som automatiskt stängs när du klickar utanför fönstret.</p>
+       </section>
+       <section>
+        <title>Filtrera sök</title>
+         <p>En sökfält visas längst upp vid <gui>Mediabibliotek</gui>et. Att skriva i sökfältet filtrerar innehållet i <gui>Mediabiblioteket</gui> till att endast visa klipp vara filnamn matchar dina söktermer. För att återställa sökinmatningen klickar på ikonen ”Städa upp” i sökfältet.</p>
+       </section>
+       <section>
+        <title>Visningslägen</title>
+         <p><gui>Mediabiblioteket</gui> kan visa dina klipp i en lista eller i en ikonvy. Standardläget är ikonvy eftersom det visar flera klipp utan att behöva rulla neråt. Listvyläget visar dock fler detaljer om varje klipp. För att aktivera/inaktivera det, klicka på knappen <gui>Visa klipp som en detaljerad lista</gui> bredvid sökraden.</p>
+       </section>
+       <section>
+        <title>Välja oanvända klipp</title>
+        <p>Ibland kan du märka att du har importerat fler klipp än du behöver i ditt projekt. <app>Pitivi</app> låter dig välja klipp som finns i mediabiblioteket men inte i tidslinjen. Det finns olika skäl till att göra detta:</p>
+        <list>
+          <item><p>Förbättra prestanda vid inläsning av projekt</p></item>
+          <item><p>Förenkla ditt arbetsflöde för redigering</p></item>
+          <item><p>Kontrollera vilka klipp du kan ha glömt att använda i din film</p></item>
+          <item><p>Dela, eller ta en säkerhetskopia av ditt projekt enkelt</p></item>
+        </list>
+        <p>För identifiera vilka klipp som inte används i ditt projekt, använd knappen <gui>Välj klipp som inte har använts i projektet</gui> på vänstra sidan av sökraden. Oanvända klipp kommer sedan att markeras i mediabiblioteket.</p>
+        <note><p>Om det inte finns oanvända klipp i ditt projekt kommer inget att markeras i mediabiblioteket.</p></note>
+       </section>
+       <section>
+        <title>Andra åtgärder</title>
+         <p>Det finns tre vidare åtgärder du kan utföra med varje klipp. De representeras av en knapp i den övre högra delen av <gui>Mediabiblioteket</gui>:</p>
+         <list type="numbered">
+          <item><p><gui>Ta bort markerade klipp från projektet</gui> (det kan också utföras genom att trycka <keyseq><key>Control</key><key>Ta bort</key></keyseq>).</p></item>
+          <item><p><gui>Klippegenskaper...</gui> öppnar ett nytt fönster med information om <em>videostorlek</em>, <em>bildfrekvens</em> och <em>bildförhållande</em>. Klick på knappen <gui>Verkställ på projekt</gui> justerar projektinställningarna till klippegenskaperna. Du kan välja vilka egenskaper att tillämpa genom att lämna dem ikryssade/urkryssade.</p></item>
+          <item><p><gui>Infoga markerade klipp vid slutet på tidslinjen</gui> infogar markerade klipp en efter en i det första lagret av tidslinjen vid en position där det sista klippet i alla lager slutar.</p></item>
+         </list>
+         <note>
+         <p>För att dessa åtgärder ska bli tillgängliga måste en eller flera klipp markeras.</p>
+         </note>
+       </section>
+
+</page>

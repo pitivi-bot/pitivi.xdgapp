@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" xmlns:e="http://projectmallard.org/experimental/" type="topic" id="cheatsheet" xml:lang="sv">
+
+  <info>
+    <link type="topic" xref="index"/>
+    <link type="seealso" xref="movearoundtimeline"/>
+    <revision pkgversion="0.16" version="0.1" date="2012-09-03" status="complete"/>
+    <credit type="author">
+      <name>Jean-François Fortin Tam</name>
+      <email>nekohayo@gmail.com</email>
+    </credit>
+    <license>
+      <p>Creative Commons Share Alike 3.0</p>
+    </license>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Josef Andersson</mal:name>
+      <mal:email>josef.andersson@fripost.org</mal:email>
+      <mal:years>2015</mal:years>
+    </mal:credit>
+  </info>
+
+    <title>Tangentbordsgenvägar och fusklapp</title>
+
+    <p>Den här sidan är en lista över viktiga tangentbordsgenvägar för att komma åt de mest använda eller gömda funktionerna. Ta dig tid att bekanta dig med dem eftersom de kommer att öka din produktivitet enormt.</p>
+
+    <section>
+      <title>Allmänt</title>
+        <list>
+          <item><p><keyseq><key>Ctrl</key><key>N</key></keyseq>: Skapa ett nytt projekt</p></item>
+          <item><p><keyseq><key>Ctrl</key><key>O</key></keyseq>: Öppna en projektfil</p></item>
+          <item><p><keyseq><key>Ctrl</key><key>S</key></keyseq>: Spara aktuellt projekt</p></item>
+          <item><p><keyseq><key>Ctrl</key><key>Q</key></keyseq>: Avsluta programmet</p></item>
+          <item><p><keyseq><key>Ctrl</key><key>Z</key></keyseq>: Ångra</p></item>
+          <item><p><keyseq><key>Ctrl</key><key>Shift</key><key>Z</key></keyseq>: Gör om</p></item>
+          <item><p><key>F11</key>: Växla helskärmsläge</p></item>
+          <item><p><key>F1</key>: Visa användarhandboken</p></item>
+        </list>
+    </section>
+
+    <section>
+      <title>Mediabibliotek</title>
+        <list>
+          <item><p><key>Retur</key>: Förhandsvisa (spela upp) markerat klipp</p></item>
+          <item><p><key>Insert</key>: Infoga de markerade klippen i tidslinjen</p></item>
+          <item><p><keyseq><key>Ctrl</key><key>Delete</key></keyseq>: Ta bort de markerade klippen från projektet</p></item>
+        </list>
+    </section>
+
+    <section>
+      <title>Tidslinje</title>
+        <list>
+          <item><p><key>Mellanslag</key>: Växla uppspelning.</p></item>
+          <item><p><key>S</key>: Dela klippen vid aktuell uppspelningshuvudsposition. Om det finns markerade klipp kommer endast dessa att delas.</p></item>
+          <item><p><key>Delete</key>: Ta bort markerade klipp från tidslinjen.</p></item>
+          <item><p><key>←</key> och <key>→</key>: Sök en bildruta framåt eller bakåt. Detta beror på bildfrekvensen för ditt projekt.</p></item>
+          <item><p><keyseq><key>Skift</key><key>←</key></keyseq> och <keyseq><key>Skift</key><key>→</key></keyseq>: Sök en sekund framåt eller bakåt.</p></item>
+          <item><p><keyseq><key>Ctrl</key><key>+</key></keyseq> och <keyseq><key>Ctrl</key><key>-</key></keyseq>: Zooma in eller zooma ut. Du kan också använda <key>Ctrl</key> med mushjulet för att kontrollera zoomen effektivare.</p></item>
+          <item><p><keyseq><key>Ctrl</key><key>0</key></keyseq>: Justera zoomen för att passa tidslinjen.</p></item>
+          <item><p><key>Skift</key>+drag: Krusningsredigering.</p></item>
+          <item><p><key>Ctrl</key>+dra: Rullredigering.</p></item>
+          <item><p><key>K</key>: Lägg till en egenskapsnyckelbild vid aktuell uppspelningshuvudposition.</p></item>
+          <item><p><key>.</key> och <key>,</key>: Gå till nästa eller föregående egenskapsnyckelbild.</p></item>
+        </list>
+    </section>
+</page>

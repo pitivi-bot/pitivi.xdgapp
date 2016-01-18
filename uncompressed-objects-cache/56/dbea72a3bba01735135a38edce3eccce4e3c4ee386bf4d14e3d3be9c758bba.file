@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" xmlns:e="http://projectmallard.org/experimental/" type="topic" id="gstreamer" xml:lang="fr">
+
+  <info>
+    <link type="guide" xref="index#intro"/>
+    <revision pkgversion="0.93" version="0.2" date="2014-04-06" status="complete"/>
+    <credit type="author">
+      <name>Jean-François Fortin Tam</name>
+      <email>nekohayo@gmail.com</email>
+    </credit>
+    <credit type="contributor">
+      <name>Mario Blättermann</name>
+      <email>mariobl@gnome.org</email>
+      <name>Tomáš Karger</name>
+      <email>tomkarger@gmail.com</email>
+    </credit>
+    <desc>Vérifier auparavant que les codecs et greffons multimédia adéquats sont installés pour un maximum de compatibilité.</desc>
+    <license>
+      <p>Creative Commons des Conditions Initiales à l'Identique 3.0</p>
+    </license>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Alain Lojewski</mal:name>
+      <mal:email>allomervan@gmail.com</mal:email>
+      <mal:years>2011</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Bruno Brouard</mal:name>
+      <mal:email>annoa.b@gmail.com</mal:email>
+      <mal:years>2012</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Julien Hardelin</mal:name>
+      <mal:email>jhardlin@orange.fr</mal:email>
+      <mal:years>2012</mal:years>
+    </mal:credit>
+  </info>
+
+    <title>GStreamer et la compatibilité</title>
+
+     <p>A great strength of <app>Pitivi</app> lies in the fact that it uses the <app>GStreamer</app> multimedia framework. <app>GStreamer</app> is used by dozens of multimedia applications across desktop environments, operating systems and architectures.</p>
+     <p>For <app>Pitivi</app> users, this essentially means two things:</p>
+     <list>
+      <item>
+       <p>You can, in theory, import pretty much any media file supported by <app>GStreamer</app> (see the sections below for more details).</p>
+      </item>
+      <item>
+       <p>le rendu de vos projets dans n'importe quelle combinaison de conteneur et codec <app>GStreamer</app>,</p>
+      </item>
+     </list>
+     <note style="tip">
+         <p>To maximize <app>Pitivi</app>'s capabilities and reduce the possibilities of bugs, a very recent version of <app>GStreamer</app> is recommended. This is because <app>Pitivi</app> developers work hard on fixing problems directly in <app>GStreamer</app> instead of putting temporary workarounds inside <app>Pitivi</app>.</p>
+     </note>
+
+    <section>
+     <title>Quelques mots sur les codecs de montage vidéo</title>
+      <p>Certains formats, comme le <em>MPEG</em>, sont destinés uniquement à la lecture et ne compressent pas chaque image indépendamment. Bien que le but de <app>Pitivi</app> soit de pouvoir travailler avec ces fichiers, certaines fonctions (comme la recherche rapide) ne sont pas aussi efficaces qu'avec des vidéos compressées image par image (comme le <em>MJPEG</em> ou le <em>DV</em>).</p>
+    </section>
+
+    <section>
+     <title>Le bon (good), la brute (bad) et le truand (ugly)</title>
+      <p><app>GStreamer</app> plugins come into three categories: good, bad and ugly. You may need to install plugins from any category to ensure compatibility with your media files. Whether or not you install them is up to you, and may depend on your country's jurisdiction regarding software patents. An overview of gstreamer plugins and their classification into categories can be found on the <link href="http://gstreamer.freedesktop.org/documentation/plugins.html">Gstreamer website</link>.</p>
+        <list>
+            <item><p>The "Good" plugins are high quality plugins under the LGPL license. These plugins are considered safe and recommended at any time. To install them, search for packages containing gstreamer plugins good in your distribution's repositories.</p></item>
+            <item><p>The "Bad" plugins are plugins whose code quality is not good enough, or are not considered tested well enough. The licensing may or may not be LGPL. To install them, search for packages containing gstreamer plugins bad in your distribution's repositories.</p></item>
+            <item><p>The "Ugly" plugins are good quality plugins whose license is not LGPL or with licensing issues. To install them, search for packages containing containing gstreamer plugins ugly in your distribution's repositories.</p></item>
+        </list>
+      <note style="tip">
+      <p>In addition to the Good, Bad and Ugly plugins, you may want to install the <em>gstreamer-ffmpeg</em> package to have access to ffmpeg's set of codecs.</p>
+      </note>
+      <p/>
+    </section>
+
+    <section>
+        <title>Formats des fichiers image</title>
+        <p>Même s'il n'est pas possible d'énumérer toutes les combinaisons possibles de formats vidéo ou audio pris en charge, il est cependant possible d'énumérer les formats d'image statiques qu'il est possible d'importer : JPEG, PNG, JPEG 2000, PNM et SVG.</p>
+        <!-- Note: this is obtained by doing:
+        gst-inspect -a | grep Decoder/Image | cut -d : -f1 | sed -e s/dec$//g
+        -->
+    </section>
+
+
+</page>

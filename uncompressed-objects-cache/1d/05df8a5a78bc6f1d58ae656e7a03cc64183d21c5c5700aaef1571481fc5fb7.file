@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" xmlns:e="http://projectmallard.org/experimental/" type="topic" id="selectiongrouping" xml:lang="sv">
+
+  <info>
+    <link type="guide" xref="index#timeline"/>
+    <revision pkgversion="0.92" version="0.1" date="2014-02-22" status="complete"/>
+    <credit type="author">
+      <name>Tomáš Karger</name>
+      <email>tomkarger@gmail.com</email>
+    </credit>
+    <credit type="contributor">
+      <name>Jean-François Fortin Tam</name>
+      <email>nekohayo@gmail.com</email>
+      <name>Mario Blättermann</name>
+      <email>mariobl@gnome.org</email>
+    </credit>
+    <desc>Att göra markering och gruppera klipp i tidslinjen.</desc>
+    <license>
+      <p>Creative Commons Share Alike 3.0</p>
+    </license>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Josef Andersson</mal:name>
+      <mal:email>josef.andersson@fripost.org</mal:email>
+      <mal:years>2015</mal:years>
+    </mal:credit>
+  </info>
+
+    <title>Markering och gruppering</title>
+    
+    <section>
+      <title>Göra markeringar</title>
+       <p>Genom att välja en fil eller ett klipp anger du vilket objekt efterföljande åtgärder kommer att tillämpas på. För att välja individuella objekt, klicka på dem. Flerval låter dig tillämpa åtgärder (dra, ta bort, gruppera etc.) på många klipp samtidigt.</p>
+       <p>Markera flera närliggande objekt:</p>
+       <steps>
+        <item><p>Klicka på första objektet.</p></item>
+        <item><p>Håll inne <key>Skift</key>.</p></item>
+        <item><p>Klicka på det sista objektet.</p></item>
+       </steps>
+       <p>Markera flera icke-närliggande objekt:</p>
+       <steps>
+        <item><p>Håll inne tangenten <key>Ctrl</key>.</p></item>
+        <item><p>Klicka på alla objekt du vill markera.</p></item>
+       </steps>
+       <note style="tip">
+       <p>Du kan avmarkera ett individuellt objekt genom att klicka på det igen med <key>Ctrl</key> nedtryckt. Detta kan användas tillsammans med <em>Markera flera närliggande objekt</em>-tekniken ovan.</p>
+       </note>
+     </section>
+     <section>
+         <title>Gruppera och avgruppera klipp</title>
+        <p>Funktionerna gruppera och avgruppera är användbara när du vill lägga till eller separera ljudspår från videoklipp, eller när du vill skapa ett klippblock som du kan markera, redigera och flytta samtidigt.</p>
+        <p>Gruppera klipp i tidslinjen:</p>
+        <steps>
+         <item><p>Markera flera klipp i tidslinjen.</p></item>
+         <item><p>Klicka på <gui>Gruppera klipp</gui> i nedre delen av tidslinjen verktygsrad.</p></item>
+        </steps>
+        <p>Du kan nu markera, redigera och flytta klippen allihop samtidigt.</p>
+        <p>Avgruppera klippen i tidslinjen:</p>
+        <steps>
+         <item><p>Markera en grupp av klipp i tidslinjen.</p></item>
+         <item><p>Klicka på knappen <gui>Avgruppera klipp</gui> i tidslinjens verktygsfält.</p></item>
+        </steps>
+        <p>Du kan nu markera, redigera och flytta klippen oberoende.</p>
+     </section>
+
+</page>

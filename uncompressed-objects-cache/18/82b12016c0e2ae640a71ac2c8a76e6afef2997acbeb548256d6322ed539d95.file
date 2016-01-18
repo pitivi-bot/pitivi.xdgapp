@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" xmlns:e="http://projectmallard.org/experimental/" type="topic" id="layers" xml:lang="sv">
+
+  <info>
+    <link type="guide" xref="index#timeline"/>
+    <revision pkgversion="0.92" version="0.1" date="2014-02-22" status="complete"/>
+    <credit type="author">
+      <name>Jean-François Fortin Tam</name>
+      <email>nekohayo@gmail.com</email>
+    </credit>
+    <credit type="contributor">
+      <name>Mario Blättermann</name>
+      <email>mariobl@gnome.org</email>
+      <name>Tomáš Karger</name>
+      <email>tomkarger@gmail.com</email>
+    </credit>
+    <desc>Förklarar hur lager fungerar inuti tidslinjen.</desc>
+    <license>
+      <p>Creative Commons Share Alike 3.0</p>
+    </license>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Josef Andersson</mal:name>
+      <mal:email>josef.andersson@fripost.org</mal:email>
+      <mal:years>2015</mal:years>
+    </mal:credit>
+  </info>
+
+    <title>Förstå lager</title>
+
+     <p><em>Lager</em> är ett fundamentalt koncept för avancerad videoredigering i tidslinjen: sammansättningar, mixningar av flera videos samtidigt och att lägga till rubriker beror på dessa egenskaper.</p>
+     <p>Det är lättare att tänka på lager i termerna av bilder målade på glas. Med flera bitar av glas staplade på varandra är varje bit av glas ett lager. Om det översta glaset är helt övermålat kommer inget av glasen under vara synliga. Om, å andra sidan, du bara målar över en del av glaset kommer du att kunna se vad som finns under de omålade delarna.</p>
+
+     <section>
+      <title>Ogenomskinlighet (hur solida ”opaka” saker är)</title>
+       <p>Varje lager (och varje klipp) har sin egen transparens. För att fortsätta metaforen måla på glas, om målningen är tunn nog är den genomskinlig. Visuellt betyder en ogenomskinlighet på 100% att du inte kan se klippen under det lagret av klipp, och en ogenomskinlighet på 50% betyder att du kan se dem delvis.</p>
+     </section>
+
+     <section>
+      <title>Vad detta betyder i användargränssnittet</title>
+       <p>I verkliga livet kan du placera glasbitar på varandra i tre dimensioner, men din datorskärm har bara två dimensioner. Därför är de <em>översta lagren</em> (”Z”-axeln i den fysiska världen) också synliga <em>ovanpå</em> på ”Y”-axeln.</p>
+       <figure>
+       <desc>Diagram som illustrerar <em>glasbitar</em> (vänster) och hur de visas som <em>lager</em> i <app>Pitivi</app>s användargränssnitt (höger).</desc>
+        <media type="image" src="figures/layers.png" mime="image/png" width="720" height="217"/>
+       </figure>
+       <note>
+       <p>Klipp placerade på lager ovan kommer att blockera klippen under från att synas, om de inte har ogenomskinlighetsvärde lägre än 100% (som visas med de två översta lagren i föregående illustration).</p>
+       </note>
+     </section>
+
+     <section>
+      <title>Lägg till och ta bort lager</title>
+       <p>Det finns inget gränssnitt för ”lagerhantering” i <app>Pitivi</app>. Lager skapas och tas bort för automatiskt:</p>
+       <list>
+       <item><p>För att skapa ett lager, dra ett klipp till mittenutrymmet bakom två befintliga lager. Då den gråa skuggan (en tunn rektangel) visar sig bakom lagren, släpp den.</p></item>
+       <item><p>Om det inte finns fler klipp på ett lager tas det automatiskt bort. Sålunda, för att ta bort ett lager, dra dess klipp till ett annat lager.</p></item>
+       </list>
+     </section>
+
+     <section>
+      <title>Ljudlager då?</title>
+       <p>Tvärtemot vad gäller syn så blockerar inte flera ljud varandra. Om du har flera ljudklipp på separata lager kommer deras ljud att mixas ihop. Att kontrollera volymen på dessa ljudklipp ändrar deras relativa ljudstyrka.</p>
+     </section>
+
+
+</page>

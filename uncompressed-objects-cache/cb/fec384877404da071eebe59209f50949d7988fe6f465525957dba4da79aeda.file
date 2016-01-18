@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" xmlns:e="http://projectmallard.org/experimental/" type="topic" id="workwithprojects" xml:lang="sv">
+
+  <info>
+    <link type="guide" xref="index#gettingstarted"/>
+    <revision pkgversion="0.15" version="0.4" date="2011-08-28" status="complete"/>
+    <credit type="author">
+      <name>Jean-François Fortin Tam</name>
+      <email>nekohayo@gmail.com</email>
+    </credit>
+    <credit type="contributor">
+      <name>Mario Blättermann</name>
+      <email>mariobl@gnome.org</email>
+      <name>Tomáš Karger</name>
+      <email>tomkarger@gmail.com</email>
+    </credit>
+    <desc>Hur man läser in och sparar projekt, redigerar deras inställningar och metadata.</desc>
+    <license>
+      <p>Creative Commons Share Alike 3.0</p>
+    </license>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Josef Andersson</mal:name>
+      <mal:email>josef.andersson@fripost.org</mal:email>
+      <mal:years>2015</mal:years>
+    </mal:credit>
+  </info>
+
+    <title>Arbeta med projekt</title>
+
+    <section>
+    <title>Spara ett projekt</title>
+     <p>För att spara ditt projektarbete, använd knappen <gui>Spara</gui> i huvudfältet eller tryck <keyseq><key>Ctrl</key><key>S</key></keyseq>. När du sparar ett projekt för första gången kommer ett dialogfönster att visas som frågar var du ska spara din projektfil och hur den ska döpas.</p>
+      <note style="tip">
+      <p>Om du vill spara ditt projekt som en annan fil, använd <guiseq><gui>Programmeny</gui><gui>Spara som</gui></guiseq> eller tryck <keyseq><key>Ctrl</key><key>Skift</key><key>S</key></keyseq>. Det kan användas för att skapa olika versioner av ditt projekt.</p>
+      </note>
+    </section>
+    <section>
+        <title>Ångra och dra tillbaka ändringar</title>
+        <p>För att ångra en ändring, klicka på <gui>Ångra</gui> i huvudfältet eller tryck <keyseq><key>Ctrl</key><key>Z</key></keyseq>. Förutom att ångra individuella ändringar kan du också ångra alla ändringar du har gjort sedan senaste gången du sparade ditt projekt. För att göra så, använd <guiseq><gui>Programmeny</gui><gui>Återställ till sparad version</gui></guiseq>.</p>
+        <note style="tip">
+            <p>För att göra om ändringar som ångrades, klicka på <gui>Gör om</gui> i huvudfältet eller tryck <keyseq><key>Ctrl</key><key>Skift</key><key>Z</key></keyseq>.</p>
+        </note>
+    </section>
+
+    <section>
+    <title>Redigera projektinställningar</title>
+    <p>Vid ny projektstart bör du justera projektinställningarna som bildfrekvens, upplösning, och föredragna kodekar. Videoupplösningen och bildförhållandena kommer att påverka förhandsvisarens utseende. Om du inte anger upplösningen och bildförhållandet till att matcha ditt filmmaterial kommer videon att se ut att vara mosad eller i brevlådeformat.</p>
+    <note>
+    <p>Varje gång du startar ett nytt projekt visas ett dialogfönster där du kan justera ljud- och videoinställningar eller metadata. För att redigera projektinställningarna efter det initiala skapandet, använd <guiseq><gui>Programmeny</gui><gui>Projektinställningar</gui></guiseq>.</p>
+    </note>
+    </section>
+
+    <section>
+        <title>Bildförhållande för bildpunkt (pixel) vs bildförhållande för display</title>
+        <p>Digitala bilder består av ett rutnät av <link href="http://en.wikipedia.org/wiki/Pixel">bildpunkter (pixlar)</link> som kan vara fyrkantiga. I en del fall behöver du ange <link href="http://en.wikipedia.org/wiki/Pixel_aspect_ratio">bildförhållande för bildpunkter</link> (PAR) för att bilden ska visas korrekt. Å andra sidan är <link href="http://en.wikipedia.org/wiki/Display_aspect_ratio">bildförhållande för display</link> (DAR) det matematiska förhållandet för bredd:höjd för hela bilden.</p>
+        <p>I <app>Pitivi</app> är bildförhållande för bildpunkter (PAR) och bildförhållande för display (DAR) relaterade till varandra genom bildupplösningen (bredd och höjd). Då upplösningen är satt, så kommer angivelsen av DAR att influera PAR och tvärtom. Du kan använda antingen DAR eller PAR beroende på vad är mest komfortabel med.</p>
+        <note>
+        <p>Du kan använda bildförhållandena som redan visas i kombinationsrutorna eller mata in ett anpassat bildförhållande i textrutan nedan (med en syntax som "4:3" eller "1.3333", fastän decimalversionen är mindre precis).</p>
+        </note>
+    </section>
+</page>

@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" xmlns:e="http://projectmallard.org/experimental/" type="topic" id="about" xml:lang="de">
+
+  <info>
+    <link type="seealso" xref="index"/>
+    <revision pkgversion="0.14" version="0.2" date="2011-06-05" status="complete"/>
+    <credit type="author">
+      <name>Jean-François Fortin Tam</name>
+      <email>nekohayo@gmail.com</email>
+    </credit>
+    <credit type="contributor">
+      <name>Mario Blättermann</name>
+      <email>mariobl@gnome.org</email>
+    </credit>
+    <desc>Aktueller Status des Benutzerhandbuchs und Aufruf zur Mitwirkung.</desc>
+    <license>
+      <p>Creative Commons Share Alike 3.0</p>
+    </license>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Mario Blättermann</mal:name>
+      <mal:email>mariobl@freenet.de</mal:email>
+      <mal:years>2010, 2011</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Marcel Tiede</mal:name>
+      <mal:email>marcel.tiede@yahoo.de</mal:email>
+      <mal:years>2014</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Benjamin Steinwender</mal:name>
+      <mal:email>b@stbe.at</mal:email>
+      <mal:years>2014</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Christian Kirbach</mal:name>
+      <mal:email>christian.kirbach@gmail.com</mal:email>
+      <mal:years>2014</mal:years>
+    </mal:credit>
+  </info>
+
+  <title>Info zu diesem Handbuch</title>
+   <p>Das Benutzerhandbuch wurde von Jean-François Fortin Tam geschrieben und wird von ihm betreut.</p>
+   <section>
+    <title>In Bearbeitung</title>
+     <p>You may encounter unwritten portions due to features that have not yet been implemented in Pitivi at the time of writing.</p>
+     <p>Sie könnten auch auf kleine Bereiche treffen, die bereits in diesem Handbuch dokumentiert sind, aber noch nicht in Pitivi implementiert wurden - dies sind Bereiche in denen das Design und die erwartete Bedienung sehr genau sind.</p>
+   </section>
+
+   <section>
+    <title>Patches sind willkommen</title>
+     <p>Wenn Sie Fehler, unzureichende Informationen oder unklare Stellen in diesem Handbuch finden sollten, können Sie gerne Korrekturen einsenden. Sie finden Kontaktinformationen auf der <link href="http://jeff.ecchi.ca/">Webseite des Entwicklers</link>. Sie können auch eine Fehlermeldung für die <link href="https://bugzilla.gnome.org/enter_bug.cgi?product=pitivi;component=documentation">Dokumentationskomponente auf unserem Fehlererfassungssystem</link> erstellen.</p>
+   </section>
+ 
+</page>

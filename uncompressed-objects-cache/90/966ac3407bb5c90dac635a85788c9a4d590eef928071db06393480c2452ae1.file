@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" xmlns:e="http://projectmallard.org/experimental/" type="topic" id="about" xml:lang="sv">
+
+  <info>
+    <link type="seealso" xref="index"/>
+    <revision pkgversion="0.14" version="0.2" date="2011-06-05" status="complete"/>
+    <credit type="author">
+      <name>Jean-François Fortin Tam</name>
+      <email>nekohayo@gmail.com</email>
+    </credit>
+    <credit type="contributor">
+      <name>Mario Blättermann</name>
+      <email>mariobl@gnome.org</email>
+    </credit>
+    <desc>Aktuellt tillstånd för användarguiden och upprop för medverkan.</desc>
+    <license>
+      <p>Creative Commons Share Alike 3.0</p>
+    </license>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Josef Andersson</mal:name>
+      <mal:email>josef.andersson@fripost.org</mal:email>
+      <mal:years>2015</mal:years>
+    </mal:credit>
+  </info>
+
+  <title>Om denna handbok</title>
+   <p>Denna användarhandbok är skriven och underhållen av Jean-François Fortin Tam.</p>
+   <section>
+    <title>Pågående arbete</title>
+     <p>Du kan stöta på oskrivna stycken beroende på funktioner som ännu inte implementerats i Pitivi.</p>
+     <p>Du kan också stöta på en del områden som har dokumenterats men ännu inte har implementerats i Pitivi - det gäller områden där design och förväntad användarinteraktion är ganska liten.</p>
+   </section>
+
+   <section>
+    <title>Programfixar välkomnas</title>
+     <p>Om du råkar stöta på fel, saknad information eller oklara stycken i denna handbok, skicka gärna in rättningar till <link href="http://jeff.ecchi.ca/">min personliga webbplats</link>. Du kan också <link href="https://bugzilla.gnome.org/enter_bug.cgi?product=pitivi;component=documentation">skicka in felrapporter för dokumentationen i vårt felrapporteringssystem</link>.</p>
+   </section>
+ 
+</page>

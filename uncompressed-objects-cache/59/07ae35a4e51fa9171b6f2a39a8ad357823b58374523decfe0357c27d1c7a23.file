@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" xmlns:e="http://projectmallard.org/experimental/" type="topic" id="codecscontainers" xml:lang="sv">
+
+  <info>
+    <link type="guide" xref="index#rendering"/>
+    <revision pkgversion="0.93" version="0.1" date="2014-04-06" status="complete"/>
+    <credit type="author">
+      <name>Jean-François Fortin Tam</name>
+      <email>nekohayo@gmail.com</email>
+    </credit>
+    <credit type="contributor">
+      <name>Tomáš Karger</name>
+      <email>tomkarger@gmail.com</email>
+    </credit>
+    <license>
+      <p>Creative Commons Share Alike 3.0</p>
+    </license>
+    <desc>Vad är skillnaden mellan OGG och Vorbis? AVI och DivX? x264 och H.264? Lär dig mer om kodekar och behållarformat här.</desc>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Josef Andersson</mal:name>
+      <mal:email>josef.andersson@fripost.org</mal:email>
+      <mal:years>2015</mal:years>
+    </mal:credit>
+  </info>
+
+    <title>Förstå kodekar och behållare</title>    
+    <p>Skillnaden mellan kodekar och behållarfilformat är ofta tvetydig. Det beror delvis på den allmänna bristen av standardisering, förvirrande marknadstermer och filnamnsutökningar. Denna sida försöker att klargöra skillnaden utan att gå in på tekniska detaljer. Om du vill veta mer om behållare och kodekar borde du förmodligen besöka Wikipedias sida om <link href="http://en.wikipedia.org/wiki/Digital_container_format">containers</link> och <link href="http://en.wikipedia.org/wiki/Codec">kodekar</link>.</p>
+    <p><em>Behållare</em> är vad vi typiskt associerar med filformat. Behållare ”innehåller” de olika komponenterna för en video: bildströmmen, ljudet och vad som helst annat. Till exempel kan du ha flera ljudspår och undertexter i en videofil om behållarformatet tillåter det. Exempel på populära behållare är OGG, Matroska, AVI, MPEG.</p>
+    <p><em>Kodekar</em> olika sätt att ”koda” och ”avkoda” strömmar. Deras jobb är vanligen att komprimera data (och att dekomprimera det vid uppspelning) så att du kan lagra och överföra filer med en mindre filstorlek. Det finns många kodekar tillgängliga därute, var och en med sina olika styrkor, svagheter och egenheter, och att välja rätt kodek med rätt inställningar för rätt situation är nästan en konstform i sig.</p>
+    <figure>
+        <title>Relationen mellan behållare och kodekar</title>
+        <media type="image" mime="image/jpg" src="figures/codecscontainers.jpg" width="780"/>
+    </figure>
+</page>

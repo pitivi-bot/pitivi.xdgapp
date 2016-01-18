@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" xmlns:e="http://projectmallard.org/experimental/" type="topic" id="trimming" xml:lang="sv">
+
+  <info>
+    <link type="guide" xref="index#timeline"/>
+    <revision pkgversion="0.92" version="0.1" date="2014-03-17" status="complete"/>
+    <credit type="author">
+      <name>Jean-François Fortin Tam</name>
+      <email>nekohayo@gmail.com</email>
+    </credit>
+    <credit type="contributor">
+      <name>Mario Blättermann</name>
+      <email>mariobl@gnome.org</email>
+      <name>Tomáš Karger</name>
+      <email>tomkarger@gmail.com</email>
+    </credit>
+    <desc>Förkorta klipp genom att ändra start- och slutpunkter. Täcker också krusning- och rullredigering.</desc>
+    <license>
+      <p>Creative Commons Share Alike 3.0</p>
+    </license>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Josef Andersson</mal:name>
+      <mal:email>josef.andersson@fripost.org</mal:email>
+      <mal:years>2015</mal:years>
+    </mal:credit>
+  </info>
+
+    <title>Trimma</title>
+
+       <p>Att <em>Trimma</em> är handlingen att ändra ett klipps längd genom att flytta dess start- eller slutpunkt i tidslinjen. Flytta musmarkören över kanten på ett klipp så visas ett trimhandtag. Dra trimhandtaget i lämplig riktning för att antingen minska eller öka klippets längd.</p>
+       <figure>
+       <title>Trimhandtag</title>
+       <desc>Musmarkören transformeras till ett trimhandtag vid hovring över kanten på ett klipp.</desc>
+        <media type="image" src="figures/trimming-individual.png" mime="image/png" style="right"/>
+       </figure>
+       <p>Klipp som grupperas ihop som motsvarande ljud- och videoklipp kommer att trimmas samtidigt när du drar i trimhandtaget. För att endast trimma ljudet eller filmklippet måste du först avgruppera dem (se <link xref="selectiongrouping">Markering och gruppering</link> för instruktioner om hur man gör det).</p>
+
+     <section>
+      <title>Krusningsredigering</title>
+       <p>Krusningsredigering är en variant av grundläggande trimning där, klippet förutom att trimmas, också flyttar efterföljande klipp (klippen som börjar efter det du redigerar) så att deras relativa position gentemot det redigerade klippet behålls.</p>
+       <figure>
+        <title>Före</title>
+        <desc>Relativ position för två närliggande klipp före och efter krusningsredigering</desc>
+        <media type="image" src="figures/ripple-before.png" mime="image/png" style="right" width="780"/>
+       </figure>
+       <figure>
+        <title>Efter</title>
+        <desc>Relativ position för två närliggande klipp efter krusningsredigering</desc>
+        <media type="image" src="figures/ripple-after.png" mime="image/png" style="right"/>
+       </figure>
+       <note>
+           <p>Observera att om det finns ett mellanrum mellan klippen rör sig efterföljande klipp mot det redigerade så att mellanrumslängden förblir densamma.</p>
+       </note>
+       <note>
+        <p>Krusningsredigering påverkar alla följande klipp, oavsett om de är på samma lager eller ej.</p>
+       </note>
+       <p>För att göra en krusningsredigering:</p>
+       <steps>
+        <item><p>Placera musmarkören på ett trimhandtag.</p></item>
+        <item><p>Tryck och håll ner <key>Skift</key>.</p></item>
+        <item><p>Dra i trimhandtaget.</p></item>
+       </steps>
+       <note style="tip">
+           <p>Krusningsredigering kan också användas när klipp flyttas runt i tidslinjen. För detaljerade förklaringar på hur du använder detta, se avsnittet <link xref="usingclips">Använda krusningsredigering vid flytt av klipp</link>.</p>
+       </note>
+     </section>
+
+     <section>
+      <title>Rullredigering</title>
+       <p>Rullredigering är en variant av grundläggande trimning där ett klipp, förutom att det trimmas, <em>trimmar</em> de närliggande klippen på ett kompletterande sätt för att förhindra att mellanrum skapas.</p>
+       <figure>
+        <title>Före</title>
+        <desc>Relativ position för två närliggande klipp före rullredigering</desc>
+        <media type="image" src="figures/roll-before.png" mime="image/png" style="right" width="780"/>
+       </figure>
+       <figure>
+        <title>Efter</title>
+        <desc>Relativ position för två närliggande klipp efter rullredigering</desc>
+        <media type="image" src="figures/roll-after.png" mime="image/png" style="right" width="780"/>
+       </figure>
+       <note>
+        <p>Rullredigering påverkar alla närliggande klipp, oavsett om de är i samma lager eller ej.</p>
+       </note>
+       <p>För att göra en rullredigering:</p>
+        <steps>
+        <item><p>Placera musmarkören på ett trimhandtag mellan två närliggande klipp.</p></item>
+        <item><p>Tryck och håll ner <key>Ctrl</key>.</p></item>
+        <item><p>Dra i trimhandtaget.</p></item>
+       </steps>
+     </section>
+
+
+
+</page>

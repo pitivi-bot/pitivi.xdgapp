@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" xmlns:e="http://projectmallard.org/experimental/" type="topic" id="trimming" xml:lang="es">
+
+  <info>
+    <link type="guide" xref="index#timeline"/>
+    <revision pkgversion="0.92" version="0.1" date="2014-03-17" status="complete"/>
+    <credit type="author">
+      <name>Jean-François Fortin Tam</name>
+      <email>nekohayo@gmail.com</email>
+    </credit>
+    <credit type="contributor">
+      <name>Mario Blättermann</name>
+      <email>mariobl@gnome.org</email>
+      <name>Tomáš Karger</name>
+      <email>tomkarger@gmail.com</email>
+    </credit>
+    <desc>Recortar vídeos cambiando los puntos de comienzo y de final. También cubre la edición en cascada y con desplazamiento.</desc>
+    <license>
+      <p>Creative Commons Compartir Igual 3.0</p>
+    </license>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Daniel Mustieles</mal:name>
+      <mal:email>daniel.mustieles@gmail.com</mal:email>
+      <mal:years>2011 - 2014</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Milagros Alessandra Infante Montero</mal:name>
+      <mal:email>maim92@gmail.com</mal:email>
+      <mal:years>2012, 2013</mal:years>
+    </mal:credit>
+  </info>
+
+    <title>Recortar</title>
+
+       <p><em>Trimming</em> is the act of changing the length of a clip by moving its beginning or end point in the timeline. Move the mouse cursor over the edge of a clip and a trimming handle will appear. Drag the trimming handle in an appropriate direction to either reduce or increase the length of the clip.</p>
+       <figure>
+       <title>Trimming handle</title>
+       <desc>The mouse cursor transforms into trimming handle when hovering over the edge of a clip.</desc>
+        <media type="image" src="figures/trimming-individual.png" mime="image/png" style="right"/>
+       </figure>
+       <p>Clips that are grouped together, such as corresponding audio and video clips, will trim in unison when you drag the trimming handle. To trim only the audio or only the video clip, you need to ungroup them first (see the <link xref="selectiongrouping">Selection and grouping</link> page for instructions on how to do that).</p>
+
+     <section>
+      <title>Edición de onda</title>
+       <p>Ripple editing is a variant of basic trimming which, in addition to trimming a clip, also moves the following clips (the clips that start after the one you're directly editing) so that their relative position to the edited clip stays the same.</p>
+       <figure>
+        <title>Before</title>
+        <desc>Relative position of two adjacent clips before ripple editing</desc>
+        <media type="image" src="figures/ripple-before.png" mime="image/png" style="right" width="780"/>
+       </figure>
+       <figure>
+        <title>After</title>
+        <desc>Relative position of two adjacent clips after ripple editing</desc>
+        <media type="image" src="figures/ripple-after.png" mime="image/png" style="right"/>
+       </figure>
+       <note>
+           <p>Note that if there is a gap between the clips, the following clip moves toward the edited so that the gap length stays the same.</p>
+       </note>
+       <note>
+        <p>Ripple editing affects all following clips, regardless of whether or not they are on the same layer.</p>
+       </note>
+       <p>Para hacer una edición de onda:</p>
+       <steps>
+        <item><p>Place the mouse cursor on a trimming handle.</p></item>
+        <item><p>Mantenga pulsada la tecla <key>Mayús</key>.</p></item>
+        <item><p>Arrastre la herramienta de recorte.</p></item>
+       </steps>
+       <note style="tip">
+           <p>La edición de onda también se puede usar cuando se mueven los clips alrededor de la línea de tiempo. Para obtener una explicación detallada de cómo hacer esto, consulte la sección <link xref="usingclips">Usar la edición de onda al mover los clips</link>.</p>
+       </note>
+     </section>
+
+     <section>
+      <title>Recorte con relleno</title>
+       <p>Roll editing is a variant of basic trimming which, in addition to trimming a clip, <em>trims</em> the adjacent clips in a complementary way to prevent creating gaps.</p>
+       <figure>
+        <title>Before</title>
+        <desc>Relative position of two adjacent clips before roll editing</desc>
+        <media type="image" src="figures/roll-before.png" mime="image/png" style="right" width="780"/>
+       </figure>
+       <figure>
+        <title>After</title>
+        <desc>Relative position of two adjacent clips after roll editing</desc>
+        <media type="image" src="figures/roll-after.png" mime="image/png" style="right" width="780"/>
+       </figure>
+       <note>
+        <p>Roll editing affects all adjacent clips, regardless of whether or not they are on the same layer.</p>
+       </note>
+       <p>Para hacer una recorte con relleno:</p>
+        <steps>
+        <item><p>Coloque el cursor del ratón en la herramienta de recorte entre dos clips adyacentes.</p></item>
+        <item><p>Mantenga pulsada la tecla <key>Mayús</key>.</p></item>
+        <item><p>Arrastre la herramienta de recorte.</p></item>
+       </steps>
+     </section>
+
+
+
+</page>

@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" xmlns:e="http://projectmallard.org/experimental/" type="topic" id="selectiongrouping" xml:lang="de">
+
+  <info>
+    <link type="guide" xref="index#timeline"/>
+    <revision pkgversion="0.92" version="0.1" date="2014-02-22" status="complete"/>
+    <credit type="author">
+      <name>Tomáš Karger</name>
+      <email>tomkarger@gmail.com</email>
+    </credit>
+    <credit type="contributor">
+      <name>Jean-François Fortin Tam</name>
+      <email>nekohayo@gmail.com</email>
+      <name>Mario Blättermann</name>
+      <email>mariobl@gnome.org</email>
+    </credit>
+    <desc>
+      Making selections and grouping clips in timeline.
+    </desc>
+    <license>
+      <p>Creative Commons Share Alike 3.0</p>
+    </license>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Mario Blättermann</mal:name>
+      <mal:email>mariobl@freenet.de</mal:email>
+      <mal:years>2010, 2011</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Marcel Tiede</mal:name>
+      <mal:email>marcel.tiede@yahoo.de</mal:email>
+      <mal:years>2014</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Benjamin Steinwender</mal:name>
+      <mal:email>b@stbe.at</mal:email>
+      <mal:years>2014</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Christian Kirbach</mal:name>
+      <mal:email>christian.kirbach@gmail.com</mal:email>
+      <mal:years>2014</mal:years>
+    </mal:credit>
+  </info>
+
+    <title>Selection and grouping</title>
+    
+    <section>
+      <title>Making selections</title>
+       <p>By selecting a file or a clip, you specify what item should the subsequent actions be applied to. To select an individual item, simply click it. Multiple selections allow you to apply actions (dragging, deleting, grouping, etc.) to many clips at once.</p>
+       <p>Auswählen mehrerer nebeneinander liegender Objekte:</p>
+       <steps>
+        <item><p>Klicken Sie auf das erste Objekt.</p></item>
+        <item><p>Halten Sie die <key>Umschalttaste</key> gedrückt.</p></item>
+        <item><p>Klicken Sie auf das letzte Objekt.</p></item>
+       </steps>
+       <p>Auswählen mehrerer nicht nebeneinander liegender Objekte:</p>
+       <steps>
+        <item><p>Halten Sie die <key>Strg</key>-Taste gedrückt.</p></item>
+        <item><p>Klicken Sie auf alle Objekte, die Sie auswählen wollen.</p></item>
+       </steps>
+       <note style="tip">
+       <p>Sie können ein einzelnes Objekt wieder abwählen, indem Sie erneut darauf klicken, während Sie die <key>Strg</key>-Taste noch gedrückt halten. Dieses Verfahren kann auch beim Auswählen mehrerer nebeneinander liegender Objekte eingesetzt werden, wie vorstehend beschrieben.</p>
+       </note>
+     </section>
+     <section>
+         <title>Gruppierung von Clips erstellen und aufheben.</title>
+        <p>Die Funktionen zum Erstellen und Aufheben der Gruppierung von Clips sind nützlich, wenn Sie Tonspuren zu Videosequenzen hinzufügen oder entfernen möchten, oder wenn Sie eine Gruppe von Clips gemeinsam auswählen, bearbeiten oder verschieben möchten.</p>
+        <p>Grouping clips in timeline:</p>
+        <steps>
+         <item><p>Select multiple clips in the timeline.</p></item>
+         <item><p>Click the <gui>Group clips</gui> button on the timeline toolbar.</p></item>
+        </steps>
+        <p>You can now select, edit and move the clips all at once.</p>
+        <p>Ungrouping clips in timeline:</p>
+        <steps>
+         <item><p>Wählen Sie eine Gruppe von Clips in der Zeitleiste aus.</p></item>
+         <item><p>Betätigen Sie den <gui>Gruppierung lösen</gui> Knopf in der Werkzeugleiste der Zeitleiste.</p></item>
+        </steps>
+        <p>Sie können die Clips nun unabhängig voneinander auswählen, editieren und verschieben.</p>
+     </section>
+
+</page>

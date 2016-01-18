@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" xmlns:e="http://projectmallard.org/experimental/" type="topic" id="layers" xml:lang="es">
+
+  <info>
+    <link type="guide" xref="index#timeline"/>
+    <revision pkgversion="0.92" version="0.1" date="2014-02-22" status="complete"/>
+    <credit type="author">
+      <name>Jean-François Fortin Tam</name>
+      <email>nekohayo@gmail.com</email>
+    </credit>
+    <credit type="contributor">
+      <name>Mario Blättermann</name>
+      <email>mariobl@gnome.org</email>
+      <name>Tomáš Karger</name>
+      <email>tomkarger@gmail.com</email>
+    </credit>
+    <desc>Explicación de cómo funcionan las capas con la línea de tiempo.</desc>
+    <license>
+      <p>Creative Commons Compartir Igual 3.0</p>
+    </license>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Daniel Mustieles</mal:name>
+      <mal:email>daniel.mustieles@gmail.com</mal:email>
+      <mal:years>2011 - 2014</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Milagros Alessandra Infante Montero</mal:name>
+      <mal:email>maim92@gmail.com</mal:email>
+      <mal:years>2012, 2013</mal:years>
+    </mal:credit>
+  </info>
+
+    <title>Entender las capas</title>
+
+     <p>Las <em>capas</em> son un concepto fundamental para la edición avanzada en la línea de tiempo: la composición, mezcla de varios vídeos al mismo tiempo, y la adición de títulos dependerán de esta característica.</p>
+     <p>Es más fácil pensar en capas en términos de imágenes pintadas sobre vidrio. Con varias piezas de vidrio apiladas una encima de otra, cada una de estas piezas de vidrio es una capa. Si la pieza superior del vidrio está completamente pintada, ninguna de las piezas de vidrio por debajo será visible. Por otro lado, si sólo pinta sobre una parte del cristal, podrá ver que hay debajo de las partes no pintadas.</p>
+
+     <section>
+      <title>Opacidad (cómo de sólidas son las cosas «opacas»)</title>
+       <p>Cada capa (y cada clip) tiene su propia transparencia. Para continuar la metáfora de la pintura en el vidrio, si la pintura es lo suficientemente delgada, se puede ver a través de ella. Visualmente, una opacidad de 100% significa que no puede ver los clips por debajo de la capa o clip, y una opacidad de 50% significa que puede verlos parcialmente.</p>
+     </section>
+
+     <section>
+      <title>Como esto se traduce en términos de interfaz de usuario</title>
+       <p>Aunque en la vida real, puede apilar piezas de vidrio sobre otras en tres dimensiones, la pantalla de su equipo solo tiene dos dimensiones. Por lo tanto, las <em>capas en la parte superior</em> (el eje "Z" en el mundo físico) son también visibles <em>en la parte superior</em>, aunque en el eje "Y".</p>
+       <figure>
+       <desc>Diagrama que ilustra las <em>piezas de vidrio</em> (izquierda) y como se muestran como <em>capas</em> en la interfaz de usuario de <app>Pitivi</app> (derecha).</desc>
+        <media type="image" src="figures/layers.png" mime="image/png" width="720" height="217"/>
+       </figure>
+       <note>
+       <p>Los clips ubicados en una capa por encima bloquearán los clips por debajo de la vista, a menos que tenga un valor de opacidad inferior al 100% (como se muestra con las dos capas superiores de la ilustración anterior).</p>
+       </note>
+     </section>
+
+     <section>
+      <title>Añadir y quitar capas</title>
+       <p>Las capas se crean y se quitan automáticamente. No hay una interfaz para «gestionar las capas» en <app>Pitivi</app>.</p>
+       <list>
+       <item><p>Para crear una capa, arrastre un clip al espacio central entre dos capas existentes. Cuando aparezca la sombra gris (un rectángulo fino) entre las capas, suéltelo.</p></item>
+       <item><p>Si no hay más clips en una capa, esta se quita automáticamente. Por lo tanto, para quitar una capa, simplemente arrastre sus clips hacia arriba sobre otra capa.</p></item>
+       </list>
+     </section>
+
+     <section>
+      <title>¿Qué pasa con las capas de sonido?</title>
+       <p>A diferencia de la visión, los sonidos múltiples no se «bloquean» los unos a los otros. Por lo tanto, si tiene varios clips de sonido en capas separadas, sus sonidos se mezclarán juntos. Controle el volumen de esos clips de sonido simplemente cambiando sus volúmenes relativos.</p>
+     </section>
+
+
+</page>

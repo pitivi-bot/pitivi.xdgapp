@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" xmlns:e="http://projectmallard.org/experimental/" type="topic" id="savescreenshot" xml:lang="fr">
+
+  <info>
+    <link type="topic" xref="index"/>
+    <revision pkgversion="0.16" version="0.1" date="2012-01-27" status="complete"/>
+    <credit type="author">
+      <name>Jean-François Fortin Tam</name>
+      <email>nekohayo@gmail.com</email>
+    </credit>
+    <license>
+      <p>Creative Commons des Conditions Initiales à l'Identique 3.0</p>
+    </license>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Alain Lojewski</mal:name>
+      <mal:email>allomervan@gmail.com</mal:email>
+      <mal:years>2011</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Bruno Brouard</mal:name>
+      <mal:email>annoa.b@gmail.com</mal:email>
+      <mal:years>2012</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Julien Hardelin</mal:name>
+      <mal:email>jhardlin@orange.fr</mal:email>
+      <mal:years>2012</mal:years>
+    </mal:credit>
+  </info>
+
+    <title>Enregistrer une capture d'écran de l'image actuelle</title>
+
+    <p>Utilisez <guiseq><gui>Piste de montage</gui><gui>Exporter l'image actuelle...</gui></guiseq> pour enregistrer une copie de l'image actuelle en tant que fichier d'image.</p>
+    <p>PNG et JPEG sont acceptés comme fichiers d'image. La résolution de l'image s'adapte aux paramètres du projet et tout effet ou transformation est également appliqué à l'image résultante.</p>
+
+</page>

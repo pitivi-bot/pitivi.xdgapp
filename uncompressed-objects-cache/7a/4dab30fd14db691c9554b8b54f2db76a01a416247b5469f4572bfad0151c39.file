@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" xmlns:e="http://projectmallard.org/experimental/" type="topic" id="welcomedialog" xml:lang="fr">
+
+  <info>
+    <link type="guide" xref="index#intro"/>
+    <revision pkgversion="0.92" version="0.2" date="2014-02-11" status="complete"/>
+    <credit type="author">
+      <name>Jean-François Fortin Tam</name>
+      <email>nekohayo@gmail.com</email>
+    </credit>
+    <credit type="contributor">
+      <name>Tomáš Karger</name>
+      <email>tomkarger@gmail.com</email>
+    </credit>
+    <desc>Création de nouveaux projets et ouverture de projets récents au démarrage</desc>
+    <license>
+      <p>Creative Commons des Conditions Initiales à l'Identique 3.0</p>
+    </license>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Alain Lojewski</mal:name>
+      <mal:email>allomervan@gmail.com</mal:email>
+      <mal:years>2011</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Bruno Brouard</mal:name>
+      <mal:email>annoa.b@gmail.com</mal:email>
+      <mal:years>2012</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Julien Hardelin</mal:name>
+      <mal:email>jhardlin@orange.fr</mal:email>
+      <mal:years>2012</mal:years>
+    </mal:credit>
+  </info>
+
+    <title>La fenêtre de bienvenue</title>
+      <p>Quand vous lancez <app>Pitivi</app>, un assistant de démarrage s'affiche pour vous permettre de créer un nouveau projet ou ouvrir un projet existant en quelques clics. Si vous préférez passer outre cet assistant, pressez la touche <key>Échap</key> de votre clavier ou fermez la fenêtre.</p>
+      <p>The dialog offers you projects that are found among the recently used files. Double-click one of them to load it or use one of the following buttons:</p>
+      <list type="numbered">
+      <item><p><gui>New</gui> opens the <gui>Project settings</gui> dialog for a new project.</p></item>
+      <item><p><gui>Browse projects...</gui> opens file chooser in the last used directory.</p></item>
+      <item><p><gui>Help</gui> opens the user documenation on the index page.</p></item>
+      <item><p><gui>Keyboard shortcuts</gui> opens the user documentation on the Keyboard shortcuts and cheatsheet page.</p></item>
+      </list>
+      <note style="tip">
+      <p>By right-clicking the individual projects offered by the <gui>Welcome dialog</gui> you can get more options: copy project's location, remove project from the list, clear the list, or show private resources.</p>
+      </note>
+</page>

@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" xmlns:e="http://projectmallard.org/experimental/" type="topic" id="rendering" xml:lang="es">
+
+  <info>
+    <link type="guide" xref="index#rendering"/>
+    <revision pkgversion="0.93" version="0.1" date="2014-06-27" status="incomplete"/>
+    <credit type="author">
+      <name>Jean-François Fortin Tam</name>
+      <email>nekohayo@gmail.com</email>
+    </credit>
+    <credit type="contributor">
+      <name>Mario Blättermann</name>
+      <email>mariobl@gnome.org</email>
+      <name>Tomáš Karger</name>
+      <email>tomkarger@gmail.com</email>
+    </credit>
+    <desc>Aprenda la diferencia entre guardar un proyecto y exportar una película renderizada.</desc>
+    <license>
+      <p>Creative Commons Compartir Igual 3.0</p>
+    </license>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Daniel Mustieles</mal:name>
+      <mal:email>daniel.mustieles@gmail.com</mal:email>
+      <mal:years>2011 - 2014</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Milagros Alessandra Infante Montero</mal:name>
+      <mal:email>maim92@gmail.com</mal:email>
+      <mal:years>2012, 2013</mal:years>
+    </mal:credit>
+  </info>
+
+    <title>Entender la renderización</title>
+
+     <p>La renderización es el proceso de exportar su proyecto en uno nuevo, un archivo multimedia finalizado. La renderización solo crea un nuevo archivo de vídeo «renderizado», no afecta al proyecto mismo; todavía se puede hacer ediciones a su proyecto y renderizarlo tantas veces como sea necesario.</p>
+     <steps>
+      <item><p>En el menú <gui>Proyecto</gui>, use <gui>Renderizar</gui>.</p></item>
+      <item><p>Modifique las distintas configuraciones de codificación, si es necesario, para usar configuraciones diferentes a las del proyecto.</p></item>
+      <item><p>Pulse el botón <gui>Renderizar</gui>.</p></item>
+     </steps>
+     <p>While rendering, you can pause the process by clicking the <gui>Pause</gui> button and unpause it by clicking it again. You can also stop rendering either by clicking the <gui>Cancel</gui> button or by pressing <key>Esc</key>. If you stop the rendering process, the already rendered part of the video will be saved into the destined folder and <app>Pitivi</app> will offer you the <gui>Rendering dialog</gui> again.</p>
+     <note style="tip">
+      <p>Si su equipo está configurado para suspenderse o hibernar automáticamente, <app>Pitivi</app> impedirá automáticamente las funciones de ahorro de energía durante el proceso de renderizado.</p>
+     </note>
+     <section>
+      <title>Configuración del proyecto y el diálogo de renderizado</title>
+       <p>En el renderizado, las configuración del proyecto se toman como valores predeterminados para la mayoría de las configuraciones de renderizado como imágenes por segundo, el número de canales de sonido o de su frecuencia de muestreo. Estos valores se pueden sustituir de forma temporal para un determinado renderizado. Una vez que el renderizado se completa, los valores se restablecerán a los valores predeterminados de las configuraciones del proyecto. Sin embargo, algunas configuraciones, como la escala de resolución, contenedor, códecs, configuración del códec y la carpeta de salida del renderizado se guardan para que aparezcan como valores predeterminados en el siguiente renderizado.</p>
+     </section>
+
+</page>

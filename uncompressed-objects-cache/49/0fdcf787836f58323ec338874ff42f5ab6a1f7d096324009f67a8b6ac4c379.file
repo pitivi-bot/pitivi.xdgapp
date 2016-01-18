@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" xmlns:e="http://projectmallard.org/experimental/" type="topic" id="usingclips" xml:lang="es">
+
+  <info>
+    <link type="guide" xref="index#gettingstarted"/>
+    <revision pkgversion="0.92" version="0.1" date="2013-12-30" status="complete"/>
+    <credit type="author">
+      <name>Jean-François Fortin Tam</name>
+      <email>nekohayo@gmail.com</email>
+    </credit>
+    <credit type="contributor">
+      <name>Mario Blättermann</name>
+      <email>mariobl@gnome.org</email>
+      <name>Tomáš Karger</name>
+      <email>tomkarger@gmail.com</email>
+    </credit>
+    <desc>Aprenda las diferencias entre clips y archivos y cómo hacer operaciones básicas en los clips a lo largo de la línea de tiempo.</desc>
+    <license>
+      <p>Creative Commons Compartir Igual 3.0</p>
+    </license>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Daniel Mustieles</mal:name>
+      <mal:email>daniel.mustieles@gmail.com</mal:email>
+      <mal:years>2011 - 2014</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Milagros Alessandra Infante Montero</mal:name>
+      <mal:email>maim92@gmail.com</mal:email>
+      <mal:years>2012, 2013</mal:years>
+    </mal:credit>
+  </info>
+
+    <title>Usar clips</title>
+
+     <section>
+      <title>Clips frente a archivos</title>
+        <p>Los <em>Archivos</em> son datos en su disco duro (vídeos, música, fotos, etc.) a los que se puede acceder en <app>Pitivi</app> e incorporarlos en su proyecto de edición de vídeo.</p>
+        <p>Los <em>Clips</em> son una representación visual de sus archivos en la línea de tiempo. Representan el periodo de tiempo que usan en la línea de tiempo y se pueden editar independientemente. Cada vez que arrastre un archivo desde la biblioteca hasta la línea de tiempo se crea un nuevo clip. De esta forma, un archivo se puede reutilizar tantas veces como quiera para crear cualquier cantidad de clips diferentes.</p>
+       <note>
+       <p>Ya que Pitivi es un editor no-destructivo, lo que se editan son los clips, no los archivos. De esta forma sus archivos se mantienen intactos.</p>
+       </note>
+     </section>
+
+     <section>     
+     <title>Insertar clips</title>
+     <p>Puede insertar uno o más clips de la biblioteca de medios seleccionándolos (usando las teclas <key>Ctrl</key> o <key>Mayús</key> para seleccionar varios clips) y haciendo uno de los siguientes pasos:</p>
+     <list>
+      <item><p>Arrastrarlos y soltarlos en una parte de la línea del tiempo.</p></item>
+      <item><p>Pulsando el botón <gui>Insertar los clips seleccionados al final de la línea del tiempo</gui> en la <gui>Biblioteca de medios</gui>.</p></item>
+      <item><p>Pulsando la tecla <key>Ins</key>.</p></item>
+     </list>
+     <p>Cuando después de la segunda y tercera opciones (pulsando o presionando insertar), los clips seleccionados se insertan uno tras otro en la primera capa de la línea del tiempo en una posición, donde termina el último clip en cualquier capa.</p>
+     </section>
+
+     <section>
+      <title>Mover clips a lo largo de la línea de tiempo</title>
+       <p>Puede mover un clip a lo largo de una capa o moverlo a una capa diferente.</p>
+       <p>Pulse y arrastre un sólo clip para moverlo y suelte el botón del ratón para ubicarlo. Arrastrarlo horizontalmente mantiene el clip en la misma capa, pero arrastrarlo verticalmente mueve el clip a una capa diferente (consulte el apartado <link xref="layers">Entendiendo las capas</link> para obtener más información).</p>
+       <p>Para mover un clip a una capa existente, arrástrelo sobre la capa y suéltelo cuando una sombra gris que representa al espacio el clip que ocuparía aparezca. Para mover un clip a una nueva capa, arrástrelo hasta el espacio medio entre dos capas existentes. Una vez que aparezca la sombra gris (ahora un rectángulo delgado) entre las capas, suéltelo.</p>
+       <p>Para mover varios clips al mismo tiempo, use las teclas <key>Ctrl</key> o <key>Mayús</key> para seleccionar varios clips (consulte el <link xref="selectiongrouping">Seleccionar y agrupar</link> para obtener más detalles). Los clips seleccionados no necesitan estar en la misma capa. Después, arrastre los clips de igual forma que si fuera uno solo; se preservarán sus posiciones relativas para cada uno.</p>
+      <section>
+       <title>Use la edición de onda mientras se mueven los vídeos</title>
+        <p>Mientras arrastra los clips alrededor de la línea de tiempo, puede usar la <link xref="trimming">técnica de onda</link> para mover los clips <em>siguientes</em> (los clips que empiezan después del que está editando directamente) para llenar el espacio vacío.</p>
+        <steps>
+         <item><p>Pulse y arrastre el clip que quiere, con el botón del ratón apretado</p></item>
+         <item><p>Mientras arrastra, mantenga apretada la tecla <key>Mayús</key> del teclado.</p></item>
+         <item><p>Suelte el botón del ratón para terminar la operación de arrastre, entonces suelte la tecla <key>Mayús</key>.</p></item>
+        </steps>
+        <p>Si durante la operación de arrastrar, cambia de opinión y sólo quiere arrastrar un vídeo cada vez, suelte la tecla <key>Mayús</key> antes de soltar el botón del ratón.</p>
+      </section>
+     </section>
+
+</page>

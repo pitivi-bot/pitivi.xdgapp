@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" xmlns:e="http://projectmallard.org/experimental/" type="topic" id="about" xml:lang="es">
+
+  <info>
+    <link type="seealso" xref="index"/>
+    <revision pkgversion="0.14" version="0.2" date="2011-06-05" status="complete"/>
+    <credit type="author">
+      <name>Jean-François Fortin Tam</name>
+      <email>nekohayo@gmail.com</email>
+    </credit>
+    <credit type="contributor">
+      <name>Mario Blättermann</name>
+      <email>mariobl@gnome.org</email>
+    </credit>
+    <desc>Estado actual de este manual del usuario e invitación a la participación.</desc>
+    <license>
+      <p>Creative Commons Compartir Igual 3.0</p>
+    </license>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Daniel Mustieles</mal:name>
+      <mal:email>daniel.mustieles@gmail.com</mal:email>
+      <mal:years>2011 - 2014</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Milagros Alessandra Infante Montero</mal:name>
+      <mal:email>maim92@gmail.com</mal:email>
+      <mal:years>2012, 2013</mal:years>
+    </mal:credit>
+  </info>
+
+  <title>Acerca de este manual</title>
+   <p>Jean-François Fortin Tam ha escrito y mantiene este manual.</p>
+   <section>
+    <title>Trabajo en curso</title>
+     <p>Puede encontrar fragmentos no escritos, debido a que hay características que aún no se han implementado en Pitivi en el momento de escribir esto.</p>
+     <p>También puede encontrar pequeñas áreas que han sido documentadas en este manual, pero no han sido implementadas en Pitivi; esas son las zonas donde el diseño y la interacción esperada con el usuario son bastante estrechas/seguras.</p>
+   </section>
+
+   <section>
+    <title>Los parches son bienvenidos</title>
+     <p>Si por casualidad encuentra errores, falta de información o partes poco claras en este manual, no dude en enviar sus correcciones. Puede encontrar información de contacto en <link href="http://jeff.ecchi.ca/">la página web personal</link>. También puede <link href="https://bugzilla.gnome.org/enter_bug.cgi?product=pitivi;component=documentation">informar de un error en el componente «documentation» en el gestor de seguimiento de errores</link>.</p>
+   </section>
+ 
+</page>

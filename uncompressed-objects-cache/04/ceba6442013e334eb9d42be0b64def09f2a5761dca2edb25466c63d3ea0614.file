@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" xmlns:e="http://projectmallard.org/experimental/" type="guide" id="index" xml:lang="uk">
+
+  <info>
+    <title type="link">Pitivi Quick Start Manual</title>
+    <title type="text">Pitivi Quick Start Manual</title>
+    <revision pkgversion="0.14.0" version="0.2" date="2011-06-05" status="complete"/>
+    <credit type="author">
+      <name>Jean-François Fortin Tam</name>
+      <email>nekohayo@gmail.com</email>
+    </credit>
+    <credit type="contributor">
+      <name>Mario Blättermann</name>
+      <email>mariobl@gnome.org</email>
+    </credit>
+    <license>
+      <p>Creative Commons Share Alike 3.0</p>
+    </license>
+  </info>
+
+  <title><media type="image" mime="image/png" src="figures/logo.png">Емблема Pitivi</media> Редактор відео Pitivi</title>
+
+   <p>Побудований з використанням мультимедійної бібліотеки <link href="http://en.wikipedia.org/wiki/GStreamer"><app>GStreamer</app></link>, <app>Pitivi</app> покликаний стати інтуїтивно зрозумілим і гнучким відеоредактором, який добре інтегрується з <link href="http://gnome.org"><app>GNOME</app></link> і буде привабливим як для новачків, так і для фахівців.</p>
+   <p>Цей посібник допоможе вам зрозуміти основи і швидко розпочати роботу.</p>
+
+  <section id="intro" style="2column">
+    <title>Вступ</title>
+  </section>
+
+  <section id="gettingstarted" style="2column">
+    <title>Перші кроки</title>
+  </section>
+
+  <section id="timeline" style="2column">
+    <title>Основи редагування на монтажному столі</title>
+  </section>
+
+  <section id="effectstransitions" style="2column">
+    <title>Effects and Transitions</title>
+  </section>
+
+  <section id="rendering" style="2column">
+    <title>Експортування завершеного фільму</title>
+  </section>
+
+
+</page>

@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" xmlns:e="http://projectmallard.org/experimental/" type="topic" id="presets" xml:lang="uk">
+
+  <info>
+    <link type="guide" xref="index#gettingstarted"/>
+    <link type="seealso" xref="codecscontainers"/>
+    <link type="seealso" xref="rendering"/>
+    <revision pkgversion="0.93" version="0.1" date="2014-05-06" status="complete"/>
+    <credit type="author">
+      <name>Jean-François Fortin Tam</name>
+      <email>nekohayo@gmail.com</email>
+    </credit>
+    <credit type="contributor">
+     <name>Tomáš Karger</name>
+     <email>tomkarger@gmail.com</email>
+    </credit>
+    <desc>
+      Using presets in rendering and project settings.
+    </desc>
+    <license>
+      <p>Creative Commons Share Alike 3.0</p>
+    </license>
+  </info>
+
+    <title>Готові набори</title>
+    <p>Both the <gui>Project settings</gui> dialog and the <gui>Rendering</gui> dialog allow you to save presets for later use. If you often deal with the same kind of project settings, with different cameras or target devices for rendering, you may want to create custom presets.</p>
+    <section>
+    <title>The difference between Project settings and Rendering</title>
+    <p>While project settings concern themselves with global settings (such as resolution, framerate, aspect ratio and number of audio channels), the rendering settings are concerned with codecs and device constraints (for example, a handheld device or television may have a maximum screen resolution and framerate, which is not necessarily the case if you are exporting to a laptop or a website). The presets in the <gui>Rendering</gui> dialog are related to project settings, but they govern different things.</p>
+    <note><p>У параметрах проекту, набори відео та аудіо параметрів незалежні один від одного.</p></note>
+    </section>
+    <section>
+        <title>Створення та редагування наборів параметрів</title>
+        <p>Щоб створити набір параметрів:</p>
+        <steps>
+            <item><p>Змініть параметри на свій смак.</p></item>
+            <item><p>Click the <gui>Create</gui> button.</p></item>
+            <item><p>Дайте вашому набору унікальне ім'я: коли набір вибраний у списку, клацніть в його назву, щоб перейти в режим редагування. По завершенні натисніть <key>Enter</key>.</p></item>
+        </steps>
+        <p>Для редагування набору:</p>
+        <steps>
+            <item><p>Виберіть свій набір в списку наявних наборів.</p></item>
+            <item><p>Змініть параметри на свій смак.</p></item>
+            <item><p>Натисніть кнопку <gui>Зберегти</gui>.</p></item>
+        </steps>
+        <p>Для вилучення набору, просто виберіть його в списку і натисніть <gui>Вилучити</gui>.</p>
+        <note><p>Деякі з наборів встановлені за замовчуванням і їх не можна вилучити. </p></note>
+    </section>
+    <section>
+        <title>Ігнорування наборів</title>
+        <p>Presets are there to save time and reduce complexity. However, you can choose to simply ignore them and set everything manually. This is what the <em>No preset</em> option is meant for. When chosen, it automatically saves the settings directly in the project file.</p>
+    </section>
+    <section>
+        <title>Обмеження роздільної здатності при обробці набору</title>
+        <p>Якщо ви хочете зробити набір параметрів з фіксованою найбільшою роздільною здатністю, потрібно відредагувати файл параметрів у текстовому редакторі. Файли з параметрами типово зберігаються у ~/.local/share/pitivi/ ; оскільки багато пристроїв не мають максимальної роздільної здатності, то ширина/висота типово встановлюється рівною 0 (необмежено). Ви можете змінити ці значення, вказавши найбільшу роздільну здатність цільового пристрою.</p>
+    </section>
+
+</page>

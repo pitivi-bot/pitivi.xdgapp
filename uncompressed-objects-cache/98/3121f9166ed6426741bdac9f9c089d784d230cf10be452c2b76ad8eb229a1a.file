@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" xmlns:e="http://projectmallard.org/experimental/" type="topic" id="layers" xml:lang="cs">
+
+  <info>
+    <link type="guide" xref="index#timeline"/>
+    <revision pkgversion="0.92" version="0.1" date="2014-02-22" status="complete"/>
+    <credit type="author">
+      <name>Jean-François Fortin Tam</name>
+      <email>nekohayo@gmail.com</email>
+    </credit>
+    <credit type="contributor">
+      <name>Mario Blättermann</name>
+      <email>mariobl@gnome.org</email>
+      <name>Tomáš Karger</name>
+      <email>tomkarger@gmail.com</email>
+    </credit>
+    <desc>Jak fungují vrstvy na časové ose.</desc>
+    <license>
+      <p>Creative Commons Share Alike 3.0</p>
+    </license>
+  </info>
+
+    <title>Vysvětlení vrstev</title>
+
+     <p><em>Vrstvy</em> jsou základním pojmem v oblasti pokročilých úprav na časové ose: skládání, mixování více videí dohromady a přidávání titulků závisí na této funkčnosti.</p>
+     <p>Nejsnadněji si vrstvy představíte jako obrázky kreslené na sklo. Poskládejte si několik tabulí skla na sebe a každé z těchto skel můžete považovat za vrstvu. Když bude sklo na vrchu hromady úplně pomalované, nebude vidět žádné jiné pod ním. Pokud ale pokreslíte jen části skla, budete moci vidět, co se nachází pod nepokreslenými částmi.</p>
+
+     <section>
+      <title>Krytí (jak moc jsou věci „neprůhledné“)</title>
+       <p>Každá vrstva (a každý klip) mají svoji vlastní průhlednost. Když zůstaneme u přirovnání ke skleněným tabulím, když nějakou nepomalujeme dostatečně silně, bude skrz ní částečně vidět. Opticky krytí 100 % znamená, že nemůžete vidět klipy pod touto vrstvou nebo klipem, a krytí 50 %, že můžete částečně vidět skrz.</p>
+     </section>
+
+     <section>
+      <title>Jak se to projevuje z hlediska uživatelského rozhraní</title>
+       <p>Zatímco ve skutečnosti můžete tabule skla pokládat jednu na druhou ve třech rozměrech, počítačový displej je jen dvourozměrný. Proto jsou <em>vrstvy nahoře</em> (osa „Z“ v reálném světe) zobrazeny sice <em>nahoře</em>, ale osy „Y“.</p>
+       <figure>
+       <desc>Nákres ilustrující <em>kusy skla</em> (vlevo) a jak se zobrazují v podobě <em>vrstev</em> v uživatelském rozhraní <app>Pitivi</app> (vpravo).</desc>
+        <media type="image" src="figures/layers.png" mime="image/png" width="720" height="217"/>
+       </figure>
+       <note>
+       <p>Klipy, které jsou umístěné ve vrchní vrstvě blokují možnost vidět klipy, které jsou umístěny v nižší vrstvě, ledaže je jejich krytí nastaveno na méně než 100 % (jak je ukázáno na dvou vrchních vrstvách na předchozí ilustraci).</p>
+       </note>
+     </section>
+
+     <section>
+      <title>Přidávání a odebírání vrstev</title>
+       <p>V <app>Pitivi</app> není žádná explicitní „správa vrstev“. Vrstvy se vytvářejí a odebírají automaticky:</p>
+       <list>
+       <item><p>Vrstvu vytvoříte tak, že klip přetáhnete doprostřed mezery mezi dvěma stávajícími vrstvami. Jakmile se mezi vrstvami objeví šedý stín (tenký obdélník), klip upusťte.</p></item>
+       <item><p>Jestliže ve vrstvě nezůstane žádný klip, vrstva se automaticky odstraní. Takže když chcete vrstvu odebrat, stačí klipy, co jsou na ní, přesunout do některé jiné vrstvy.</p></item>
+       </list>
+     </section>
+
+     <section>
+      <title>A co zvukové vrstvy?</title>
+       <p>Na rozdíl od obrazových záležitostí se více zvuků navzájem „neblokuje“. Když máte víc zvukových klipů v různých vrstvách, jejich zvuk se bude mixovat. Hlasitost těchto zvukových klipů se jednoduše určí jako jejich relativní hlasitost.</p>
+     </section>
+
+
+</page>

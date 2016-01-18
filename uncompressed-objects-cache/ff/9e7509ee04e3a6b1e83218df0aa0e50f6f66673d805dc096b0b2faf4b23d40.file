@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" xmlns:e="http://projectmallard.org/experimental/" type="topic" id="sysreq" xml:lang="cs">
+
+  <info>
+    <link type="guide" xref="index#intro"/>
+    <revision pkgversion="0.93" version="0.1" date="2014-05-13" status="incomplete"/>
+    <credit type="author">
+      <name>Jean-François Fortin Tam</name>
+      <email>nekohayo@gmail.com</email>
+    </credit>
+    <credit type="contributor">
+      <name>Mario Blättermann</name>
+      <email>mariobl@gnome.org</email>
+      <name>Tomáš Karger</name>
+      <email>tomkarger@gmail.com</email>
+    </credit>
+    <desc>Jaký druh hardwaru je zapotřebí pro úpravy videa?</desc>
+    <license>
+      <p>Creative Commons Share Alike 3.0</p>
+    </license>
+  </info>
+
+    <title>Systémové požadavky</title>
+
+     <p>Co se týče hardwaru, úpravy videa typicky vyžadují výkonný počítač, ale konkrétně to závisí na typu videa, které upravujete. V průběhu let roste výpočetní výkon počítačů, ale zároveň i požadavky na vyšší kvalitu videa. Úpravy videa HD (High Definition) obvykle vyžadují (v době psaní této příručky) nejmodernější hardware (v závislosti na použitém kodeku), zatímco video SD (Standard Definition) lze upravovat na průměrném hardwaru. Je na vás, abyste se ujistili, že vám vybavení bude dostačovat. Minimálně byste měli být schopni si přehrát multimediální soubor v přehrávači <app>Totem</app> bez zadrhávání.</p>
+     <p>Zde jsou některá obecná doporučení ohledně hardwaru:</p>
+     <list>
+         <item><p>Moderní čtyřjádrový procesor</p></item>
+         <item><p>Disk SSD</p></item>
+         <item><p>Grafická karta Intel, protože ty fungují bez problémů</p></item>
+         <item><p>Monitor s rozlišením aspoň Full HD (1920×1080) (rozlišení menší než 1024×768 není podporováno)</p></item>
+     </list>
+     <p>Existuje i možnost použít verzi svého filmu v nízké kvalitě během úprav a při vykreslení finálního výstupu použít verzi ve vysoké kvalitě a tím do určité míry obejít omezení hardwaru. Říká se tomu <em>úpravy v zastoupení</em>. Tato funkce ale zatím není v <app>Pitivi</app> k dispozici.</p>
+     <note style="bug">
+      <p>Stav prací na funkci „úpravy v zastoupení“ v <app>Pitivi</app> můžete sledovat přes <link href="https://bugzilla.gnome.org/show_bug.cgi?id=609136">chybové hlášení 609136</link>.</p>
+     </note>
+     <p>Softwarové požadavky jsou popsány v <link xref="gstreamer">Gstreamer a kompatibilita</link> a v <link xref="effects">Úvod do efektů</link>.</p>
+
+</page>

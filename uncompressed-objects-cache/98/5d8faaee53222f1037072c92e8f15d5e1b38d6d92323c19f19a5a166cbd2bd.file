@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" xmlns:e="http://projectmallard.org/experimental/" type="topic" id="about" xml:lang="cs">
+
+  <info>
+    <link type="seealso" xref="index"/>
+    <revision pkgversion="0.14" version="0.2" date="2011-06-05" status="complete"/>
+    <credit type="author">
+      <name>Jean-François Fortin Tam</name>
+      <email>nekohayo@gmail.com</email>
+    </credit>
+    <credit type="contributor">
+      <name>Mario Blättermann</name>
+      <email>mariobl@gnome.org</email>
+    </credit>
+    <desc>Aktuální stav této uživatelské příručky a výzva ke spolupráci.</desc>
+    <license>
+      <p>Creative Commons Share Alike 3.0</p>
+    </license>
+  </info>
+
+  <title>O této příručce</title>
+   <p>Tuto příručku napsal a udržuje Jean-François Fortin Tam.</p>
+   <section>
+    <title>Zatím rozpracováno</title>
+     <p>Můžete narazit na nedopsané části, protože daná funkce nebyla v době psaní příručky v Pitivi ještě implementována.</p>
+     <p>Také můžete narazit na drobnosti, které jsou v této příručce zdokumentovány, ale zatím nejsou v Pitivi zcela implementovány – jedná se o situace, kdy jsou návrh a očekávané uživatelské rozhraní již zcela jisté.</p>
+   </section>
+
+   <section>
+    <title>Příspěvky vítány</title>
+     <p>Pokud najdete v této příručce chybu, chybějící informaci nebo nejasnou pasáž, věnujte prosím chvilku zaslání nápravy. Kontaktní informace najdete na <link href="http://jeff.ecchi.ca/">mých osobních webových stránkách</link>. Můžete také <link href="https://bugzilla.gnome.org/enter_bug.cgi?product=pitivi;component=documentation">vyplnit chybové hlášení pro komponentu „dokumentace“ v systému pro sledování chyb</link>.</p>
+   </section>
+ 
+</page>
